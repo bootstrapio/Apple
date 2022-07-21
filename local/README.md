@@ -3,16 +3,19 @@ http://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&collapse=urlkey&fl=o
 
 Get the latest WayBack Machine Timestamp
 https://archive.org/wayback/available?url=apple.com/macos/mojave-preview/styles/overview.built.css
+https://archive.org/wayback/available?url=apple.com/ios/ios-16-preview
 
 REGEX
-Match anything after ?
-(http:|\?|:80|%|_)(.*)
+Match anything after special characters
+(http:|\?|:80|%|_|&|,|\(|\)|json|css|js)(.*)
 Match between two strings
 http(.*)http
 Match CSS and JS
 http(.*)(js|css)
 Match Images
 \("(.*)(png|gif|jpg|svg)"\)
+Match src CSS / JS
+="/(ac|metrics|wss)(.*)(css|js|1|2)"
 
 To download resources:
 Edit the resources.sh in apple/local/terminal
