@@ -24,6 +24,8 @@ Match Images
 \("(.*)(png|gif|jpg|svg)"\)
 Match src CSS / JS
 ="/(ac|metrics|wss)(.*)(css|js|1|2)"
+Match Fonts
+/(wss)(.*?)(woff2|woff|ttf|eot)
 
 To download resources:
 Edit the resources.sh in apple/local/terminal
