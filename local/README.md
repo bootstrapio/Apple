@@ -1,8 +1,10 @@
 Remove meta properties
-<(link|meta|script) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>|"></script>)
+<(link|meta) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>)
 (aria-label|data-analytics-|data-store-|data-string).*?(\").*?(\")
 <script type="application/ld+json">
 <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+globalnav
+globalfooter
 
 Search for URLs
 http://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&collapse=urlkey&fl=original
