@@ -23,7 +23,7 @@ http(.*)(js|css)
 Match Images
 \("(.*)(png|gif|jpg|svg)"\)
 Match src CSS / JS
-="/(ac|metrics|wss)(.*)(css|js|1|2)"
+="/(ac|metrics|wss|v)(.*)(css|js|1|2)"
 Match Fonts
 /(wss)(.*?)(woff2|woff|ttf|eot)
 
@@ -31,6 +31,9 @@ To download resources:
 Edit the resources.sh in apple/local/terminal
 Open Terminal
 SH /Users/josephvan/Documents/Development/Apple/local/terminal/resources.sh
+
+
+wayback_machine_downloader https://www.apple.com/wss/fonts/SF-Pro-Icons/v1/SFProIcons_regular.ttf
 
 MacOS HTML
 https://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&filter=mimetype:text/html&collapse=urlkey&fl=original
