@@ -6,6 +6,9 @@ Remove meta properties
 globalnav
 globalfooter
 
+Select all specific CSS JS
+(https://images.).*?.(css|js)
+
 Search for URLs
 http://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&collapse=urlkey&fl=original
 
