@@ -7,10 +7,10 @@ globalnav
 globalfooter
 
 Select all specific CSS JS
-https://(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot)
+https://(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json)
 
 Search for URLs
-https://web.archive.org/cdx/search/cdx?collapse=urlkey&fl=original&url=apple.com/ipados/*
+https://web.archive.org/cdx/search/cdx?collapse=urlkey&fl=original&url=apple.com/ios/*
 
 Get the latest WayBack Machine Timestamp
 https://archive.org/wayback/available?url=apple.com/macos/mojave-preview/styles/overview.built.css
