@@ -7,7 +7,7 @@ globalnav
 globalfooter
 
 Select all specific CSS JS
-(https://images.).*?.(css|js|png|jpg|gif|svg)
+https://(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot)
 
 Search for URLs
 https://web.archive.org/cdx/search/cdx?collapse=urlkey&fl=original&url=apple.com/ipados/*
@@ -21,10 +21,12 @@ Match anything after special characters
 (http:|\?|:80|%|_|&|,|\(|\)|json|css|js)(.*)
 Match between two strings
 http(.*)http
+\"../(.*)http
+
 Match CSS and JS
 http(.*)(js|css)
 Match Images
-\("(.*)(png|gif|jpg|svg)"\)
+\("(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)"\)
 Match src CSS / JS
 ="/(ac|metrics|wss|v)(.*)(css|js|1|2)"
 Match Fonts
