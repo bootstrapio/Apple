@@ -7,7 +7,7 @@ globalnav
 globalfooter
 
 Select all specific CSS JS
-(https://images.).*?.(css|js)
+(https://images.).*?.(css|js|png|jpg|gif|svg)
 
 Search for URLs
 http://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&collapse=urlkey&fl=original
