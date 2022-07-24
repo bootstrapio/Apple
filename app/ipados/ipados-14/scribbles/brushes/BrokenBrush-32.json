@@ -1,0 +1,14 @@
+{
+  "brush": "BrokenBrush-32",
+  "opacity": 0.27959413754227735,
+  "blendMode": "normal",
+  "initialRotation": 0,
+  "rotationSpeed": 0,
+  "spacing": 0.047,
+  "color": "#00ffe0",
+  "scale": 1,
+  "taper": {
+    "size": 1,
+    "opacity": 0
+  }
+}

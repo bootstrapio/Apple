@@ -1,15 +1,1 @@
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/photos/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/applepay/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/autounlock/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/clipboard/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/icloud/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/messages/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/music/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/tabs/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/macos/sierra-preview/overview/tabs/image_large_2x.jpg
-wayback_machine_downloader http://images.apple.com/scripts/lib/wagner.built.js
-wayback_machine_downloader http://www.apple.com/scripts/lib/wagner.built.js
+wayback_machine_downloader https://www.apple.com/ipados/ipados/ --from 20200828170251 --to 20200828170251

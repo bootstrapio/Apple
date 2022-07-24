@@ -10,7 +10,7 @@ Select all specific CSS JS
 (https://images.).*?.(css|js|png|jpg|gif|svg)
 
 Search for URLs
-http://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&collapse=urlkey&fl=original
+https://web.archive.org/cdx/search/cdx?collapse=urlkey&fl=original&url=apple.com/ipados/*
 
 Get the latest WayBack Machine Timestamp
 https://archive.org/wayback/available?url=apple.com/macos/mojave-preview/styles/overview.built.css

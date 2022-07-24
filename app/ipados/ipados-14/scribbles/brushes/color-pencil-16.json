@@ -1,0 +1,15 @@
+{
+  "brush": "color-pencil-16",
+  "opacity": 1 ,
+  "blendMode": "normal",
+  "initialRotation": 0,
+  "rotationSpeed": 0,
+  "rotateRandomly": true,
+  "spacing": 0.09,
+  "color": "#FF0000",
+  "scale": 0.6,
+  "taper": {
+    "size": 0,
+    "opacity": 0
+  }
+}

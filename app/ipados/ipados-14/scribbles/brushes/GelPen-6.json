@@ -1,0 +1,15 @@
+
+{
+  "brush": "GelPen-6",
+  "opacity": 0.9,
+  "blendMode": "multiply",
+  "initialRotation": 0,
+  "rotationSpeed": 1,
+  "spacing": 0.075,
+  "color": "#ea187d",
+  "scale": 0.5,
+  "taper": {
+    "size": 0,
+    "opacity": 0
+  }
+}

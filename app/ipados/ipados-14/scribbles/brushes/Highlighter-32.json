@@ -1,0 +1,15 @@
+
+{
+  "brush": "Highlighter-32",
+  "opacity": 1,
+  "blendMode": "normal",
+  "initialRotation": 0,
+  "rotationSpeed": 0,
+  "spacing": 0.15,
+  "color": "#fdd02f",
+  "scale": 0.5,
+  "taper": {
+    "size": 0,
+    "opacity": 0
+  }
+}
