@@ -3688,14 +3688,14 @@ html.ie .page-overview .main {
 .page-overview .section-hero {
   background-size: 1440px 1842px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_large.jpg");
   background-position: center top;
   min-height: 1842px
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-hero {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_large_2x.jpg")
   }
 }
 
@@ -3703,13 +3703,13 @@ html.ie .page-overview .main {
   .page-overview .section-hero {
     background-size: 2560px 1842px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_xlarge.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_xlarge.jpg")
   }
 }
 
 @media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1442px) and (min-resolution: 1.5dppx), only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_xlarge_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_xlarge_2x.jpg")
   }
 }
 
@@ -3717,13 +3717,13 @@ html.ie .page-overview .main {
   .page-overview .section-hero {
     background-size: 1068px 1230px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_medium_2x.jpg")
   }
 }
 
@@ -3731,13 +3731,13 @@ html.ie .page-overview .main {
   .page-overview .section-hero {
     background-size: 736px 920px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_bg_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_bg_small_2x.jpg")
   }
 }
 
@@ -4140,7 +4140,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   height: 694px;
   background-size: 1214px 694px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_large.png");
+  background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_large.png");
   box-sizing: border-box;
   margin: 0 auto;
   padding-top: 48px;
@@ -4155,7 +4155,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_large_2x.png")
   }
 }
 
@@ -4165,13 +4165,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 423px;
     background-size: 738px 423px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_medium.png")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_medium_2x.png")
   }
 }
 
@@ -4181,13 +4181,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 206px;
     background-size: 358px 206px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_small.png")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_small_2x.png")
   }
 }
 
@@ -4229,7 +4229,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
   display: none;
   left: 0;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_large_2x.png");
+  background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_large_2x.png");
   background-repeat: no-repeat;
   width: 2428px;
   height: 1388px
@@ -4237,7 +4237,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (max-width: 1068px) {
   .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_medium_2x.png");
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_medium_2x.png");
     background-repeat: no-repeat;
     width: 1476px;
     height: 846px
@@ -4246,7 +4246,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (max-width: 735px) {
   .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_hardware_small_2x.png");
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_hardware_small_2x.png");
     background-repeat: no-repeat;
     width: 716px;
     height: 412px
@@ -4274,7 +4274,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   height: 564px;
   background-size: 901px 564px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_large.jpg");
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -4283,7 +4283,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_large_2x.jpg")
   }
 }
 
@@ -4293,13 +4293,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 343px;
     background-size: 548px 343px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_medium_2x.jpg")
   }
 }
 
@@ -4309,13 +4309,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 166px;
     background-size: 266px 166px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_small_2x.jpg")
   }
 }
 
@@ -4346,7 +4346,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   height: 564px;
   background-size: 901px 564px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_large.jpg");
   margin-left: auto;
   margin-right: auto;
   position: relative
@@ -4354,7 +4354,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_large_2x.jpg")
   }
 }
 
@@ -4364,13 +4364,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 343px;
     background-size: 548px 343px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_medium_2x.jpg")
   }
 }
 
@@ -4380,13 +4380,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 166px;
     background-size: 266px 166px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/hero/fallback_screen_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/hero/fallback_screen_small_2x.jpg")
   }
 }
 
@@ -4406,7 +4406,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   height: 870px;
   background-size: 1266px 870px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/applepay/image_large.jpg");
   left: 50%;
   margin-left: -606px;
   position: relative
@@ -4414,7 +4414,7 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/applepay/image_large_2x.jpg")
   }
 }
 
@@ -4424,13 +4424,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 539px;
     background-size: 766px 539px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/applepay/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/applepay/image_medium_2x.jpg")
   }
 }
 
@@ -4440,13 +4440,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     height: 353px;
     background-size: 550px 353px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/applepay/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/applepay/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/applepay/image_small_2x.jpg")
   }
 }
 
@@ -4556,7 +4556,7 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
   height: 1310px;
   background-size: 2560px 1310px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/autounlock/image_large.jpg");
   left: 50%;
   margin-left: -1280px;
   position: relative;
@@ -4567,7 +4567,7 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/autounlock/image_large_2x.jpg")
   }
 }
 
@@ -4577,13 +4577,13 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
     height: 1072px;
     background-size: 1068px 1072px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/autounlock/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/autounlock/image_medium_2x.jpg")
   }
 }
 
@@ -4593,13 +4593,13 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
     height: 337px;
     background-size: 736px 337px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/autounlock/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/autounlock/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/autounlock/image_small_2x.jpg")
   }
 }
 
@@ -4743,7 +4743,7 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
   height: 698px;
   background-size: 1219px 698px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_large.png");
   position: absolute;
   right: -40px;
   top: 0
@@ -4751,7 +4751,7 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_large_2x.png")
   }
 }
 
@@ -4761,13 +4761,13 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
     height: 420px;
     background-size: 734px 420px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_medium_2x.png")
   }
 }
 
@@ -4777,13 +4777,13 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
     height: 204px;
     background-size: 357px 204px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/multitasking/image_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/multitasking/image_small_2x.png")
   }
 }
 
@@ -4961,12 +4961,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_large_2x.jpg")
   }
 }
 
@@ -4976,13 +4976,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 552px;
     background-size: 534px 552px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_medium_2x.jpg")
   }
 }
 
@@ -4992,13 +4992,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 522px;
     background-size: 736px 522px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/startframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/startframe_small_2x.jpg")
   }
 }
 
@@ -5007,12 +5007,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_large_2x.jpg")
   }
 }
 
@@ -5022,13 +5022,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 552px;
     background-size: 534px 552px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_medium_2x.jpg")
   }
 }
 
@@ -5038,13 +5038,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 522px;
     background-size: 736px 522px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/endframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/endframe_small_2x.jpg")
   }
 }
 
@@ -5053,12 +5053,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_large_2x.jpg")
   }
 }
 
@@ -5068,13 +5068,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 552px;
     background-size: 534px 552px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_medium_2x.jpg")
   }
 }
 
@@ -5084,13 +5084,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 522px;
     background-size: 736px 522px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/narrowresults/fallback_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/narrowresults/fallback_small_2x.jpg")
   }
 }
 
@@ -5134,12 +5134,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_large_2x.jpg")
   }
 }
 
@@ -5149,13 +5149,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_medium_2x.jpg")
   }
 }
 
@@ -5165,13 +5165,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 608px;
     background-size: 736px 608px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/startframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/startframe_small_2x.jpg")
   }
 }
 
@@ -5180,12 +5180,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_large_2x.jpg")
   }
 }
 
@@ -5195,13 +5195,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_medium_2x.jpg")
   }
 }
 
@@ -5211,13 +5211,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 608px;
     background-size: 736px 608px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/endframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/endframe_small_2x.jpg")
   }
 }
 
@@ -5226,12 +5226,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 710px;
   background-size: 686px 710px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_large_2x.jpg")
   }
 }
 
@@ -5241,13 +5241,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_medium_2x.jpg")
   }
 }
 
@@ -5257,13 +5257,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 608px;
     background-size: 736px 608px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/pinresults/fallback_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/pinresults/fallback_small_2x.jpg")
   }
 }
 
@@ -5307,12 +5307,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 686px;
   background-size: 686px 686px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_large_2x.jpg")
   }
 }
 
@@ -5322,13 +5322,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_medium_2x.jpg")
   }
 }
 
@@ -5338,13 +5338,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 480px;
     background-size: 736px 480px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/startframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/startframe_small_2x.jpg")
   }
 }
 
@@ -5353,12 +5353,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 686px;
   background-size: 686px 686px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_large_2x.jpg")
   }
 }
 
@@ -5368,13 +5368,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_medium_2x.jpg")
   }
 }
 
@@ -5384,13 +5384,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 480px;
     background-size: 736px 480px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/endframe_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/endframe_small_2x.jpg")
   }
 }
 
@@ -5399,12 +5399,12 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   height: 686px;
   background-size: 686px 686px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_large_2x.jpg")
   }
 }
 
@@ -5414,13 +5414,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 568px;
     background-size: 534px 568px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_medium_2x.jpg")
   }
 }
 
@@ -5430,13 +5430,13 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
     height: 480px;
     background-size: 736px 480px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/features/dragdrop/fallback_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/siri/features/dragdrop/fallback_small_2x.jpg")
   }
 }
 
@@ -5650,7 +5650,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 62px;
   background-size: 480px 62px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_large.png");
   left: 50%;
   margin-left: -240px;
   position: relative
@@ -5658,7 +5658,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .wave-container {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_large_2x.png")
   }
 }
 
@@ -5668,13 +5668,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 43px;
     background-size: 332px 43px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .wave-container {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_medium_2x.png")
   }
 }
 
@@ -5684,13 +5684,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 35px;
     background-size: 266px 35px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .wave-container {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/featured/fallback_small_2x.png")
   }
 }
 
@@ -5779,7 +5779,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -5787,7 +5787,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_large_2x.png")
   }
 }
 
@@ -5797,13 +5797,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_medium_2x.png")
   }
 }
 
@@ -5813,13 +5813,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd1/icon_small_2x.png")
   }
 }
 
@@ -5844,7 +5844,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -5852,7 +5852,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_large_2x.png")
   }
 }
 
@@ -5862,13 +5862,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_medium_2x.png")
   }
 }
 
@@ -5878,13 +5878,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd2/icon_small_2x.png")
   }
 }
 
@@ -5909,7 +5909,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -5917,7 +5917,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_large_2x.png")
   }
 }
 
@@ -5927,13 +5927,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_medium_2x.png")
   }
 }
 
@@ -5943,13 +5943,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd3/icon_small_2x.png")
   }
 }
 
@@ -5974,7 +5974,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -5982,7 +5982,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_large_2x.png")
   }
 }
 
@@ -5992,13 +5992,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_medium_2x.png")
   }
 }
 
@@ -6008,13 +6008,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd4/icon_small_2x.png")
   }
 }
 
@@ -6039,7 +6039,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -6047,7 +6047,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_large_2x.png")
   }
 }
 
@@ -6057,13 +6057,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_medium_2x.png")
   }
 }
 
@@ -6073,13 +6073,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd5/icon_small_2x.png")
   }
 }
 
@@ -6104,7 +6104,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -6112,7 +6112,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_large_2x.png")
   }
 }
 
@@ -6122,13 +6122,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_medium_2x.png")
   }
 }
 
@@ -6138,13 +6138,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd6/icon_small_2x.png")
   }
 }
 
@@ -6169,7 +6169,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -6177,7 +6177,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_large_2x.png")
   }
 }
 
@@ -6187,13 +6187,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_medium_2x.png")
   }
 }
 
@@ -6203,13 +6203,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd7/icon_small_2x.png")
   }
 }
 
@@ -6234,7 +6234,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   height: 75px;
   background-size: 145px 75px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_large.png");
   left: 50%;
   margin-left: -72.5px;
   position: relative
@@ -6242,7 +6242,7 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_large_2x.png")
   }
 }
 
@@ -6252,13 +6252,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_medium_2x.png")
   }
 }
 
@@ -6268,13 +6268,13 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     height: 56px;
     background-size: 145px 56px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/commands/grid/cmd8/icon_small_2x.png")
   }
 }
 
@@ -6360,7 +6360,7 @@ html.no-touch .page-overview .section-siri {
   height: 162px;
   background-size: 1645px 162px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_large.png");
+  background-image: url("/macos/sierra-preview/overview/siri/fallback_large.png");
   left: 50%;
   margin-left: -822.5px;
   position: relative;
@@ -6370,7 +6370,7 @@ html.no-touch .page-overview .section-siri {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/fallback_large_2x.png")
   }
 }
 
@@ -6380,13 +6380,13 @@ html.no-touch .page-overview .section-siri {
     height: 127px;
     background-size: 1282px 127px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_medium.png")
+    background-image: url("/macos/sierra-preview/overview/siri/fallback_medium.png")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_medium_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/fallback_medium_2x.png")
   }
 }
 
@@ -6396,13 +6396,13 @@ html.no-touch .page-overview .section-siri {
     height: 67px;
     background-size: 671px 67px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_small.png")
+    background-image: url("/macos/sierra-preview/overview/siri/fallback_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/siri/fallback_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/siri/fallback_small_2x.png")
   }
 }
 
@@ -6511,13 +6511,13 @@ html.no-touch .page-overview .section-siri {
   height: 695px;
   background-size: 1217px 695px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/clipboard/image_large.jpg");
   left: -4px
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/clipboard/image_large_2x.jpg")
   }
 }
 
@@ -6527,13 +6527,13 @@ html.no-touch .page-overview .section-siri {
     height: 421px;
     background-size: 735px 421px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/clipboard/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/clipboard/image_medium_2x.jpg")
   }
 }
 
@@ -6543,13 +6543,13 @@ html.no-touch .page-overview .section-siri {
     height: 259px;
     background-size: 451px 259px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/clipboard/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/clipboard/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/clipboard/image_small_2x.jpg")
   }
 }
 
@@ -6600,7 +6600,7 @@ html.no-touch .page-overview .section-siri {
   height: 700px;
   background-size: 1321px 700px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/icloud/image_large.jpg");
   left: 50%;
   margin-left: -708.5px;
   position: relative
@@ -6608,7 +6608,7 @@ html.no-touch .page-overview .section-siri {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/icloud/image_large_2x.jpg")
   }
 }
 
@@ -6618,13 +6618,13 @@ html.no-touch .page-overview .section-siri {
     height: 421px;
     background-size: 794px 421px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/icloud/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/icloud/image_medium_2x.jpg")
   }
 }
 
@@ -6634,13 +6634,13 @@ html.no-touch .page-overview .section-siri {
     height: 258px;
     background-size: 487px 258px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/icloud/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/icloud/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/icloud/image_small_2x.jpg")
   }
 }
 
@@ -6826,12 +6826,12 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   height: 41px;
   background-size: 54px 41px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/betterway/icon_large.png")
+  background-image: url("/macos/sierra-preview/overview/smartstorage/betterway/icon_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .icloud-icon {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/betterway/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/betterway/icon_large_2x.png")
   }
 }
 
@@ -6841,13 +6841,13 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
     height: 34px;
     background-size: 48px 34px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/betterway/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/betterway/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .icloud-icon {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/betterway/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/betterway/icon_small_2x.png")
   }
 }
 
@@ -6856,12 +6856,12 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   height: 41px;
   background-size: 32px 41px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/cleansup/icon_large.png")
+  background-image: url("/macos/sierra-preview/overview/smartstorage/cleansup/icon_large.png")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .trash-icon {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/cleansup/icon_large_2x.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/cleansup/icon_large_2x.png")
   }
 }
 
@@ -6871,13 +6871,13 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
     height: 34px;
     background-size: 26px 34px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/cleansup/icon_small.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/cleansup/icon_small.png")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .trash-icon {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/smartstorage/cleansup/icon_small_2x.png")
+    background-image: url("/macos/sierra-preview/overview/smartstorage/cleansup/icon_small_2x.png")
   }
 }
 
@@ -7489,14 +7489,14 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 698px;
   background-size: 1219px 698px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/music/image_large.jpg");
   left: -34px;
   position: absolute
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/music/image_large_2x.jpg")
   }
 }
 
@@ -7506,13 +7506,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 420px;
     background-size: 734px 420px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/music/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/music/image_medium_2x.jpg")
   }
 }
 
@@ -7522,13 +7522,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 204px;
     background-size: 357px 204px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/music/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/music/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/music/image_small_2x.jpg")
   }
 }
 
@@ -7576,7 +7576,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 828px;
   background-size: 1666px 828px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/tabs/image_large.jpg");
   left: 50%;
   margin-left: -833px;
   position: relative
@@ -7584,7 +7584,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/tabs/image_large_2x.jpg")
   }
 }
 
@@ -7594,13 +7594,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 487px;
     background-size: 980px 487px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/tabs/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/tabs/image_medium_2x.jpg")
   }
 }
 
@@ -7610,13 +7610,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 270px;
     background-size: 541px 270px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/tabs/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/tabs/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/tabs/image_small_2x.jpg")
   }
 }
 
@@ -7665,7 +7665,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 695px;
   background-size: 1215px 695px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/photos/image_large.jpg");
   left: 50%;
   margin-left: -607.5px;
   position: relative
@@ -7673,7 +7673,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/image_large_2x.jpg")
   }
 }
 
@@ -7683,13 +7683,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 423px;
     background-size: 737px 423px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/image_medium_2x.jpg")
   }
 }
 
@@ -7699,13 +7699,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 204px;
     background-size: 357px 204px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/image_small_2x.jpg")
   }
 }
 
@@ -7999,12 +7999,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 512px;
   background-size: 660px 512px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_large_2x.jpg")
   }
 }
 
@@ -8014,13 +8014,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 307px;
     background-size: 397px 307px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_medium_2x.jpg")
   }
 }
 
@@ -8030,13 +8030,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 207px;
     background-size: 268px 207px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide1/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide1/image_small_2x.jpg")
   }
 }
 
@@ -8045,12 +8045,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 512px;
   background-size: 660px 512px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_large_2x.jpg")
   }
 }
 
@@ -8060,13 +8060,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 307px;
     background-size: 397px 307px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_medium_2x.jpg")
   }
 }
 
@@ -8076,13 +8076,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 207px;
     background-size: 268px 207px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide2/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide2/image_small_2x.jpg")
   }
 }
 
@@ -8091,12 +8091,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 512px;
   background-size: 660px 512px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_large_2x.jpg")
   }
 }
 
@@ -8106,13 +8106,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 307px;
     background-size: 397px 307px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_medium_2x.jpg")
   }
 }
 
@@ -8122,13 +8122,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 207px;
     background-size: 268px 207px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide3/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide3/image_small_2x.jpg")
   }
 }
 
@@ -8137,12 +8137,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 512px;
   background-size: 660px 512px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_large_2x.jpg")
   }
 }
 
@@ -8152,13 +8152,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 307px;
     background-size: 397px 307px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_medium_2x.jpg")
   }
 }
 
@@ -8168,13 +8168,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 207px;
     background-size: 268px 207px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/photos/gallery/slide4/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/photos/gallery/slide4/image_small_2x.jpg")
   }
 }
 
@@ -8280,7 +8280,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 698px;
   background-size: 1219px 698px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/messages/image_large.jpg");
   position: absolute;
   right: -40px;
   top: 0
@@ -8288,7 +8288,7 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/messages/image_large_2x.jpg")
   }
 }
 
@@ -8298,13 +8298,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 420px;
     background-size: 734px 420px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/messages/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/messages/image_medium_2x.jpg")
   }
 }
 
@@ -8314,13 +8314,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 204px;
     background-size: 357px 204px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/messages/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/messages/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/messages/image_small_2x.jpg")
   }
 }
 
@@ -8388,13 +8388,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 91px;
   background-size: 158px 91px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_large.jpg");
+  background-image: url("/macos/sierra-preview/overview/developer/beta/image_large.jpg");
   margin-left: -15px
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-developer .beta-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/beta/image_large_2x.jpg")
   }
 }
 
@@ -8404,13 +8404,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 73px;
     background-size: 127px 73px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/beta/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-developer .beta-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/beta/image_medium_2x.jpg")
   }
 }
 
@@ -8420,13 +8420,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 50px;
     background-size: 88px 50px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/beta/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-developer .beta-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/beta/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/beta/image_small_2x.jpg")
   }
 }
 
@@ -8441,12 +8441,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   height: 90px;
   background-size: 90px 90px;
   background-repeat: no-repeat;
-  background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_large.jpg")
+  background-image: url("/macos/sierra-preview/overview/developer/sdk/image_large.jpg")
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .page-overview .section-developer .sdk-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_large_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/sdk/image_large_2x.jpg")
   }
 }
 
@@ -8456,13 +8456,13 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 72px;
     background-size: 72px 72px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_medium.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/sdk/image_medium.jpg")
   }
 }
 
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-developer .sdk-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_medium_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/sdk/image_medium_2x.jpg")
   }
 }
 
@@ -8472,12 +8472,12 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
     height: 50px;
     background-size: 50px 50px;
     background-repeat: no-repeat;
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_small.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/sdk/image_small.jpg")
   }
 }
 
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-developer .sdk-image {
-    background-image: url("https://www.apple.com/macos/sierra-preview/overview/developer/sdk/image_small_2x.jpg")
+    background-image: url("/macos/sierra-preview/overview/developer/sdk/image_small_2x.jpg")
   }
 }
