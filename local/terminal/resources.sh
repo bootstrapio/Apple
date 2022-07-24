@@ -1,12 +1,3 @@
-wayback_machine_downloader https://www.apple.com/ac/globalnav/6/en_US/styles/ac-globalnav.built.css
-wayback_machine_downloader https://www.apple.com/ac/localnav/5/styles/ac-localnav.built.css
-wayback_machine_downloader https://www.apple.com/v/ios/ios-13/d/built/styles/main.built.css
-wayback_machine_downloader https://www.apple.com/v/ios/ios-13/d/built/styles/overview.built.css
-wayback_machine_downloader https://www.apple.com/v/ios/ios-13/d/built/scripts/head.built.js
-wayback_machine_downloader https://www.apple.com/ac/globalnav/6/en_US/scripts/ac-globalnav.built.js
-wayback_machine_downloader https://www.apple.com/ac/localnav/5/scripts/ac-localnav.built.js
-wayback_machine_downloader https://www.apple.com/v/ios/ios-13/d/built/scripts/main.built.js
-wayback_machine_downloader https://www.apple.com/ac/ac-films/6.5.0/styles/modal.css
-wayback_machine_downloader https://www.apple.com/ac/ac-films/6.5.0/scripts/autofilms.built.js
-wayback_machine_downloader https://www.apple.com/metrics/data-relay/1.1.4/scripts/data-relay.js
-wayback_machine_downloader https://www.apple.com/metrics/data-relay/1.1.4/scripts/auto-relay.js
+wayback_machine_downloader http://www.apple.com/watchos/watchos-5/
+wayback_machine_downloader http://www.apple.com/watchos/watchos-6/
+wayback_machine_downloader http://www.apple.com/watchos/watchos-7/
