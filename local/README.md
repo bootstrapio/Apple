@@ -22,6 +22,7 @@ Match anything after special characters
 Match between two strings
 http(.*)http
 \"../(.*)http
+(http|\"../)(.*)http
 
 Match CSS and JS
 http(.*)(js|css)
