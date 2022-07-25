@@ -21,8 +21,8 @@ Match anything after special characters
 (http:|\?|:80|%|_|&|,|\(|\)|json|css|js)(.*)
 Match between two strings
 http(.*)http
-\"../(.*)http
-(http|\"../)(.*)http
+\../(.*)http
+(http|\../)(.*)http
 
 Match CSS and JS
 http(.*)(js|css)

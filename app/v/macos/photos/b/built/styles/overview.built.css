@@ -1,0 +1,3157 @@
+#viewport-emitter {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  z-index: -1;
+  x-content: "large"
+}
+
+#viewport-emitter::before {
+  content: "large"
+}
+
+@media only screen and (min-width: 1442px) {
+  #viewport-emitter {
+    x-content: "xlarge"
+  }
+
+  #viewport-emitter::before {
+    content: "xlarge"
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  #viewport-emitter {
+    x-content: "medium"
+  }
+
+  #viewport-emitter::before {
+    content: "medium"
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  #viewport-emitter {
+    x-content: "small"
+  }
+
+  #viewport-emitter::before {
+    content: "small"
+  }
+}
+
+.tabnav {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none
+}
+
+.tabnav .tabnav-items {
+  display: inline-block;
+  margin: 0
+}
+
+.tabnav .tabnav-item {
+  padding-left: 60px;
+  border-bottom: 1px solid #d6d6d6;
+  display: inline-block;
+  list-style: none;
+  outline: none
+}
+
+@media only screen and (max-width: 1068px) {
+  .tabnav .tabnav-item {
+    padding-left: 50px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .tabnav .tabnav-item {
+    padding-left: 30px
+  }
+}
+
+.tabnav .tabnav-item:first-child {
+  padding-left: 0
+}
+
+.tabnav-wrapper {
+  height: 2.58824em;
+  font-size: 17px;
+  overflow: hidden;
+  width: 100%
+}
+
+.tabnav-wrapper .tabnav-items {
+  padding-bottom: 2.58824em
+}
+
+.tabnav-link {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding: 9px 0 11px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color: #666;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  z-index: 0
+}
+
+.tabnav-link:lang(ar) {
+  letter-spacing: 0em;
+  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(ja) {
+  letter-spacing: 0em;
+  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(ko) {
+  letter-spacing: 0em;
+  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(th) {
+  letter-spacing: 0em;
+  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(zh) {
+  letter-spacing: 0em
+}
+
+.tabnav-link:lang(zh-CN) {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(zh-HK) {
+  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(zh-MO) {
+  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:lang(zh-TW) {
+  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+.tabnav-link:hover {
+  color: #0070c9;
+  text-decoration: none
+}
+
+.tabnav-link:focus {
+  outline-offset: -1px
+}
+
+.tabnav-link.current {
+  pointer-events: none;
+  color: #333;
+  text-decoration: none;
+  cursor: default;
+  z-index: 10
+}
+
+.tabnav-link.current:after {
+  left: 0;
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  border-bottom: 1px solid #666;
+  content: ''
+}
+
+.theme-dark .tabnav .tabnav-item {
+  border-bottom: 1px solid #444
+}
+
+.theme-dark .tabnav .tabnav-link {
+  color: #999
+}
+
+.theme-dark .tabnav .tabnav-link:hover {
+  color: #6bf
+}
+
+.theme-dark .tabnav .tabnav-link.current {
+  color: #ccc
+}
+
+.theme-dark .tabnav .tabnav-link.current:after {
+  border-bottom: 1px solid #999
+}
+
+.touch .hide-cta-for-mobile {
+  display: none
+}
+
+.page-photos .section {
+  padding-bottom: 174px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section {
+    padding-bottom: 114px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section {
+    padding-bottom: 92px
+  }
+}
+
+.page-photos .section-content {
+  padding-top: 138px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-content {
+    padding-top: 84px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-content {
+    padding-top: 89px
+  }
+}
+
+.page-photos .section-content .section-block {
+  margin-bottom: 90px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-content .section-block {
+    margin-bottom: 80px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-content .section-block {
+    margin-bottom: 60px
+  }
+}
+
+.page-photos .section-content .section-block:last-child:not(:only-child) {
+  margin-bottom: 0
+}
+
+.page-photos h2+p {
+  margin-top: 20px
+}
+
+.page-photos .gallery-container {
+  position: relative;
+  width: 100%
+}
+
+.page-photos .show-only-small {
+  display: none
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .show-only-small {
+    display: block
+  }
+}
+
+.page-photos .hide-only-small {
+  display: block
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .hide-only-small {
+    display: none
+  }
+}
+
+.page-photos .section-hero .section-content {
+  padding-top: 88px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-hero .section-content {
+    padding-top: 84px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-hero .section-content {
+    padding-top: 54px
+  }
+}
+
+.page-photos .section-hero .section-block:first-of-type {
+  margin-bottom: 80px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-hero .section-block:first-of-type {
+    margin-bottom: 50px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-hero .section-block:first-of-type {
+    margin-bottom: 40px
+  }
+}
+
+.page-photos .section-hero h1 {
+  margin-top: 15px;
+  margin-bottom: 50px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-hero h1 {
+    margin-top: 26px;
+    margin-bottom: 22px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-hero h1 {
+    margin-top: 14px;
+    margin-bottom: 22px
+  }
+}
+
+.page-photos .section-icloud {
+  background: #fafafa
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .section-content {
+    padding-top: 98px
+  }
+}
+
+.page-photos .section-icloud .section-content .section-block {
+  margin-bottom: 82px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-icloud .section-content .section-block {
+    margin-bottom: 70px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .section-content .section-block {
+    margin-bottom: 52px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-icloud .section-content .section-block.hide-only-small {
+    margin-bottom: 59px
+  }
+}
+
+.page-photos .section-icloud .row-logical:last-of-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start
+}
+
+html[dir=rtl] .page-photos .section-icloud .row-logical:last-of-type {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .row-logical:last-of-type {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap
+  }
+}
+
+.page-photos .section-icloud .row-logical:last-of-type .column {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .row-logical:last-of-type .column {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch
+  }
+}
+
+.page-photos .section-icloud .row-logical:last-of-type .column:first-of-type {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .row-logical:last-of-type .column:first-of-type {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+  }
+}
+
+.page-photos .section-icloud .row-logical:last-of-type .column:last-of-type {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .row-logical:last-of-type .column:last-of-type {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .image-photos-icloud-photo-library {
+    margin-bottom: 46px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .inline-copy-headline-container:first-of-type {
+    margin-top: 40px
+  }
+}
+
+.page-photos .section-icloud .inline-copy-headline-container:last-of-type {
+  margin-top: 64px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-icloud .inline-copy-headline-container:last-of-type {
+    margin-top: 40px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-icloud .inline-copy-headline-container:last-of-type {
+    margin-top: 13px
+  }
+}
+
+.page-photos .image-photos-photos-icon {
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/icon_photo_large.png");
+  left: 50%;
+  margin-left: -50px;
+  position: relative
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .image-photos-photos-icon {
+    background-image: url("/v/macos/photos/b/images/overview/icon_photo_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-photos-icon {
+    width: 74px;
+    height: 74px;
+    background-size: 74px 74px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/icon_photo_small.png")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-photos-icon {
+    background-image: url("/v/macos/photos/b/images/overview/icon_photo_small_2x.png")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-photos-icon {
+    left: 50%;
+    margin-left: -37px;
+    position: relative
+  }
+}
+
+.page-photos .image-photos-hero {
+  width: 983px;
+  height: 934px;
+  background-size: 983px 934px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/hero_large.jpg");
+  left: 50%;
+  margin-left: -491.5px;
+  position: relative
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .image-photos-hero {
+    background-image: url("/v/macos/photos/b/images/overview/hero_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-hero {
+    width: 691px;
+    height: 657px;
+    background-size: 691px 657px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/hero_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-hero {
+    background-image: url("/v/macos/photos/b/images/overview/hero_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-hero {
+    width: 280px;
+    height: 266px;
+    background-size: 280px 266px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/hero_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-hero {
+    background-image: url("/v/macos/photos/b/images/overview/hero_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-hero {
+    left: 50%;
+    margin-left: -345.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-hero {
+    left: 50%;
+    margin-left: -140px;
+    position: relative
+  }
+}
+
+.page-photos .image-photos-icloud-photo-library {
+  width: 1187px;
+  height: 583px;
+  background-size: 1187px 583px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_large.jpg");
+  left: 50%;
+  margin-left: -510.5px;
+  position: relative
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .image-photos-icloud-photo-library {
+    background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-icloud-photo-library {
+    width: 1009px;
+    height: 496px;
+    background-size: 1009px 496px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-icloud-photo-library {
+    background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-icloud-photo-library {
+    width: 367px;
+    height: 200px;
+    background-size: 367px 200px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-icloud-photo-library {
+    background-image: url("/v/macos/photos/b/images/overview/icloud_photo_library_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-icloud-photo-library {
+    left: 50%;
+    margin-left: -459.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-icloud-photo-library {
+    left: 50%;
+    margin-left: -183.5px;
+    position: relative
+  }
+}
+
+.page-photos .image-photos-make-edits {
+  width: 271px;
+  height: 554px;
+  background-size: 271px 554px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/make_edits_large.jpg");
+  margin-left: 52px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .image-photos-make-edits {
+    background-image: url("/v/macos/photos/b/images/overview/make_edits_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-make-edits {
+    width: 232px;
+    height: 472px;
+    background-size: 232px 472px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/make_edits_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-make-edits {
+    background-image: url("/v/macos/photos/b/images/overview/make_edits_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-make-edits {
+    width: 235px;
+    height: 480px;
+    background-size: 235px 480px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/make_edits_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .image-photos-make-edits {
+    background-image: url("/v/macos/photos/b/images/overview/make_edits_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .image-photos-make-edits {
+    margin-left: 113px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .image-photos-make-edits {
+    left: 50%;
+    margin-left: -135.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) and (max-width: 1068px) {
+  .page-photos .image-photos-make-edits {
+    left: 50%;
+    margin-left: -116px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) and (max-width: 735px) {
+  .page-photos .image-photos-make-edits {
+    left: 50%;
+    margin-left: -117.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .section-content:first-child {
+    padding-top: 69px
+  }
+}
+
+.page-photos .section-moments.section {
+  padding-bottom: 214px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments.section {
+    padding-bottom: 154px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments.section {
+    padding-bottom: 132px
+  }
+}
+
+.page-photos .section-moments .section-content:last-of-type {
+  width: 100%;
+  padding-top: 60px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .section-content:last-of-type {
+    padding-top: 30px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .section-content:last-of-type {
+    padding-top: 48px
+  }
+}
+
+.page-photos .section-moments .section-block:last-of-type {
+  margin-bottom: 0
+}
+
+.page-photos .section-moments .tabnav-wrapper {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2
+}
+
+.page-photos .section-moments .tabnav-wrapper .tabnav-item:first-child {
+  margin-left: 45px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .tabnav-wrapper .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .tabnav-wrapper .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+.page-photos .section-moments .tabnav-wrapper .tabnav-item:last-child {
+  margin-right: 45px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .tabnav-wrapper .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .tabnav-wrapper .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+.page-photos .section-moments .gallery-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.page-photos .section-moments .moments-gallery {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  height: 634px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .moments-gallery {
+    height: 460px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .moments-gallery {
+    height: 184px
+  }
+}
+
+.page-photos .section-moments .moments-gallery .gallery-item {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%)
+}
+
+.page-photos .section-moments .moments-captions-gallery-wrapper {
+  position: relative;
+  width: 980px;
+  -webkit-box-ordinal-group: 4;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .moments-captions-gallery-wrapper {
+    width: 692px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .moments-captions-gallery-wrapper {
+    width: 87.5%
+  }
+}
+
+.page-photos .section-moments .moments-captions-gallery-wrapper .moments-captions-gallery {
+  position: relative;
+  top: 40px
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-1 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-1 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-1 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-1 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-1 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-1 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_1_small_2x.jpg")
+  }
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-2 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-2 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-2 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-2 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-2 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-2 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_2_small_2x.jpg")
+  }
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-3 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-3 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-3 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-3 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-3 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-3 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_3_small_2x.jpg")
+  }
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-4 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-4 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-4 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-4 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-4 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-4 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_4_small_2x.jpg")
+  }
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-5 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-5 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-5 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-5 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-5 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-5 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_5_small_2x.jpg")
+  }
+}
+
+.page-photos .section-moments .image-photos-ui-gallery-6 {
+  width: 1044px;
+  height: 634px;
+  background-size: 1044px 634px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-6 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-moments .image-photos-ui-gallery-6 {
+    width: 758px;
+    height: 460px;
+    background-size: 758px 460px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-6 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-moments .image-photos-ui-gallery-6 {
+    width: 306px;
+    height: 184px;
+    background-size: 306px 184px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-moments .image-photos-ui-gallery-6 {
+    background-image: url("/v/macos/photos/b/images/overview/ui_gallery_6_small_2x.jpg")
+  }
+}
+
+.page-photos .section-sharing {
+  background: #fafafa;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0
+}
+
+.page-photos .section-sharing .section-content {
+  padding-top: 147px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-sharing .section-content {
+    padding-top: 95px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-sharing .section-content {
+    padding-top: 62px
+  }
+}
+
+.page-photos .section-sharing h2 {
+  margin-top: 22px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-sharing h2 {
+    margin-top: 17px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-sharing h2 {
+    margin-top: 8px
+  }
+}
+
+.page-photos .section-sharing .column:first-of-type {
+  margin-bottom: 200px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-sharing .column:first-of-type {
+    margin-bottom: 80px;
+    padding-left: 0
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-sharing .column:first-of-type {
+    margin-bottom: 35px
+  }
+}
+
+.page-photos .section-sharing .image-share {
+  position: absolute;
+  right: 0;
+  width: 1404px;
+  height: 978px;
+  background-size: 1404px 978px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/share_large.jpg");
+  margin-right: -70px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-sharing .image-share {
+    background-image: url("/v/macos/photos/b/images/overview/share_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-sharing .image-share {
+    width: 490px;
+    height: 742px;
+    background-size: 490px 742px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/share_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-sharing .image-share {
+    background-image: url("/v/macos/photos/b/images/overview/share_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-sharing .image-share {
+    width: 513px;
+    height: 290px;
+    background-size: 513px 290px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/share_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-sharing .image-share {
+    background-image: url("/v/macos/photos/b/images/overview/share_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-sharing .image-share {
+    margin-right: -50px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-sharing .image-share {
+    left: 0;
+    margin-left: -7.5%;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-photos .section-sharing .image-share {
+    float: right;
+    margin: 0 auto;
+    left: auto
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .section-content {
+    padding-top: 69px
+  }
+}
+
+.page-photos .section-filter.section {
+  padding-bottom: 144px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter.section {
+    padding-bottom: 89px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter.section {
+    padding-bottom: 90px
+  }
+}
+
+.page-photos .section-filter .section-block {
+  margin-bottom: 80px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .section-block {
+    margin-bottom: 72px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .section-block {
+    margin-bottom: 54px
+  }
+}
+
+.page-photos .section-filter .section-content:last-of-type {
+  width: 100%;
+  padding-top: 0
+}
+
+.page-photos .section-filter .filters-gallery {
+  position: relative;
+  height: 575px;
+  margin-top: -683px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .filters-gallery {
+    height: 407px;
+    margin-top: -485px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .filters-gallery {
+    height: 262px;
+    margin-top: -340px
+  }
+}
+
+.page-photos .section-filter .filters-gallery .gallery-item {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%)
+}
+
+.page-photos .section-filter .tabnav-wrapper {
+  position: relative;
+  z-index: 2;
+  margin-top: 639px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .tabnav-wrapper {
+    margin-top: 441px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .tabnav-wrapper {
+    margin-top: 296px
+  }
+}
+
+.page-photos .section-filter .tabnav-wrapper .tabnav-item:first-child {
+  margin-left: 45px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .tabnav-wrapper .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .tabnav-wrapper .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+.page-photos .section-filter .tabnav-wrapper .tabnav-item:last-child {
+  margin-right: 45px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .tabnav-wrapper .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .tabnav-wrapper .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-original {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_original_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-original {
+    background-image: url("/v/macos/photos/b/images/overview/filter_original_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-original {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_original_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-original {
+    background-image: url("/v/macos/photos/b/images/overview/filter_original_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-original {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_original_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-original {
+    background-image: url("/v/macos/photos/b/images/overview/filter_original_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-vivid {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_vivid_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-vivid {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-vivid {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-vivid-warm {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-vivid-warm {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-vivid-warm {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_warm_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-vivid-cool {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-vivid-cool {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-vivid-cool {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-vivid-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_vivid_cool_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-drama {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_drama_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-drama {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-drama {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-drama-warm {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-drama-warm {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-drama-warm {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-warm {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_warm_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-drama-cool {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-drama-cool {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-drama-cool {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-drama-cool {
+    background-image: url("/v/macos/photos/b/images/overview/filter_drama_cool_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-mono {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_mono_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-mono {
+    background-image: url("/v/macos/photos/b/images/overview/filter_mono_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-mono {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_mono_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-mono {
+    background-image: url("/v/macos/photos/b/images/overview/filter_mono_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-mono {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_mono_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-mono {
+    background-image: url("/v/macos/photos/b/images/overview/filter_mono_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-silvertone {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-silvertone {
+    background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-silvertone {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-silvertone {
+    background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-silvertone {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-silvertone {
+    background-image: url("/v/macos/photos/b/images/overview/filter_silvertone_small_2x.jpg")
+  }
+}
+
+.page-photos .section-filter .image-photos-filter-noir {
+  width: 980px;
+  height: 575px;
+  background-size: 980px 575px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/filter_noir_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-noir {
+    background-image: url("/v/macos/photos/b/images/overview/filter_noir_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-filter .image-photos-filter-noir {
+    width: 693px;
+    height: 407px;
+    background-size: 693px 407px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_noir_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-noir {
+    background-image: url("/v/macos/photos/b/images/overview/filter_noir_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-filter .image-photos-filter-noir {
+    width: 280px;
+    height: 262px;
+    background-size: 280px 262px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/filter_noir_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-filter .image-photos-filter-noir {
+    background-image: url("/v/macos/photos/b/images/overview/filter_noir_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit {
+  background: #fafafa
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .section-content:first-child {
+    padding-top: 80px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .section-content:first-child {
+    padding-top: 69px
+  }
+}
+
+.page-photos .section-edit .section-content:last-child .section-block:nth-child(1) {
+  margin-bottom: 16px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .section-content:last-child .section-block:nth-child(1) {
+    margin-bottom: 15px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .section-content:last-child .section-block:nth-child(1) {
+    margin-bottom: 20px
+  }
+}
+
+.page-photos .section-edit .section-block {
+  margin-bottom: 28px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .section-block {
+    margin-bottom: 44px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .section-block {
+    margin-bottom: 36px
+  }
+}
+
+.page-photos .section-edit .section-content:nth-of-type(2) {
+  padding-top: 0
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .section-content:nth-of-type(2) {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .section-content:nth-of-type(2) {
+    width: 100%
+  }
+}
+
+.page-photos .section-edit .section-content:last-child {
+  padding-top: 80px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .section-content:last-child {
+    margin-top: 0;
+    padding-top: 100px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .section-content:last-child {
+    margin-top: 0;
+    padding-top: 60px
+  }
+}
+
+.page-photos .section-edit .gallery-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .gallery-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .gallery-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+}
+
+.page-photos .section-edit .gallery-container .column:last-of-type {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  right: 38%
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .gallery-container .column:last-of-type {
+    right: auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .gallery-container .column:last-of-type {
+    right: auto
+  }
+}
+
+.page-photos .section-edit .edit-gallery {
+  position: relative;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  float: none;
+  width: 1226px;
+  height: 822px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .edit-gallery {
+    width: 772px;
+    height: 514px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .edit-gallery {
+    margin: 0 auto;
+    width: 509px;
+    height: 330px;
+    left: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: margin-bottom 0.3s;
+    transition: margin-bottom 0.3s
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .page-photos .section-edit .edit-gallery {
+    float: right;
+    margin: 0 auto;
+    left: auto;
+    right: -13px
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper {
+  position: relative;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  height: 100%;
+  margin-top: 32px;
+  z-index: 2;
+  width: 41.66667%
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper {
+    width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+    margin-top: 0;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-top: 0;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav {
+  height: auto
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav {
+    position: static;
+    height: 150%;
+    -webkit-overflow-scrolling: auto
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav {
+    position: static;
+    height: 180%;
+    -webkit-overflow-scrolling: auto
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:first-child {
+    margin-left: 20px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:last-child {
+    margin-right: 20px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-items {
+    padding-bottom: 0
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-items {
+    padding-bottom: 0
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item {
+  display: block;
+  padding-left: 0
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item {
+    display: inline-block
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item {
+    display: inline-block
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:not(:first-child) {
+    padding-left: 50px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:not(:first-child) {
+    padding-left: 50px
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:last-child {
+  border-bottom: none
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:last-child {
+    border-bottom: 1px solid #d6d6d6
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item:last-child {
+    border-bottom: 1px solid #d6d6d6
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item .tabnav-link:not(.current) {
+  color: #888
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item .tabnav-link:not(.current):hover {
+  color: #0070c9
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item .tabnav-link.current:after {
+  border-bottom: none
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item .tabnav-link.current:after {
+    border-bottom: 1px solid #666
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item .tabnav-link.current:after {
+    border-bottom: 1px solid #666
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item a {
+  padding-top: 19px;
+  padding-bottom: 15px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item a {
+    color: #666;
+    padding-top: 0
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .tabnav .tabnav-item a {
+    color: #666;
+    padding-top: 0
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .captions-gallery-item {
+  white-space: normal;
+  text-align: left;
+  opacity: 0;
+  max-height: 0;
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0)
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .tabnav-wrapper .captions-gallery-item {
+    position: absolute;
+    width: 692px;
+    max-height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .tabnav-wrapper .captions-gallery-item {
+    position: absolute;
+    width: 87.5%;
+    max-height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s
+  }
+}
+
+.page-photos .section-edit .tabnav-wrapper .captions-gallery-item.captions-gallery-currentitem {
+  opacity: 1;
+  z-index: 1;
+  box-sizing: border-box
+}
+
+.page-photos .section-edit .tabnav-wrapper .captions-gallery-item.captions-gallery-currentitem.captions-accordion-currentitem {
+  margin-top: -10px;
+  margin-bottom: 17px;
+  max-height: 100%;
+  -webkit-transform: scaleY(100%);
+  -ms-transform: scaleY(100%);
+  transform: scaleY(100%);
+  -webkit-transition: -webkit-transform .8s ease;
+  transition: -webkit-transform .8s ease;
+  transition: transform .8s ease;
+  transition: transform .8s ease, -webkit-transform .8s ease
+}
+
+.page-photos .section-edit .image-photos-edit-light {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_light_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-light {
+    background-image: url("/v/macos/photos/b/images/overview/edit_light_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-light {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_light_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-light {
+    background-image: url("/v/macos/photos/b/images/overview/edit_light_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-light {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_light_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-light {
+    background-image: url("/v/macos/photos/b/images/overview/edit_light_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-color {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_color_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_color_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-color {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_color_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_color_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-color {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_color_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_color_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-blackandwhite {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-blackandwhite {
+    background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-blackandwhite {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-blackandwhite {
+    background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-blackandwhite {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-blackandwhite {
+    background-image: url("/v/macos/photos/b/images/overview/edit_blackandwhite_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-whitebalance {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-whitebalance {
+    background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-whitebalance {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-whitebalance {
+    background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-whitebalance {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-whitebalance {
+    background-image: url("/v/macos/photos/b/images/overview/edit_whitebalance_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-levels {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_levels_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-levels {
+    background-image: url("/v/macos/photos/b/images/overview/edit_levels_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-levels {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_levels_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-levels {
+    background-image: url("/v/macos/photos/b/images/overview/edit_levels_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-levels {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_levels_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-levels {
+    background-image: url("/v/macos/photos/b/images/overview/edit_levels_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-curves {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_curves_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-curves {
+    background-image: url("/v/macos/photos/b/images/overview/edit_curves_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-curves {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_curves_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-curves {
+    background-image: url("/v/macos/photos/b/images/overview/edit_curves_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-curves {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_curves_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-curves {
+    background-image: url("/v/macos/photos/b/images/overview/edit_curves_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-definition {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_definition_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-definition {
+    background-image: url("/v/macos/photos/b/images/overview/edit_definition_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-definition {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_definition_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-definition {
+    background-image: url("/v/macos/photos/b/images/overview/edit_definition_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-definition {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_definition_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-definition {
+    background-image: url("/v/macos/photos/b/images/overview/edit_definition_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-selective-color {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-selective-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-selective-color {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-selective-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-selective-color {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-selective-color {
+    background-image: url("/v/macos/photos/b/images/overview/edit_selectivecolor_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-vignette {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_vignette_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-vignette {
+    background-image: url("/v/macos/photos/b/images/overview/edit_vignette_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-vignette {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_vignette_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-vignette {
+    background-image: url("/v/macos/photos/b/images/overview/edit_vignette_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-vignette {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_vignette_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-vignette {
+    background-image: url("/v/macos/photos/b/images/overview/edit_vignette_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-editing-ext {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-editing-ext {
+    background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-editing-ext {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-editing-ext {
+    background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-editing-ext {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-editing-ext {
+    background-image: url("/v/macos/photos/b/images/overview/edit_editingextensions_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-edit-revert {
+  width: 1226px;
+  height: 822px;
+  background-size: 1226px 822px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/edit_revert_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-revert {
+    background-image: url("/v/macos/photos/b/images/overview/edit_revert_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-edit-revert {
+    width: 772px;
+    height: 514px;
+    background-size: 772px 514px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_revert_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-revert {
+    background-image: url("/v/macos/photos/b/images/overview/edit_revert_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-edit-revert {
+    width: 498px;
+    height: 330px;
+    background-size: 498px 330px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/edit_revert_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-edit-revert {
+    background-image: url("/v/macos/photos/b/images/overview/edit_revert_small_2x.jpg")
+  }
+}
+
+.page-photos .section-edit .image-photos-live-photos {
+  width: 1058px;
+  height: 642px;
+  background-size: 1058px 642px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/live_photos_large.jpg");
+  left: 50%;
+  margin-left: -529px;
+  position: relative
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-live-photos {
+    background-image: url("/v/macos/photos/b/images/overview/live_photos_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-live-photos {
+    width: 758px;
+    height: 462px;
+    background-size: 758px 462px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/live_photos_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-live-photos {
+    background-image: url("/v/macos/photos/b/images/overview/live_photos_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-live-photos {
+    width: 476px;
+    height: 282px;
+    background-size: 476px 282px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/live_photos_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-edit .image-photos-live-photos {
+    background-image: url("/v/macos/photos/b/images/overview/live_photos_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-edit .image-photos-live-photos {
+    left: 50%;
+    margin-left: -379px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-edit .image-photos-live-photos {
+    left: 50%;
+    margin-left: -238px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .page-photos .section-edit .image-photos-live-photos {
+    float: right;
+    margin: 0 auto;
+    left: auto;
+    right: -13px
+  }
+
+  html[dir=rtl] .page-photos .section-edit .image-photos-live-photos {
+    right: auto
+  }
+}
+
+.page-photos .section-print-products {
+  padding-bottom: 122px;
+  position: relative;
+  z-index: 2;
+  background: #fff
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products {
+    padding-bottom: 73px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products {
+    padding-bottom: 77px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .section-content {
+    padding-top: 65px
+  }
+}
+
+.page-photos .section-print-products .section-block {
+  margin-bottom: 110px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .section-block {
+    margin-bottom: 88px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .section-block {
+    margin-bottom: 70px
+  }
+}
+
+.page-photos .section-print-products .image-photobook-1 {
+  width: 1035px;
+  height: 504px;
+  background-size: 1035px 504px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/photobook_1_large.jpg");
+  left: 50%;
+  margin-left: -479.5px;
+  position: relative
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-1 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_1_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .image-photobook-1 {
+    width: 797px;
+    height: 388px;
+    background-size: 797px 388px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/photobook_1_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-1 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_1_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-1 {
+    width: 547px;
+    height: 266px;
+    background-size: 547px 266px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/photobook_1_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-1 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_1_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .image-photobook-1 {
+    left: 50%;
+    margin-left: -404.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-1 {
+    left: 50%;
+    margin-left: -319.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-1 {
+    margin-top: -24px
+  }
+}
+
+.page-photos .section-print-products .image-photobook-2 {
+  width: 752px;
+  height: 468px;
+  background-size: 752px 468px;
+  background-repeat: no-repeat;
+  background-image: url("/v/macos/photos/b/images/overview/photobook_2_large.jpg");
+  left: 50%;
+  margin-left: -336px;
+  position: relative;
+  margin-top: -15px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-2 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_2_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    width: 579px;
+    height: 367px;
+    background-size: 579px 367px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/photobook_2_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-2 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_2_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    width: 368px;
+    height: 233px;
+    background-size: 368px 233px;
+    background-repeat: no-repeat;
+    background-image: url("/v/macos/photos/b/images/overview/photobook_2_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .page-photos .section-print-products .image-photobook-2 {
+    background-image: url("/v/macos/photos/b/images/overview/photobook_2_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -242.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -209px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    margin-top: 0px
+  }
+
+  html[dir=rtl] .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -289.5px;
+    right: auto;
+    margin-right: 0
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .image-photobook-2 {
+    margin-top: 0
+  }
+
+  html[dir=rtl] .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -376px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) and (max-width: 1068px) {
+  html[dir=rtl] .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -289.5px;
+    position: relative
+  }
+}
+
+@media only screen and (max-width: 735px) and (max-width: 735px) {
+  html[dir=rtl] .page-photos .section-print-products .image-photobook-2 {
+    left: 50%;
+    margin-left: -284px;
+    position: relative
+  }
+}
+
+.page-photos .section-print-products .show-only-small .image-photobook-2 {
+  margin-top: 25px;
+  margin-bottom: 17px
+}
+
+.page-photos .section-print-products .column-1 {
+  z-index: 2;
+  margin-top: -36px
+}
+
+@media only screen and (max-width: 1068px) {
+  .page-photos .section-print-products .column-1 {
+    margin-top: -21px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .section-print-products .row.section-block {
+    margin-bottom: 0
+  }
+
+  .page-photos .section-print-products .column:last-of-type {
+    margin-top: 5px
+  }
+
+  .page-photos .section-print-products .column:nth-last-of-type(2) {
+    margin-top: 52px
+  }
+}
+
+.page-photos .section-print-products .no-margin-bottom {
+  margin-bottom: 0
+}
+
+.page-photos .custom-grid .large-5 {
+  position: relative;
+  overflow: visible;
+  z-index: 3;
+  width: 38.5%
+}
+
+@media only screen and (max-width: 735px) {
+  .page-photos .custom-grid .large-5 {
+    width: 100%
+  }
+}
+
+html[dir=rtl] .page-photos .custom-grid .large-offset-1 {
+  margin-left: 0
+}
+
+html[dir=rtl] .page-photos .custom-grid .column {
+  float: right
+}
+
+html[dir=rtl] .page-photos .custom-grid .large-offset-1:last-child {
+  margin-right: 220px
+}
+
+@media only screen and (max-width: 1068px) {
+  html[dir=rtl] .page-photos .custom-grid .large-offset-1:last-child {
+    margin-right: 100px
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  html[dir=rtl] .page-photos .custom-grid .large-offset-1:last-child {
+    margin-right: auto
+  }
+}
