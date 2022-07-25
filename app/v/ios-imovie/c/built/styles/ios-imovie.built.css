@@ -1,0 +1,4507 @@
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr {
+  margin: 0;
+  padding: 0
+}
+
+pre, code, address, caption, th, figcaption {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal
+}
+
+fieldset, iframe, img {
+  border: 0
+}
+
+caption, th {
+  text-align: left
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+  display: block
+}
+
+audio, canvas, video, progress {
+  display: inline-block;
+  vertical-align: baseline
+}
+
+button {
+  border: 0;
+  font: inherit;
+  vertical-align: middle
+}
+
+@media print {
+  body, #main, #content {
+    color: #000
+  }
+
+  a, a:link, a:visited {
+    color: #000;
+    text-decoration: none
+  }
+
+  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide {
+    display: none
+  }
+}
+
+html {
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 112.5%
+}
+
+[lang=ja-JP] {
+  font-family: "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+[lang=zh-CN] {
+  font-family: "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+[lang=zh-TW] {
+  font-family: "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+[lang=zh-HK] {
+  font-family: "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+[lang=th-TH] {
+  font-family: "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+[lang=ko-KR] {
+  font-family: "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: #fff;
+  color: #333;
+  font-style: normal
+}
+
+html[lang=zh-TW] body {
+  font-size: 16px;
+  line-height: 1.8125
+}
+
+html[lang=zh-HK] body {
+  font-size: 16px;
+  line-height: 1.8125
+}
+
+html[lang=zh-CN] body {
+  font-size: 16px;
+  line-height: 1.75
+}
+
+body, input, textarea, select, button {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: 'liga', 'kern'
+}
+
+a {
+  color: #08c
+}
+
+a:visited, a:link, a:active {
+  text-decoration: none
+}
+
+html.no-js a:hover {
+  text-decoration: underline
+}
+
+html.no-touch a:hover {
+  text-decoration: underline
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.45em 0
+}
+
+*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+  margin-top: 1em
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  display: block;
+  margin: 0
+}
+
+strong, b {
+  font-weight: bold
+}
+
+em, i, cite, dfn {
+  font-style: italic
+}
+
+p {
+  margin: 0 0 1em 0
+}
+
+li li {
+  font-size: 1em
+}
+
+ul, ol {
+  margin: 1em 0 1em 1.11111em
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+nav ul, nav ol {
+  list-style: none;
+  margin: 0
+}
+
+sup {
+  font-size: .6em;
+  opacity: .8;
+  vertical-align: top;
+  position: relative;
+  bottom: -.2em
+}
+
+h1 sup, h2 sup, h3 sup {
+  font-size: .4em
+}
+
+html.oldie h4 sup, html.oldie h5 sup, html.oldie h6 sup {
+  font-size: .8em;
+  font-weight: normal;
+  line-height: 1;
+  bottom: auto
+}
+
+sup a {
+  color: #333
+}
+
+sup a:hover {
+  color: #08c;
+  text-decoration: none
+}
+
+sub {
+  line-height: 1
+}
+
+abbr {
+  border: 0
+}
+
+.selfclear:before, .selfclear:after {
+  content: ' ';
+  display: table
+}
+
+.selfclear:after {
+  clear: both
+}
+
+html.oldie .selfclear {
+  zoom: 1
+}
+
+.visuallyhidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0
+}
+
+.imagereplace {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap
+}
+
+.nowrap {
+  white-space: nowrap
+}
+
+.clear {
+  clear: both
+}
+
+#top {
+  position: absolute;
+  top: 0
+}
+
+.cursor-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab
+}
+
+.cursor-grabbing {
+  cursor: move;
+  cursor: -webkit-grabbing;
+  cursor: grabbing
+}
+
+.row {
+  position: relative;
+  z-index: 1
+}
+
+.row:before, .row:after {
+  content: ' ';
+  display: table
+}
+
+.row:after {
+  clear: both
+}
+
+html.oldie .row {
+  zoom: 1
+}
+
+.column {
+  position: relative;
+  z-index: 1;
+  min-height: 2px;
+  margin: 0;
+  padding: 0;
+  float: left
+}
+
+.large-offset-0 {
+  margin-left: 0
+}
+
+.large-push-0 {
+  left: auto;
+  right: auto
+}
+
+.large-pull-0 {
+  right: auto;
+  left: auto
+}
+
+.large-1 {
+  width: 8.33333%
+}
+
+html.oldie .large-1 {
+  width: 8.325%
+}
+
+.large-offset-1 {
+  margin-left: 8.33333%
+}
+
+html.oldie .large-offset-1 {
+  margin-left: 8.325%
+}
+
+.large-push-1 {
+  left: 8.33333%;
+  right: auto
+}
+
+.large-pull-1 {
+  right: 8.33333%;
+  left: auto
+}
+
+.large-2 {
+  width: 16.66667%
+}
+
+html.oldie .large-2 {
+  width: 16.65%
+}
+
+.large-offset-2 {
+  margin-left: 16.66667%
+}
+
+html.oldie .large-offset-2 {
+  margin-left: 16.65%
+}
+
+.large-push-2 {
+  left: 16.66667%;
+  right: auto
+}
+
+.large-pull-2 {
+  right: 16.66667%;
+  left: auto
+}
+
+.large-3 {
+  width: 25%
+}
+
+html.oldie .large-3 {
+  width: 24.975%
+}
+
+.large-offset-3 {
+  margin-left: 25%
+}
+
+html.oldie .large-offset-3 {
+  margin-left: 24.975%
+}
+
+.large-push-3 {
+  left: 25%;
+  right: auto
+}
+
+.large-pull-3 {
+  right: 25%;
+  left: auto
+}
+
+.large-4 {
+  width: 33.33333%
+}
+
+html.oldie .large-4 {
+  width: 33.3%
+}
+
+.large-offset-4 {
+  margin-left: 33.33333%
+}
+
+html.oldie .large-offset-4 {
+  margin-left: 33.3%
+}
+
+.large-push-4 {
+  left: 33.33333%;
+  right: auto
+}
+
+.large-pull-4 {
+  right: 33.33333%;
+  left: auto
+}
+
+.large-5 {
+  width: 41.66667%
+}
+
+html.oldie .large-5 {
+  width: 41.625%
+}
+
+.large-offset-5 {
+  margin-left: 41.66667%
+}
+
+html.oldie .large-offset-5 {
+  margin-left: 41.625%
+}
+
+.large-push-5 {
+  left: 41.66667%;
+  right: auto
+}
+
+.large-pull-5 {
+  right: 41.66667%;
+  left: auto
+}
+
+.large-6 {
+  width: 50%
+}
+
+html.oldie .large-6 {
+  width: 49.95%
+}
+
+.large-offset-6 {
+  margin-left: 50%
+}
+
+html.oldie .large-offset-6 {
+  margin-left: 49.95%
+}
+
+.large-push-6 {
+  left: 50%;
+  right: auto
+}
+
+.large-pull-6 {
+  right: 50%;
+  left: auto
+}
+
+.large-7 {
+  width: 58.33333%
+}
+
+html.oldie .large-7 {
+  width: 58.275%
+}
+
+.large-offset-7 {
+  margin-left: 58.33333%
+}
+
+html.oldie .large-offset-7 {
+  margin-left: 58.275%
+}
+
+.large-push-7 {
+  left: 58.33333%;
+  right: auto
+}
+
+.large-pull-7 {
+  right: 58.33333%;
+  left: auto
+}
+
+.large-8 {
+  width: 66.66667%
+}
+
+html.oldie .large-8 {
+  width: 66.6%
+}
+
+.large-offset-8 {
+  margin-left: 66.66667%
+}
+
+html.oldie .large-offset-8 {
+  margin-left: 66.6%
+}
+
+.large-push-8 {
+  left: 66.66667%;
+  right: auto
+}
+
+.large-pull-8 {
+  right: 66.66667%;
+  left: auto
+}
+
+.large-9 {
+  width: 75%
+}
+
+html.oldie .large-9 {
+  width: 74.925%
+}
+
+.large-offset-9 {
+  margin-left: 75%
+}
+
+html.oldie .large-offset-9 {
+  margin-left: 74.925%
+}
+
+.large-push-9 {
+  left: 75%;
+  right: auto
+}
+
+.large-pull-9 {
+  right: 75%;
+  left: auto
+}
+
+.large-10 {
+  width: 83.33333%
+}
+
+html.oldie .large-10 {
+  width: 83.25%
+}
+
+.large-offset-10 {
+  margin-left: 83.33333%
+}
+
+html.oldie .large-offset-10 {
+  margin-left: 83.25%
+}
+
+.large-push-10 {
+  left: 83.33333%;
+  right: auto
+}
+
+.large-pull-10 {
+  right: 83.33333%;
+  left: auto
+}
+
+.large-11 {
+  width: 91.66667%
+}
+
+html.oldie .large-11 {
+  width: 91.575%
+}
+
+.large-offset-11 {
+  margin-left: 91.66667%
+}
+
+html.oldie .large-offset-11 {
+  margin-left: 91.575%
+}
+
+.large-push-11 {
+  left: 91.66667%;
+  right: auto
+}
+
+.large-pull-11 {
+  right: 91.66667%;
+  left: auto
+}
+
+.large-12 {
+  width: 100%
+}
+
+html.oldie .large-12 {
+  width: 99.9%
+}
+
+.large-offset-12 {
+  margin-left: 100%
+}
+
+html.oldie .large-offset-12 {
+  margin-left: 99.9%
+}
+
+.large-push-12 {
+  left: 100%;
+  right: auto
+}
+
+.large-pull-12 {
+  right: 100%;
+  left: auto
+}
+
+.large-centered {
+  margin-left: auto;
+  margin-right: auto;
+  float: none
+}
+
+.large-uncentered {
+  margin-left: 0;
+  margin-right: 0
+}
+
+.large-last {
+  float: right
+}
+
+.large-notlast {
+  float: left
+}
+
+@media only screen and (min-width: 1442px) {
+  .xlarge-offset-0 {
+    margin-left: 0
+  }
+
+  .xlarge-push-0 {
+    left: auto;
+    right: auto
+  }
+
+  .xlarge-pull-0 {
+    right: auto;
+    left: auto
+  }
+
+  .xlarge-1 {
+    width: 8.33333%
+  }
+
+  .xlarge-offset-1 {
+    margin-left: 8.33333%
+  }
+
+  .xlarge-push-1 {
+    left: 8.33333%;
+    right: auto
+  }
+
+  .xlarge-pull-1 {
+    right: 8.33333%;
+    left: auto
+  }
+
+  .xlarge-2 {
+    width: 16.66667%
+  }
+
+  .xlarge-offset-2 {
+    margin-left: 16.66667%
+  }
+
+  .xlarge-push-2 {
+    left: 16.66667%;
+    right: auto
+  }
+
+  .xlarge-pull-2 {
+    right: 16.66667%;
+    left: auto
+  }
+
+  .xlarge-3 {
+    width: 25%
+  }
+
+  .xlarge-offset-3 {
+    margin-left: 25%
+  }
+
+  .xlarge-push-3 {
+    left: 25%;
+    right: auto
+  }
+
+  .xlarge-pull-3 {
+    right: 25%;
+    left: auto
+  }
+
+  .xlarge-4 {
+    width: 33.33333%
+  }
+
+  .xlarge-offset-4 {
+    margin-left: 33.33333%
+  }
+
+  .xlarge-push-4 {
+    left: 33.33333%;
+    right: auto
+  }
+
+  .xlarge-pull-4 {
+    right: 33.33333%;
+    left: auto
+  }
+
+  .xlarge-5 {
+    width: 41.66667%
+  }
+
+  .xlarge-offset-5 {
+    margin-left: 41.66667%
+  }
+
+  .xlarge-push-5 {
+    left: 41.66667%;
+    right: auto
+  }
+
+  .xlarge-pull-5 {
+    right: 41.66667%;
+    left: auto
+  }
+
+  .xlarge-6 {
+    width: 50%
+  }
+
+  .xlarge-offset-6 {
+    margin-left: 50%
+  }
+
+  .xlarge-push-6 {
+    left: 50%;
+    right: auto
+  }
+
+  .xlarge-pull-6 {
+    right: 50%;
+    left: auto
+  }
+
+  .xlarge-7 {
+    width: 58.33333%
+  }
+
+  .xlarge-offset-7 {
+    margin-left: 58.33333%
+  }
+
+  .xlarge-push-7 {
+    left: 58.33333%;
+    right: auto
+  }
+
+  .xlarge-pull-7 {
+    right: 58.33333%;
+    left: auto
+  }
+
+  .xlarge-8 {
+    width: 66.66667%
+  }
+
+  .xlarge-offset-8 {
+    margin-left: 66.66667%
+  }
+
+  .xlarge-push-8 {
+    left: 66.66667%;
+    right: auto
+  }
+
+  .xlarge-pull-8 {
+    right: 66.66667%;
+    left: auto
+  }
+
+  .xlarge-9 {
+    width: 75%
+  }
+
+  .xlarge-offset-9 {
+    margin-left: 75%
+  }
+
+  .xlarge-push-9 {
+    left: 75%;
+    right: auto
+  }
+
+  .xlarge-pull-9 {
+    right: 75%;
+    left: auto
+  }
+
+  .xlarge-10 {
+    width: 83.33333%
+  }
+
+  .xlarge-offset-10 {
+    margin-left: 83.33333%
+  }
+
+  .xlarge-push-10 {
+    left: 83.33333%;
+    right: auto
+  }
+
+  .xlarge-pull-10 {
+    right: 83.33333%;
+    left: auto
+  }
+
+  .xlarge-11 {
+    width: 91.66667%
+  }
+
+  .xlarge-offset-11 {
+    margin-left: 91.66667%
+  }
+
+  .xlarge-push-11 {
+    left: 91.66667%;
+    right: auto
+  }
+
+  .xlarge-pull-11 {
+    right: 91.66667%;
+    left: auto
+  }
+
+  .xlarge-12 {
+    width: 100%
+  }
+
+  .xlarge-offset-12 {
+    margin-left: 100%
+  }
+
+  .xlarge-push-12 {
+    left: 100%;
+    right: auto
+  }
+
+  .xlarge-pull-12 {
+    right: 100%;
+    left: auto
+  }
+
+  .xlarge-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none
+  }
+
+  .xlarge-uncentered {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .xlarge-last {
+    float: right
+  }
+
+  .xlarge-notlast {
+    float: left
+  }
+}
+
+@font-face {
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_text.eot");
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_text.eot?#iefix") format("embedded-opentype"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_text.woff") format("woff"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_text.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_thin.eot");
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_thin.eot?#iefix") format("embedded-opentype"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_thin.woff") format("woff"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_thin.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_ultralight.eot");
+  src: url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_ultralight.eot?#iefix") format("embedded-opentype"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_ultralight.woff") format("woff"), url("/v/ios-imovie/c/built/assets/ac-appleicons/fonts/appleicons_ultralight.ttf") format("truetype")
+}
+
+.icon {
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.icon:before, .icon:after, .icon .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.icon:after, .icon .icon-htc {
+  top: 0;
+  padding-left: 0.3em
+}
+
+.icon:before {
+  display: none
+}
+
+.icon-before {
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.icon-before:before, .icon-before:after, .icon-before .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.icon-before:before, .icon-before .icon-htc {
+  top: -0.125em;
+  padding-right: 0.3em
+}
+
+.icon-before:after {
+  display: none
+}
+
+.icon-standalone {
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.icon-standalone:before, .icon-standalone:after, .icon-standalone .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.icon-standalone:after, .icon-standalone .icon-htc {
+  top: 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.icon-standalone:before {
+  display: none
+}
+
+.icon-font {
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit
+}
+
+.icon-ie-parent:link {
+  text-decoration: none
+}
+
+html.no-js .icon-ie-parent:link:hover {
+  text-decoration: none
+}
+
+html.no-js .icon-ie-parent:link:hover .icon-ie-link {
+  text-decoration: underline
+}
+
+html.no-touch .icon-ie-parent:link:hover {
+  text-decoration: none
+}
+
+html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
+  text-decoration: underline
+}
+
+.icon-chevrondown:before, .icon-chevrondown:after {
+  content: ""
+}
+
+.icon-chevrondown .icon-htc {
+  x-content: ""
+}
+
+.icon-chevrondownalt:before, .icon-chevrondownalt:after {
+  content: ""
+}
+
+.icon-chevrondownalt .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronleft:before, .icon-chevronleft:after {
+  content: ""
+}
+
+.icon-chevronleft .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronrightalt:before, .icon-chevronrightalt:after {
+  content: ""
+}
+
+.icon-chevronrightalt .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronright:before, .icon-chevronright:after {
+  content: ""
+}
+
+.icon-chevronright .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronleftalt:before, .icon-chevronleftalt:after {
+  content: ""
+}
+
+.icon-chevronleftalt .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronup:before, .icon-chevronup:after {
+  content: ""
+}
+
+.icon-chevronup .icon-htc {
+  x-content: ""
+}
+
+.icon-chevronupalt:before, .icon-chevronupalt:after {
+  content: ""
+}
+
+.icon-chevronupalt .icon-htc {
+  x-content: ""
+}
+
+.icon-close:before, .icon-close:after {
+  content: ""
+}
+
+.icon-close .icon-htc {
+  x-content: ""
+}
+
+.icon-closealt:before, .icon-closealt:after {
+  content: ""
+}
+
+.icon-closealt .icon-htc {
+  x-content: ""
+}
+
+.icon-download:before, .icon-download:after {
+  content: ""
+}
+
+.icon-download .icon-htc {
+  x-content: ""
+}
+
+.icon-downloadalt:before, .icon-downloadalt:after {
+  content: ""
+}
+
+.icon-downloadalt .icon-htc {
+  x-content: ""
+}
+
+.icon-external:before, .icon-external:after {
+  content: ""
+}
+
+.icon-external .icon-htc {
+  x-content: ""
+}
+
+.icon-alert:before, .icon-alert:after {
+  content: ""
+}
+
+.icon-alert .icon-htc {
+  x-content: ""
+}
+
+.icon-list:before, .icon-list:after {
+  content: ""
+}
+
+.icon-list .icon-htc {
+  x-content: ""
+}
+
+.icon-paddledown:before, .icon-paddledown:after {
+  content: ""
+}
+
+.icon-paddledown .icon-htc {
+  x-content: ""
+}
+
+.icon-paddleleft:before, .icon-paddleleft:after {
+  content: ""
+}
+
+.icon-paddleleft .icon-htc {
+  x-content: ""
+}
+
+.icon-paddleright:before, .icon-paddleright:after {
+  content: ""
+}
+
+.icon-paddleright .icon-htc {
+  x-content: ""
+}
+
+.icon-paddleup:before, .icon-paddleup:after {
+  content: ""
+}
+
+.icon-paddleup .icon-htc {
+  x-content: ""
+}
+
+.icon-pause:before, .icon-pause:after {
+  content: ""
+}
+
+.icon-pause .icon-htc {
+  x-content: ""
+}
+
+.icon-play:before, .icon-play:after {
+  content: ""
+}
+
+.icon-play .icon-htc {
+  x-content: ""
+}
+
+.icon-playalt:before, .icon-playalt:after {
+  content: ""
+}
+
+.icon-playalt .icon-htc {
+  x-content: ""
+}
+
+.icon-replay:before, .icon-replay:after {
+  content: ""
+}
+
+.icon-replay .icon-htc {
+  x-content: ""
+}
+
+.icon-zoomalt:before, .icon-zoomalt:after {
+  content: ""
+}
+
+.icon-zoomalt .icon-htc {
+  x-content: ""
+}
+
+.icon-closeinlinealt:before, .icon-closeinlinealt:after {
+  content: ""
+}
+
+.icon-closeinlinealt .icon-htc {
+  x-content: ""
+}
+
+.icon-grid:before, .icon-grid:after {
+  content: ""
+}
+
+.icon-grid .icon-htc {
+  x-content: ""
+}
+
+.icon-checkalt:before, .icon-checkalt:after {
+  content: ""
+}
+
+.icon-checkalt .icon-htc {
+  x-content: ""
+}
+
+.icon-stop:before, .icon-stop:after {
+  content: ""
+}
+
+.icon-stop .icon-htc {
+  x-content: ""
+}
+
+.icon-stopalt:before, .icon-stopalt:after {
+  content: ""
+}
+
+.icon-stopalt .icon-htc {
+  x-content: ""
+}
+
+.icon-replayalt:before, .icon-replayalt:after {
+  content: ""
+}
+
+.icon-replayalt .icon-htc {
+  x-content: ""
+}
+
+.icon-facebook:before, .icon-facebook:after {
+  content: ""
+}
+
+.icon-facebook .icon-htc {
+  x-content: ""
+}
+
+.icon-link:before, .icon-link:after {
+  content: ""
+}
+
+.icon-link .icon-htc {
+  x-content: ""
+}
+
+.icon-mail:before, .icon-mail:after {
+  content: ""
+}
+
+.icon-mail .icon-htc {
+  x-content: ""
+}
+
+.icon-pinterest:before, .icon-pinterest:after {
+  content: ""
+}
+
+.icon-pinterest .icon-htc {
+  x-content: ""
+}
+
+.icon-qqweibo:before, .icon-qqweibo:after {
+  content: ""
+}
+
+.icon-qqweibo .icon-htc {
+  x-content: ""
+}
+
+.icon-qzone:before, .icon-qzone:after {
+  content: ""
+}
+
+.icon-qzone .icon-htc {
+  x-content: ""
+}
+
+.icon-renren:before, .icon-renren:after {
+  content: ""
+}
+
+.icon-renren .icon-htc {
+  x-content: ""
+}
+
+.icon-share:before, .icon-share:after {
+  content: ""
+}
+
+.icon-share .icon-htc {
+  x-content: ""
+}
+
+.icon-tumblr:before, .icon-tumblr:after {
+  content: ""
+}
+
+.icon-tumblr .icon-htc {
+  x-content: ""
+}
+
+.icon-twitter:before, .icon-twitter:after {
+  content: ""
+}
+
+.icon-twitter .icon-htc {
+  x-content: ""
+}
+
+.icon-webo:before, .icon-webo:after {
+  content: ""
+}
+
+.icon-webo .icon-htc {
+  x-content: ""
+}
+
+.icon-instagram:before, .icon-instagram:after {
+  content: ""
+}
+
+.icon-instagram .icon-htc {
+  x-content: ""
+}
+
+.icon-check:before, .icon-check:after {
+  content: ""
+}
+
+.icon-check .icon-htc {
+  x-content: ""
+}
+
+.icon-linkedin:before, .icon-linkedin:after {
+  content: ""
+}
+
+.icon-linkedin .icon-htc {
+  x-content: ""
+}
+
+.icon-snapchat:before, .icon-snapchat:after {
+  content: ""
+}
+
+.icon-snapchat .icon-htc {
+  x-content: ""
+}
+
+.icon-zoom:before, .icon-zoom:after {
+  content: ""
+}
+
+.icon-zoom .icon-htc {
+  x-content: ""
+}
+
+.icon-zoomoutalt:before, .icon-zoomoutalt:after {
+  content: ""
+}
+
+.icon-zoomoutalt .icon-htc {
+  x-content: ""
+}
+
+.icon-zoomout:before, .icon-zoomout:after {
+  content: ""
+}
+
+.icon-zoomout .icon-htc {
+  x-content: ""
+}
+
+.icon-favorite:before, .icon-favorite:after {
+  content: ""
+}
+
+.icon-favorite .icon-htc {
+  x-content: ""
+}
+
+.icon-clearsolid:before, .icon-clearsolid:after {
+  content: ""
+}
+
+.icon-clearsolid .icon-htc {
+  x-content: ""
+}
+
+.icon-remove:before, .icon-remove:after {
+  content: ""
+}
+
+.icon-remove .icon-htc {
+  x-content: ""
+}
+
+.icon-unvalidatedalt:before, .icon-unvalidatedalt:after {
+  content: ""
+}
+
+.icon-unvalidatedalt .icon-htc {
+  x-content: ""
+}
+
+.icon-unvalidated:before, .icon-unvalidated:after {
+  content: ""
+}
+
+.icon-unvalidated .icon-htc {
+  x-content: ""
+}
+
+.icon-info:before, .icon-info:after {
+  content: ""
+}
+
+.icon-info .icon-htc {
+  x-content: ""
+}
+
+.icon-add:before, .icon-add:after {
+  content: ""
+}
+
+.icon-add .icon-htc {
+  x-content: ""
+}
+
+.icon-exclamation:before, .icon-exclamation:after {
+  content: ""
+}
+
+.icon-exclamation .icon-htc {
+  x-content: ""
+}
+
+.icon-infoalt:before, .icon-infoalt:after {
+  content: ""
+}
+
+.icon-infoalt .icon-htc {
+  x-content: ""
+}
+
+.icon-circle:before, .icon-circle:after {
+  content: ""
+}
+
+.icon-circle .icon-htc {
+  x-content: ""
+}
+
+.icon-apple:before, .icon-apple:after {
+  content: ""
+}
+
+.icon-apple .icon-htc {
+  x-content: ""
+}
+
+.more {
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.more:before, .more:after {
+  content: ""
+}
+
+.more .icon-htc {
+  x-content: ""
+}
+
+.more:before, .more:after, .more .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.more:after, .more .icon-htc {
+  top: 0;
+  padding-left: 0.3em
+}
+
+.more:before {
+  display: none
+}
+
+.more-block {
+  margin-top: .5em
+}
+
+.dotnav {
+  text-align: center
+}
+
+html.touch .dotnav {
+  pointer-events: none
+}
+
+.dotnav ul {
+  display: inline-block
+}
+
+html.oldie .dotnav ul {
+  display: inline;
+  zoom: 1
+}
+
+.dotnav li {
+  list-style: none;
+  margin: 0 10px;
+  width: 8px;
+  height: 8px;
+  float: left;
+  position: relative
+}
+
+.dotnav .dotnav-item {
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  outline: none;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #999;
+  box-sizing: content-box;
+  padding: 0;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap
+}
+
+html.no-js .dotnav .dotnav-item:hover {
+  background-color: #666
+}
+
+html.no-touch .dotnav .dotnav-item:hover {
+  background-color: #666
+}
+
+.dotnav .dotnav-item:focus {
+  outline-style: auto;
+  outline-color: #08c
+}
+
+.dotnav .dotnav-item.current {
+  top: -1px;
+  left: -1px;
+  width: 8px;
+  height: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #08c;
+  background-color: transparent;
+  cursor: default
+}
+
+html.no-js .dotnav .dotnav-item.current:hover {
+  background-color: transparent
+}
+
+html.no-touch .dotnav .dotnav-item.current:hover {
+  background-color: transparent
+}
+
+.paddlenav {
+  list-style: none;
+  margin: 0
+}
+
+.paddlenav-arrow {
+  width: 67px;
+  height: 128px;
+  position: absolute;
+  top: 50%;
+  line-height: 1.78;
+  margin-top: -64px;
+  text-align: center;
+  overflow: hidden;
+  color: #999;
+  background-color: transparent;
+  border-radius: 4px;
+  display: block;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 200;
+  opacity: .70;
+  -webkit-transition: 250ms opacity linear, 250ms color linear, 250ms background-color linear;
+  transition: 250ms opacity linear, 250ms color linear, 250ms background-color linear
+}
+
+.paddlenav-arrow.disabled {
+  opacity: 0
+}
+
+html.no-js .paddlenav-arrow.disabled:hover {
+  opacity: 0;
+  cursor: default
+}
+
+html.no-touch .paddlenav-arrow.disabled:hover {
+  opacity: 0;
+  cursor: default
+}
+
+html.oldie .paddlenav-arrow.disabled {
+  display: none
+}
+
+html.no-js .paddlenav-arrow:hover {
+  color: #999;
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 1
+}
+
+html.no-touch .paddlenav-arrow:hover {
+  color: #999;
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 1
+}
+
+.paddlenav-arrow:focus {
+  color: #999;
+  background-color: transparent;
+  text-decoration: none
+}
+
+html.touch .paddlenav-arrow {
+  color: #999;
+  background-color: transparent;
+  text-decoration: none
+}
+
+.paddlenav-arrow-left {
+  left: 0;
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.paddlenav-arrow-left:before, .paddlenav-arrow-left:after {
+  content: ""
+}
+
+.paddlenav-arrow-left .icon-htc {
+  x-content: ""
+}
+
+.paddlenav-arrow-left:before, .paddlenav-arrow-left:after, .paddlenav-arrow-left .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.paddlenav-arrow-left:after, .paddlenav-arrow-left .icon-htc {
+  top: 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.paddlenav-arrow-left:before {
+  display: none
+}
+
+.paddlenav-arrow-right {
+  right: 0;
+  behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
+}
+
+.paddlenav-arrow-right:before, .paddlenav-arrow-right:after {
+  content: ""
+}
+
+.paddlenav-arrow-right .icon-htc {
+  x-content: ""
+}
+
+.paddlenav-arrow-right:before, .paddlenav-arrow-right:after, .paddlenav-arrow-right .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1
+}
+
+.paddlenav-arrow-right:after, .paddlenav-arrow-right .icon-htc {
+  top: 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.paddlenav-arrow-right:before {
+  display: none
+}
+
+html.no-touch .paddlenav-onhover .paddlenav-arrow {
+  opacity: 0
+}
+
+html.no-touch .paddlenav-onhover .paddlenav-arrow:focus {
+  opacity: 1
+}
+
+html.oldie .paddlenav-onhover .paddlenav-arrow {
+  visibility: hidden
+}
+
+.with-paddlenav {
+  position: relative
+}
+
+html.no-js.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow {
+  opacity: .70
+}
+
+html.no-js.oldie .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow {
+  visibility: visible
+}
+
+html.no-js .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:focus {
+  opacity: 1
+}
+
+html.no-js .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:hover {
+  opacity: 1
+}
+
+html.no-js.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:hover {
+  opacity: 1
+}
+
+html.no-js .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow.disabled {
+  opacity: 0
+}
+
+html.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow {
+  opacity: .70
+}
+
+html.no-touch.oldie .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow {
+  visibility: visible
+}
+
+html.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:focus {
+  opacity: 1
+}
+
+html.no-touch.no-js .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:hover {
+  opacity: 1
+}
+
+html.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow:hover {
+  opacity: 1
+}
+
+html.no-touch .with-paddlenav:hover .paddlenav-onhover .paddlenav-arrow.disabled {
+  opacity: 0
+}
+
+.paddlenav-framed .paddlenav-arrow {
+  color: #999;
+  background-color: #fafafa
+}
+
+html.no-js .paddlenav-framed .paddlenav-arrow:hover {
+  color: #999;
+  background-color: #fafafa;
+  text-decoration: none
+}
+
+html.no-touch .paddlenav-framed .paddlenav-arrow:hover {
+  color: #999;
+  background-color: #fafafa;
+  text-decoration: none
+}
+
+.paddlenav-framed .paddlenav-arrow:focus {
+  color: #999;
+  background-color: #fafafa;
+  text-decoration: none
+}
+
+html.touch .paddlenav-framed .paddlenav-arrow {
+  color: #999;
+  background-color: #fafafa
+}
+
+.paddlenav-framed .paddlenav-arrow-left {
+  left: 15px
+}
+
+.paddlenav-framed .paddlenav-arrow-right {
+  right: 15px
+}
+
+.togglenav {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  position: relative
+}
+
+.togglenav ul {
+  display: inline-block
+}
+
+html.oldie .togglenav ul {
+  display: inline;
+  zoom: 1
+}
+
+.togglenav li {
+  float: left;
+  list-style: none;
+  outline: none
+}
+
+.togglenav-button {
+  padding: 10px 15px 9px;
+  font-size: 1em;
+  line-height: 1;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-left: -1px;
+  position: relative;
+  z-index: 0
+}
+
+html.no-js .togglenav-button:hover {
+  color: #08c;
+  text-decoration: none
+}
+
+html.no-touch .togglenav-button:hover {
+  color: #08c;
+  text-decoration: none
+}
+
+.togglenav-button.current {
+  pointer-events: none;
+  color: #999;
+  text-decoration: none;
+  cursor: default;
+  z-index: 10
+}
+
+html.no-js .togglenav-button.current:hover {
+  color: #999
+}
+
+html.no-touch .togglenav-button.current:hover {
+  color: #999
+}
+
+.togglenav-button:after {
+  content: '•';
+  font-size: 10px;
+  vertical-align: middle;
+  position: relative;
+  left: 15px;
+  color: #333
+}
+
+li:last-child .togglenav-button:after {
+  content: ''
+}
+
+.violator {
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #999;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 16px;
+  display: inline-block
+}
+
+html.oldie .violator {
+  display: inline;
+  zoom: 1
+}
+
+html.oldie .violator {
+  vertical-align: middle
+}
+
+@-moz-document url-prefix() {
+  .violator {
+    line-height: 31px;
+    padding-top: 1px
+  }
+}
+
+.violator-compact {
+  font-size: 13px;
+  padding: 0 11px;
+  line-height: 22px
+}
+
+@-moz-document url-prefix() {
+  .violator-compact {
+    line-height: 21px;
+    padding-top: 1px
+  }
+}
+
+html.oldie, html.oldie body {
+  overflow-x: hidden
+}
+
+.section {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  min-width: 1024px;
+  padding: 96px 0 94px;
+  text-align: center
+}
+
+.section:before, .section:after {
+  content: ' ';
+  display: table
+}
+
+.section:after {
+  clear: both
+}
+
+html.oldie .section {
+  zoom: 1
+}
+
+.section.alternate {
+  background-color: #fafafa
+}
+
+.section .row {
+  margin: 0 auto
+}
+
+.section .section-headline {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 52px;
+  line-height: 1.08654;
+  font-weight: 200;
+  letter-spacing: -0.014em
+}
+
+html.oldie .section .section-headline {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section .section-headline {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section .section-headline {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section .section-headline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section .section-headline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section .section-headline {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section .section-headline {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP] .section .section-headline {
+  letter-spacing: 0
+}
+
+html[lang=zh-TW] .section .section-headline {
+  font-size: 48px;
+  line-height: 1.10417;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section .section-headline {
+  font-size: 48px;
+  line-height: 1.10417;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section .section-headline {
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: 0;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section .section-headline {
+  font-size: 63px;
+  line-height: 1.06349;
+  letter-spacing: 0
+}
+
+html[lang=ko-KR] .section .section-headline {
+  letter-spacing: 0
+}
+
+.section .section-subsection-headline {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 200;
+  letter-spacing: normal;
+  margin-bottom: 10px
+}
+
+html.oldie .section .section-subsection-headline {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section .section-subsection-headline {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section .section-subsection-headline {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section .section-subsection-headline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section .section-subsection-headline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section .section-subsection-headline {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section .section-subsection-headline {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-TW] .section .section-subsection-headline {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section .section-subsection-headline {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section .section-subsection-headline {
+  font-size: 30px;
+  line-height: 1.16667;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section .section-subsection-headline {
+  font-size: 39px;
+  line-height: 1.10256
+}
+
+.section .section-subsection-headline.drummer {
+  padding-top: 60px
+}
+
+.section .subhead {
+  margin: 0 0 11px;
+  color: #999;
+  font-size: 52px;
+  line-height: 1.08654;
+  font-weight: 200;
+  letter-spacing: -0.014em
+}
+
+html.oldie .section .subhead {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section .subhead {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section .subhead {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section .subhead {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section .subhead {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section .subhead {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section .subhead {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP] .section .subhead {
+  letter-spacing: 0
+}
+
+html[lang=zh-TW] .section .subhead {
+  font-size: 48px;
+  line-height: 1.10417;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section .subhead {
+  font-size: 48px;
+  line-height: 1.10417;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section .subhead {
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: 0;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section .subhead {
+  font-size: 63px;
+  line-height: 1.06349;
+  letter-spacing: 0
+}
+
+html[lang=ko-KR] .section .subhead {
+  letter-spacing: 0
+}
+
+.section .intro {
+  width: 740px;
+  margin: 0 auto 48px
+}
+
+.section .hero-image {
+  margin: 0 auto
+}
+
+figcaption {
+  margin: 20px auto 0;
+  width: 570px;
+  padding: 0 95px;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.29286;
+  font-weight: 400;
+  color: #666
+}
+
+html[lang=zh-TW] figcaption {
+  font-size: 12px;
+  line-height: 1.83333
+}
+
+html[lang=zh-HK] figcaption {
+  font-size: 12px;
+  line-height: 1.83333
+}
+
+html[lang=zh-CN] figcaption {
+  font-size: 12px;
+  line-height: 1.75
+}
+
+.alternate figcaption {
+  background-color: #fafafa
+}
+
+figcaption p {
+  margin-bottom: 5px
+}
+
+figcaption.wide-caption {
+  padding: 0;
+  width: 760px
+}
+
+.caption-2-line figcaption {
+  min-height: 59px
+}
+
+.caption-3-line figcaption {
+  min-height: 77px
+}
+
+.caption-4-line figcaption {
+  min-height: 95px
+}
+
+.caption-5-line figcaption {
+  min-height: 110px
+}
+
+.section-header {
+  min-width: 1024px;
+  background: -webkit-linear-gradient(top, #fff 0%, #fff 50%, #fafafa 100%);
+  background: linear-gradient(to bottom, #fff 0%, #fff 50%, #fafafa 100%)
+}
+
+.section-header .section-hero {
+  margin: 0 auto
+}
+
+.section-header .section-hero .apps-icon {
+  margin: 0 auto
+}
+
+.section-header .section-hero .apps-icon+h1 {
+  margin-top: 22px
+}
+
+.section-header .section-hero .headline.large {
+  margin-bottom: 0;
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 200;
+  letter-spacing: -0.02em
+}
+
+html.oldie .section-header .section-hero .headline.large {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section-header .section-hero .headline.large {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section-header .section-hero .headline.large {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section-header .section-hero .headline.large {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section-header .section-hero .headline.large {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section-header .section-hero .headline.large {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section-header .section-hero .headline.large {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP] .section-header .section-hero .headline.large {
+  letter-spacing: 0
+}
+
+html[lang=zh-TW] .section-header .section-hero .headline.large {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section-header .section-hero .headline.large {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section-header .section-hero .headline.large {
+  font-size: 60px;
+  line-height: 1.08333;
+  letter-spacing: 0;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section-header .section-hero .headline.large {
+  font-size: 77px;
+  line-height: 1.06494;
+  letter-spacing: 0
+}
+
+html[lang=ko-KR] .section-header .section-hero .headline.large {
+  letter-spacing: 0
+}
+
+.section-header .section-hero .subhead {
+  margin: 0 0 20px;
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 200;
+  letter-spacing: -0.02em
+}
+
+html.oldie .section-header .section-hero .subhead {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section-header .section-hero .subhead {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section-header .section-hero .subhead {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section-header .section-hero .subhead {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section-header .section-hero .subhead {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section-header .section-hero .subhead {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section-header .section-hero .subhead {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP] .section-header .section-hero .subhead {
+  letter-spacing: 0
+}
+
+html[lang=zh-TW] .section-header .section-hero .subhead {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section-header .section-hero .subhead {
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section-header .section-hero .subhead {
+  font-size: 60px;
+  line-height: 1.08333;
+  letter-spacing: 0;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section-header .section-hero .subhead {
+  font-size: 77px;
+  line-height: 1.06494;
+  letter-spacing: 0
+}
+
+html[lang=ko-KR] .section-header .section-hero .subhead {
+  letter-spacing: 0
+}
+
+.section-header .section-hero .intro {
+  width: 980px;
+  margin: 5px auto 32px;
+  font-size: 24px;
+  line-height: 1.35417;
+  font-weight: 200;
+  letter-spacing: normal
+}
+
+html.oldie .section-header .section-hero .intro {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section-header .section-hero .intro {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section-header .section-hero .intro {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section-header .section-hero .intro {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section-header .section-hero .intro {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section-header .section-hero .intro {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section-header .section-hero .intro {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-TW] .section-header .section-hero .intro {
+  font-size: 22px;
+  line-height: 1.59091;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section-header .section-hero .intro {
+  font-size: 22px;
+  line-height: 1.59091;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section-header .section-hero .intro {
+  font-size: 22px;
+  line-height: 1.54545;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section-header .section-hero .intro {
+  font-size: 24px;
+  line-height: 1.33333
+}
+
+.section-header .section-hero .hero-cta {
+  margin-bottom: 45px;
+  font-size: 24px;
+  line-height: 1.35417;
+  font-weight: 200;
+  letter-spacing: normal
+}
+
+html.oldie .section-header .section-hero .hero-cta {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .section-header .section-hero .hero-cta {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .section-header .section-hero .hero-cta {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .section-header .section-hero .hero-cta {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .section-header .section-hero .hero-cta {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .section-header .section-hero .hero-cta {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .section-header .section-hero .hero-cta {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-TW] .section-header .section-hero .hero-cta {
+  font-size: 22px;
+  line-height: 1.59091;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .section-header .section-hero .hero-cta {
+  font-size: 22px;
+  line-height: 1.59091;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .section-header .section-hero .hero-cta {
+  font-size: 22px;
+  line-height: 1.54545;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .section-header .section-hero .hero-cta {
+  font-size: 24px;
+  line-height: 1.33333
+}
+
+.section-header .section-hero .hero-cta .border-left {
+  border-left: 1px solid #999
+}
+
+.section-header .section-hero .hero-cta .left-cta {
+  padding-right: 16px
+}
+
+.section-header .section-hero .hero-cta .right-cta {
+  padding-left: 22px
+}
+
+.ipadmini {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 786px 530px;
+  height: 530px;
+  width: 786px;
+  background-image: url("/v/ios-imovie/c/images/gallery_hardware_ipad_large.png");
+  background-position: 50% 0%;
+  padding-top: 29px;
+  height: auto
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .ipadmini {
+    background-image: url("/v/ios-imovie/c/images/gallery_hardware_ipad_large_2x.png")
+  }
+}
+
+.ipadmini .hero-image {
+  min-height: 500px
+}
+
+.iphone-portrait {
+  background-repeat: no-repeat;
+  background-size: 260px 530px;
+  height: 530px;
+  width: 260px;
+  background-image: url("/v/ios-imovie/c/images/gallery_hardware_iphone_portrait_large.png");
+  background-position: 50% 0%
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .iphone-portrait {
+    background-image: url("/v/ios-imovie/c/images/gallery_hardware_iphone_portrait_large_2x.png")
+  }
+}
+
+.iphone-portrait .hero-image {
+  margin-top: 65px
+}
+
+.android-chrome body * {
+  max-height: 10000px
+}
+
+.platforms {
+  padding-top: 60px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.platforms.no-header {
+  padding-top: 100px
+}
+
+.platforms.top-border {
+  border-top: 1px #d6d6d6 solid
+}
+
+.platforms .headline-two-ways {
+  margin-bottom: 42px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.14286;
+  font-weight: 200;
+  letter-spacing: -0.01em
+}
+
+html.oldie .platforms .headline-two-ways {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .platforms .headline-two-ways {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .platforms .headline-two-ways {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .platforms .headline-two-ways {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .platforms .headline-two-ways {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .platforms .headline-two-ways {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .platforms .headline-two-ways {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP] .platforms .headline-two-ways {
+  letter-spacing: 0
+}
+
+html[lang=zh-TW] .platforms .headline-two-ways {
+  font-size: 40px;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .platforms .headline-two-ways {
+  font-size: 40px;
+  letter-spacing: 0;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .platforms .headline-two-ways {
+  font-size: 38px;
+  line-height: 1.18421;
+  letter-spacing: 0;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .platforms .headline-two-ways {
+  font-size: 51px;
+  line-height: 1.13725;
+  letter-spacing: 0
+}
+
+html[lang=ko-KR] .platforms .headline-two-ways {
+  letter-spacing: 0
+}
+
+.platforms .row {
+  margin: 0 auto;
+  padding: 0 0 80px
+}
+
+.platforms .row .large-6 {
+  width: 510px;
+  min-height: 136px
+}
+
+.platforms .row .large-6 .platforms-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin: -5px 16px 0 36px
+}
+
+html.oldie .platforms .row .large-6 .platforms-icon {
+  display: inline;
+  zoom: 1
+}
+
+.platforms .row .large-6 .platforms-icon.left-icon {
+  margin-right: 22px
+}
+
+.platforms .row .large-6 .platforms-icon.imovie-mac {
+  background-repeat: no-repeat;
+  background-size: 52px 52px;
+  height: 52px;
+  width: 52px;
+  background-image: url("/v/ios-imovie/c/images/icon_imovie_mac_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .platforms .row .large-6 .platforms-icon.imovie-mac {
+    background-image: url("/v/ios-imovie/c/images/icon_imovie_mac_large_2x.png")
+  }
+}
+
+.platforms .row .large-6 .platforms-icon.imovie-ios {
+  background-repeat: no-repeat;
+  background-size: 47px 47px;
+  height: 47px;
+  width: 47px;
+  background-image: url("/v/ios-imovie/c/images/platform_icon_ios_imovie_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .platforms .row .large-6 .platforms-icon.imovie-ios {
+    background-image: url("/v/ios-imovie/c/images/platform_icon_ios_imovie_large_2x.jpg")
+  }
+}
+
+.platforms .row .large-6.border-left {
+  border-left: 1px #d6d6d6 solid
+}
+
+.platforms .row .large-6 .platforms-body {
+  width: 350px;
+  display: inline-block
+}
+
+html.oldie .platforms .row .large-6 .platforms-body {
+  display: inline;
+  zoom: 1
+}
+
+.platforms .row .large-6 .platforms-body .platforms-title {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 200;
+  letter-spacing: normal
+}
+
+html.oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .platforms .row .large-6 .platforms-body .platforms-title {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-TW] .platforms .row .large-6 .platforms-body .platforms-title {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .platforms .row .large-6 .platforms-body .platforms-title {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .platforms .row .large-6 .platforms-body .platforms-title {
+  font-size: 30px;
+  line-height: 1.16667;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .platforms .row .large-6 .platforms-body .platforms-title {
+  font-size: 39px;
+  line-height: 1.10256
+}
+
+.platforms .row .large-6 .platforms-body .platforms-copy {
+  margin-top: 13px;
+  margin-bottom: 0
+}
+
+.gallery {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.ac-gallery {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: 1
+}
+
+.ac-gallery-content {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  margin-left: -100%;
+  background-color: #fff
+}
+
+.alternate .ac-gallery-content {
+  background-color: #fafafa
+}
+
+.ac-gallery-content:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 100%;
+  background-color: inherit;
+  z-index: -1
+}
+
+.paddlenav-wrapper {
+  position: relative;
+  z-index: 2
+}
+
+.paddlenav {
+  position: relative;
+  top: 240px
+}
+
+html.touch .paddlenav {
+  display: none
+}
+
+.paddlenav.paddlenav-ipadmini {
+  top: 265px
+}
+
+.paddlenav.paddlenav-iphone-portrait {
+  top: 265px
+}
+
+.paddlenav.paddlenav-wide .paddlenav-arrow-left {
+  left: -75px
+}
+
+.paddlenav.paddlenav-wide .paddlenav-arrow-right {
+  right: -75px
+}
+
+.paddlenav .paddlenav-arrow-right {
+  right: 0
+}
+
+.paddlenav .paddlenav-arrow-left {
+  left: 0
+}
+
+.has-modal.modal-open {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+
+.has-modal.modal-open body {
+  height: 100%;
+  overflow: hidden
+}
+
+.has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .globalheader, .has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav-wrapper, .has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav {
+  visibility: hidden
+}
+
+.has-modal.modal-open .modal {
+  visibility: visible;
+  z-index: 9999
+}
+
+.modal {
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  visibility: hidden
+}
+
+.modal .modal-close {
+  position: absolute;
+  z-index: 9999;
+  top: 25px;
+  left: 25px;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: 0
+}
+
+.modal .modal-close::after {
+  padding: 0
+}
+
+.modal .modal-close:focus, .modal .modal-close:active {
+  outline: none
+}
+
+.ac-video-player {
+  position: relative;
+  cursor: none
+}
+
+.ac-video-player:-webkit-full-screen {
+  background: #000;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1
+}
+
+.ac-video-player:-moz-full-screen {
+  background: #000;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1
+}
+
+.ac-video-player:-ms-fullscreen {
+  background: #000;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1
+}
+
+.ac-video-player:fullscreen {
+  background: #000;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1
+}
+
+.ac-video-player:-webkit-full-screen embed {
+  position: relative;
+  top: 50%;
+  z-index: 1;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.ac-video-player:-moz-full-screen embed {
+  position: relative;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%)
+}
+
+.ac-video-player:-ms-fullscreen embed {
+  position: relative;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%)
+}
+
+.ac-video-player:fullscreen embed {
+  position: relative;
+  top: 50%;
+  z-index: 1;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.ac-video-player .ac-video-media-controller {
+  width: 100%;
+  height: 100%
+}
+
+.ac-video-player .ac-video-blockade {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%
+}
+
+.ac-video-player video, .ac-video-player embed, .ac-video-player object {
+  width: 100%;
+  height: 100%
+}
+
+.ac-video-player video, .ac-video-player video img, .ac-video-player embed, .ac-video-player embed img, .ac-video-player object, .ac-video-player object img {
+  display: block;
+  outline: none
+}
+
+.ac-video-player .ac-video-controls {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  z-index: 10;
+  opacity: 0;
+  -webkit-transform: matrix(1, 0, 0, 1, -225, 0);
+  transform: matrix(1, 0, 0, 1, -225, 0);
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms
+}
+
+.oldie .ac-video-player .ac-video-controls {
+  margin-left: -225px;
+  display: none
+}
+
+.ac-video-player.user-hover {
+  cursor: default
+}
+
+.ac-video-player.user-hover .ac-video-controls {
+  opacity: 1
+}
+
+.oldie .ac-video-player.user-hover .ac-video-controls {
+  display: block
+}
+
+.ac-video-player video::cue {
+  color: #FFF;
+  background-color: #000;
+  font-family: "Helvetica Neue";
+  font-weight: bold
+}
+
+.ac-video-player .ac-video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.ac-video-player .ac-video-poster img {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+.ac-video-player .ac-video-poster.ac-video-poster-hide {
+  display: none
+}
+
+.ac-video-quicktime-download {
+  display: block;
+  margin: 0 auto auto;
+  position: absolute;
+  top: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0 !important;
+  z-index: 10011;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+  background: transparent url(/global/ac_media_player/elements/quicktime/download_quicktime_background_848x480.jpg) 50% 0 no-repeat;
+  height: 480px;
+  width: 848px
+}
+
+.ac-video-quicktime-download .ac-video-quicktime-download-title, .ac-video-quicktime-download .ac-video-quicktime-download-text, .ac-video-quicktime-download .ac-video-quicktime-download-button {
+  display: block;
+  z-index: 10012;
+  cursor: pointer;
+  display: block;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+  position: absolute
+}
+
+.ac-video-quicktime-download .ac-video-quicktime-download-title {
+  color: #000;
+  padding-bottom: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  left: 224px;
+  top: 285px
+}
+
+.ac-video-quicktime-download .ac-video-quicktime-download-text {
+  color: #8c8c8c;
+  padding-bottom: 5px;
+  font-size: 16px;
+  left: 224px;
+  text-align: left;
+  top: 318px;
+  width: 315px
+}
+
+.ac-video-quicktime-download .ac-video-quicktime-download-button {
+  background: transparent url(/global/ac_media_player/elements/quicktime/download_quicktime_button.png) 50% 0 no-repeat;
+  _background-image: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/global/ac_media_player/elements/quicktime/download_quicktime_button.png', sizingMethod='crop');
+  _width: 74px;
+  _margin: 0 auto;
+  color: #FFF;
+  display: block;
+  font-size: 10px !important;
+  height: 32px;
+  line-height: 21px !important;
+  margin-top: 10px;
+  _padding-top: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  left: 551px;
+  top: 346px;
+  width: 74px
+}
+
+body.cursor-pointer, body.cursor-pointer * {
+  cursor: pointer
+}
+
+.control-bar-skin-default, .control-bar-skin-default * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none
+}
+
+.control-bar-skin-default {
+  font-size: 16px;
+  line-height: 1em
+}
+
+.control-bar-skin-default.inactive .controls-inactive-container {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: transparent;
+  width: 100%;
+  height: 100%
+}
+
+.control-bar-skin-default {
+  background: url("/v/ios-imovie/c/built/assets/ac-video-controls/ac_video_background.png") no-repeat;
+  height: 70px;
+  width: 450px;
+  position: relative
+}
+
+.control-bar-skin-default .ac-slider-input-type-range {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  visibility: hidden
+}
+
+.control-bar-skin-default .ac-slider-container {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.control-bar-skin-default .ac-slider-container:hover {
+  cursor: pointer
+}
+
+.control-bar-skin-default .ac-slider-container .ac-slider-runnable-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+
+.control-bar-skin-default .ac-slider-container .ac-slider-inner-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.control-bar-skin-default .ac-slider-inner-track {
+  overflow: hidden;
+  z-index: 1
+}
+
+.control-bar-skin-default .ac-slider-scrubbed {
+  position: absolute;
+  top: 50%;
+  z-index: 1
+}
+
+.control-bar-skin-default .ac-slider-thumb {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 3;
+  box-sizing: border-box
+}
+
+.control-bar-skin-default .ac-slider-thumb:hover {
+  cursor: pointer
+}
+
+.control-bar-skin-default .controls-inactive-container {
+  display: none;
+  z-index: -1
+}
+
+.control-bar-skin-default .left, .control-bar-skin-default .right {
+  z-index: 2
+}
+
+.control-bar-skin-default .left {
+  text-align: left
+}
+
+.control-bar-skin-default .right {
+  text-align: right
+}
+
+.control-bar-skin-default .center {
+  z-index: 1
+}
+
+.control-bar-skin-default .left.row-1 {
+  width: 100px;
+  position: absolute;
+  top: 14px;
+  left: 20px
+}
+
+.control-bar-skin-default .left.row-1 * {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: middle
+}
+
+.control-bar-skin-default .center.row-1 {
+  width: 250px;
+  border-left: solid 100px transparent;
+  border-right: solid 100px transparent;
+  text-align: center;
+  position: absolute;
+  top: 12px;
+  left: 0
+}
+
+.control-bar-skin-default .right.row-1 {
+  width: 100px;
+  position: absolute;
+  top: 14px;
+  right: 19px
+}
+
+.control-bar-skin-default .left.row-2 {
+  width: 45px;
+  position: absolute;
+  bottom: 15px;
+  left: 20px
+}
+
+.control-bar-skin-default .center.row-2 {
+  width: 320px;
+  border: solid 65px transparent;
+  border-width: 0 65px;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  left: 0
+}
+
+.control-bar-skin-default .right.row-2 {
+  width: 45px;
+  position: absolute;
+  bottom: 15px;
+  right: 20px
+}
+
+.control-bar-skin-default .controls-button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-indent: 110%;
+  *text-indent: 0;
+  *line-height: 0;
+  *font-size: 0;
+  color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent
+}
+
+.control-bar-skin-default .controls-button:hover {
+  cursor: pointer
+}
+
+.control-bar-skin-default .controls-min-volume-button {
+  *padding-left: 100%;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -128px -474px;
+  width: 13px;
+  height: 13px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-min-volume-button {
+    width: 14px;
+    height: 15px;
+    background-size: 263px 244px;
+    background-position: -130px -156px
+  }
+}
+
+.control-bar-skin-default .controls-min-volume-button:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -191px -474px;
+  width: 13px;
+  height: 13px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-min-volume-button:hover {
+    width: 14px;
+    height: 15px;
+    background-size: 263px 244px;
+    background-position: -169px -156px
+  }
+}
+
+.control-bar-skin-default .controls-volume-level-indicator {
+  width: 50px;
+  height: 20px
+}
+
+.control-bar-skin-default .controls-max-volume-button, .control-bar-skin-default .controls-play-pause-button, .control-bar-skin-default .controls-text-tracks-toggle-button, .control-bar-skin-default .controls-full-screen-button {
+  *padding-left: 100%
+}
+
+.control-bar-skin-default .controls-max-volume-button {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px -144px;
+  width: 19px;
+  height: 19px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-max-volume-button {
+    width: 19px;
+    height: 16px;
+    background-size: 263px 244px;
+    background-position: -42px -156px
+  }
+}
+
+.control-bar-skin-default .controls-max-volume-button:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px -213px;
+  width: 19px;
+  height: 19px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-max-volume-button:hover {
+    width: 19px;
+    height: 16px;
+    background-size: 263px 244px;
+    background-position: -86px -156px
+  }
+}
+
+.control-bar-skin-default .controls-play-pause-button {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -420px -314px;
+  width: 28px;
+  height: 28px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-play-pause-button {
+    width: 29.5px;
+    height: 29.5px;
+    background-size: 263px 244px;
+    background-position: -103.5px 0px
+  }
+}
+
+.control-bar-skin-default .controls-play-pause-button:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: 0px -396px;
+  width: 28px;
+  height: 28px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-play-pause-button:hover {
+    width: 29.5px;
+    height: 29.5px;
+    background-size: 263px 244px;
+    background-position: -49px 0px
+  }
+}
+
+.control-bar-skin-default .controls-play-pause-button.is-playing {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -420px -158px;
+  width: 28px;
+  height: 28px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-play-pause-button.is-playing {
+    width: 24px;
+    height: 29.5px;
+    background-size: 263px 244px;
+    background-position: 0px -54.5px
+  }
+}
+
+.control-bar-skin-default .controls-play-pause-button.is-playing:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -420px -236px;
+  width: 28px;
+  height: 28px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-play-pause-button.is-playing:hover {
+    width: 24px;
+    height: 29.5px;
+    background-size: 263px 244px;
+    background-position: 0px 0px
+  }
+}
+
+.control-bar-skin-default .controls-text-tracks-toggle-button.no-text-tracks, .control-bar-skin-default .controls-text-tracks-off-button.no-text-tracks, .control-bar-skin-default .controls-text-tracks-on-button.no-text-tracks {
+  display: none
+}
+
+.control-bar-skin-default .controls-text-tracks-toggle-button {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -155px -396px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-text-tracks-toggle-button {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -49px -54.5px
+  }
+}
+
+.control-bar-skin-default .controls-text-tracks-toggle-button:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px -72px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-text-tracks-toggle-button:hover {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -52px -109px
+  }
+}
+
+.control-bar-skin-default .controls-text-tracks-toggle-button.text-tracks-visible {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -386px -396px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-text-tracks-toggle-button.text-tracks-visible {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -101px -54.5px
+  }
+}
+
+.control-bar-skin-default .controls-volume-level-indicator {
+  width: 50px;
+  height: 25px
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-runnable-track {
+  overflow: visible;
+  border-radius: 3px;
+  background-color: #3c3c3c;
+  background-image: -webkit-linear-gradient(top, #444, #333);
+  background-image: linear-gradient(to bottom, #444, #333);
+  border-top: solid 1px #2a2a2a;
+  border-bottom: solid 1px #666;
+  height: 6px;
+  margin-top: 7px
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-scrubbed {
+  background-color: #1a1a1a;
+  background-image: -webkit-linear-gradient(top, #222, #111);
+  background-image: linear-gradient(to bottom, #222, #111);
+  width: 50px;
+  position: absolute;
+  left: -50px;
+  height: 100%;
+  margin-top: -3px;
+  top: 50%
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-inner-track {
+  overflow: hidden;
+  border-radius: 3px
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb, .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
+  margin-top: -8px;
+  height: 16px;
+  width: 12px
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
+  position: absolute;
+  bottom: 0px;
+  right: -2px;
+  z-index: 2;
+  width: 16px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px -282px;
+  width: 16px;
+  height: 16px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
+    width: 17px;
+    height: 17px;
+    background-size: 263px 244px;
+    background-position: -158px -94px
+  }
+}
+
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px -348px;
+  width: 16px;
+  height: 16px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background:hover {
+    width: 17px;
+    height: 17px;
+    background-size: 263px 244px;
+    background-position: 0px -156px
+  }
+}
+
+.control-bar-skin-default .controls-full-screen-button {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -499px 0px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+.control-bar-skin-default .controls-full-screen-button.fullscreen-unsupported {
+  display: none
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-full-screen-button {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -104px -109px
+  }
+}
+
+.control-bar-skin-default .controls-full-screen-button:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -309px -396px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-full-screen-button:hover {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -158px 0px
+  }
+}
+
+.control-bar-skin-default .controls-full-screen-button.is-fullscreen {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -78px -396px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-full-screen-button.is-fullscreen {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: -158px -47px
+  }
+}
+
+.control-bar-skin-default .controls-full-screen-button.is-fullscreen:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -232px -396px;
+  width: 27px;
+  height: 22px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-full-screen-button.is-fullscreen:hover {
+    width: 27px;
+    height: 22px;
+    background-size: 263px 244px;
+    background-position: 0px -109px
+  }
+}
+
+.control-bar-skin-default .controls-progress-indicator {
+  position: relative;
+  top: 4px
+}
+
+.control-bar-skin-default .controls-elapsed-time-indicator, .control-bar-skin-default .controls-remaining-time-indicator {
+  color: #d5d5d5;
+  font: bold 9px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  *font-size: 8px;
+  text-shadow: #000 1px 1px 2px;
+  word-spacing: 0px
+}
+
+.control-bar-skin-default .controls-elapsed-time-indicator .label, .control-bar-skin-default .controls-remaining-time-indicator .label {
+  display: none
+}
+
+.control-bar-skin-default .controls-progress-indicator {
+  width: 100%;
+  height: 20px;
+  top: 4px;
+  overflow: hidden;
+  outline: none
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-runnable-track {
+  background: #4a4a4a;
+  border-radius: 3px;
+  height: 10px;
+  top: 50%;
+  margin-top: -4.5px
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-inner-track {
+  border-radius: 3px;
+  overflow: hidden
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-scrubbed {
+  background-color: #39b0f2;
+  background-image: -webkit-linear-gradient(top, #5acbf3, #1894f1);
+  background-image: linear-gradient(to bottom, #5acbf3, #1894f1);
+  height: 11px;
+  top: 50%;
+  margin-top: -5px;
+  left: -314.5px;
+  width: 320px
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb {
+  width: 9px
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb, .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
+  height: 14px;
+  margin-top: -6.25px
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: 0px -474px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  width: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -7px;
+  margin-left: -6px;
+  z-index: 2
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
+    width: 14.5px;
+    height: 14.5px;
+    background-size: 263px 244px;
+    background-position: -210px -39.5px
+  }
+}
+
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background:hover {
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png");
+  background-position: -64px -474px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+  .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background:hover {
+    width: 14.5px;
+    height: 14.5px;
+    background-size: 263px 244px;
+    background-position: -210px 0px
+  }
+}
+
+.modal {
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+
+.ac-player-tablet .modal {
+  display: none
+}
+
+.has-modal.modal-open .modal {
+  display: block
+}
+
+.modal .modal-close {
+  top: 20px;
+  left: 20px;
+  width: 44px;
+  height: 44px;
+  font-family: 'Apple Icons';
+  text-align: center;
+  color: #666
+}
+
+.modal .modal-close:after, .modal .modal-close .icon-htc {
+  line-height: 44px;
+  padding: 0
+}
+
+.modal .modal-close:hover {
+  color: #333
+}
+
+.modal .modal-content {
+  margin-left: -640px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1280px;
+  height: 100%;
+  z-index: 1
+}
+
+@media only screen and (max-width: 1280px) {
+  .modal .modal-content {
+    left: 0;
+    margin-left: 0;
+    width: 100%
+  }
+}
+
+.modal .ac-video-player, .modal .ac-video-nosupport {
+  margin-top: -28.125%;
+  padding-bottom: 56.25%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: 1
+}
+
+html.oldie .modal .ac-video-player, html.oldie .modal .ac-video-nosupport {
+  margin-top: -360px;
+  padding-bottom: 0;
+  height: 720px
+}
+
+.modal .ac-video-media-controller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.ac-player-handheld .ac-video-player {
+  position: fixed;
+  z-index: -1;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  top: 50%;
+  left: 50%
+}
+
+.ac-player-handheld .ac-video-player.player-fullscreen {
+  visibility: visible
+}
+
+body>object {
+  display: none
+}
+
+.page-imovie .subsection-subheadline {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 200;
+  letter-spacing: normal
+}
+
+html.oldie .page-imovie .subsection-subheadline {
+  font-weight: normal;
+  font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ja-JP].oldie .page-imovie .subsection-subheadline {
+  font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-CN].oldie .page-imovie .subsection-subheadline {
+  font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-TW].oldie .page-imovie .subsection-subheadline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK].oldie .page-imovie .subsection-subheadline {
+  font-family: "MHei 200", "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH].oldie .page-imovie .subsection-subheadline {
+  font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=ko-KR].oldie .page-imovie .subsection-subheadline {
+  font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+html[lang=zh-TW] .page-imovie .subsection-subheadline {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-HK] .page-imovie .subsection-subheadline {
+  font-size: 30px;
+  font-family: "MHei", "Helvetica Neue", "Helvetica", "STHeitiTC-Light", "Arial", sans-serif
+}
+
+html[lang=zh-CN] .page-imovie .subsection-subheadline {
+  font-size: 30px;
+  line-height: 1.16667;
+  font-family: "PingHei", "Helvetica Neue", "Helvetica", "STHeitiSC-Light", "Arial", sans-serif
+}
+
+html[lang=th-TH] .page-imovie .subsection-subheadline {
+  font-size: 39px;
+  line-height: 1.10256
+}
+
+.page-imovie .section-header .apps-icon {
+  background-repeat: no-repeat;
+  background-size: 74px 74px;
+  height: 74px;
+  width: 74px;
+  background-image: url("/v/ios-imovie/c/images/ios_imovie_icon_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-header .apps-icon {
+    background-image: url("/v/ios-imovie/c/images/ios_imovie_icon_large_2x.png")
+  }
+}
+
+.page-imovie .section-header .intro {
+  width: 900px;
+  margin-top: 30px;
+  margin-bottom: 26px
+}
+
+.page-imovie .section-header .intro+.intro {
+  margin-bottom: 55px
+}
+
+.page-imovie .section-header .hero-image {
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: 1000px 709px;
+  height: 709px;
+  width: 1000px;
+  background-image: url("/v/ios-imovie/c/images/masterpiece_hero_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-header .hero-image {
+    background-image: url("/v/ios-imovie/c/images/masterpiece_hero_large_2x.png")
+  }
+}
+
+.page-imovie .section-header .us-hero-image {
+  margin: 0 auto 50px;
+  background-repeat: no-repeat;
+  background-size: 1000px 709px;
+  height: 709px;
+  width: 1000px;
+  background-image: url("/v/ios-imovie/c/images/masterpiece_hero_update_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-header .us-hero-image {
+    background-image: url("/v/ios-imovie/c/images/masterpiece_hero_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-header .hero-cta {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal
+}
+
+html[lang=zh-TW] .page-imovie .section-header .hero-cta {
+  font-size: 16px;
+  line-height: 1.8125
+}
+
+html[lang=zh-HK] .page-imovie .section-header .hero-cta {
+  font-size: 16px;
+  line-height: 1.8125
+}
+
+html[lang=zh-CN] .page-imovie .section-header .hero-cta {
+  font-size: 16px;
+  line-height: 1.75
+}
+
+.page-imovie .section-header .hero-cta p {
+  margin-bottom: 8px
+}
+
+.page-imovie .section-header .hero-cta .icon-downloadalt {
+  padding-left: 20px
+}
+
+html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
+  display: none
+}
+
+.page-imovie .section-header .hero-cta a:hover {
+  text-decoration: none
+}
+
+.page-imovie .section-header .hero-cta span:hover {
+  text-decoration: underline
+}
+
+.page-imovie .section-browse .intro {
+  width: 670px
+}
+
+.page-imovie .section-browse .browse-scenes {
+  background-repeat: no-repeat;
+  background-size: 908px 554px;
+  height: 554px;
+  width: 908px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/browse_scenes_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-browse .browse-scenes {
+    background-image: url("/v/ios-imovie/c/images/browse_scenes_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-browse .paddlenav {
+  top: 277px
+}
+
+.page-imovie .section-browse .paddlenav .paddlenav-arrow {
+  top: 0
+}
+
+.page-imovie .section-browse .browse-share {
+  background-repeat: no-repeat;
+  background-size: 908px 554px;
+  height: 554px;
+  width: 908px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/browse_share_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-browse .browse-share {
+    background-image: url("/v/ios-imovie/c/images/browse_share_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-simplicity .intro {
+  width: 690px
+}
+
+.page-imovie .section-simplicity .movies-editing {
+  background-repeat: no-repeat;
+  background-size: 980px 597px;
+  height: 597px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/movies_editing_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .movies-editing {
+    background-image: url("/v/ios-imovie/c/images/movies_editing_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .movies-effects {
+  background-repeat: no-repeat;
+  background-size: 980px 597px;
+  height: 597px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/movies_effects_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .movies-effects {
+    background-image: url("/v/ios-imovie/c/images/movies_effects_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .us-movies-effects {
+  background-repeat: no-repeat;
+  background-size: 980px 597px;
+  height: 597px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/movies_effects_update_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .us-movies-effects {
+    background-image: url("/v/ios-imovie/c/images/movies_effects_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .movies-audio {
+  background-repeat: no-repeat;
+  background-size: 980px 597px;
+  height: 597px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/movies_audio_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .movies-audio {
+    background-image: url("/v/ios-imovie/c/images/movies_audio_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .us-movies-audio {
+  background-repeat: no-repeat;
+  background-size: 980px 597px;
+  height: 597px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/movies_audio_update_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .us-movies-audio {
+    background-image: url("/v/ios-imovie/c/images/movies_audio_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .features {
+  background-repeat: no-repeat;
+  background-size: 994px 709px;
+  height: 709px;
+  width: 994px;
+  background-image: url("/v/ios-imovie/c/images/new_features_large.png");
+  margin-left: -392px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .features {
+    background-image: url("/v/ios-imovie/c/images/new_features_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .us-features {
+  background-repeat: no-repeat;
+  background-size: 994px 709px;
+  height: 709px;
+  width: 994px;
+  background-image: url("/v/ios-imovie/c/images/new_features_update_large.png");
+  margin-left: -392px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-simplicity .us-features {
+    background-image: url("/v/ios-imovie/c/images/new_features_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-simplicity .paddlenav {
+  top: 298.5px
+}
+
+.page-imovie .section-simplicity .paddlenav .paddlenav-arrow {
+  top: 0
+}
+
+.page-imovie .section-simplicity .row .new-features {
+  width: 980px;
+  margin-top: 70px;
+  text-align: left
+}
+
+.page-imovie .section-simplicity .row .new-features .subsection-subheadline {
+  margin-top: 20px
+}
+
+.page-imovie .section-simplicity .row .new-features .subsection-subheadline, .page-imovie .section-simplicity .row .new-features p {
+  padding-right: 20px;
+  margin-left: -20px
+}
+
+.page-imovie .section-trailers .trailers-one {
+  background-repeat: no-repeat;
+  background-size: 626px 470px;
+  height: 470px;
+  width: 626px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/gallery_trailers_1_large.jpg");
+  margin-bottom: 50px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-trailers .trailers-one {
+    background-image: url("/v/ios-imovie/c/images/gallery_trailers_1_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-trailers .trailers-two {
+  background-repeat: no-repeat;
+  background-size: 626px 470px;
+  height: 470px;
+  width: 626px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_large.jpg");
+  margin-bottom: 50px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-trailers .trailers-two {
+    background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-trailers .us-trailers-two {
+  background-repeat: no-repeat;
+  background-size: 626px 470px;
+  height: 470px;
+  width: 626px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_update_large.png");
+  margin-bottom: 50px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-trailers .us-trailers-two {
+    background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-trailers figcaption {
+  width: 590px
+}
+
+.page-imovie .section-theater .intro {
+  width: 730px
+}
+
+.page-imovie .section-theater .hero-image {
+  background-repeat: no-repeat;
+  background-size: 995px 579px;
+  height: 579px;
+  width: 995px;
+  background-image: url("/v/ios-imovie/c/images/imovie_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-theater .hero-image {
+    background-image: url("/v/ios-imovie/c/images/imovie_large_2x.png")
+  }
+}
+
+.page-imovie .section-theater .us-hero-image {
+  background-repeat: no-repeat;
+  background-size: 995px 579px;
+  height: 579px;
+  width: 995px;
+  background-image: url("/v/ios-imovie/c/images/imovie_update_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-theater .us-hero-image {
+    background-image: url("/v/ios-imovie/c/images/imovie_update_large_2x.png")
+  }
+}
+
+.page-imovie .section-theater .image-theater {
+  background-repeat: no-repeat;
+  background-size: 995px 579px;
+  height: 579px;
+  width: 995px;
+  background-image: url("/v/ios-imovie/c/images/theater_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-theater .image-theater {
+    background-image: url("/v/ios-imovie/c/images/theater_large_2x.png")
+  }
+}
+
+.page-imovie .section-theater .paddlenav {
+  top: 289.5px
+}
+
+.page-imovie .section-theater .paddlenav .paddlenav-arrow {
+  top: 0
+}
+
+.page-imovie .section-theater .gallery-4-view-1 figcaption {
+  width: 618px
+}
+
+.page-imovie .section-theater .gallery-4-view-2 figcaption {
+  width: 700px
+}
+
+.page-imovie .section-share h3 {
+  margin-bottom: 5px
+}
+
+.page-imovie .section-share .share-iphone {
+  width: 570px;
+  margin: 0 auto
+}
+
+.page-imovie .section-share .share-iphone .offset {
+  margin-right: 50px
+}
+
+.page-imovie .section-share .share-release-one {
+  background-repeat: no-repeat;
+  background-size: 225px 400px;
+  height: 400px;
+  width: 225px;
+  background-image: url("/v/ios-imovie/c/images/gallery_share_1_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-share .share-release-one {
+    background-image: url("/v/ios-imovie/c/images/gallery_share_1_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-share .share-release-two {
+  background-repeat: no-repeat;
+  background-size: 225px 400px;
+  height: 400px;
+  width: 225px;
+  background-image: url("/v/ios-imovie/c/images/gallery_share_2_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-share .share-release-two {
+    background-image: url("/v/ios-imovie/c/images/gallery_share_2_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-share .share-play-one {
+  background-repeat: no-repeat;
+  background-size: 225px 400px;
+  height: 400px;
+  width: 225px;
+  background-image: url("/v/ios-imovie/c/images/gallery_share_3_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-share .share-play-one {
+    background-image: url("/v/ios-imovie/c/images/gallery_share_3_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-share .share-play-two {
+  background-repeat: no-repeat;
+  background-size: 225px 400px;
+  height: 400px;
+  width: 225px;
+  background-image: url("/v/ios-imovie/c/images/gallery_share_4_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-share .share-play-two {
+    background-image: url("/v/ios-imovie/c/images/gallery_share_4_large_2x.jpg")
+  }
+}
+
+.page-imovie .section-extension {
+  padding: 0
+}
+
+.page-imovie .section-extension .section-content {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 72px;
+  text-align: left
+}
+
+.page-imovie .section-extension .section-content .large-6 {
+  margin-left: 40px
+}
+
+.page-imovie .section-extension .section-content .large-5 {
+  margin-left: 20px
+}
+
+.page-imovie .section-extension .section-content h2 {
+  margin-top: 25px
+}
+
+.page-imovie .section-extension .section-content p {
+  padding-right: 19px;
+  margin-bottom: 0
+}
+
+.page-imovie .section-extension .image-extension {
+  background-repeat: no-repeat;
+  background-size: 674px 444px;
+  height: 444px;
+  width: 674px;
+  background-image: url("/v/ios-imovie/c/images/extensions_large.png");
+  margin-top: 22px;
+  margin-left: -65px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .page-imovie .section-extension .image-extension {
+    background-image: url("/v/ios-imovie/c/images/extensions_large_2x.png")
+  }
+}
+
+.oldie .dotnav {
+  margin-top: 1px
+}
+
+.oldie #make-movies-gallery .dotnav, .oldie #theater-gallery .dotnav, .oldie #share-gallery .dotnav {
+  margin-top: 10px
+}
