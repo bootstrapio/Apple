@@ -5199,7 +5199,7 @@
       n = t(135);
     e.exports = new class extends s {
       constructor() {
-        super(), this.hasLoaded = !1, this.sources = ["BrokenBrush - 32", "BrokenBrush-64", "color-pencil-16", "GelPen-6", "GelPen-10", "GelPen-15", "GelPen-12", "GelPen-20", "Highlighter-16", "Highlighter-32", "Highlighter-64", "Highlighter-96", "Highlighter-128"], this.brushCount = this.sources.length, this.brushes = {}
+        super(), this.hasLoaded = !1, this.sources = ["BrokenBrush-32", "BrokenBrush-64", "color-pencil-16", "GelPen-6", "GelPen-10", "GelPen-15", "GelPen-12", "GelPen-20", "Highlighter-16", "Highlighter-32", "Highlighter-64", "Highlighter-96", "Highlighter-128"], this.brushCount = this.sources.length, this.brushes = {}
       }
       load() {
         requestAnimationFrame(() => {

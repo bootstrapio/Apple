@@ -6,7 +6,10 @@
   background-image: url("/v/ios/photos/b/images/editing_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-editing {
     background-image: url("/v/ios/photos/b/images/editing_large_2x.png")
   }
@@ -22,7 +25,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-editing {
     background-image: url("/v/ios/photos/b/images/editing_medium_2x.png")
   }
@@ -36,7 +41,10 @@
   background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-liveedit-loops-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_large_2x.jpg")
   }
@@ -52,7 +60,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-liveedit-loops-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_medium_2x.jpg")
   }
@@ -68,7 +78,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-liveedit-loops-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_small_2x.jpg")
   }
@@ -82,7 +94,10 @@
   background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_large_2x.jpg")
   }
@@ -98,7 +113,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_medium_2x.jpg")
   }
@@ -114,7 +131,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_small_2x.jpg")
   }
@@ -128,7 +147,10 @@
   background-image: url("/v/ios/photos/b/images/liveedit_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-liveedit {
     background-image: url("/v/ios/photos/b/images/liveedit_large_2x.png")
   }
@@ -144,7 +166,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-liveedit {
     background-image: url("/v/ios/photos/b/images/liveedit_medium_2x.png")
   }
@@ -160,7 +184,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-liveedit {
     background-image: url("/v/ios/photos/b/images/liveedit_small_2x.png")
   }
@@ -174,7 +200,10 @@
   background-image: url("/v/ios/photos/b/images/mostloved_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-mostloved {
     background-image: url("/v/ios/photos/b/images/mostloved_large_2x.jpg")
   }
@@ -190,7 +219,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-mostloved {
     background-image: url("/v/ios/photos/b/images/mostloved_medium_2x.jpg")
   }
@@ -206,7 +237,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-mostloved {
     background-image: url("/v/ios/photos/b/images/mostloved_small_2x.jpg")
   }
@@ -220,7 +253,10 @@
   background-image: url("/v/ios/photos/b/images/outside_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-outside {
     background-image: url("/v/ios/photos/b/images/outside_large_2x.png")
   }
@@ -236,7 +272,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-outside {
     background-image: url("/v/ios/photos/b/images/outside_medium_2x.png")
   }
@@ -252,7 +290,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-outside {
     background-image: url("/v/ios/photos/b/images/outside_small_2x.png")
   }
@@ -266,7 +306,10 @@
   background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-liveedit-bounce-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_large_2x.jpg")
   }
@@ -282,7 +325,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-liveedit-bounce-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_medium_2x.jpg")
   }
@@ -298,7 +343,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-liveedit-bounce-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_small_2x.jpg")
   }
@@ -312,7 +359,10 @@
   background-image: url("/v/ios/photos/b/images/icloud_library_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-icloud-library {
     background-image: url("/v/ios/photos/b/images/icloud_library_large_2x.png")
   }
@@ -328,7 +378,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-icloud-library {
     background-image: url("/v/ios/photos/b/images/icloud_library_medium_2x.png")
   }
@@ -344,7 +396,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-icloud-library {
     background-image: url("/v/ios/photos/b/images/icloud_library_small_2x.png")
   }
@@ -360,7 +414,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-photos-editing {
     background-image: url("/v/ios/photos/b/images/photos_editing_medium_2x.png")
   }
@@ -376,7 +432,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-search-people {
     background-image: url("/v/ios/photos/b/images/search_people_small_2x.jpg")
   }
@@ -390,7 +448,10 @@
   background-image: url("/v/ios/photos/b/images/search_photos_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-search-photos {
     background-image: url("/v/ios/photos/b/images/search_photos_large_2x.jpg")
   }
@@ -406,7 +467,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-search-photos {
     background-image: url("/v/ios/photos/b/images/search_photos_medium_2x.jpg")
   }
@@ -420,7 +483,10 @@
   background-image: url("/v/ios/photos/b/images/hero_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero {
     background-image: url("/v/ios/photos/b/images/hero_large_2x.png")
   }
@@ -436,7 +502,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero {
     background-image: url("/v/ios/photos/b/images/hero_medium_2x.png")
   }
@@ -452,7 +520,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero {
     background-image: url("/v/ios/photos/b/images/hero_small_2x.png")
   }
@@ -468,7 +538,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-search-places {
     background-image: url("/v/ios/photos/b/images/search_places_small_2x.jpg")
   }
@@ -484,7 +556,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-search-things {
     background-image: url("/v/ios/photos/b/images/search_things_small_2x.jpg")
   }
@@ -498,7 +572,10 @@
   background-image: url("/v/ios/photos/b/images/hero_icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_large_2x.png")
   }
@@ -514,7 +591,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_medium_2x.png")
   }
@@ -530,7 +609,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_small_2x.png")
   }
@@ -544,7 +625,10 @@
   background-image: url("/v/ios/photos/b/images/share_everywhere_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-share-everywhere {
     background-image: url("/v/ios/photos/b/images/share_everywhere_large_2x.png")
   }
@@ -560,7 +644,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-share-everywhere {
     background-image: url("/v/ios/photos/b/images/share_everywhere_medium_2x.png")
   }
@@ -576,7 +662,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-share-everywhere {
     background-image: url("/v/ios/photos/b/images/share_everywhere_small_2x.png")
   }
@@ -590,7 +678,10 @@
   background-image: url("/v/ios/photos/b/images/hardware_animation_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hardware-animation {
     background-image: url("/v/ios/photos/b/images/hardware_animation_large_2x.png")
   }
@@ -606,7 +697,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hardware-animation {
     background-image: url("/v/ios/photos/b/images/hardware_animation_medium_2x.png")
   }
@@ -622,7 +715,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hardware-animation {
     background-image: url("/v/ios/photos/b/images/hardware_animation_small_2x.png")
   }
@@ -636,7 +731,10 @@
   background-image: url("/v/ios/photos/b/images/share_favorite_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-share-favorite {
     background-image: url("/v/ios/photos/b/images/share_favorite_large_2x.png")
   }
@@ -652,7 +750,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-share-favorite {
     background-image: url("/v/ios/photos/b/images/share_favorite_medium_2x.png")
   }
@@ -668,7 +768,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-share-favorite {
     background-image: url("/v/ios/photos/b/images/share_favorite_small_2x.png")
   }
@@ -682,7 +784,10 @@
   background-image: url("/v/ios/photos/b/images/hardware_animation_shadow_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hardware-animation-shadow {
     background-image: url("/v/ios/photos/b/images/hardware_animation_shadow_large_2x.png")
   }
@@ -698,7 +803,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hardware-animation-shadow {
     background-image: url("/v/ios/photos/b/images/hardware_animation_shadow_medium_2x.png")
   }
@@ -714,7 +821,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hardware-animation-shadow {
     background-image: url("/v/ios/photos/b/images/hardware_animation_shadow_small_2x.png")
   }
@@ -728,7 +837,10 @@
   background-image: url("/v/ios/photos/b/images/share_icloud_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-share-icloud {
     background-image: url("/v/ios/photos/b/images/share_icloud_large_2x.png")
   }
@@ -744,7 +856,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-share-icloud {
     background-image: url("/v/ios/photos/b/images/share_icloud_medium_2x.png")
   }
@@ -760,7 +874,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-share-icloud {
     background-image: url("/v/ios/photos/b/images/share_icloud_small_2x.png")
   }
@@ -774,7 +890,10 @@
   background-image: url("/v/ios/photos/b/images/filters_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-filters {
     background-image: url("/v/ios/photos/b/images/filters_large_2x.png")
   }
@@ -790,7 +909,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-filters {
     background-image: url("/v/ios/photos/b/images/filters_medium_2x.png")
   }
@@ -806,7 +927,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-filters {
     background-image: url("/v/ios/photos/b/images/filters_small_2x.png")
   }
@@ -820,7 +943,10 @@
   background-image: url("/v/ios/photos/b/images/share_messages_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-share-messages {
     background-image: url("/v/ios/photos/b/images/share_messages_large_2x.png")
   }
@@ -836,7 +962,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-share-messages {
     background-image: url("/v/ios/photos/b/images/share_messages_medium_2x.png")
   }
@@ -852,7 +980,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-share-messages {
     background-image: url("/v/ios/photos/b/images/share_messages_small_2x.png")
   }
@@ -868,7 +998,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-smartadjustments {
     background-image: url("/v/ios/photos/b/images/smartadjustments_small_2x.png")
   }
@@ -885,22 +1017,52 @@ body {
   padding: 0
 }
 
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button {
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
   margin: 0;
   padding: 0
 }
 
-pre, code, address, caption, th, figcaption {
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
   font-size: 1em;
   font-weight: normal;
   font-style: normal
 }
 
-fieldset, iframe, img {
+fieldset,
+iframe,
+img {
   border: 0
 }
 
-caption, th {
+caption,
+th {
   text-align: left
 }
 
@@ -909,11 +1071,25 @@ table {
   border-spacing: 0
 }
 
-article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
   display: block
 }
 
-audio, canvas, video, progress {
+audio,
+canvas,
+video,
+progress {
   display: inline-block;
   vertical-align: baseline
 }
@@ -934,32 +1110,63 @@ button:disabled {
   cursor: default
 }
 
-a:focus, input:focus, textarea:focus, select:focus, button:focus, [tabindex]:focus {
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+[tabindex]:focus {
   outline: 3px solid #c1e0fe;
   outline: 3px solid rgba(131, 192, 253, 0.5);
   outline-offset: 1px
 }
 
-a:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), a:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), input:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), input:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), textarea:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), textarea:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), select:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), select:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), [tabindex]:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), [tabindex]:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+a:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+a:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+input:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+input:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+textarea:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+textarea:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+select:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+select:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+[tabindex]:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+[tabindex]:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   outline: none
 }
 
-a::-moz-focus-inner, input::-moz-focus-inner, textarea::-moz-focus-inner, select::-moz-focus-inner, button::-moz-focus-inner, [tabindex]::-moz-focus-inner {
+a::-moz-focus-inner,
+input::-moz-focus-inner,
+textarea::-moz-focus-inner,
+select::-moz-focus-inner,
+button::-moz-focus-inner,
+[tabindex]::-moz-focus-inner {
   border: 0;
   padding: 0
 }
 
 @media print {
-  body, #main, #content {
+
+  body,
+  #main,
+  #content {
     color: #000
   }
 
-  a, a:link, a:visited {
+  a,
+  a:link,
+  a:visited {
     color: #000;
     text-decoration: none
   }
 
-  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide {
+  #globalheader,
+  #globalfooter,
+  #directorynav,
+  #tabs,
+  .noprint,
+  .hide {
     display: none
   }
 }
@@ -1049,7 +1256,11 @@ body:lang(zh) {
   line-height: 1.82353
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -1059,7 +1270,11 @@ body, input, textarea, select, button {
   text-align: left
 }
 
-body:lang(tr-TR), input:lang(tr-TR), textarea:lang(tr-TR), select:lang(tr-TR), button:lang(tr-TR) {
+body:lang(tr-TR),
+input:lang(tr-TR),
+textarea:lang(tr-TR),
+select:lang(tr-TR),
+button:lang(tr-TR) {
   -webkit-font-variant-ligatures: no-common-ligatures;
   -moz-font-variant-ligatures: no-common-ligatures;
   font-variant-ligatures: no-common-ligatures;
@@ -1070,7 +1285,8 @@ a {
   color: #0070c9
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none
 }
 
@@ -1082,64 +1298,93 @@ a:active {
   text-decoration: none
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.45em 0
 }
 
-*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
   margin-top: 1em
 }
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
   display: block;
   margin: 0
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700
 }
 
-html.ie8 b, html.ie8 strong {
+html.ie8 b,
+html.ie8 strong {
   font-family: "Myriad Set Pro 700", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b, html.ie8 strong {
+html.ie8 b,
+html.ie8 strong {
   font-weight: normal
 }
 
-html.ie8 b:lang(ar), html.ie8 strong:lang(ar) {
+html.ie8 b:lang(ar),
+html.ie8 strong:lang(ar) {
   font-family: "Gulf 700", "Gulf", "Myriad Set Pro 700", "Myriad Set Pro", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(ja-JP), html.ie8 strong:lang(ja-JP) {
+html.ie8 b:lang(ja-JP),
+html.ie8 strong:lang(ja-JP) {
   font-family: "Apple TP 700", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(ko-KR), html.ie8 strong:lang(ko-KR) {
+html.ie8 b:lang(ko-KR),
+html.ie8 strong:lang(ko-KR) {
   font-family: "Yoon Gothic 700", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(th-TH), html.ie8 strong:lang(th-TH) {
+html.ie8 b:lang(th-TH),
+html.ie8 strong:lang(th-TH) {
   font-family: "Sukhumvit Set 700", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(zh-CN), html.ie8 strong:lang(zh-CN) {
+html.ie8 b:lang(zh-CN),
+html.ie8 strong:lang(zh-CN) {
   font-family: "HanHei SC 700", "HanHei SC", "PingHei 700", "PingHei", "PingFang SC", "STHeitiSC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(zh-HK), html.ie8 strong:lang(zh-HK) {
+html.ie8 b:lang(zh-HK),
+html.ie8 strong:lang(zh-HK) {
   font-family: "HanHei TC 700", "HanHei TC", "MHei 700", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(zh-MO), html.ie8 strong:lang(zh-MO) {
+html.ie8 b:lang(zh-MO),
+html.ie8 strong:lang(zh-MO) {
   font-family: "HanHei TC 700", "HanHei TC", "MHei 700", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b:lang(zh-TW), html.ie8 strong:lang(zh-TW) {
+html.ie8 b:lang(zh-TW),
+html.ie8 strong:lang(zh-TW) {
   font-family: "HanHei TC 700", "HanHei TC", "MHei 700", "MHei", "PingFang TC", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-em, i, cite, dfn {
+em,
+i,
+cite,
+dfn {
   font-style: italic
 }
 
@@ -1151,16 +1396,21 @@ li li {
   font-size: 1em
 }
 
-ul, ol {
+ul,
+ol {
   margin: 1em 0 1em 1.11111em
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   margin: 0
 }
@@ -1173,11 +1423,15 @@ sup {
   bottom: -.2em
 }
 
-h1 sup, h2 sup, h3 sup {
+h1 sup,
+h2 sup,
+h3 sup {
   font-size: .4em
 }
 
-html.ie8 h4 sup, html.ie8 h5 sup, html.ie8 h6 sup {
+html.ie8 h4 sup,
+html.ie8 h5 sup,
+html.ie8 h6 sup {
   font-size: .8em;
   font-weight: normal;
   line-height: 1;
@@ -1201,7 +1455,10 @@ abbr {
   border: 0
 }
 
-:lang(ja), :lang(ko), :lang(th), :lang(zh) {
+:lang(ja),
+:lang(ko),
+:lang(th),
+:lang(zh) {
   font-style: normal
 }
 
@@ -1209,7 +1466,8 @@ abbr {
   word-break: keep-all
 }
 
-.selfclear:before, .selfclear:after {
+.selfclear:before,
+.selfclear:after {
   content: ' ';
   display: table
 }
@@ -1267,7 +1525,8 @@ abbr {
   z-index: 1
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
   content: ' ';
   display: table
 }
@@ -2384,7 +2643,10 @@ html.ie8 .large-offset-12 {
   }
 }
 
-.icon:before, .icon:after, .more:before, .more:after {
+.icon:before,
+.icon:after,
+.more:before,
+.more:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2398,15 +2660,20 @@ html.ie8 .large-offset-12 {
   alt: ''
 }
 
-.icon:before, .icon:after, .more:before, .more:after {
+.icon:before,
+.icon:after,
+.more:before,
+.more:after {
   text-decoration: none
 }
 
-.icon:before, .more:before {
+.icon:before,
+.more:before {
   display: none
 }
 
-.icon-after:after, .more:after {
+.icon-after:after,
+.more:after {
   padding-left: .3em;
   top: 0
 }
@@ -2421,247 +2688,308 @@ html.ie8 .large-offset-12 {
   display: none
 }
 
-.icon-apple:before, .icon-apple:after {
+.icon-apple:before,
+.icon-apple:after {
   content: ""
 }
 
-.icon-chevrondown:before, .icon-chevrondown:after {
+.icon-chevrondown:before,
+.icon-chevrondown:after {
   content: ""
 }
 
-.icon-chevrondowncircle:before, .icon-chevrondowncircle:after {
+.icon-chevrondowncircle:before,
+.icon-chevrondowncircle:after {
   content: ""
 }
 
-.icon-chevronleft:before, .icon-chevronleft:after {
+.icon-chevronleft:before,
+.icon-chevronleft:after {
   content: ""
 }
 
-.icon-chevronleftcircle:before, .icon-chevronleftcircle:after {
+.icon-chevronleftcircle:before,
+.icon-chevronleftcircle:after {
   content: ""
 }
 
-.icon-chevronright:before, .icon-chevronright:after {
+.icon-chevronright:before,
+.icon-chevronright:after {
   content: ""
 }
 
-.icon-chevronrightcircle:before, .icon-chevronrightcircle:after {
+.icon-chevronrightcircle:before,
+.icon-chevronrightcircle:after {
   content: ""
 }
 
-.icon-chevronup:before, .icon-chevronup:after {
+.icon-chevronup:before,
+.icon-chevronup:after {
   content: ""
 }
 
-.icon-chevronupcircle:before, .icon-chevronupcircle:after {
+.icon-chevronupcircle:before,
+.icon-chevronupcircle:after {
   content: ""
 }
 
-.icon-downloadcircle:before, .icon-downloadcircle:after {
+.icon-downloadcircle:before,
+.icon-downloadcircle:after {
   content: ""
 }
 
-.icon-downloadsolid:before, .icon-downloadsolid:after {
+.icon-downloadsolid:before,
+.icon-downloadsolid:after {
   content: ""
 }
 
-.icon-external:before, .icon-external:after {
+.icon-external:before,
+.icon-external:after {
   content: ""
 }
 
-.icon-grid:before, .icon-grid:after {
+.icon-grid:before,
+.icon-grid:after {
   content: ""
 }
 
-.icon-listcircle:before, .icon-listcircle:after {
+.icon-listcircle:before,
+.icon-listcircle:after {
   content: ""
 }
 
-.icon-pausecircle:before, .icon-pausecircle:after {
+.icon-pausecircle:before,
+.icon-pausecircle:after {
   content: ""
 }
 
-.icon-playcircle:before, .icon-playcircle:after {
+.icon-playcircle:before,
+.icon-playcircle:after {
   content: ""
 }
 
-.icon-playsolid:before, .icon-playsolid:after {
+.icon-playsolid:before,
+.icon-playsolid:after {
   content: ""
 }
 
-.icon-replay:before, .icon-replay:after {
+.icon-replay:before,
+.icon-replay:after {
   content: ""
 }
 
-.icon-replaycircle:before, .icon-replaycircle:after {
+.icon-replaycircle:before,
+.icon-replaycircle:after {
   content: ""
 }
 
-.icon-stopcircle:before, .icon-stopcircle:after {
+.icon-stopcircle:before,
+.icon-stopcircle:after {
   content: ""
 }
 
-.icon-stopsolid:before, .icon-stopsolid:after {
+.icon-stopsolid:before,
+.icon-stopsolid:after {
   content: ""
 }
 
-.icon-favorite:before, .icon-favorite:after {
+.icon-favorite:before,
+.icon-favorite:after {
   content: ""
 }
 
-.icon-share:before, .icon-share:after {
+.icon-share:before,
+.icon-share:after {
   content: ""
 }
 
-.icon-facebook:before, .icon-facebook:after {
+.icon-facebook:before,
+.icon-facebook:after {
   content: ""
 }
 
-.icon-instagram:before, .icon-instagram:after {
+.icon-instagram:before,
+.icon-instagram:after {
   content: ""
 }
 
-.icon-link:before, .icon-link:after {
+.icon-link:before,
+.icon-link:after {
   content: ""
 }
 
-.icon-linkedin:before, .icon-linkedin:after {
+.icon-linkedin:before,
+.icon-linkedin:after {
   content: ""
 }
 
-.icon-mail:before, .icon-mail:after {
+.icon-mail:before,
+.icon-mail:after {
   content: ""
 }
 
-.icon-pinterest:before, .icon-pinterest:after {
+.icon-pinterest:before,
+.icon-pinterest:after {
   content: ""
 }
 
-.icon-qqweibo:before, .icon-qqweibo:after {
+.icon-qqweibo:before,
+.icon-qqweibo:after {
   content: ""
 }
 
-.icon-qzone:before, .icon-qzone:after {
+.icon-qzone:before,
+.icon-qzone:after {
   content: ""
 }
 
-.icon-renren:before, .icon-renren:after {
+.icon-renren:before,
+.icon-renren:after {
   content: ""
 }
 
-.icon-snapchat:before, .icon-snapchat:after {
+.icon-snapchat:before,
+.icon-snapchat:after {
   content: ""
 }
 
-.icon-tumblr:before, .icon-tumblr:after {
+.icon-tumblr:before,
+.icon-tumblr:after {
   content: ""
 }
 
-.icon-twitter:before, .icon-twitter:after {
+.icon-twitter:before,
+.icon-twitter:after {
   content: ""
 }
 
-.icon-weibo:before, .icon-weibo:after {
+.icon-weibo:before,
+.icon-weibo:after {
   content: ""
 }
 
-.icon-circle:before, .icon-circle:after {
+.icon-circle:before,
+.icon-circle:after {
   content: ""
 }
 
-.icon-check:before, .icon-check:after {
+.icon-check:before,
+.icon-check:after {
   content: ""
 }
 
-.icon-checkcircle:before, .icon-checkcircle:after {
+.icon-checkcircle:before,
+.icon-checkcircle:after {
   content: ""
 }
 
-.icon-checksolid:before, .icon-checksolid:after {
+.icon-checksolid:before,
+.icon-checksolid:after {
   content: ""
 }
 
-.icon-reset:before, .icon-reset:after {
+.icon-reset:before,
+.icon-reset:after {
   content: ""
 }
 
-.icon-resetcircle:before, .icon-resetcircle:after {
+.icon-resetcircle:before,
+.icon-resetcircle:after {
   content: ""
 }
 
-.icon-resetsolid:before, .icon-resetsolid:after {
+.icon-resetsolid:before,
+.icon-resetsolid:after {
   content: ""
 }
 
-.icon-exclamation:before, .icon-exclamation:after {
+.icon-exclamation:before,
+.icon-exclamation:after {
   content: ""
 }
 
-.icon-exclamationcircle:before, .icon-exclamationcircle:after {
+.icon-exclamationcircle:before,
+.icon-exclamationcircle:after {
   content: ""
 }
 
-.icon-exclamationsolid:before, .icon-exclamationsolid:after {
+.icon-exclamationsolid:before,
+.icon-exclamationsolid:after {
   content: ""
 }
 
-.icon-infocircle:before, .icon-infocircle:after {
+.icon-infocircle:before,
+.icon-infocircle:after {
   content: ""
 }
 
-.icon-questioncircle:before, .icon-questioncircle:after {
+.icon-questioncircle:before,
+.icon-questioncircle:after {
   content: ""
 }
 
-.icon-questionsolid:before, .icon-questionsolid:after {
+.icon-questionsolid:before,
+.icon-questionsolid:after {
   content: ""
 }
 
-.icon-plus:before, .icon-plus:after {
+.icon-plus:before,
+.icon-plus:after {
   content: ""
 }
 
-.icon-pluscircle:before, .icon-pluscircle:after {
+.icon-pluscircle:before,
+.icon-pluscircle:after {
   content: ""
 }
 
-.icon-plussolid:before, .icon-plussolid:after {
+.icon-plussolid:before,
+.icon-plussolid:after {
   content: ""
 }
 
-.icon-minus:before, .icon-minus:after {
+.icon-minus:before,
+.icon-minus:after {
   content: ""
 }
 
-.icon-minuscircle:before, .icon-minuscircle:after {
+.icon-minuscircle:before,
+.icon-minuscircle:after {
   content: ""
 }
 
-.icon-minussolid:before, .icon-minussolid:after {
+.icon-minussolid:before,
+.icon-minussolid:after {
   content: ""
 }
 
-.icon-close:before, .icon-close:after {
+.icon-close:before,
+.icon-close:after {
   content: ""
 }
 
-.icon-paddledown:before, .icon-paddledown:after {
+.icon-paddledown:before,
+.icon-paddledown:after {
   content: ""
 }
 
-.icon-paddleleft:before, .icon-paddleleft:after {
+.icon-paddleleft:before,
+.icon-paddleleft:after {
   content: ""
 }
 
-.icon-paddleright:before, .icon-paddleright:after {
+.icon-paddleright:before,
+.icon-paddleright:after {
   content: ""
 }
 
-.icon-paddleup:before, .icon-paddleup:after {
+.icon-paddleup:before,
+.icon-paddleup:after {
   content: ""
 }
 
-.more:before, .more:after {
+.more:before,
+.more:after {
   content: ""
 }
 
@@ -2905,7 +3233,8 @@ br.large {
   }
 }
 
-html.ie8, html.ie8 body {
+html.ie8,
+html.ie8 body {
   overflow-x: hidden
 }
 
@@ -2925,14 +3254,17 @@ html.ie8, html.ie8 body {
   overflow: auto
 }
 
-.section-wrapper, .section-content {
+.section-wrapper,
+.section-content {
   margin-left: auto;
   margin-right: auto;
   width: 980px
 }
 
 @media only screen and (min-width: 1442px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 980px
@@ -2940,7 +3272,9 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 692px
@@ -2948,40 +3282,53 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 90%
   }
 }
 
-.section-wrapper:before, .section-wrapper:after, .section-content:before, .section-content:after {
+.section-wrapper:before,
+.section-wrapper:after,
+.section-content:before,
+.section-content:after {
   content: ' ';
   display: table
 }
 
-.section-wrapper:after, .section-content:after {
+.section-wrapper:after,
+.section-content:after {
   clear: both
 }
 
 @media only screen and (min-width: 1442px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 125px
   }
 }
 
-.section-block:last-child, .section-block.section-block--last {
+.section-block:last-child,
+.section-block.section-block--last {
   margin-bottom: 125px
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 100px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 70px
   }
 }
@@ -3385,7 +3732,8 @@ html.ie8 .has-center-content .center-block {
   letter-spacing: -.02em
 }
 
-html.ie8 .hero-headline, html.ie8 .section-headline {
+html.ie8 .hero-headline,
+html.ie8 .section-headline {
   font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3393,35 +3741,43 @@ html.ie8 .hero-headline {
   font-weight: normal
 }
 
-html.ie8 .hero-headline:lang(ar), html.ie8 .section-headline:lang(ar) {
+html.ie8 .hero-headline:lang(ar),
+html.ie8 .section-headline:lang(ar) {
   font-family: "Gulf 200", "Gulf", "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(ja-JP), html.ie8 .section-headline:lang(ja-JP) {
+html.ie8 .hero-headline:lang(ja-JP),
+html.ie8 .section-headline:lang(ja-JP) {
   font-family: "Apple TP 200", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(ko-KR), html.ie8 .section-headline:lang(ko-KR) {
+html.ie8 .hero-headline:lang(ko-KR),
+html.ie8 .section-headline:lang(ko-KR) {
   font-family: "Yoon Gothic 200", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(th-TH), html.ie8 .section-headline:lang(th-TH) {
+html.ie8 .hero-headline:lang(th-TH),
+html.ie8 .section-headline:lang(th-TH) {
   font-family: "Sukhumvit Set 200", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(zh-CN), html.ie8 .section-headline:lang(zh-CN) {
+html.ie8 .hero-headline:lang(zh-CN),
+html.ie8 .section-headline:lang(zh-CN) {
   font-family: "HanHei SC 200", "HanHei SC", "PingHei 200", "PingHei", "PingFang SC", "STHeitiSC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(zh-HK), html.ie8 .section-headline:lang(zh-HK) {
+html.ie8 .hero-headline:lang(zh-HK),
+html.ie8 .section-headline:lang(zh-HK) {
   font-family: "HanHei TC 200", "HanHei TC", "MHei 200", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(zh-MO), html.ie8 .section-headline:lang(zh-MO) {
+html.ie8 .hero-headline:lang(zh-MO),
+html.ie8 .section-headline:lang(zh-MO) {
   font-family: "HanHei TC 200", "HanHei TC", "MHei 200", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .hero-headline:lang(zh-TW), html.ie8 .section-headline:lang(zh-TW) {
+html.ie8 .hero-headline:lang(zh-TW),
+html.ie8 .section-headline:lang(zh-TW) {
   font-family: "HanHei TC 200", "HanHei TC", "MHei 200", "MHei", "PingFang TC", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3647,7 +4003,9 @@ html.ie8 .section-headline {
   letter-spacing: -.008em
 }
 
-html.ie8 .subsection-headline, html.ie8 .subsection-subheadline, html.ie8 .intro {
+html.ie8 .subsection-headline,
+html.ie8 .subsection-subheadline,
+html.ie8 .intro {
   font-family: "Myriad Set Pro 300", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3655,35 +4013,51 @@ html.ie8 .subsection-headline {
   font-weight: normal
 }
 
-html.ie8 .subsection-headline:lang(ar), html.ie8 .subsection-subheadline:lang(ar), html.ie8 .intro:lang(ar) {
+html.ie8 .subsection-headline:lang(ar),
+html.ie8 .subsection-subheadline:lang(ar),
+html.ie8 .intro:lang(ar) {
   font-family: "Gulf 300", "Gulf", "Myriad Set Pro 300", "Myriad Set Pro", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(ja-JP), html.ie8 .subsection-subheadline:lang(ja-JP), html.ie8 .intro:lang(ja-JP) {
+html.ie8 .subsection-headline:lang(ja-JP),
+html.ie8 .subsection-subheadline:lang(ja-JP),
+html.ie8 .intro:lang(ja-JP) {
   font-family: "Apple TP 300", "Apple TP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(ko-KR), html.ie8 .subsection-subheadline:lang(ko-KR), html.ie8 .intro:lang(ko-KR) {
+html.ie8 .subsection-headline:lang(ko-KR),
+html.ie8 .subsection-subheadline:lang(ko-KR),
+html.ie8 .intro:lang(ko-KR) {
   font-family: "Yoon Gothic 300", "Yoon Gothic", "Apple Gothic", "HY Gulim", "MalgumGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(th-TH), html.ie8 .subsection-subheadline:lang(th-TH), html.ie8 .intro:lang(th-TH) {
+html.ie8 .subsection-headline:lang(th-TH),
+html.ie8 .subsection-subheadline:lang(th-TH),
+html.ie8 .intro:lang(th-TH) {
   font-family: "Sukhumvit Set 300", "Sukhumvit Set", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(zh-CN), html.ie8 .subsection-subheadline:lang(zh-CN), html.ie8 .intro:lang(zh-CN) {
+html.ie8 .subsection-headline:lang(zh-CN),
+html.ie8 .subsection-subheadline:lang(zh-CN),
+html.ie8 .intro:lang(zh-CN) {
   font-family: "HanHei SC 300", "HanHei SC", "PingHei 300", "PingHei", "PingFang SC", "STHeitiSC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(zh-HK), html.ie8 .subsection-subheadline:lang(zh-HK), html.ie8 .intro:lang(zh-HK) {
+html.ie8 .subsection-headline:lang(zh-HK),
+html.ie8 .subsection-subheadline:lang(zh-HK),
+html.ie8 .intro:lang(zh-HK) {
   font-family: "HanHei TC 300", "HanHei TC", "MHei 300", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(zh-MO), html.ie8 .subsection-subheadline:lang(zh-MO), html.ie8 .intro:lang(zh-MO) {
+html.ie8 .subsection-headline:lang(zh-MO),
+html.ie8 .subsection-subheadline:lang(zh-MO),
+html.ie8 .intro:lang(zh-MO) {
   font-family: "HanHei TC 300", "HanHei TC", "MHei 300", "MHei", "PingFang HK", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 .subsection-headline:lang(zh-TW), html.ie8 .subsection-subheadline:lang(zh-TW), html.ie8 .intro:lang(zh-TW) {
+html.ie8 .subsection-headline:lang(zh-TW),
+html.ie8 .subsection-subheadline:lang(zh-TW),
+html.ie8 .intro:lang(zh-TW) {
   font-family: "HanHei TC 300", "HanHei TC", "MHei 300", "MHei", "PingFang TC", "STHeitiTC-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -4244,7 +4618,10 @@ html.ie .page-photos .section {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-photos .section-hero .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_large_2x.png")
   }
@@ -4260,7 +4637,9 @@ html.ie .page-photos .section {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-photos .section-hero .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_medium_2x.png")
   }
@@ -4276,7 +4655,9 @@ html.ie .page-photos .section {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-photos .section-hero .image-hero-icon {
     background-image: url("/v/ios/photos/b/images/hero_icon_small_2x.png")
   }
@@ -4474,12 +4855,15 @@ html.ie .page-photos .section {
   margin-top: 20px
 }
 
-.page-photos .section-photosearch .smallblock-headline, .page-photos .section-photosearch .copy-image {
+.page-photos .section-photosearch .smallblock-headline,
+.page-photos .section-photosearch .copy-image {
   font-size: 18px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-photosearch .smallblock-headline, .page-photos .section-photosearch .copy-image {
+
+  .page-photos .section-photosearch .smallblock-headline,
+  .page-photos .section-photosearch .copy-image {
     font-size: 16px
   }
 }
@@ -4514,18 +4898,23 @@ html.ie .page-photos .section {
   }
 }
 
-.page-photos .section-photosearch .triplet-cell .copy-image, .page-photos .section-photosearch .triplet-cell .smallblock-headline {
+.page-photos .section-photosearch .triplet-cell .copy-image,
+.page-photos .section-photosearch .triplet-cell .smallblock-headline {
   text-align: center
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-photosearch .triplet-cell .copy-image, .page-photos .section-photosearch .triplet-cell .smallblock-headline {
+
+  .page-photos .section-photosearch .triplet-cell .copy-image,
+  .page-photos .section-photosearch .triplet-cell .smallblock-headline {
     text-align: left
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-photosearch .triplet-cell .copy-image, .page-photos .section-photosearch .triplet-cell .smallblock-headline {
+
+  .page-photos .section-photosearch .triplet-cell .copy-image,
+  .page-photos .section-photosearch .triplet-cell .smallblock-headline {
     text-align: center
   }
 }
@@ -4575,12 +4964,15 @@ html.ie .page-photos .section {
   }
 }
 
-.page-photos .section-photosearch .three-up.triplet-cell .copy-image, .page-photos .section-photosearch .three-up.triplet-cell .smallblock-headline {
+.page-photos .section-photosearch .three-up.triplet-cell .copy-image,
+.page-photos .section-photosearch .three-up.triplet-cell .smallblock-headline {
   text-align: left
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-photosearch .three-up.triplet-cell .copy-image, .page-photos .section-photosearch .three-up.triplet-cell .smallblock-headline {
+
+  .page-photos .section-photosearch .three-up.triplet-cell .copy-image,
+  .page-photos .section-photosearch .three-up.triplet-cell .smallblock-headline {
     text-align: center
   }
 }
@@ -4808,13 +5200,17 @@ html.ie .page-photos .section {
 }
 
 @media only screen and (max-width: 1068px) {
-  html.edge .page-photos .section-share .row.favorite .image-share-favorite, html.ie .page-photos .section-share .row.favorite .image-share-favorite {
+
+  html.edge .page-photos .section-share .row.favorite .image-share-favorite,
+  html.ie .page-photos .section-share .row.favorite .image-share-favorite {
     margin-left: -117px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  html.edge .page-photos .section-share .row.favorite .image-share-favorite, html.ie .page-photos .section-share .row.favorite .image-share-favorite {
+
+  html.edge .page-photos .section-share .row.favorite .image-share-favorite,
+  html.ie .page-photos .section-share .row.favorite .image-share-favorite {
     margin-left: -141px
   }
 }
@@ -5076,13 +5472,16 @@ html.ie .page-photos .section {
   }
 }
 
-html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
+html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone,
+html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
   padding-left: 0;
   left: auto
 }
 
 @media only screen and (max-width: 1068px) {
-  html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
+
+  html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone,
+  html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
     position: absolute;
     margin-left: 0;
     right: auto
@@ -5090,7 +5489,9 @@ html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, 
 }
 
 @media only screen and (max-width: 735px) {
-  html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
+
+  html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone,
+  html.edge .page-photos .section-editing .screen-gallery .hardware-group.iphone {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -5107,7 +5508,10 @@ html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, 
   background-image: url("/v/ios/photos/b/images/hardware_animation_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .image-iphone-hardware {
     background-image: url("/v/ios/photos/b/images/hardware_animation_large_2x.png")
   }
@@ -5123,7 +5527,9 @@ html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, 
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .image-iphone-hardware {
     background-image: url("/v/ios/photos/b/images/hardware_animation_medium_2x.png")
   }
@@ -5139,7 +5545,9 @@ html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, 
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .image-iphone-hardware {
     background-image: url("/v/ios/photos/b/images/hardware_animation_small_2x.png")
   }
@@ -5172,11 +5580,13 @@ html.ie11 .page-photos .section-editing .screen-gallery .hardware-group.iphone, 
   z-index: 1
 }
 
-html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-container, html.no-inlineVideo .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-container {
+html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-container,
+html.no-inlineVideo .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-container {
   display: none
 }
 
-.page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-destroyed .mediaobject-startframe, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-destroyed .mediaobject-endframe {
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-destroyed .mediaobject-startframe,
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-destroyed .mediaobject-endframe {
   display: none
 }
 
@@ -5190,7 +5600,10 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.loops {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_large_2x.jpg")
   }
@@ -5206,7 +5619,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.loops {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_medium_2x.jpg")
   }
@@ -5222,7 +5637,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.loops {
     background-image: url("/v/ios/photos/b/images/liveedit_loops_screen_small_2x.jpg")
   }
@@ -5234,20 +5651,25 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container,
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
   width: 256px;
   height: 456px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
+
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container,
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
     width: 188px;
     height: 336px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
+
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-container,
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-loops .mediaobject-element {
     width: 180px;
     height: 320px
   }
@@ -5261,7 +5683,10 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.bounce {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_large_2x.jpg")
   }
@@ -5277,7 +5702,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.bounce {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_medium_2x.jpg")
   }
@@ -5293,7 +5720,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .mediaobject-still.bounce {
     background-image: url("/v/ios/photos/b/images/liveedit_bounce_screen_small_2x.jpg")
   }
@@ -5305,20 +5734,25 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container,
+.page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
   width: 256px;
   height: 456px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
+
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container,
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
     width: 188px;
     height: 336px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container, .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
+
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-container,
+  .page-photos .section-editing .screen-gallery .iphone-hardware-screen .slide-bounce .mediaobject-element {
     width: 180px;
     height: 320px
   }
@@ -5333,7 +5767,10 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_large_2x.jpg")
   }
@@ -5349,7 +5786,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_medium_2x.jpg")
   }
@@ -5365,7 +5804,9 @@ html.no-js .page-photos .section-editing .screen-gallery .iphone-hardware-screen
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-photos .section-editing .screen-gallery .iphone-hardware-screen .image-liveedit-long-exposure-screen {
     background-image: url("/v/ios/photos/b/images/liveedit_long_exposure_screen_small_2x.jpg")
   }
@@ -5679,18 +6120,23 @@ html.ie11 .page-photos .section-editing .screen-gallery .replay-btn.thumbnail .t
   }
 }
 
-.page-photos .section-editing .triplet-cell .copy-image, .page-photos .section-editing .triplet-cell .smallblock-headline {
+.page-photos .section-editing .triplet-cell .copy-image,
+.page-photos .section-editing .triplet-cell .smallblock-headline {
   text-align: center
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-editing .triplet-cell .copy-image, .page-photos .section-editing .triplet-cell .smallblock-headline {
+
+  .page-photos .section-editing .triplet-cell .copy-image,
+  .page-photos .section-editing .triplet-cell .smallblock-headline {
     text-align: left
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-editing .triplet-cell .copy-image, .page-photos .section-editing .triplet-cell .smallblock-headline {
+
+  .page-photos .section-editing .triplet-cell .copy-image,
+  .page-photos .section-editing .triplet-cell .smallblock-headline {
     text-align: center
   }
 }
@@ -5748,13 +6194,16 @@ html.ie11 .page-photos .section-editing .screen-gallery .replay-btn.thumbnail .t
   }
 }
 
-.page-photos .section-editing .three-up.triplet-cell .copy-image, .page-photos .section-editing .three-up.triplet-cell .smallblock-headline {
+.page-photos .section-editing .three-up.triplet-cell .copy-image,
+.page-photos .section-editing .three-up.triplet-cell .smallblock-headline {
   margin-top: 0;
   text-align: left
 }
 
 @media only screen and (max-width: 735px) {
-  .page-photos .section-editing .three-up.triplet-cell .copy-image, .page-photos .section-editing .three-up.triplet-cell .smallblock-headline {
+
+  .page-photos .section-editing .three-up.triplet-cell .copy-image,
+  .page-photos .section-editing .three-up.triplet-cell .smallblock-headline {
     margin-top: 10px;
     text-align: center
   }
@@ -5766,12 +6215,15 @@ html.ie11 .page-photos .section-editing .screen-gallery .replay-btn.thumbnail .t
   }
 }
 
-.page-photos .section-editing .smallblock-headline, .page-photos .section-editing .copy-image {
+.page-photos .section-editing .smallblock-headline,
+.page-photos .section-editing .copy-image {
   font-size: 18px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-photos .section-editing .smallblock-headline, .page-photos .section-editing .copy-image {
+
+  .page-photos .section-editing .smallblock-headline,
+  .page-photos .section-editing .copy-image {
     font-size: 16px
   }
 }

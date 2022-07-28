@@ -1,26 +1,35 @@
-.features-header-row, .features-row {
+.features-header-row,
+.features-row {
   margin-top: .4em;
   margin-bottom: .4em
 }
 
-.features-header-row::before, .features-header-row::after, .features-row::before, .features-row::after {
+.features-header-row::before,
+.features-header-row::after,
+.features-row::before,
+.features-row::after {
   content: ' ';
   display: table
 }
 
-.features-header-row::after, .features-row::after {
+.features-header-row::after,
+.features-row::after {
   clear: both
 }
 
-.features-columnheader, .features-rowheader, .features-column {
+.features-columnheader,
+.features-rowheader,
+.features-column {
   float: left
 }
 
-.features-columnheader, .features-column {
+.features-columnheader,
+.features-column {
   margin-left: 3%
 }
 
-.features-columnheader:first-child, .features-column:first-child {
+.features-columnheader:first-child,
+.features-column:first-child {
   margin-left: 25%
 }
 
@@ -28,15 +37,18 @@
   width: 22%
 }
 
-.features.with-1-column .features-columnheader, .features.with-1-column .features-column {
+.features.with-1-column .features-columnheader,
+.features.with-1-column .features-column {
   width: 75%
 }
 
-.features.with-1-column .features-columnheader:nth-child(1n+3), .features.with-1-column .features-column:nth-child(1n+3) {
+.features.with-1-column .features-columnheader:nth-child(1n+3),
+.features.with-1-column .features-column:nth-child(1n+3) {
   margin-left: 25%
 }
 
-.features.with-1-column.with-fullwidthrowheader-large .features-columnheader, .features.with-1-column.with-fullwidthrowheader-large .features-column {
+.features.with-1-column.with-fullwidthrowheader-large .features-columnheader,
+.features.with-1-column.with-fullwidthrowheader-large .features-column {
   width: 100%
 }
 
@@ -44,12 +56,17 @@
   width: 100%
 }
 
-.features.with-1-column.with-fullwidthrowheader-large .features-columnheader:first-child, .features.with-1-column.with-fullwidthrowheader-large .features-column:first-child, .features.with-1-column.with-fullwidthrowheader-large .features-rowheader+.features-columnheader, .features.with-1-column.with-fullwidthrowheader-large .features-rowheader+.features-column {
+.features.with-1-column.with-fullwidthrowheader-large .features-columnheader:first-child,
+.features.with-1-column.with-fullwidthrowheader-large .features-column:first-child,
+.features.with-1-column.with-fullwidthrowheader-large .features-rowheader+.features-columnheader,
+.features.with-1-column.with-fullwidthrowheader-large .features-rowheader+.features-column {
   margin-left: 0
 }
 
 @media only screen and (min-width: 1441px) {
-  .features.with-1-column.with-fullwidthrowheader-xlarge .features-columnheader, .features.with-1-column.with-fullwidthrowheader-xlarge .features-column {
+
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-column {
     width: 100%
   }
 
@@ -57,13 +74,18 @@
     width: 100%
   }
 
-  .features.with-1-column.with-fullwidthrowheader-xlarge .features-columnheader:first-child, .features.with-1-column.with-fullwidthrowheader-xlarge .features-column:first-child, .features.with-1-column.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader, .features.with-1-column.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-columnheader:first-child,
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-column:first-child,
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .features.with-1-column.with-fullwidthrowheader-medium .features-columnheader, .features.with-1-column.with-fullwidthrowheader-medium .features-column {
+
+  .features.with-1-column.with-fullwidthrowheader-medium .features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-medium .features-column {
     width: 100%
   }
 
@@ -71,13 +93,18 @@
     width: 100%
   }
 
-  .features.with-1-column.with-fullwidthrowheader-medium .features-columnheader:first-child, .features.with-1-column.with-fullwidthrowheader-medium .features-column:first-child, .features.with-1-column.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader, .features.with-1-column.with-fullwidthrowheader-medium .features-rowheader+.features-column {
+  .features.with-1-column.with-fullwidthrowheader-medium .features-columnheader:first-child,
+  .features.with-1-column.with-fullwidthrowheader-medium .features-column:first-child,
+  .features.with-1-column.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-medium .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features.with-1-column.with-fullwidthrowheader-small .features-columnheader, .features.with-1-column.with-fullwidthrowheader-small .features-column {
+
+  .features.with-1-column.with-fullwidthrowheader-small .features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-small .features-column {
     width: 100%
   }
 
@@ -85,28 +112,40 @@
     width: 100%
   }
 
-  .features.with-1-column.with-fullwidthrowheader-small .features-columnheader:first-child, .features.with-1-column.with-fullwidthrowheader-small .features-column:first-child, .features.with-1-column.with-fullwidthrowheader-small .features-rowheader+.features-columnheader, .features.with-1-column.with-fullwidthrowheader-small .features-rowheader+.features-column {
+  .features.with-1-column.with-fullwidthrowheader-small .features-columnheader:first-child,
+  .features.with-1-column.with-fullwidthrowheader-small .features-column:first-child,
+  .features.with-1-column.with-fullwidthrowheader-small .features-rowheader+.features-columnheader,
+  .features.with-1-column.with-fullwidthrowheader-small .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
-.features.with-2-columns .features-columnheader, .features.with-2-columns .features-column {
+.features.with-2-columns .features-columnheader,
+.features.with-2-columns .features-column {
   width: 36%
 }
 
-.features.with-2-columns .features-columnheader.spans-2-columns, .features.with-2-columns .features-columnheader[aria-colspan="2"], .features.with-2-columns .features-column.spans-2-columns, .features.with-2-columns .features-column[aria-colspan="2"] {
+.features.with-2-columns .features-columnheader.spans-2-columns,
+.features.with-2-columns .features-columnheader[aria-colspan="2"],
+.features.with-2-columns .features-column.spans-2-columns,
+.features.with-2-columns .features-column[aria-colspan="2"] {
   width: 75%
 }
 
-.features.with-2-columns .features-columnheader:nth-child(2n+4), .features.with-2-columns .features-column:nth-child(2n+4) {
+.features.with-2-columns .features-columnheader:nth-child(2n+4),
+.features.with-2-columns .features-column:nth-child(2n+4) {
   margin-left: 25%
 }
 
-.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader, .features.with-2-columns.with-fullwidthrowheader-large .features-column {
+.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader,
+.features.with-2-columns.with-fullwidthrowheader-large .features-column {
   width: 48.5%
 }
 
-.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"], .features.with-2-columns.with-fullwidthrowheader-large .features-column.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
+.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns,
+.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"],
+.features.with-2-columns.with-fullwidthrowheader-large .features-column.spans-2-columns,
+.features.with-2-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
   width: 100%
 }
 
@@ -114,16 +153,24 @@
   width: 100%
 }
 
-.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader:first-child, .features.with-2-columns.with-fullwidthrowheader-large .features-column:first-child, .features.with-2-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader, .features.with-2-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
+.features.with-2-columns.with-fullwidthrowheader-large .features-columnheader:first-child,
+.features.with-2-columns.with-fullwidthrowheader-large .features-column:first-child,
+.features.with-2-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader,
+.features.with-2-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
   margin-left: 0
 }
 
 @media only screen and (min-width: 1441px) {
-  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column {
+
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column {
     width: 48.5%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"], .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"],
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
     width: 100%
   }
 
@@ -131,17 +178,25 @@
     width: 100%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column:first-child, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader, .features.with-2-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-column:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader, .features.with-2-columns.with-fullwidthrowheader-medium .features-column {
+
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-column {
     width: 48.5%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"], .features.with-2-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"],
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
     width: 100%
   }
 
@@ -149,17 +204,25 @@
     width: 100%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader:first-child, .features.with-2-columns.with-fullwidthrowheader-medium .features-column:first-child, .features.with-2-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader, .features.with-2-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-columnheader:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-column:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader, .features.with-2-columns.with-fullwidthrowheader-small .features-column {
+
+  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-column {
     width: 48.5%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"], .features.with-2-columns.with-fullwidthrowheader-small .features-column.spans-2-columns, .features.with-2-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
+  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"],
+  .features.with-2-columns.with-fullwidthrowheader-small .features-column.spans-2-columns,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
     width: 100%
   }
 
@@ -167,36 +230,54 @@
     width: 100%
   }
 
-  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader:first-child, .features.with-2-columns.with-fullwidthrowheader-small .features-column:first-child, .features.with-2-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader, .features.with-2-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
+  .features.with-2-columns.with-fullwidthrowheader-small .features-columnheader:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-column:first-child,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader,
+  .features.with-2-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
-.features.with-3-columns .features-columnheader, .features.with-3-columns .features-column {
+.features.with-3-columns .features-columnheader,
+.features.with-3-columns .features-column {
   width: 23%
 }
 
-.features.with-3-columns .features-columnheader.spans-2-columns, .features.with-3-columns .features-columnheader[aria-colspan="2"], .features.with-3-columns .features-column.spans-2-columns, .features.with-3-columns .features-column[aria-colspan="2"] {
+.features.with-3-columns .features-columnheader.spans-2-columns,
+.features.with-3-columns .features-columnheader[aria-colspan="2"],
+.features.with-3-columns .features-column.spans-2-columns,
+.features.with-3-columns .features-column[aria-colspan="2"] {
   width: 49%
 }
 
-.features.with-3-columns .features-columnheader.spans-3-columns, .features.with-3-columns .features-columnheader[aria-colspan="3"], .features.with-3-columns .features-column.spans-3-columns, .features.with-3-columns .features-column[aria-colspan="3"] {
+.features.with-3-columns .features-columnheader.spans-3-columns,
+.features.with-3-columns .features-columnheader[aria-colspan="3"],
+.features.with-3-columns .features-column.spans-3-columns,
+.features.with-3-columns .features-column[aria-colspan="3"] {
   width: 75%
 }
 
-.features.with-3-columns .features-columnheader:nth-child(3n+5), .features.with-3-columns .features-column:nth-child(3n+5) {
+.features.with-3-columns .features-columnheader:nth-child(3n+5),
+.features.with-3-columns .features-column:nth-child(3n+5) {
   margin-left: 25%
 }
 
-.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader, .features.with-3-columns.with-fullwidthrowheader-large .features-column {
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader,
+.features.with-3-columns.with-fullwidthrowheader-large .features-column {
   width: 31.33333%
 }
 
-.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"], .features.with-3-columns.with-fullwidthrowheader-large .features-column.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns,
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"],
+.features.with-3-columns.with-fullwidthrowheader-large .features-column.spans-2-columns,
+.features.with-3-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
   width: 65.66667%
 }
 
-.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"], .features.with-3-columns.with-fullwidthrowheader-large .features-column.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns,
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"],
+.features.with-3-columns.with-fullwidthrowheader-large .features-column.spans-3-columns,
+.features.with-3-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
   width: 100%
 }
 
@@ -204,20 +285,31 @@
   width: 100%
 }
 
-.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader:first-child, .features.with-3-columns.with-fullwidthrowheader-large .features-column:first-child, .features.with-3-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader, .features.with-3-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
+.features.with-3-columns.with-fullwidthrowheader-large .features-columnheader:first-child,
+.features.with-3-columns.with-fullwidthrowheader-large .features-column:first-child,
+.features.with-3-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader,
+.features.with-3-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
   margin-left: 0
 }
 
 @media only screen and (min-width: 1441px) {
-  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column {
+
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column {
     width: 31.33333%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"], .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"],
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
     width: 65.66667%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"], .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"],
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
     width: 100%
   }
 
@@ -225,21 +317,32 @@
     width: 100%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column:first-child, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader, .features.with-3-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-column:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader, .features.with-3-columns.with-fullwidthrowheader-medium .features-column {
+
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column {
     width: 31.33333%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"], .features.with-3-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"],
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
     width: 65.66667%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"], .features.with-3-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"],
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
     width: 100%
   }
 
@@ -247,21 +350,32 @@
     width: 100%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader:first-child, .features.with-3-columns.with-fullwidthrowheader-medium .features-column:first-child, .features.with-3-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader, .features.with-3-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-columnheader:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-column:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader, .features.with-3-columns.with-fullwidthrowheader-small .features-column {
+
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column {
     width: 31.33333%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"], .features.with-3-columns.with-fullwidthrowheader-small .features-column.spans-2-columns, .features.with-3-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"],
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column.spans-2-columns,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
     width: 65.66667%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"], .features.with-3-columns.with-fullwidthrowheader-small .features-column.spans-3-columns, .features.with-3-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"],
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column.spans-3-columns,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
     width: 100%
   }
 
@@ -269,44 +383,68 @@
     width: 100%
   }
 
-  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader:first-child, .features.with-3-columns.with-fullwidthrowheader-small .features-column:first-child, .features.with-3-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader, .features.with-3-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
+  .features.with-3-columns.with-fullwidthrowheader-small .features-columnheader:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-column:first-child,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader,
+  .features.with-3-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
-.features.with-4-columns .features-columnheader, .features.with-4-columns .features-column {
+.features.with-4-columns .features-columnheader,
+.features.with-4-columns .features-column {
   width: 16.5%
 }
 
-.features.with-4-columns .features-columnheader.spans-2-columns, .features.with-4-columns .features-columnheader[aria-colspan="2"], .features.with-4-columns .features-column.spans-2-columns, .features.with-4-columns .features-column[aria-colspan="2"] {
+.features.with-4-columns .features-columnheader.spans-2-columns,
+.features.with-4-columns .features-columnheader[aria-colspan="2"],
+.features.with-4-columns .features-column.spans-2-columns,
+.features.with-4-columns .features-column[aria-colspan="2"] {
   width: 36%
 }
 
-.features.with-4-columns .features-columnheader.spans-3-columns, .features.with-4-columns .features-columnheader[aria-colspan="3"], .features.with-4-columns .features-column.spans-3-columns, .features.with-4-columns .features-column[aria-colspan="3"] {
+.features.with-4-columns .features-columnheader.spans-3-columns,
+.features.with-4-columns .features-columnheader[aria-colspan="3"],
+.features.with-4-columns .features-column.spans-3-columns,
+.features.with-4-columns .features-column[aria-colspan="3"] {
   width: 55.5%
 }
 
-.features.with-4-columns .features-columnheader.spans-4-columns, .features.with-4-columns .features-columnheader[aria-colspan="4"], .features.with-4-columns .features-column.spans-4-columns, .features.with-4-columns .features-column[aria-colspan="4"] {
+.features.with-4-columns .features-columnheader.spans-4-columns,
+.features.with-4-columns .features-columnheader[aria-colspan="4"],
+.features.with-4-columns .features-column.spans-4-columns,
+.features.with-4-columns .features-column[aria-colspan="4"] {
   width: 75%
 }
 
-.features.with-4-columns .features-columnheader:nth-child(4n+6), .features.with-4-columns .features-column:nth-child(4n+6) {
+.features.with-4-columns .features-columnheader:nth-child(4n+6),
+.features.with-4-columns .features-column:nth-child(4n+6) {
   margin-left: 25%
 }
 
-.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader, .features.with-4-columns.with-fullwidthrowheader-large .features-column {
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader,
+.features.with-4-columns.with-fullwidthrowheader-large .features-column {
   width: 22.75%
 }
 
-.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"], .features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"],
+.features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-2-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
   width: 48.5%
 }
 
-.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"], .features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"],
+.features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-3-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
   width: 74.25%
 }
 
-.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="4"], .features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="4"] {
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader.spans-4-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="4"],
+.features.with-4-columns.with-fullwidthrowheader-large .features-column.spans-4-columns,
+.features.with-4-columns.with-fullwidthrowheader-large .features-column[aria-colspan="4"] {
   width: 100%
 }
 
@@ -314,24 +452,38 @@
   width: 100%
 }
 
-.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader:first-child, .features.with-4-columns.with-fullwidthrowheader-large .features-column:first-child, .features.with-4-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader, .features.with-4-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
+.features.with-4-columns.with-fullwidthrowheader-large .features-columnheader:first-child,
+.features.with-4-columns.with-fullwidthrowheader-large .features-column:first-child,
+.features.with-4-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader,
+.features.with-4-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
   margin-left: 0
 }
 
 @media only screen and (min-width: 1441px) {
-  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column {
+
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column {
     width: 22.75%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"], .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"],
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
     width: 48.5%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"], .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"],
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
     width: 74.25%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="4"], .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="4"] {
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="4"],
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="4"] {
     width: 100%
   }
 
@@ -339,25 +491,39 @@
     width: 100%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column:first-child, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader, .features.with-4-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-column:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader, .features.with-4-columns.with-fullwidthrowheader-medium .features-column {
+
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column {
     width: 22.75%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"], .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"],
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
     width: 48.5%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"], .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"],
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
     width: 74.25%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="4"], .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="4"] {
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="4"],
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="4"] {
     width: 100%
   }
 
@@ -365,25 +531,39 @@
     width: 100%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader:first-child, .features.with-4-columns.with-fullwidthrowheader-medium .features-column:first-child, .features.with-4-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader, .features.with-4-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-columnheader:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-column:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader, .features.with-4-columns.with-fullwidthrowheader-small .features-column {
+
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column {
     width: 22.75%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"], .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-2-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"],
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-2-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
     width: 48.5%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"], .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-3-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"],
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-3-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
     width: 74.25%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="4"], .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-4-columns, .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="4"] {
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="4"],
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column.spans-4-columns,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column[aria-colspan="4"] {
     width: 100%
   }
 
@@ -391,52 +571,82 @@
     width: 100%
   }
 
-  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader:first-child, .features.with-4-columns.with-fullwidthrowheader-small .features-column:first-child, .features.with-4-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader, .features.with-4-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
+  .features.with-4-columns.with-fullwidthrowheader-small .features-columnheader:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-column:first-child,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader,
+  .features.with-4-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
-.features.with-5-columns .features-columnheader, .features.with-5-columns .features-column {
+.features.with-5-columns .features-columnheader,
+.features.with-5-columns .features-column {
   width: 12.6%
 }
 
-.features.with-5-columns .features-columnheader.spans-2-columns, .features.with-5-columns .features-columnheader[aria-colspan="2"], .features.with-5-columns .features-column.spans-2-columns, .features.with-5-columns .features-column[aria-colspan="2"] {
+.features.with-5-columns .features-columnheader.spans-2-columns,
+.features.with-5-columns .features-columnheader[aria-colspan="2"],
+.features.with-5-columns .features-column.spans-2-columns,
+.features.with-5-columns .features-column[aria-colspan="2"] {
   width: 28.2%
 }
 
-.features.with-5-columns .features-columnheader.spans-3-columns, .features.with-5-columns .features-columnheader[aria-colspan="3"], .features.with-5-columns .features-column.spans-3-columns, .features.with-5-columns .features-column[aria-colspan="3"] {
+.features.with-5-columns .features-columnheader.spans-3-columns,
+.features.with-5-columns .features-columnheader[aria-colspan="3"],
+.features.with-5-columns .features-column.spans-3-columns,
+.features.with-5-columns .features-column[aria-colspan="3"] {
   width: 43.8%
 }
 
-.features.with-5-columns .features-columnheader.spans-4-columns, .features.with-5-columns .features-columnheader[aria-colspan="4"], .features.with-5-columns .features-column.spans-4-columns, .features.with-5-columns .features-column[aria-colspan="4"] {
+.features.with-5-columns .features-columnheader.spans-4-columns,
+.features.with-5-columns .features-columnheader[aria-colspan="4"],
+.features.with-5-columns .features-column.spans-4-columns,
+.features.with-5-columns .features-column[aria-colspan="4"] {
   width: 59.4%
 }
 
-.features.with-5-columns .features-columnheader.spans-5-columns, .features.with-5-columns .features-columnheader[aria-colspan="5"], .features.with-5-columns .features-column.spans-5-columns, .features.with-5-columns .features-column[aria-colspan="5"] {
+.features.with-5-columns .features-columnheader.spans-5-columns,
+.features.with-5-columns .features-columnheader[aria-colspan="5"],
+.features.with-5-columns .features-column.spans-5-columns,
+.features.with-5-columns .features-column[aria-colspan="5"] {
   width: 75%
 }
 
-.features.with-5-columns .features-columnheader:nth-child(5n+7), .features.with-5-columns .features-column:nth-child(5n+7) {
+.features.with-5-columns .features-columnheader:nth-child(5n+7),
+.features.with-5-columns .features-column:nth-child(5n+7) {
   margin-left: 25%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader, .features.with-5-columns.with-fullwidthrowheader-large .features-column {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column {
   width: 17.6%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"], .features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-2-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="2"],
+.features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-2-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="2"] {
   width: 38.2%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"], .features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-3-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="3"],
+.features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-3-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="3"] {
   width: 58.8%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="4"], .features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="4"] {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-4-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="4"],
+.features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-4-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="4"] {
   width: 79.4%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="5"], .features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="5"] {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader.spans-5-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader[aria-colspan="5"],
+.features.with-5-columns.with-fullwidthrowheader-large .features-column.spans-5-columns,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column[aria-colspan="5"] {
   width: 100%
 }
 
@@ -444,28 +654,45 @@
   width: 100%
 }
 
-.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader:first-child, .features.with-5-columns.with-fullwidthrowheader-large .features-column:first-child, .features.with-5-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader, .features.with-5-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
+.features.with-5-columns.with-fullwidthrowheader-large .features-columnheader:first-child,
+.features.with-5-columns.with-fullwidthrowheader-large .features-column:first-child,
+.features.with-5-columns.with-fullwidthrowheader-large .features-rowheader+.features-columnheader,
+.features.with-5-columns.with-fullwidthrowheader-large .features-rowheader+.features-column {
   margin-left: 0
 }
 
 @media only screen and (min-width: 1441px) {
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column {
+
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column {
     width: 17.6%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"], .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="2"],
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="2"] {
     width: 38.2%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"], .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="3"],
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="3"] {
     width: 58.8%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="4"], .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="4"] {
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="4"],
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="4"] {
     width: 79.4%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="5"], .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="5"] {
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader[aria-colspan="5"],
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column[aria-colspan="5"] {
     width: 100%
   }
 
@@ -473,29 +700,46 @@
     width: 100%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column:first-child, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader, .features.with-5-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-columnheader:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-column:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-xlarge .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader, .features.with-5-columns.with-fullwidthrowheader-medium .features-column {
+
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column {
     width: 17.6%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"], .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="2"],
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="2"] {
     width: 38.2%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"], .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="3"],
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="3"] {
     width: 58.8%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="4"], .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="4"] {
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="4"],
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="4"] {
     width: 79.4%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="5"], .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="5"] {
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader[aria-colspan="5"],
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column[aria-colspan="5"] {
     width: 100%
   }
 
@@ -503,29 +747,46 @@
     width: 100%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader:first-child, .features.with-5-columns.with-fullwidthrowheader-medium .features-column:first-child, .features.with-5-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader, .features.with-5-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-columnheader:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-column:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-rowheader+.features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-medium .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader, .features.with-5-columns.with-fullwidthrowheader-small .features-column {
+
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column {
     width: 17.6%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"], .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-2-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="2"],
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-2-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="2"] {
     width: 38.2%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"], .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-3-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="3"],
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-3-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="3"] {
     width: 58.8%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="4"], .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-4-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="4"] {
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="4"],
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-4-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="4"] {
     width: 79.4%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="5"], .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-5-columns, .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="5"] {
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader[aria-colspan="5"],
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column.spans-5-columns,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column[aria-colspan="5"] {
     width: 100%
   }
 
@@ -533,16 +794,21 @@
     width: 100%
   }
 
-  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader:first-child, .features.with-5-columns.with-fullwidthrowheader-small .features-column:first-child, .features.with-5-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader, .features.with-5-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
+  .features.with-5-columns.with-fullwidthrowheader-small .features-columnheader:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-column:first-child,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-rowheader+.features-columnheader,
+  .features.with-5-columns.with-fullwidthrowheader-small .features-rowheader+.features-column {
     margin-left: 0
   }
 }
 
-.features b, .features strong {
+.features b,
+.features strong {
   font-weight: 600
 }
 
-.features table th, .features table td {
+.features table th,
+.features table td {
   padding: 0;
   padding-right: 24px;
   padding-bottom: .35294em
@@ -552,7 +818,8 @@
   font-weight: 600
 }
 
-.features table tr:last-child th, .features table tr:last-child td {
+.features table tr:last-child th,
+.features table tr:last-child td {
   padding-bottom: 0
 }
 
@@ -637,7 +904,9 @@
   }
 }
 
-.features-columnheader, h1.features-columnheader, h2.features-columnheader {
+.features-columnheader,
+h1.features-columnheader,
+h2.features-columnheader {
   font-size: 32px;
   line-height: 1.125;
   font-weight: 600;
@@ -646,43 +915,62 @@
   margin-top: 0 !important
 }
 
-.features-columnheader:lang(ja), h1.features-columnheader:lang(ja), h2.features-columnheader:lang(ja) {
+.features-columnheader:lang(ja),
+h1.features-columnheader:lang(ja),
+h2.features-columnheader:lang(ja) {
   line-height: 1.21875;
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(ko), h1.features-columnheader:lang(ko), h2.features-columnheader:lang(ko) {
+.features-columnheader:lang(ko),
+h1.features-columnheader:lang(ko),
+h2.features-columnheader:lang(ko) {
   line-height: 1.21875;
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(th), h1.features-columnheader:lang(th), h2.features-columnheader:lang(th) {
+.features-columnheader:lang(th),
+h1.features-columnheader:lang(th),
+h2.features-columnheader:lang(th) {
   line-height: 1.375;
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(ar), h1.features-columnheader:lang(ar), h2.features-columnheader:lang(ar) {
+.features-columnheader:lang(ar),
+h1.features-columnheader:lang(ar),
+h2.features-columnheader:lang(ar) {
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(zh-CN), h1.features-columnheader:lang(zh-CN), h2.features-columnheader:lang(zh-CN) {
+.features-columnheader:lang(zh-CN),
+h1.features-columnheader:lang(zh-CN),
+h2.features-columnheader:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(zh-HK), h1.features-columnheader:lang(zh-HK), h2.features-columnheader:lang(zh-HK) {
+.features-columnheader:lang(zh-HK),
+h1.features-columnheader:lang(zh-HK),
+h2.features-columnheader:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(zh-MO), h1.features-columnheader:lang(zh-MO), h2.features-columnheader:lang(zh-MO) {
+.features-columnheader:lang(zh-MO),
+h1.features-columnheader:lang(zh-MO),
+h2.features-columnheader:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.features-columnheader:lang(zh-TW), h1.features-columnheader:lang(zh-TW), h2.features-columnheader:lang(zh-TW) {
+.features-columnheader:lang(zh-TW),
+h1.features-columnheader:lang(zh-TW),
+h2.features-columnheader:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 @media only screen and (max-width: 1068px) {
-  .features-columnheader, h1.features-columnheader, h2.features-columnheader {
+
+  .features-columnheader,
+  h1.features-columnheader,
+  h2.features-columnheader {
     font-size: 28px;
     line-height: 1.14286;
     font-weight: 600;
@@ -690,43 +978,62 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ko), h1.features-columnheader:lang(ko), h2.features-columnheader:lang(ko) {
+  .features-columnheader:lang(ko),
+  h1.features-columnheader:lang(ko),
+  h2.features-columnheader:lang(ko) {
     line-height: 1.25;
     font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(th), h1.features-columnheader:lang(th), h2.features-columnheader:lang(th) {
+  .features-columnheader:lang(th),
+  h1.features-columnheader:lang(th),
+  h2.features-columnheader:lang(th) {
     line-height: 1.39286;
     font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ar), h1.features-columnheader:lang(ar), h2.features-columnheader:lang(ar) {
+  .features-columnheader:lang(ar),
+  h1.features-columnheader:lang(ar),
+  h2.features-columnheader:lang(ar) {
     font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ja), h1.features-columnheader:lang(ja), h2.features-columnheader:lang(ja) {
+  .features-columnheader:lang(ja),
+  h1.features-columnheader:lang(ja),
+  h2.features-columnheader:lang(ja) {
     font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-CN), h1.features-columnheader:lang(zh-CN), h2.features-columnheader:lang(zh-CN) {
+  .features-columnheader:lang(zh-CN),
+  h1.features-columnheader:lang(zh-CN),
+  h2.features-columnheader:lang(zh-CN) {
     font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-HK), h1.features-columnheader:lang(zh-HK), h2.features-columnheader:lang(zh-HK) {
+  .features-columnheader:lang(zh-HK),
+  h1.features-columnheader:lang(zh-HK),
+  h2.features-columnheader:lang(zh-HK) {
     font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-MO), h1.features-columnheader:lang(zh-MO), h2.features-columnheader:lang(zh-MO) {
+  .features-columnheader:lang(zh-MO),
+  h1.features-columnheader:lang(zh-MO),
+  h2.features-columnheader:lang(zh-MO) {
     font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-TW), h1.features-columnheader:lang(zh-TW), h2.features-columnheader:lang(zh-TW) {
+  .features-columnheader:lang(zh-TW),
+  h1.features-columnheader:lang(zh-TW),
+  h2.features-columnheader:lang(zh-TW) {
     font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .features-columnheader, h1.features-columnheader, h2.features-columnheader {
+
+  .features-columnheader,
+  h1.features-columnheader,
+  h2.features-columnheader {
     font-size: 24px;
     line-height: 1.16667;
     font-weight: 600;
@@ -734,38 +1041,54 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ja), h1.features-columnheader:lang(ja), h2.features-columnheader:lang(ja) {
+  .features-columnheader:lang(ja),
+  h1.features-columnheader:lang(ja),
+  h2.features-columnheader:lang(ja) {
     line-height: 1.25;
     font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ko), h1.features-columnheader:lang(ko), h2.features-columnheader:lang(ko) {
+  .features-columnheader:lang(ko),
+  h1.features-columnheader:lang(ko),
+  h2.features-columnheader:lang(ko) {
     line-height: 1.29167;
     font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(th), h1.features-columnheader:lang(th), h2.features-columnheader:lang(th) {
+  .features-columnheader:lang(th),
+  h1.features-columnheader:lang(th),
+  h2.features-columnheader:lang(th) {
     line-height: 1.375;
     font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(ar), h1.features-columnheader:lang(ar), h2.features-columnheader:lang(ar) {
+  .features-columnheader:lang(ar),
+  h1.features-columnheader:lang(ar),
+  h2.features-columnheader:lang(ar) {
     font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-CN), h1.features-columnheader:lang(zh-CN), h2.features-columnheader:lang(zh-CN) {
+  .features-columnheader:lang(zh-CN),
+  h1.features-columnheader:lang(zh-CN),
+  h2.features-columnheader:lang(zh-CN) {
     font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-HK), h1.features-columnheader:lang(zh-HK), h2.features-columnheader:lang(zh-HK) {
+  .features-columnheader:lang(zh-HK),
+  h1.features-columnheader:lang(zh-HK),
+  h2.features-columnheader:lang(zh-HK) {
     font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-MO), h1.features-columnheader:lang(zh-MO), h2.features-columnheader:lang(zh-MO) {
+  .features-columnheader:lang(zh-MO),
+  h1.features-columnheader:lang(zh-MO),
+  h2.features-columnheader:lang(zh-MO) {
     font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
-  .features-columnheader:lang(zh-TW), h1.features-columnheader:lang(zh-TW), h2.features-columnheader:lang(zh-TW) {
+  .features-columnheader:lang(zh-TW),
+  h1.features-columnheader:lang(zh-TW),
+  h2.features-columnheader:lang(zh-TW) {
     font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 }
@@ -823,7 +1146,9 @@
   margin-top: 0
 }
 
-.features-subheader+.features-subheader, ul+.features-subheader, ol+.features-subheader {
+.features-subheader+.features-subheader,
+ul+.features-subheader,
+ol+.features-subheader {
   margin-top: 1.6em
 }
 
@@ -841,7 +1166,12 @@
 }
 
 @media only screen and (max-width: 734px) {
-  .section-hero .typography-headline-super:lang(fr), .section-hero .typography-headline-super:lang(es), .section-hero .typography-headline-super:lang(et), .section-hero .typography-headline-super:lang(pt-PT), .section-hero .typography-headline-super:lang(th) {
+
+  .section-hero .typography-headline-super:lang(fr),
+  .section-hero .typography-headline-super:lang(es),
+  .section-hero .typography-headline-super:lang(et),
+  .section-hero .typography-headline-super:lang(pt-PT),
+  .section-hero .typography-headline-super:lang(th) {
     font-size: 40px
   }
 
@@ -862,7 +1192,8 @@ html.text-zoom .section-hero .typography-headline-super {
   padding: 0
 }
 
-.section-features h3+*, .section-features h4+p {
+.section-features h3+*,
+.section-features h4+p {
   margin-top: 0
 }
 
@@ -917,7 +1248,8 @@ html.text-zoom .section-features .features.with-2-columns .features-rowheader {
     width: 100%
   }
 
-  .section-features .features.with-2-columns.with-fullwidthrowheader-small .features-column:nth-child(2n+4), .section-features .features.with-2-columns.with-fullwidthrowheader-small .features-column:nth-child(2n+1) {
+  .section-features .features.with-2-columns.with-fullwidthrowheader-small .features-column:nth-child(2n+4),
+  .section-features .features.with-2-columns.with-fullwidthrowheader-small .features-column:nth-child(2n+1) {
     margin-left: 0
   }
 
@@ -961,7 +1293,10 @@ html.text-zoom .section-features .features.with-2-columns .features-rowheader {
   background-image: url("/v/macos/big-sur/c/images/features/messages/heart_emoji__cj8pe3pe0wty_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-features .heart-emoji {
     background-image: url("/v/macos/big-sur/c/images/features/messages/heart_emoji__cj8pe3pe0wty_large_2x.jpg")
   }
@@ -978,7 +1313,10 @@ html.text-zoom .section-features .features.with-2-columns .features-rowheader {
   background-image: url("/v/macos/big-sur/c/images/features/messages/kiss_emoji__cnnygnredple_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-features .kiss-emoji {
     background-image: url("/v/macos/big-sur/c/images/features/messages/kiss_emoji__cnnygnredple_large_2x.jpg")
   }

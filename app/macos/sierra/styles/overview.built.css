@@ -9,22 +9,52 @@ body {
   padding: 0
 }
 
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button {
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
   margin: 0;
   padding: 0
 }
 
-pre, code, address, caption, th, figcaption {
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
   font-size: 1em;
   font-weight: normal;
   font-style: normal
 }
 
-fieldset, iframe, img {
+fieldset,
+iframe,
+img {
   border: 0
 }
 
-caption, th {
+caption,
+th {
   text-align: left
 }
 
@@ -33,11 +63,25 @@ table {
   border-spacing: 0
 }
 
-article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
   display: block
 }
 
-audio, canvas, video, progress {
+audio,
+canvas,
+video,
+progress {
   display: inline-block;
   vertical-align: baseline
 }
@@ -58,32 +102,63 @@ button:disabled {
   cursor: default
 }
 
-a:focus, input:focus, textarea:focus, select:focus, button:focus, [tabindex]:focus {
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+[tabindex]:focus {
   outline: 3px solid #c1e0fe;
   outline: 3px solid rgba(131, 192, 253, 0.5);
   outline-offset: 1px
 }
 
-a:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), a:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), input:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), input:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), textarea:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), textarea:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), select:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), select:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), [tabindex]:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), [tabindex]:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+a:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+a:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+input:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+input:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+textarea:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+textarea:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+select:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+select:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+[tabindex]:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+[tabindex]:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   outline: none
 }
 
-a::-moz-focus-inner, input::-moz-focus-inner, textarea::-moz-focus-inner, select::-moz-focus-inner, button::-moz-focus-inner, [tabindex]::-moz-focus-inner {
+a::-moz-focus-inner,
+input::-moz-focus-inner,
+textarea::-moz-focus-inner,
+select::-moz-focus-inner,
+button::-moz-focus-inner,
+[tabindex]::-moz-focus-inner {
   border: 0;
   padding: 0
 }
 
 @media print {
-  body, #main, #content {
+
+  body,
+  #main,
+  #content {
     color: #000
   }
 
-  a, a:link, a:visited {
+  a,
+  a:link,
+  a:visited {
     color: #000;
     text-decoration: none
   }
 
-  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide {
+  #globalheader,
+  #globalfooter,
+  #directorynav,
+  #tabs,
+  .noprint,
+  .hide {
     display: none
   }
 }
@@ -164,7 +239,11 @@ body {
   font-style: normal
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -178,7 +257,8 @@ a {
   color: #0070c9
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none
 }
 
@@ -190,32 +270,53 @@ a:active {
   text-decoration: none
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.45em 0
 }
 
-*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
   margin-top: 1em
 }
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
   display: block;
   margin: 0
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700
 }
 
-html.ie8 b, html.ie8 strong {
+html.ie8 b,
+html.ie8 strong {
   font-family: "Myriad Set Pro 700", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-html.ie8 b, html.ie8 strong {
+html.ie8 b,
+html.ie8 strong {
   font-weight: normal
 }
 
-em, i, cite, dfn {
+em,
+i,
+cite,
+dfn {
   font-style: italic
 }
 
@@ -227,16 +328,21 @@ li li {
   font-size: 1em
 }
 
-ul, ol {
+ul,
+ol {
   margin: 1em 0 1em 1.11111em
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   margin: 0
 }
@@ -249,11 +355,15 @@ sup {
   bottom: -.2em
 }
 
-h1 sup, h2 sup, h3 sup {
+h1 sup,
+h2 sup,
+h3 sup {
   font-size: .4em
 }
 
-html.ie8 h4 sup, html.ie8 h5 sup, html.ie8 h6 sup {
+html.ie8 h4 sup,
+html.ie8 h5 sup,
+html.ie8 h6 sup {
   font-size: .8em;
   font-weight: normal;
   line-height: 1;
@@ -277,7 +387,8 @@ abbr {
   border: 0
 }
 
-.selfclear:before, .selfclear:after {
+.selfclear:before,
+.selfclear:after {
   content: ' ';
   display: table
 }
@@ -337,7 +448,8 @@ abbr {
   z-index: 1
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
   content: ' ';
   display: table
 }
@@ -1454,7 +1566,10 @@ html.ie8 .large-offset-12 {
   }
 }
 
-.icon:before, .icon:after, .more:before, .more:after {
+.icon:before,
+.icon:after,
+.more:before,
+.more:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -1468,15 +1583,20 @@ html.ie8 .large-offset-12 {
   alt: ''
 }
 
-.icon:before, .icon:after, .more:before, .more:after {
+.icon:before,
+.icon:after,
+.more:before,
+.more:after {
   text-decoration: none
 }
 
-.icon:before, .more:before {
+.icon:before,
+.more:before {
   display: none
 }
 
-.icon-after:after, .more:after {
+.icon-after:after,
+.more:after {
   padding-left: .3em;
   top: 0
 }
@@ -1491,247 +1611,308 @@ html.ie8 .large-offset-12 {
   display: none
 }
 
-.icon-apple:before, .icon-apple:after {
+.icon-apple:before,
+.icon-apple:after {
   content: ""
 }
 
-.icon-chevrondown:before, .icon-chevrondown:after {
+.icon-chevrondown:before,
+.icon-chevrondown:after {
   content: ""
 }
 
-.icon-chevrondowncircle:before, .icon-chevrondowncircle:after {
+.icon-chevrondowncircle:before,
+.icon-chevrondowncircle:after {
   content: ""
 }
 
-.icon-chevronleft:before, .icon-chevronleft:after {
+.icon-chevronleft:before,
+.icon-chevronleft:after {
   content: ""
 }
 
-.icon-chevronleftcircle:before, .icon-chevronleftcircle:after {
+.icon-chevronleftcircle:before,
+.icon-chevronleftcircle:after {
   content: ""
 }
 
-.icon-chevronright:before, .icon-chevronright:after {
+.icon-chevronright:before,
+.icon-chevronright:after {
   content: ""
 }
 
-.icon-chevronrightcircle:before, .icon-chevronrightcircle:after {
+.icon-chevronrightcircle:before,
+.icon-chevronrightcircle:after {
   content: ""
 }
 
-.icon-chevronup:before, .icon-chevronup:after {
+.icon-chevronup:before,
+.icon-chevronup:after {
   content: ""
 }
 
-.icon-chevronupcircle:before, .icon-chevronupcircle:after {
+.icon-chevronupcircle:before,
+.icon-chevronupcircle:after {
   content: ""
 }
 
-.icon-downloadcircle:before, .icon-downloadcircle:after {
+.icon-downloadcircle:before,
+.icon-downloadcircle:after {
   content: ""
 }
 
-.icon-downloadsolid:before, .icon-downloadsolid:after {
+.icon-downloadsolid:before,
+.icon-downloadsolid:after {
   content: ""
 }
 
-.icon-external:before, .icon-external:after {
+.icon-external:before,
+.icon-external:after {
   content: ""
 }
 
-.icon-grid:before, .icon-grid:after {
+.icon-grid:before,
+.icon-grid:after {
   content: ""
 }
 
-.icon-listcircle:before, .icon-listcircle:after {
+.icon-listcircle:before,
+.icon-listcircle:after {
   content: ""
 }
 
-.icon-pausecircle:before, .icon-pausecircle:after {
+.icon-pausecircle:before,
+.icon-pausecircle:after {
   content: ""
 }
 
-.icon-playcircle:before, .icon-playcircle:after {
+.icon-playcircle:before,
+.icon-playcircle:after {
   content: ""
 }
 
-.icon-playsolid:before, .icon-playsolid:after {
+.icon-playsolid:before,
+.icon-playsolid:after {
   content: ""
 }
 
-.icon-replay:before, .icon-replay:after {
+.icon-replay:before,
+.icon-replay:after {
   content: ""
 }
 
-.icon-replaycircle:before, .icon-replaycircle:after {
+.icon-replaycircle:before,
+.icon-replaycircle:after {
   content: ""
 }
 
-.icon-stopcircle:before, .icon-stopcircle:after {
+.icon-stopcircle:before,
+.icon-stopcircle:after {
   content: ""
 }
 
-.icon-stopsolid:before, .icon-stopsolid:after {
+.icon-stopsolid:before,
+.icon-stopsolid:after {
   content: ""
 }
 
-.icon-favorite:before, .icon-favorite:after {
+.icon-favorite:before,
+.icon-favorite:after {
   content: ""
 }
 
-.icon-share:before, .icon-share:after {
+.icon-share:before,
+.icon-share:after {
   content: ""
 }
 
-.icon-facebook:before, .icon-facebook:after {
+.icon-facebook:before,
+.icon-facebook:after {
   content: ""
 }
 
-.icon-instagram:before, .icon-instagram:after {
+.icon-instagram:before,
+.icon-instagram:after {
   content: ""
 }
 
-.icon-link:before, .icon-link:after {
+.icon-link:before,
+.icon-link:after {
   content: ""
 }
 
-.icon-linkedin:before, .icon-linkedin:after {
+.icon-linkedin:before,
+.icon-linkedin:after {
   content: ""
 }
 
-.icon-mail:before, .icon-mail:after {
+.icon-mail:before,
+.icon-mail:after {
   content: ""
 }
 
-.icon-pinterest:before, .icon-pinterest:after {
+.icon-pinterest:before,
+.icon-pinterest:after {
   content: ""
 }
 
-.icon-qqweibo:before, .icon-qqweibo:after {
+.icon-qqweibo:before,
+.icon-qqweibo:after {
   content: ""
 }
 
-.icon-qzone:before, .icon-qzone:after {
+.icon-qzone:before,
+.icon-qzone:after {
   content: ""
 }
 
-.icon-renren:before, .icon-renren:after {
+.icon-renren:before,
+.icon-renren:after {
   content: ""
 }
 
-.icon-snapchat:before, .icon-snapchat:after {
+.icon-snapchat:before,
+.icon-snapchat:after {
   content: ""
 }
 
-.icon-tumblr:before, .icon-tumblr:after {
+.icon-tumblr:before,
+.icon-tumblr:after {
   content: ""
 }
 
-.icon-twitter:before, .icon-twitter:after {
+.icon-twitter:before,
+.icon-twitter:after {
   content: ""
 }
 
-.icon-weibo:before, .icon-weibo:after {
+.icon-weibo:before,
+.icon-weibo:after {
   content: ""
 }
 
-.icon-circle:before, .icon-circle:after {
+.icon-circle:before,
+.icon-circle:after {
   content: ""
 }
 
-.icon-check:before, .icon-check:after {
+.icon-check:before,
+.icon-check:after {
   content: ""
 }
 
-.icon-checkcircle:before, .icon-checkcircle:after {
+.icon-checkcircle:before,
+.icon-checkcircle:after {
   content: ""
 }
 
-.icon-checksolid:before, .icon-checksolid:after {
+.icon-checksolid:before,
+.icon-checksolid:after {
   content: ""
 }
 
-.icon-reset:before, .icon-reset:after {
+.icon-reset:before,
+.icon-reset:after {
   content: ""
 }
 
-.icon-resetcircle:before, .icon-resetcircle:after {
+.icon-resetcircle:before,
+.icon-resetcircle:after {
   content: ""
 }
 
-.icon-resetsolid:before, .icon-resetsolid:after {
+.icon-resetsolid:before,
+.icon-resetsolid:after {
   content: ""
 }
 
-.icon-exclamation:before, .icon-exclamation:after {
+.icon-exclamation:before,
+.icon-exclamation:after {
   content: ""
 }
 
-.icon-exclamationcircle:before, .icon-exclamationcircle:after {
+.icon-exclamationcircle:before,
+.icon-exclamationcircle:after {
   content: ""
 }
 
-.icon-exclamationsolid:before, .icon-exclamationsolid:after {
+.icon-exclamationsolid:before,
+.icon-exclamationsolid:after {
   content: ""
 }
 
-.icon-infocircle:before, .icon-infocircle:after {
+.icon-infocircle:before,
+.icon-infocircle:after {
   content: ""
 }
 
-.icon-questioncircle:before, .icon-questioncircle:after {
+.icon-questioncircle:before,
+.icon-questioncircle:after {
   content: ""
 }
 
-.icon-questionsolid:before, .icon-questionsolid:after {
+.icon-questionsolid:before,
+.icon-questionsolid:after {
   content: ""
 }
 
-.icon-plus:before, .icon-plus:after {
+.icon-plus:before,
+.icon-plus:after {
   content: ""
 }
 
-.icon-pluscircle:before, .icon-pluscircle:after {
+.icon-pluscircle:before,
+.icon-pluscircle:after {
   content: ""
 }
 
-.icon-plussolid:before, .icon-plussolid:after {
+.icon-plussolid:before,
+.icon-plussolid:after {
   content: ""
 }
 
-.icon-minus:before, .icon-minus:after {
+.icon-minus:before,
+.icon-minus:after {
   content: ""
 }
 
-.icon-minuscircle:before, .icon-minuscircle:after {
+.icon-minuscircle:before,
+.icon-minuscircle:after {
   content: ""
 }
 
-.icon-minussolid:before, .icon-minussolid:after {
+.icon-minussolid:before,
+.icon-minussolid:after {
   content: ""
 }
 
-.icon-close:before, .icon-close:after {
+.icon-close:before,
+.icon-close:after {
   content: ""
 }
 
-.icon-paddledown:before, .icon-paddledown:after {
+.icon-paddledown:before,
+.icon-paddledown:after {
   content: ""
 }
 
-.icon-paddleleft:before, .icon-paddleleft:after {
+.icon-paddleleft:before,
+.icon-paddleleft:after {
   content: ""
 }
 
-.icon-paddleright:before, .icon-paddleright:after {
+.icon-paddleright:before,
+.icon-paddleright:after {
   content: ""
 }
 
-.icon-paddleup:before, .icon-paddleup:after {
+.icon-paddleup:before,
+.icon-paddleup:after {
   content: ""
 }
 
-.more:before, .more:after {
+.more:before,
+.more:after {
   content: ""
 }
 
@@ -1837,7 +2018,8 @@ body {
   white-space: nowrap
 }
 
-html.ie8 .button, html.ie8 .button-compact {
+html.ie8 .button,
+html.ie8 .button-compact {
   font-family: "Myriad Set Pro 500", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -1858,7 +2040,8 @@ html.ie8 .button {
   outline: none
 }
 
-.button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   box-shadow: none
 }
 
@@ -1874,7 +2057,8 @@ html.ie8 .button:focus {
   outline: none
 }
 
-.button:disabled, .button.disabled {
+.button:disabled,
+.button.disabled {
   background-color: #0070c9;
   background: -webkit-linear-gradient(#42a1ec, #0070c9);
   background: linear-gradient(#42a1ec, #0070c9);
@@ -1884,7 +2068,8 @@ html.ie8 .button:focus {
   opacity: .3
 }
 
-html.ie8 .button:disabled, html.ie8 .button.disabled {
+html.ie8 .button:disabled,
+html.ie8 .button.disabled {
   background-color: #b3d4ef
 }
 
@@ -1930,7 +2115,8 @@ html.ie8 .button-compact {
   border-color: #d0d0d0
 }
 
-.button-secondary:disabled, .button-secondary.disabled {
+.button-secondary:disabled,
+.button-secondary.disabled {
   background-color: #e3e3e3;
   background: -webkit-linear-gradient(#fff, #e3e3e3);
   background: linear-gradient(#fff, #e3e3e3);
@@ -1938,7 +2124,8 @@ html.ie8 .button-compact {
   color: #0070c9
 }
 
-html.ie8 .button-secondary:disabled, html.ie8 .button-secondary.disabled {
+html.ie8 .button-secondary:disabled,
+html.ie8 .button-secondary.disabled {
   background-color: #eee
 }
 
@@ -1992,7 +2179,8 @@ html.touch .dotnav:focus {
   outline: none
 }
 
-.dotnav-item:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .dotnav-item:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.dotnav-item:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.dotnav-item:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   box-shadow: none
 }
 
@@ -2033,7 +2221,8 @@ html.ie8 .dotnav-item:focus {
   transition: 250ms opacity linear
 }
 
-.paddlenav-arrow-next, .paddlenav-arrow-previous {
+.paddlenav-arrow-next,
+.paddlenav-arrow-previous {
   line-height: 128px;
   margin-top: -64px;
   top: 50%;
@@ -2041,7 +2230,8 @@ html.ie8 .dotnav-item:focus {
   height: 128px
 }
 
-.paddlenav-arrow-up, .paddlenav-arrow-down {
+.paddlenav-arrow-up,
+.paddlenav-arrow-down {
   line-height: 67px;
   margin-left: -64px;
   left: 50%;
@@ -2053,7 +2243,8 @@ html.ie8 .dotnav-item:focus {
   right: 0
 }
 
-.paddlenav-arrow-next:before, .paddlenav-arrow-next:after {
+.paddlenav-arrow-next:before,
+.paddlenav-arrow-next:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2067,7 +2258,8 @@ html.ie8 .dotnav-item:focus {
   alt: ''
 }
 
-.paddlenav-arrow-next:before, .paddlenav-arrow-next:after {
+.paddlenav-arrow-next:before,
+.paddlenav-arrow-next:after {
   text-decoration: none
 }
 
@@ -2075,7 +2267,8 @@ html.ie8 .dotnav-item:focus {
   display: none
 }
 
-.paddlenav-arrow-next:before, .paddlenav-arrow-next:after {
+.paddlenav-arrow-next:before,
+.paddlenav-arrow-next:after {
   content: ""
 }
 
@@ -2083,7 +2276,8 @@ html.ie8 .dotnav-item:focus {
   left: 0
 }
 
-.paddlenav-arrow-previous:before, .paddlenav-arrow-previous:after {
+.paddlenav-arrow-previous:before,
+.paddlenav-arrow-previous:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2097,7 +2291,8 @@ html.ie8 .dotnav-item:focus {
   alt: ''
 }
 
-.paddlenav-arrow-previous:before, .paddlenav-arrow-previous:after {
+.paddlenav-arrow-previous:before,
+.paddlenav-arrow-previous:after {
   text-decoration: none
 }
 
@@ -2105,7 +2300,8 @@ html.ie8 .dotnav-item:focus {
   display: none
 }
 
-.paddlenav-arrow-previous:before, .paddlenav-arrow-previous:after {
+.paddlenav-arrow-previous:before,
+.paddlenav-arrow-previous:after {
   content: ""
 }
 
@@ -2113,7 +2309,8 @@ html.ie8 .dotnav-item:focus {
   top: 0
 }
 
-.paddlenav-arrow-up:before, .paddlenav-arrow-up:after {
+.paddlenav-arrow-up:before,
+.paddlenav-arrow-up:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2127,7 +2324,8 @@ html.ie8 .dotnav-item:focus {
   alt: ''
 }
 
-.paddlenav-arrow-up:before, .paddlenav-arrow-up:after {
+.paddlenav-arrow-up:before,
+.paddlenav-arrow-up:after {
   text-decoration: none
 }
 
@@ -2135,7 +2333,8 @@ html.ie8 .dotnav-item:focus {
   display: none
 }
 
-.paddlenav-arrow-up:before, .paddlenav-arrow-up:after {
+.paddlenav-arrow-up:before,
+.paddlenav-arrow-up:after {
   content: ""
 }
 
@@ -2143,7 +2342,8 @@ html.ie8 .dotnav-item:focus {
   bottom: 0
 }
 
-.paddlenav-arrow-down:before, .paddlenav-arrow-down:after {
+.paddlenav-arrow-down:before,
+.paddlenav-arrow-down:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2157,7 +2357,8 @@ html.ie8 .dotnav-item:focus {
   alt: ''
 }
 
-.paddlenav-arrow-down:before, .paddlenav-arrow-down:after {
+.paddlenav-arrow-down:before,
+.paddlenav-arrow-down:after {
   text-decoration: none
 }
 
@@ -2165,7 +2366,8 @@ html.ie8 .dotnav-item:focus {
   display: none
 }
 
-.paddlenav-arrow-down:before, .paddlenav-arrow-down:after {
+.paddlenav-arrow-down:before,
+.paddlenav-arrow-down:after {
   content: ""
 }
 
@@ -2184,7 +2386,8 @@ html.ie8 .dotnav-item:focus {
   opacity: 1
 }
 
-.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   box-shadow: none
 }
 
@@ -2192,28 +2395,36 @@ html.ie8 .paddlenav-arrow:focus {
   outline: 3px solid #c1e0fe
 }
 
-.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   opacity: .6
 }
 
-.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover, .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
+.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover,
+.paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
   opacity: .8
 }
 
-.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active, .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
+.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active,
+.paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
   opacity: 1
 }
 
-.paddlenav-arrow:disabled, .paddlenav-arrow.disabled {
+.paddlenav-arrow:disabled,
+.paddlenav-arrow.disabled {
   cursor: default;
   opacity: 0
 }
 
-.paddlenav-arrow:disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow:disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), .paddlenav-arrow.disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow.disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-arrow:disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow:disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+.paddlenav-arrow.disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow.disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   opacity: 0
 }
 
-html.ie8 .paddlenav-arrow:disabled, html.ie8 .paddlenav-arrow.disabled {
+html.ie8 .paddlenav-arrow:disabled,
+html.ie8 .paddlenav-arrow.disabled {
   display: none
 }
 
@@ -2221,7 +2432,8 @@ html.touch .paddlenav-arrow {
   opacity: .8
 }
 
-html.touch .paddlenav-arrow:disabled, html.touch .paddlenav-arrow.disabled {
+html.touch .paddlenav-arrow:disabled,
+html.touch .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -2254,7 +2466,8 @@ html.ie8 .with-paddlenav-onhover:hover .paddlenav {
   clip-path: inset(0px 0px 99.9% 99.9%)
 }
 
-.with-paddlenav-visuallyhidden .paddlenav-arrow:focus, .with-paddlenav-visuallyhidden .paddlenav-arrow:hover {
+.with-paddlenav-visuallyhidden .paddlenav-arrow:focus,
+.with-paddlenav-visuallyhidden .paddlenav-arrow:hover {
   clip: auto;
   -webkit-clip-path: none;
   clip-path: none
@@ -2265,14 +2478,16 @@ html.ie8 .with-paddlenav-onhover:hover .paddlenav {
   font-weight: normal
 }
 
-.paddlenav-short .paddlenav-arrow-next, .paddlenav-short .paddlenav-arrow-previous {
+.paddlenav-short .paddlenav-arrow-next,
+.paddlenav-short .paddlenav-arrow-previous {
   line-height: 64px;
   margin-top: -32px;
   width: 64px;
   height: 64px
 }
 
-.paddlenav-short .paddlenav-arrow-up, .paddlenav-short .paddlenav-arrow-down {
+.paddlenav-short .paddlenav-arrow-up,
+.paddlenav-short .paddlenav-arrow-down {
   line-height: 64px;
   margin-left: -32px;
   width: 64px;
@@ -2297,19 +2512,23 @@ html.ie8 .with-paddlenav-onhover:hover .paddlenav {
   opacity: 1
 }
 
-.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   opacity: .6
 }
 
-.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover, .paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover,
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
   opacity: .8
 }
 
-.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active, .paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active,
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
   opacity: 1
 }
 
-.paddlenav-framed .paddlenav-arrow:disabled, .paddlenav-framed .paddlenav-arrow.disabled {
+.paddlenav-framed .paddlenav-arrow:disabled,
+.paddlenav-framed .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -2317,7 +2536,8 @@ html.touch .paddlenav-framed .paddlenav-arrow {
   opacity: .8
 }
 
-html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-framed .paddlenav-arrow.disabled {
+html.touch .paddlenav-framed .paddlenav-arrow:disabled,
+html.touch .paddlenav-framed .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -2365,7 +2585,8 @@ html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-fr
   line-height: 1.2
 }
 
-.thumbnail-play:before, .thumbnail-play:after {
+.thumbnail-play:before,
+.thumbnail-play:after {
   font-family: "Apple Icons";
   color: inherit;
   display: inline-block;
@@ -2379,7 +2600,8 @@ html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-fr
   alt: ''
 }
 
-.thumbnail-play:before, .thumbnail-play:after {
+.thumbnail-play:before,
+.thumbnail-play:after {
   text-decoration: none
 }
 
@@ -2387,15 +2609,18 @@ html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-fr
   display: none
 }
 
-.thumbnail-play:before, .thumbnail-play:after {
+.thumbnail-play:before,
+.thumbnail-play:after {
   content: ""
 }
 
-.thumbnail:hover, .block:hover .thumbnail {
+.thumbnail:hover,
+.block:hover .thumbnail {
   text-decoration: none
 }
 
-.thumbnail:hover .thumbnail-play, .block:hover .thumbnail .thumbnail-play {
+.thumbnail:hover .thumbnail-play,
+.block:hover .thumbnail .thumbnail-play {
   color: #0070c9
 }
 
@@ -2404,7 +2629,8 @@ html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-fr
   outline: none
 }
 
-.thumbnail:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .thumbnail:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.thumbnail:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.thumbnail:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   box-shadow: none
 }
 
@@ -2637,7 +2863,8 @@ br.large {
   }
 }
 
-html.ie8, html.ie8 body {
+html.ie8,
+html.ie8 body {
   overflow-x: hidden
 }
 
@@ -2657,14 +2884,17 @@ html.ie8, html.ie8 body {
   overflow: auto
 }
 
-.section-wrapper, .section-content {
+.section-wrapper,
+.section-content {
   margin-left: auto;
   margin-right: auto;
   width: 980px
 }
 
 @media only screen and (min-width: 1442px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 980px
@@ -2672,7 +2902,9 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 692px
@@ -2680,19 +2912,25 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 90%
   }
 }
 
-.section-wrapper:before, .section-wrapper:after, .section-content:before, .section-content:after {
+.section-wrapper:before,
+.section-wrapper:after,
+.section-content:before,
+.section-content:after {
   content: ' ';
   display: table
 }
 
-.section-wrapper:after, .section-content:after {
+.section-wrapper:after,
+.section-content:after {
   clear: both
 }
 
@@ -3060,7 +3298,9 @@ html.ie8 .has-center-content .center-block {
   letter-spacing: -.024em
 }
 
-html.ie8 .elevated-headline, html.ie8 .hero-headline, html.ie8 .section-headline {
+html.ie8 .elevated-headline,
+html.ie8 .hero-headline,
+html.ie8 .section-headline {
   font-family: "Myriad Set Pro 200", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3093,7 +3333,13 @@ html.ie8 .elevated-headline {
   letter-spacing: -.01em
 }
 
-html.ie8 .elevated-subhead, html.ie8 .elevated-intro, html.ie8 .subsection-headline, html.ie8 .subsection-subheadline, html.ie8 .table-label, html.ie8 .intro, html.ie8 h2.eyebrow {
+html.ie8 .elevated-subhead,
+html.ie8 .elevated-intro,
+html.ie8 .subsection-headline,
+html.ie8 .subsection-subheadline,
+html.ie8 .table-label,
+html.ie8 .intro,
+html.ie8 h2.eyebrow {
   font-family: "Myriad Set Pro 300", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3291,7 +3537,8 @@ html.ie8 .table-label {
   letter-spacing: 0em
 }
 
-html.ie8 .smallblock-headline, html.ie8 .caption-headline {
+html.ie8 .smallblock-headline,
+html.ie8 .caption-headline {
   font-family: "Myriad Set Pro 600", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3433,12 +3680,14 @@ h2.eyebrow+.subsection-headline {
   }
 }
 
-.icon-after, .more {
+.icon-after,
+.more {
   padding-right: .6em;
   display: inline-block
 }
 
-.icon-after:after, .more:after {
+.icon-after:after,
+.more:after {
   width: 0;
   padding-left: 0;
   -webkit-transform: translateX(.3em);
@@ -3446,7 +3695,8 @@ h2.eyebrow+.subsection-headline {
   transform: translateX(.3em)
 }
 
-html.ie8 .icon-after:after, html.ie8 .more:after {
+html.ie8 .icon-after:after,
+html.ie8 .more:after {
   width: auto;
   padding-left: .3em
 }
@@ -3745,11 +3995,13 @@ html.no-touch .icon-replay.active:hover {
   text-decoration: underline
 }
 
-html.no-js .icon-replay, html.ie .icon-replay {
+html.no-js .icon-replay,
+html.ie .icon-replay {
   display: none
 }
 
-html.progressive.js .progressive-image, html.progressive.js .progressive-image * {
+html.progressive.js .progressive-image,
+html.progressive.js .progressive-image * {
   background-image: none !important
 }
 
@@ -3775,7 +4027,8 @@ html.progressive .progressive-image-animated.progressive-image-ready {
   z-index: 1
 }
 
-.mediaObject-container .mediaObject-startframe, .mediaObject-container .mediaObject-endframe {
+.mediaObject-container .mediaObject-startframe,
+.mediaObject-container .mediaObject-endframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -3788,7 +4041,8 @@ html.progressive .progressive-image-animated.progressive-image-ready {
   opacity: 0
 }
 
-html.blobs .mediaObject-container .mediaObject-startframe, html.blobs .mediaObject-container .mediaObject-endframe {
+html.blobs .mediaObject-container .mediaObject-startframe,
+html.blobs .mediaObject-container .mediaObject-endframe {
   display: block
 }
 
@@ -3805,7 +4059,8 @@ html.blobs .mediaObject-container.mediaObject-enhanced .mediaObject-startframe {
   transition: opacity 0.2s ease-in-out
 }
 
-html.blobs .mediaObject-container.mediaObject-enhanced.mediaObject-playing .mediaObject-startframe, html.blobs .mediaObject-container.mediaObject-enhanced.mediaObject-playing .mediaObject-endframe {
+html.blobs .mediaObject-container.mediaObject-enhanced.mediaObject-playing .mediaObject-startframe,
+html.blobs .mediaObject-container.mediaObject-enhanced.mediaObject-playing .mediaObject-endframe {
   opacity: 0
 }
 
@@ -3827,7 +4082,8 @@ html.blobs .mediaObject-container.mediaObject-destroyed button {
   display: none
 }
 
-html.blobs .mediaObject-container.mediaObject-destroyed .mediaObject-startframe, html.blobs .mediaObject-container.mediaObject-destroyed .mediaObject-endframe {
+html.blobs .mediaObject-container.mediaObject-destroyed .mediaObject-startframe,
+html.blobs .mediaObject-container.mediaObject-destroyed .mediaObject-endframe {
   display: none
 }
 
@@ -3962,7 +4218,10 @@ html.ie .page-overview .main {
   padding-bottom: 1110px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-hero {
     background-image: url("/macos/sierra/overview/hero/fallback_bg_large_2x.jpg")
   }
@@ -3976,7 +4235,9 @@ html.ie .page-overview .main {
   }
 }
 
-@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1442px) and (min-resolution: 1.5dppx), only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
+@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1442px) and (min-resolution: 1.5dppx),
+only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
     background-image: url("/macos/sierra/overview/hero/fallback_bg_xlarge_2x.jpg")
   }
@@ -3990,7 +4251,9 @@ html.ie .page-overview .main {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
     background-image: url("/macos/sierra/overview/hero/fallback_bg_medium_2x.jpg")
   }
@@ -4004,7 +4267,9 @@ html.ie .page-overview .main {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero {
     background-image: url("/macos/sierra/overview/hero/fallback_bg_small_2x.jpg")
   }
@@ -4027,7 +4292,8 @@ html.ie .page-overview .main {
   padding-top: 0
 }
 
-.page-overview .section-hero .hero-reveal, .page-overview .section-hero .hero-animation {
+.page-overview .section-hero .hero-reveal,
+.page-overview .section-hero .hero-animation {
   display: none
 }
 
@@ -4234,11 +4500,13 @@ html.hero-full .page-overview .section-hero .hero-fallback-hardware {
   opacity: 0
 }
 
-html.hero-full .page-overview .section-hero .hero-fallback-hardware, html.hero-full .page-overview .section-hero .hero-fallback-screen {
+html.hero-full .page-overview .section-hero .hero-fallback-hardware,
+html.hero-full .page-overview .section-hero .hero-fallback-screen {
   background-image: none
 }
 
-html.hero-full .page-overview .section-hero .macbook, html.hero-full .page-overview .section-hero .wallpaper {
+html.hero-full .page-overview .section-hero .macbook,
+html.hero-full .page-overview .section-hero .wallpaper {
   display: block;
   visibility: visible;
   background-image: none
@@ -4296,7 +4564,8 @@ html.hero-full .page-overview .section-hero .scroll-view.end .explore {
   display: none
 }
 
-html.hero-full .page-overview .section-hero .scroll-view.resize .hero-content, html.hero-full .page-overview .section-hero .scroll-view.resize .hero-content .animate {
+html.hero-full .page-overview .section-hero .scroll-view.resize .hero-content,
+html.hero-full .page-overview .section-hero .scroll-view.resize .hero-content .animate {
   -webkit-transition: none;
   transition: none
 }
@@ -4361,7 +4630,10 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
     left: 0px
   }
@@ -4415,7 +4687,8 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-.page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+.page-overview .section-hero .macbook,
+.page-overview .section-hero .hero-fallback-hardware {
   width: 1214px;
   height: 694px;
   background-size: 1214px 694px;
@@ -4433,14 +4706,21 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   margin-right: -117px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     background-image: url("/macos/sierra/overview/hero/fallback_hardware_large_2x.png")
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     width: 738px;
     height: 423px;
     background-size: 738px 423px;
@@ -4449,14 +4729,20 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     background-image: url("/macos/sierra/overview/hero/fallback_hardware_medium_2x.png")
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     width: 358px;
     height: 206px;
     background-size: 358px 206px;
@@ -4465,34 +4751,46 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     background-image: url("/macos/sierra/overview/hero/fallback_hardware_small_2x.png")
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     margin-left: -23px;
     margin-right: -23px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     margin-left: -134px;
     margin-right: -134px
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     padding-top: 32px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .section-hero .macbook, .page-overview .section-hero .hero-fallback-hardware {
+
+  .page-overview .section-hero .macbook,
+  .page-overview .section-hero .hero-fallback-hardware {
     left: 50%;
     margin: 0 auto;
     padding-top: 14px;
@@ -4500,13 +4798,23 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-.page-overview .section-hero .macbook .keyboard, .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .macbook .hardware-canvas, .page-overview .section-hero .macbook .macbook-canvas, .page-overview .section-hero .macbook .hero-fallback-hardware-canvas, .page-overview .section-hero .hero-fallback-hardware .keyboard, .page-overview .section-hero .hero-fallback-hardware .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware-canvas, .page-overview .section-hero .hero-fallback-hardware .macbook-canvas, .page-overview .section-hero .hero-fallback-hardware .hero-fallback-hardware-canvas {
+.page-overview .section-hero .macbook .keyboard,
+.page-overview .section-hero .macbook .hardware,
+.page-overview .section-hero .macbook .hardware-canvas,
+.page-overview .section-hero .macbook .macbook-canvas,
+.page-overview .section-hero .macbook .hero-fallback-hardware-canvas,
+.page-overview .section-hero .hero-fallback-hardware .keyboard,
+.page-overview .section-hero .hero-fallback-hardware .hardware,
+.page-overview .section-hero .hero-fallback-hardware .hardware-canvas,
+.page-overview .section-hero .hero-fallback-hardware .macbook-canvas,
+.page-overview .section-hero .hero-fallback-hardware .hero-fallback-hardware-canvas {
   position: absolute;
   top: 0;
   left: 0
 }
 
-.page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
+.page-overview .section-hero .macbook .hardware,
+.page-overview .section-hero .hero-fallback-hardware .hardware {
   display: none;
   left: 0;
   background-image: url("/macos/sierra/overview/hero/fallback_hardware_large_2x.png");
@@ -4516,7 +4824,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
+
+  .page-overview .section-hero .macbook .hardware,
+  .page-overview .section-hero .hero-fallback-hardware .hardware {
     background-image: url("/macos/sierra/overview/hero/fallback_hardware_medium_2x.png");
     background-repeat: no-repeat;
     width: 1476px;
@@ -4525,7 +4835,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .section-hero .macbook .hardware, .page-overview .section-hero .hero-fallback-hardware .hardware {
+
+  .page-overview .section-hero .macbook .hardware,
+  .page-overview .section-hero .hero-fallback-hardware .hardware {
     background-image: url("/macos/sierra/overview/hero/fallback_hardware_small_2x.png");
     background-repeat: no-repeat;
     width: 716px;
@@ -4533,11 +4845,13 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-.page-overview .section-hero .macbook .hardware.active, .page-overview .section-hero .hero-fallback-hardware .hardware.active {
+.page-overview .section-hero .macbook .hardware.active,
+.page-overview .section-hero .hero-fallback-hardware .hardware.active {
   display: block
 }
 
-.page-overview .section-hero .macbook .hardware-canvas, .page-overview .section-hero .hero-fallback-hardware .hardware-canvas {
+.page-overview .section-hero .macbook .hardware-canvas,
+.page-overview .section-hero .hero-fallback-hardware .hardware-canvas {
   -webkit-transform: scale3d(0.5, 0.5, 1);
   transform: scale3d(0.5, 0.5, 1);
   -webkit-transform-origin: 0 0;
@@ -4561,7 +4875,10 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   display: block
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_large_2x.jpg")
   }
@@ -4577,7 +4894,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_medium_2x.jpg")
   }
@@ -4593,7 +4912,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .wallpaper {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_small_2x.jpg")
   }
@@ -4632,7 +4953,10 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_large_2x.jpg")
   }
@@ -4648,7 +4972,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_medium_2x.jpg")
   }
@@ -4664,7 +4990,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-hero .hero-fallback-screen {
     background-image: url("/macos/sierra/overview/hero/fallback_screen_small_2x.jpg")
   }
@@ -4686,7 +5014,10 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
     background-image: url("/macos/sierra/overview/applepay/image_large_2x.jpg")
   }
@@ -4702,7 +5033,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
     background-image: url("/macos/sierra/overview/applepay/image_medium_2x.jpg")
   }
@@ -4718,7 +5051,9 @@ html.hero-full.safari.width-odd .page-overview .hero-fallback-screen-canvas {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-applepay .applepay-image {
     background-image: url("/macos/sierra/overview/applepay/image_small_2x.jpg")
   }
@@ -4840,7 +5175,10 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
   bottom: 0
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
     background-image: url("/macos/sierra/overview/autounlock/image_large_2x.jpg")
   }
@@ -4856,7 +5194,9 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
     background-image: url("/macos/sierra/overview/autounlock/image_medium_2x.jpg")
   }
@@ -4872,7 +5212,9 @@ html.ie8 .page-overview .section-autounlock .autounlock-copy-content {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-autounlock .image-autounlock {
     background-image: url("/macos/sierra/overview/autounlock/image_small_2x.jpg")
   }
@@ -5024,7 +5366,10 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
   top: 0
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
     background-image: url("/macos/sierra/overview/siri/multitasking/image_large_2x.png")
   }
@@ -5040,7 +5385,9 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
     background-image: url("/macos/sierra/overview/siri/multitasking/image_medium_2x.png")
   }
@@ -5056,7 +5403,9 @@ html.ie8 .page-overview .section-autounlock .image-autounlock {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-multitasking .macos-preview-overview-siri-multitasking-image {
     background-image: url("/macos/sierra/overview/siri/multitasking/image_small_2x.png")
   }
@@ -5239,7 +5588,10 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   background-image: url("/macos/sierra/overview/siri/features/narrowresults/startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/startframe_large_2x.jpg")
   }
@@ -5255,7 +5607,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/startframe_medium_2x.jpg")
   }
@@ -5271,7 +5625,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/startframe_small_2x.jpg")
   }
@@ -5285,7 +5641,10 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   background-image: url("/macos/sierra/overview/siri/features/narrowresults/endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/endframe_large_2x.jpg")
   }
@@ -5301,7 +5660,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/endframe_medium_2x.jpg")
   }
@@ -5317,7 +5678,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/endframe_small_2x.jpg")
   }
@@ -5331,7 +5694,10 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   background-image: url("/macos/sierra/overview/siri/features/narrowresults/fallback_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/fallback_large_2x.jpg")
   }
@@ -5347,7 +5713,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/fallback_medium_2x.jpg")
   }
@@ -5363,7 +5731,9 @@ html.js.touch .page-overview .siri-features-grid .mediaObject-destroyed button {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .narrowresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/narrowresults/fallback_small_2x.jpg")
   }
@@ -5374,20 +5744,25 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   margin-left: 0
 }
 
-.page-overview .siri-features-grid .narrowresults .mediaObject-container, .page-overview .siri-features-grid .narrowresults .mediaObject-element {
+.page-overview .siri-features-grid .narrowresults .mediaObject-container,
+.page-overview .siri-features-grid .narrowresults .mediaObject-element {
   width: 686px;
   height: 710px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .siri-features-grid .narrowresults .mediaObject-container, .page-overview .siri-features-grid .narrowresults .mediaObject-element {
+
+  .page-overview .siri-features-grid .narrowresults .mediaObject-container,
+  .page-overview .siri-features-grid .narrowresults .mediaObject-element {
     width: 534px;
     height: 552px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .siri-features-grid .narrowresults .mediaObject-container, .page-overview .siri-features-grid .narrowresults .mediaObject-element {
+
+  .page-overview .siri-features-grid .narrowresults .mediaObject-container,
+  .page-overview .siri-features-grid .narrowresults .mediaObject-element {
     width: 736px;
     height: 522px
   }
@@ -5417,7 +5792,10 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/pinresults/startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/startframe_large_2x.jpg")
   }
@@ -5433,7 +5811,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/startframe_medium_2x.jpg")
   }
@@ -5449,7 +5829,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/startframe_small_2x.jpg")
   }
@@ -5463,7 +5845,10 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/pinresults/endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/endframe_large_2x.jpg")
   }
@@ -5479,7 +5864,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/endframe_medium_2x.jpg")
   }
@@ -5495,7 +5882,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/endframe_small_2x.jpg")
   }
@@ -5509,7 +5898,10 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/pinresults/fallback_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/fallback_large_2x.jpg")
   }
@@ -5525,7 +5917,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/fallback_medium_2x.jpg")
   }
@@ -5541,7 +5935,9 @@ html.ie8 .page-overview .siri-features-grid .narrowresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .pinresults .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/pinresults/fallback_small_2x.jpg")
   }
@@ -5552,20 +5948,25 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   margin-left: 0
 }
 
-.page-overview .siri-features-grid .pinresults .mediaObject-container, .page-overview .siri-features-grid .pinresults .mediaObject-element {
+.page-overview .siri-features-grid .pinresults .mediaObject-container,
+.page-overview .siri-features-grid .pinresults .mediaObject-element {
   width: 686px;
   height: 710px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .siri-features-grid .pinresults .mediaObject-container, .page-overview .siri-features-grid .pinresults .mediaObject-element {
+
+  .page-overview .siri-features-grid .pinresults .mediaObject-container,
+  .page-overview .siri-features-grid .pinresults .mediaObject-element {
     width: 534px;
     height: 568px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .siri-features-grid .pinresults .mediaObject-container, .page-overview .siri-features-grid .pinresults .mediaObject-element {
+
+  .page-overview .siri-features-grid .pinresults .mediaObject-container,
+  .page-overview .siri-features-grid .pinresults .mediaObject-element {
     width: 736px;
     height: 608px
   }
@@ -5595,7 +5996,10 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/dragdrop/startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/startframe_large_2x.jpg")
   }
@@ -5611,7 +6015,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/startframe_medium_2x.jpg")
   }
@@ -5627,7 +6033,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-startframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/startframe_small_2x.jpg")
   }
@@ -5641,7 +6049,10 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/dragdrop/endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/endframe_large_2x.jpg")
   }
@@ -5657,7 +6068,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/endframe_medium_2x.jpg")
   }
@@ -5673,7 +6086,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .mediaObject-endframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/endframe_small_2x.jpg")
   }
@@ -5687,7 +6102,10 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   background-image: url("/macos/sierra/overview/siri/features/dragdrop/fallback_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/fallback_large_2x.jpg")
   }
@@ -5703,7 +6121,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/fallback_medium_2x.jpg")
   }
@@ -5719,7 +6139,9 @@ html.ie8 .page-overview .siri-features-grid .pinresults .posterframe {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .siri-features-grid .dragdrop .posterframe {
     background-image: url("/macos/sierra/overview/siri/features/dragdrop/fallback_small_2x.jpg")
   }
@@ -5730,20 +6152,25 @@ html.ie8 .page-overview .siri-features-grid .dragdrop .posterframe {
   margin-left: 0
 }
 
-.page-overview .siri-features-grid .dragdrop .mediaObject-container, .page-overview .siri-features-grid .dragdrop .mediaObject-element {
+.page-overview .siri-features-grid .dragdrop .mediaObject-container,
+.page-overview .siri-features-grid .dragdrop .mediaObject-element {
   width: 686px;
   height: 686px
 }
 
 @media only screen and (max-width: 1068px) {
-  .page-overview .siri-features-grid .dragdrop .mediaObject-container, .page-overview .siri-features-grid .dragdrop .mediaObject-element {
+
+  .page-overview .siri-features-grid .dragdrop .mediaObject-container,
+  .page-overview .siri-features-grid .dragdrop .mediaObject-element {
     width: 534px;
     height: 568px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .page-overview .siri-features-grid .dragdrop .mediaObject-container, .page-overview .siri-features-grid .dragdrop .mediaObject-element {
+
+  .page-overview .siri-features-grid .dragdrop .mediaObject-container,
+  .page-overview .siri-features-grid .dragdrop .mediaObject-element {
     width: 736px;
     height: 480px
   }
@@ -5757,7 +6184,10 @@ html.ie8 .page-overview .siri-features-grid .dragdrop .posterframe {
   position: static
 }
 
-.page-overview .siri-features-grid .mediaObject-container .posterframe, .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe, .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe, .page-overview .siri-features-grid .mediaObject-container .mediaObject-element {
+.page-overview .siri-features-grid .mediaObject-container .posterframe,
+.page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe,
+.page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe,
+.page-overview .siri-features-grid .mediaObject-container .mediaObject-element {
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -5771,12 +6201,19 @@ html.ie8 .page-overview .siri-features-grid .dragdrop .posterframe {
   display: none !important
 }
 
-html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe, html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe, html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe, html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe, html.no-js .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe, html.no-js .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe {
+html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe,
+html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe,
+html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe,
+html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe,
+html.no-js .page-overview .siri-features-grid .mediaObject-container .mediaObject-startframe,
+html.no-js .page-overview .siri-features-grid .mediaObject-container .mediaObject-endframe {
   display: none;
   background-image: none
 }
 
-html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .posterframe, html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .posterframe, html.no-js .page-overview .siri-features-grid .mediaObject-container .posterframe {
+html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .posterframe,
+html.no-inlineVideo .page-overview .siri-features-grid .mediaObject-container .posterframe,
+html.no-js .page-overview .siri-features-grid .mediaObject-container .posterframe {
   visibility: visible;
   z-index: 2
 }
@@ -5786,7 +6223,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   margin-right: 0
 }
 
-.page-overview .siri-features-grid .pinresults .posterframe, .page-overview .siri-features-grid .pinresults .mediaObject-startframe, .page-overview .siri-features-grid .pinresults .mediaObject-endframe, .page-overview .siri-features-grid .pinresults .mediaObject-element {
+.page-overview .siri-features-grid .pinresults .posterframe,
+.page-overview .siri-features-grid .pinresults .mediaObject-startframe,
+.page-overview .siri-features-grid .pinresults .mediaObject-endframe,
+.page-overview .siri-features-grid .pinresults .mediaObject-element {
   left: auto;
   right: 0;
   -webkit-transform: translateX(0);
@@ -5815,7 +6255,8 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
     padding-top: 46px
   }
 
-  .page-overview .siri-command-grid.first-row .clear-for-small:before, .page-overview .siri-command-grid.first-row .clear-for-small:after {
+  .page-overview .siri-command-grid.first-row .clear-for-small:before,
+  .page-overview .siri-command-grid.first-row .clear-for-small:after {
     content: ' ';
     display: table
   }
@@ -5946,7 +6387,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .wave-container {
     background-image: url("/macos/sierra/overview/siri/commands/grid/featured/fallback_large_2x.png")
   }
@@ -5962,7 +6406,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .wave-container {
     background-image: url("/macos/sierra/overview/siri/commands/grid/featured/fallback_small_2x.png")
   }
@@ -6051,7 +6497,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd1/icon_large_2x.png")
   }
@@ -6067,7 +6516,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd1/icon_medium_2x.png")
   }
@@ -6083,7 +6534,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd1 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd1/icon_small_2x.png")
   }
@@ -6116,7 +6569,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd2/icon_large_2x.png")
   }
@@ -6132,7 +6588,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd2/icon_medium_2x.png")
   }
@@ -6148,7 +6606,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd2 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd2/icon_small_2x.png")
   }
@@ -6181,7 +6641,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd3/icon_large_2x.png")
   }
@@ -6197,7 +6660,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd3/icon_medium_2x.png")
   }
@@ -6213,7 +6678,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd3 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd3/icon_small_2x.png")
   }
@@ -6246,7 +6713,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd4/icon_large_2x.png")
   }
@@ -6262,7 +6732,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd4/icon_medium_2x.png")
   }
@@ -6278,7 +6750,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd4 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd4/icon_small_2x.png")
   }
@@ -6311,7 +6785,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd5/icon_large_2x.png")
   }
@@ -6327,7 +6804,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd5/icon_medium_2x.png")
   }
@@ -6343,7 +6822,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd5 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd5/icon_small_2x.png")
   }
@@ -6376,7 +6857,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd6/icon_large_2x.png")
   }
@@ -6392,7 +6876,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd6/icon_medium_2x.png")
   }
@@ -6408,7 +6894,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd6 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd6/icon_small_2x.png")
   }
@@ -6441,7 +6929,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd7/icon_large_2x.png")
   }
@@ -6457,7 +6948,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd7/icon_medium_2x.png")
   }
@@ -6473,7 +6966,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd7 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd7/icon_small_2x.png")
   }
@@ -6506,7 +7001,10 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd8/icon_large_2x.png")
   }
@@ -6522,7 +7020,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd8/icon_medium_2x.png")
   }
@@ -6538,7 +7038,9 @@ html.touch.no-ios .page-overview .siri-features-grid .mediaObject-container .pos
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .icon-cmd8 {
     background-image: url("/macos/sierra/overview/siri/commands/grid/cmd8/icon_small_2x.png")
   }
@@ -6612,7 +7114,8 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-.page-overview .section-siri .section-siri-content:before, .page-overview .section-siri .section-siri-content:after {
+.page-overview .section-siri .section-siri-content:before,
+.page-overview .section-siri .section-siri-content:after {
   content: ' ';
   display: table
 }
@@ -6634,7 +7137,10 @@ html.no-touch .page-overview .section-siri {
   margin-bottom: 90px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
     background-image: url("/macos/sierra/overview/siri/fallback_large_2x.png")
   }
@@ -6650,7 +7156,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
     background-image: url("/macos/sierra/overview/siri/fallback_medium_2x.png")
   }
@@ -6666,7 +7174,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-siri .siri-hero-wave {
     background-image: url("/macos/sierra/overview/siri/fallback_small_2x.png")
   }
@@ -6781,7 +7291,10 @@ html.no-touch .page-overview .section-siri {
   left: -4px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
     background-image: url("/macos/sierra/overview/clipboard/image_large_2x.jpg")
   }
@@ -6797,7 +7310,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
     background-image: url("/macos/sierra/overview/clipboard/image_medium_2x.jpg")
   }
@@ -6813,7 +7328,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-clipboard .image-overview-clipboard {
     background-image: url("/macos/sierra/overview/clipboard/image_small_2x.jpg")
   }
@@ -6865,7 +7382,8 @@ html.no-touch .page-overview .section-siri {
   margin-bottom: 178px
 }
 
-.page-overview .section-icloud .section-block:before, .page-overview .section-icloud .section-block:after {
+.page-overview .section-icloud .section-block:before,
+.page-overview .section-icloud .section-block:after {
   content: ' ';
   display: table
 }
@@ -6903,7 +7421,10 @@ html.no-touch .page-overview .section-siri {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
     background-image: url("/macos/sierra/overview/icloud/image_large_2x.png")
   }
@@ -6919,7 +7440,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
     background-image: url("/macos/sierra/overview/icloud/image_medium_2x.png")
   }
@@ -6935,7 +7458,9 @@ html.no-touch .page-overview .section-siri {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-icloud .image-overview-icloud {
     background-image: url("/macos/sierra/overview/icloud/image_small_2x.png")
   }
@@ -7032,7 +7557,8 @@ html.no-touch .page-overview .section-siri {
   height: 57px
 }
 
-.page-overview .section-smartstorage .storage-bar:before, .page-overview .section-smartstorage .storage-bar:after {
+.page-overview .section-smartstorage .storage-bar:before,
+.page-overview .section-smartstorage .storage-bar:after {
   content: ' ';
   display: table
 }
@@ -7134,7 +7660,10 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   background-image: url("/macos/sierra/overview/smartstorage/betterway/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-smartstorage .icloud-icon {
     background-image: url("/macos/sierra/overview/smartstorage/betterway/icon_large_2x.png")
   }
@@ -7150,7 +7679,9 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .icloud-icon {
     background-image: url("/macos/sierra/overview/smartstorage/betterway/icon_small_2x.png")
   }
@@ -7164,7 +7695,10 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   background-image: url("/macos/sierra/overview/smartstorage/cleansup/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-smartstorage .trash-icon {
     background-image: url("/macos/sierra/overview/smartstorage/cleansup/icon_large_2x.png")
   }
@@ -7180,7 +7714,9 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-smartstorage .trash-icon {
     background-image: url("/macos/sierra/overview/smartstorage/cleansup/icon_small_2x.png")
   }
@@ -7194,7 +7730,8 @@ html.ie8 .page-overview .section-smartstorage .segment-availablespace h5 {
   visibility: hidden
 }
 
-.page-overview .section-smartstorage .condensed .label-used-storage, .page-overview .section-smartstorage .condensed .segment-availablespace h5 {
+.page-overview .section-smartstorage .condensed .label-used-storage,
+.page-overview .section-smartstorage .condensed .segment-availablespace h5 {
   visibility: visible
 }
 
@@ -7740,7 +8277,8 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-.page-overview .section-music .has-center-content.row:before, .page-overview .section-music .has-center-content.row:after {
+.page-overview .section-music .has-center-content.row:before,
+.page-overview .section-music .has-center-content.row:after {
   display: none
 }
 
@@ -7799,7 +8337,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   position: absolute
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
     background-image: url("/macos/sierra/overview/music/image_large_2x.jpg")
   }
@@ -7815,7 +8356,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
     background-image: url("/macos/sierra/overview/music/image_medium_2x.jpg")
   }
@@ -7831,7 +8374,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-music .macos-preview-overview-music-image {
     background-image: url("/macos/sierra/overview/music/image_small_2x.jpg")
   }
@@ -7887,7 +8432,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
     background-image: url("/macos/sierra/overview/tabs/image_large_2x.jpg")
   }
@@ -7903,7 +8451,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
     background-image: url("/macos/sierra/overview/tabs/image_medium_2x.jpg")
   }
@@ -7919,7 +8469,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-tabs .macos-preview-overview-tabs-image {
     background-image: url("/macos/sierra/overview/tabs/image_small_2x.jpg")
   }
@@ -7970,7 +8522,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
     background-image: url("/macos/sierra/overview/photos/image_large_2x.jpg")
   }
@@ -7986,7 +8541,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
     background-image: url("/macos/sierra/overview/photos/image_medium_2x.png")
   }
@@ -8002,7 +8559,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .photos-image {
     background-image: url("/macos/sierra/overview/photos/image_small_2x.png")
   }
@@ -8296,7 +8855,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   background-image: url("/macos/sierra/overview/photos/gallery/slide1/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide1/image_large_2x.png")
   }
@@ -8312,7 +8874,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide1/image_medium_2x.png")
   }
@@ -8328,7 +8892,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-1 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide1/image_small_2x.png")
   }
@@ -8342,7 +8908,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   background-image: url("/macos/sierra/overview/photos/gallery/slide2/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide2/image_large_2x.png")
   }
@@ -8358,7 +8927,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide2/image_medium_2x.png")
   }
@@ -8374,7 +8945,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-2 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide2/image_small_2x.png")
   }
@@ -8388,7 +8961,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   background-image: url("/macos/sierra/overview/photos/gallery/slide3/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide3/image_large_2x.png")
   }
@@ -8404,7 +8980,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide3/image_medium_2x.png")
   }
@@ -8420,7 +8998,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-3 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide3/image_small_2x.png")
   }
@@ -8434,7 +9014,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   background-image: url("/macos/sierra/overview/photos/gallery/slide4/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide4/image_large_2x.png")
   }
@@ -8450,7 +9033,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide4/image_medium_2x.png")
   }
@@ -8466,7 +9051,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-photos .hardware-slide-4 {
     background-image: url("/macos/sierra/overview/photos/gallery/slide4/image_small_2x.png")
   }
@@ -8580,7 +9167,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   top: 0
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
     background-image: url("/macos/sierra/overview/messages/image_large_2x.jpg")
   }
@@ -8596,7 +9186,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
     background-image: url("/macos/sierra/overview/messages/image_medium_2x.jpg")
   }
@@ -8612,7 +9204,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-messages .macos-preview-overview-messages-image {
     background-image: url("/macos/sierra/overview/messages/image_small_2x.jpg")
   }
@@ -8696,7 +9290,10 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   text-align: center
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .section-howtoupgrade {
     background-image: url("/macos/sierra/overview/howtoupgrade/image_large_2x.jpg")
   }
@@ -8710,7 +9307,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .section-howtoupgrade {
     background-image: url("/macos/sierra/overview/howtoupgrade/image_medium_2x.jpg")
   }
@@ -8724,7 +9323,9 @@ html.js.css-transitions .page-overview .section-smartstorage .expand .segment-av
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .section-howtoupgrade {
     background-image: url("/macos/sierra/overview/howtoupgrade/image_small_2x.jpg")
   }

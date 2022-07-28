@@ -8,22 +8,51 @@ body {
   padding: 0
 }
 
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button {
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
   margin: 0;
   padding: 0
 }
 
-pre, code, address, caption, th, figcaption {
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
   font-size: 1em;
   font-weight: normal;
   font-style: normal
 }
 
-fieldset, iframe {
+fieldset,
+iframe {
   border: 0
 }
 
-caption, th {
+caption,
+th {
   text-align: left
 }
 
@@ -32,11 +61,16 @@ table {
   border-spacing: 0
 }
 
-main, summary, details {
+main,
+summary,
+details {
   display: block
 }
 
-audio, canvas, video, progress {
+audio,
+canvas,
+video,
+progress {
   vertical-align: baseline
 }
 
@@ -62,7 +96,8 @@ button:disabled {
   outline-offset: 1px
 }
 
-:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), :focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   outline: none
 }
 
@@ -210,7 +245,11 @@ body:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   font-synthesis: none;
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
@@ -219,25 +258,92 @@ body, input, textarea, select, button {
   text-align: left
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   color: #1d1d1f
 }
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
   display: block;
   margin: 0
 }
 
-h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
+h1+*,
+h2+*,
+h3+*,
+h4+*,
+h5+*,
+h6+* {
   margin-top: .8em
 }
 
-h1+h1, h1+h2, h1+h3, h1+h4, h1+h5, h1+h6, h2+h1, h2+h2, h2+h3, h2+h4, h2+h5, h2+h6, h3+h1, h3+h2, h3+h3, h3+h4, h3+h5, h3+h6, h4+h1, h4+h2, h4+h3, h4+h4, h4+h5, h4+h6, h5+h1, h5+h2, h5+h3, h5+h4, h5+h5, h5+h6, h6+h1, h6+h2, h6+h3, h6+h4, h6+h5, h6+h6 {
+h1+h1,
+h1+h2,
+h1+h3,
+h1+h4,
+h1+h5,
+h1+h6,
+h2+h1,
+h2+h2,
+h2+h3,
+h2+h4,
+h2+h5,
+h2+h6,
+h3+h1,
+h3+h2,
+h3+h3,
+h3+h4,
+h3+h5,
+h3+h6,
+h4+h1,
+h4+h2,
+h4+h3,
+h4+h4,
+h4+h5,
+h4+h6,
+h5+h1,
+h5+h2,
+h5+h3,
+h5+h4,
+h5+h5,
+h5+h6,
+h6+h1,
+h6+h2,
+h6+h3,
+h6+h4,
+h6+h5,
+h6+h6 {
   margin-top: .4em
 }
 
-p+h1, ul+h1, ol+h1, p+h2, ul+h2, ol+h2, p+h3, ul+h3, ol+h3, p+h4, ul+h4, ol+h4, p+h5, ul+h5, ol+h5, p+h6, ul+h6, ol+h6 {
+p+h1,
+ul+h1,
+ol+h1,
+p+h2,
+ul+h2,
+ol+h2,
+p+h3,
+ul+h3,
+ol+h3,
+p+h4,
+ul+h4,
+ol+h4,
+p+h5,
+ul+h5,
+ol+h5,
+p+h6,
+ul+h6,
+ol+h6 {
   margin-top: 1.6em
 }
 
@@ -245,20 +351,27 @@ p+h1, ul+h1, ol+h1, p+h2, ul+h2, ol+h2, p+h3, ul+h3, ol+h3, p+h4, ul+h4, ol+h4, 
   margin-top: 0
 }
 
-p+*, ul+*, ol+* {
+p+*,
+ul+*,
+ol+* {
   margin-top: .8em
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 1.17647em
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   margin: 0;
   list-style: none
 }
@@ -267,28 +380,36 @@ li li {
   font-size: 1em
 }
 
-a, .link {
+a,
+.link {
   color: var(--blue);
   letter-spacing: inherit
 }
 
-a:link, a:visited, .link:link, .link:visited {
+a:link,
+a:visited,
+.link:link,
+.link:visited {
   text-decoration: none
 }
 
-a:hover, .link:hover {
+a:hover,
+.link:hover {
   text-decoration: underline
 }
 
-a:active, .link:active {
+a:active,
+.link:active {
   text-decoration: none
 }
 
-a:disabled, .link:disabled {
+a:disabled,
+.link:disabled {
   opacity: .32
 }
 
-.links-inline, .links-stacked {
+.links-inline,
+.links-stacked {
   margin-left: 0;
   margin-right: 0;
   list-style: none
@@ -316,15 +437,20 @@ a:disabled, .link:disabled {
   margin-top: .4em
 }
 
-b, strong {
+b,
+strong {
   font-weight: 600
 }
 
-em, i, cite, dfn {
+em,
+i,
+cite,
+dfn {
   font-style: italic
 }
 
-sup, sub {
+sup,
+sub {
   position: relative;
   font-size: 0.6em;
   vertical-align: baseline
@@ -398,7 +524,10 @@ abbr {
   border: 0
 }
 
-:lang(ja), :lang(ko), :lang(th), :lang(zh) {
+:lang(ja),
+:lang(ko),
+:lang(th),
+:lang(zh) {
   font-style: normal
 }
 
@@ -752,7 +881,8 @@ abbr {
   }
 }
 
-.selfclear::before, .selfclear::after {
+.selfclear::before,
+.selfclear::after {
   content: ' ';
   display: table
 }
@@ -2026,7 +2156,10 @@ abbr {
   }
 }
 
-.icon::before, .icon::after, .more::before, .more::after {
+.icon::before,
+.icon::after,
+.more::before,
+.more::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2040,15 +2173,20 @@ abbr {
   alt: ''
 }
 
-.icon::before, .icon::after, .more::before, .more::after {
+.icon::before,
+.icon::after,
+.more::before,
+.more::after {
   text-decoration: none
 }
 
-.icon::before, .more::before {
+.icon::before,
+.more::before {
   display: none
 }
 
-.icon-after::after, .more::after {
+.icon-after::after,
+.more::after {
   padding-left: .3em;
   top: 0
 }
@@ -2073,335 +2211,418 @@ abbr {
   display: none
 }
 
-.icon-apple::before, .icon-apple::after {
+.icon-apple::before,
+.icon-apple::after {
   content: ""
 }
 
-.icon-chevrondown::before, .icon-chevrondown::after {
+.icon-chevrondown::before,
+.icon-chevrondown::after {
   content: ""
 }
 
-.icon-chevrondowncircle::before, .icon-chevrondowncircle::after {
+.icon-chevrondowncircle::before,
+.icon-chevrondowncircle::after {
   content: ""
 }
 
-.icon-chevronleft::before, .icon-chevronleft::after {
+.icon-chevronleft::before,
+.icon-chevronleft::after {
   content: ""
 }
 
-.icon-chevronleftcircle::before, .icon-chevronleftcircle::after {
+.icon-chevronleftcircle::before,
+.icon-chevronleftcircle::after {
   content: ""
 }
 
-.icon-chevronright::before, .icon-chevronright::after {
+.icon-chevronright::before,
+.icon-chevronright::after {
   content: ""
 }
 
-.icon-chevronrightcircle::before, .icon-chevronrightcircle::after {
+.icon-chevronrightcircle::before,
+.icon-chevronrightcircle::after {
   content: ""
 }
 
-.icon-chevronup::before, .icon-chevronup::after {
+.icon-chevronup::before,
+.icon-chevronup::after {
   content: ""
 }
 
-.icon-chevronupcircle::before, .icon-chevronupcircle::after {
+.icon-chevronupcircle::before,
+.icon-chevronupcircle::after {
   content: ""
 }
 
-.icon-downloadcircle::before, .icon-downloadcircle::after {
+.icon-downloadcircle::before,
+.icon-downloadcircle::after {
   content: ""
 }
 
-.icon-arrowupcircle::before, .icon-arrowupcircle::after {
+.icon-arrowupcircle::before,
+.icon-arrowupcircle::after {
   content: "􀁶"
 }
 
-.icon-external::before, .icon-external::after {
+.icon-external::before,
+.icon-external::after {
   content: ""
 }
 
-.icon-share::before, .icon-share::after {
+.icon-share::before,
+.icon-share::after {
   content: ""
 }
 
-.icon-search::before, .icon-search::after {
+.icon-search::before,
+.icon-search::after {
   content: ""
 }
 
-.icon-arkit::before, .icon-arkit::after {
+.icon-arkit::before,
+.icon-arkit::after {
   content: ""
 }
 
-.icon-pausecircle::before, .icon-pausecircle::after {
+.icon-pausecircle::before,
+.icon-pausecircle::after {
   content: ""
 }
 
-.icon-pausesolid::before, .icon-pausesolid::after {
+.icon-pausesolid::before,
+.icon-pausesolid::after {
   content: ""
 }
 
-.icon-playcircle::before, .icon-playcircle::after {
+.icon-playcircle::before,
+.icon-playcircle::after {
   content: ""
 }
 
-.icon-playsolid::before, .icon-playsolid::after {
+.icon-playsolid::before,
+.icon-playsolid::after {
   content: ""
 }
 
-.icon-replay::before, .icon-replay::after {
+.icon-replay::before,
+.icon-replay::after {
   content: ""
 }
 
-.icon-stopcircle::before, .icon-stopcircle::after {
+.icon-stopcircle::before,
+.icon-stopcircle::after {
   content: ""
 }
 
-.icon-stopsolid::before, .icon-stopsolid::after {
+.icon-stopsolid::before,
+.icon-stopsolid::after {
   content: ""
 }
 
-.icon-circle::before, .icon-circle::after {
+.icon-circle::before,
+.icon-circle::after {
   content: ""
 }
 
-.icon-check::before, .icon-check::after {
+.icon-check::before,
+.icon-check::after {
   content: ""
 }
 
-.icon-checkcircle::before, .icon-checkcircle::after {
+.icon-checkcircle::before,
+.icon-checkcircle::after {
   content: ""
 }
 
-.icon-checksolid::before, .icon-checksolid::after {
+.icon-checksolid::before,
+.icon-checksolid::after {
   content: ""
 }
 
-.icon-reset::before, .icon-reset::after {
+.icon-reset::before,
+.icon-reset::after {
   content: ""
 }
 
-.icon-resetcircle::before, .icon-resetcircle::after {
+.icon-resetcircle::before,
+.icon-resetcircle::after {
   content: ""
 }
 
-.icon-resetsolid::before, .icon-resetsolid::after {
+.icon-resetsolid::before,
+.icon-resetsolid::after {
   content: ""
 }
 
-.icon-exclamation::before, .icon-exclamation::after {
+.icon-exclamation::before,
+.icon-exclamation::after {
   content: ""
 }
 
-.icon-exclamationcircle::before, .icon-exclamationcircle::after {
+.icon-exclamationcircle::before,
+.icon-exclamationcircle::after {
   content: ""
 }
 
-.icon-exclamationsolid::before, .icon-exclamationsolid::after {
+.icon-exclamationsolid::before,
+.icon-exclamationsolid::after {
   content: ""
 }
 
-.icon-exclamationtriangle::before, .icon-exclamationtriangle::after {
+.icon-exclamationtriangle::before,
+.icon-exclamationtriangle::after {
   content: ""
 }
 
-.icon-exclamationtrianglesolid::before, .icon-exclamationtrianglesolid::after {
+.icon-exclamationtrianglesolid::before,
+.icon-exclamationtrianglesolid::after {
   content: ""
 }
 
-.icon-infocircle::before, .icon-infocircle::after {
+.icon-infocircle::before,
+.icon-infocircle::after {
   content: ""
 }
 
-.icon-infosolid::before, .icon-infosolid::after {
+.icon-infosolid::before,
+.icon-infosolid::after {
   content: ""
 }
 
-.icon-question::before, .icon-question::after {
+.icon-question::before,
+.icon-question::after {
   content: ""
 }
 
-.icon-questioncircle::before, .icon-questioncircle::after {
+.icon-questioncircle::before,
+.icon-questioncircle::after {
   content: ""
 }
 
-.icon-questionsolid::before, .icon-questionsolid::after {
+.icon-questionsolid::before,
+.icon-questionsolid::after {
   content: ""
 }
 
-.icon-plus::before, .icon-plus::after {
+.icon-plus::before,
+.icon-plus::after {
   content: ""
 }
 
-.icon-pluscircle::before, .icon-pluscircle::after {
+.icon-pluscircle::before,
+.icon-pluscircle::after {
   content: ""
 }
 
-.icon-plussolid::before, .icon-plussolid::after {
+.icon-plussolid::before,
+.icon-plussolid::after {
   content: ""
 }
 
-.icon-minus::before, .icon-minus::after {
+.icon-minus::before,
+.icon-minus::after {
   content: ""
 }
 
-.icon-minuscircle::before, .icon-minuscircle::after {
+.icon-minuscircle::before,
+.icon-minuscircle::after {
   content: ""
 }
 
-.icon-minussolid::before, .icon-minussolid::after {
+.icon-minussolid::before,
+.icon-minussolid::after {
   content: ""
 }
 
-.icon-1circle::before, .icon-1circle::after {
+.icon-1circle::before,
+.icon-1circle::after {
   content: ""
 }
 
-.icon-2circle::before, .icon-2circle::after {
+.icon-2circle::before,
+.icon-2circle::after {
   content: ""
 }
 
-.icon-3circle::before, .icon-3circle::after {
+.icon-3circle::before,
+.icon-3circle::after {
   content: ""
 }
 
-.icon-4circle::before, .icon-4circle::after {
+.icon-4circle::before,
+.icon-4circle::after {
   content: ""
 }
 
-.icon-5circle::before, .icon-5circle::after {
+.icon-5circle::before,
+.icon-5circle::after {
   content: ""
 }
 
-.icon-6circle::before, .icon-6circle::after {
+.icon-6circle::before,
+.icon-6circle::after {
   content: ""
 }
 
-.icon-7circle::before, .icon-7circle::after {
+.icon-7circle::before,
+.icon-7circle::after {
   content: ""
 }
 
-.icon-8circle::before, .icon-8circle::after {
+.icon-8circle::before,
+.icon-8circle::after {
   content: ""
 }
 
-.icon-9circle::before, .icon-9circle::after {
+.icon-9circle::before,
+.icon-9circle::after {
   content: ""
 }
 
-.icon-10circle::before, .icon-10circle::after {
+.icon-10circle::before,
+.icon-10circle::after {
   content: ""
 }
 
-.icon-11circle::before, .icon-11circle::after {
+.icon-11circle::before,
+.icon-11circle::after {
   content: ""
 }
 
-.icon-12circle::before, .icon-12circle::after {
+.icon-12circle::before,
+.icon-12circle::after {
   content: ""
 }
 
-.icon-13circle::before, .icon-13circle::after {
+.icon-13circle::before,
+.icon-13circle::after {
   content: ""
 }
 
-.icon-14circle::before, .icon-14circle::after {
+.icon-14circle::before,
+.icon-14circle::after {
   content: ""
 }
 
-.icon-15circle::before, .icon-15circle::after {
+.icon-15circle::before,
+.icon-15circle::after {
   content: ""
 }
 
-.icon-16circle::before, .icon-16circle::after {
+.icon-16circle::before,
+.icon-16circle::after {
   content: ""
 }
 
-.icon-17circle::before, .icon-17circle::after {
+.icon-17circle::before,
+.icon-17circle::after {
   content: ""
 }
 
-.icon-18circle::before, .icon-18circle::after {
+.icon-18circle::before,
+.icon-18circle::after {
   content: ""
 }
 
-.icon-19circle::before, .icon-19circle::after {
+.icon-19circle::before,
+.icon-19circle::after {
   content: ""
 }
 
-.icon-20circle::before, .icon-20circle::after {
+.icon-20circle::before,
+.icon-20circle::after {
   content: ""
 }
 
-.icon-close::before, .icon-close::after {
+.icon-close::before,
+.icon-close::after {
   content: ""
 }
 
-.icon-closecompact::before, .icon-closecompact::after {
+.icon-closecompact::before,
+.icon-closecompact::after {
   content: ""
 }
 
-.icon-paddleleft::before, .icon-paddleleft::after {
+.icon-paddleleft::before,
+.icon-paddleleft::after {
   content: ""
 }
 
-.icon-paddleleftcompact::before, .icon-paddleleftcompact::after {
+.icon-paddleleftcompact::before,
+.icon-paddleleftcompact::after {
   content: ""
 }
 
-.icon-paddleright::before, .icon-paddleright::after {
+.icon-paddleright::before,
+.icon-paddleright::after {
   content: ""
 }
 
-.icon-paddlerightcompact::before, .icon-paddlerightcompact::after {
+.icon-paddlerightcompact::before,
+.icon-paddlerightcompact::after {
   content: ""
 }
 
-.icon-paddleup::before, .icon-paddleup::after {
+.icon-paddleup::before,
+.icon-paddleup::after {
   content: ""
 }
 
-.icon-paddleupcompact::before, .icon-paddleupcompact::after {
+.icon-paddleupcompact::before,
+.icon-paddleupcompact::after {
   content: ""
 }
 
-.icon-paddledown::before, .icon-paddledown::after {
+.icon-paddledown::before,
+.icon-paddledown::after {
   content: ""
 }
 
-.icon-paddledowncompact::before, .icon-paddledowncompact::after {
+.icon-paddledowncompact::before,
+.icon-paddledowncompact::after {
   content: ""
 }
 
-.icon-thumbnailreplay::before, .icon-thumbnailreplay::after {
+.icon-thumbnailreplay::before,
+.icon-thumbnailreplay::after {
   content: ""
 }
 
-.icon-thumbnailpause::before, .icon-thumbnailpause::after {
+.icon-thumbnailpause::before,
+.icon-thumbnailpause::after {
   content: ""
 }
 
-.icon-thumbnailplay::before, .icon-thumbnailplay::after {
+.icon-thumbnailplay::before,
+.icon-thumbnailplay::after {
   content: ""
 }
 
-.icon-externalrtl::before, .icon-externalrtl::after {
+.icon-externalrtl::before,
+.icon-externalrtl::after {
   content: ""
 }
 
-.icon-questionrtl::before, .icon-questionrtl::after {
+.icon-questionrtl::before,
+.icon-questionrtl::after {
   content: ""
 }
 
-.icon-questioncirclertl::before, .icon-questioncirclertl::after {
+.icon-questioncirclertl::before,
+.icon-questioncirclertl::after {
   content: ""
 }
 
-.icon-questionsolidrtl::before, .icon-questionsolidrtl::after {
+.icon-questionsolidrtl::before,
+.icon-questionsolidrtl::after {
   content: ""
 }
 
-.more::before, .more::after {
+.more::before,
+.more::after {
   content: ""
 }
 
@@ -2409,7 +2630,10 @@ abbr {
   margin-top: .5em
 }
 
-.icon-wrapper .icon, .icon-wrapper .more::after, .icon-wrapper .icon-before::before, .icon-wrapper .icon-after::after {
+.icon-wrapper .icon,
+.icon-wrapper .more::after,
+.icon-wrapper .icon-before::before,
+.icon-wrapper .icon-after::after {
   display: inline
 }
 
@@ -2421,7 +2645,8 @@ a.icon-wrapper:hover .icon-copy {
   text-decoration: underline
 }
 
-html[dir=rtl] .icon-external::before, html[dir=rtl] .icon-external::after {
+html[dir=rtl] .icon-external::before,
+html[dir=rtl] .icon-external::after {
   content: ""
 }
 
@@ -2433,15 +2658,18 @@ html[dir=rtl] .icon-copy {
   unicode-bidi: embed
 }
 
-:lang(ar) .icon-question::before, :lang(ar) .icon-question::after {
+:lang(ar) .icon-question::before,
+:lang(ar) .icon-question::after {
   content: ""
 }
 
-:lang(ar) .icon-questioncircle::before, :lang(ar) .icon-questioncircle::after {
+:lang(ar) .icon-questioncircle::before,
+:lang(ar) .icon-questioncircle::after {
   content: ""
 }
 
-:lang(ar) .icon-questionsolid::before, :lang(ar) .icon-questionsolid::after {
+:lang(ar) .icon-questionsolid::before,
+:lang(ar) .icon-questionsolid::after {
   content: ""
 }
 
@@ -2611,7 +2839,9 @@ br.small {
   bottom: 100%
 }
 
-.badge .badge-unit-plus, .badge .badge-unit-percent, .badge .badge-unit-currency {
+.badge .badge-unit-plus,
+.badge .badge-unit-percent,
+.badge .badge-unit-currency {
   position: relative;
   z-index: 1
 }
@@ -2722,7 +2952,10 @@ br.small {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit, .badge .badge-unit-plus, .badge .badge-unit-percent, .badge .badge-unit-currency {
+.badge .badge-unit,
+.badge .badge-unit-plus,
+.badge .badge-unit-percent,
+.badge .badge-unit-currency {
   font-size: 32px;
   line-height: 1;
   font-weight: 400;
@@ -2731,35 +2964,59 @@ br.small {
   font-weight: 600
 }
 
-.badge .badge-unit:lang(ar), .badge .badge-unit-plus:lang(ar), .badge .badge-unit-percent:lang(ar), .badge .badge-unit-currency:lang(ar) {
+.badge .badge-unit:lang(ar),
+.badge .badge-unit-plus:lang(ar),
+.badge .badge-unit-percent:lang(ar),
+.badge .badge-unit-currency:lang(ar) {
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(ja), .badge .badge-unit-plus:lang(ja), .badge .badge-unit-percent:lang(ja), .badge .badge-unit-currency:lang(ja) {
+.badge .badge-unit:lang(ja),
+.badge .badge-unit-plus:lang(ja),
+.badge .badge-unit-percent:lang(ja),
+.badge .badge-unit-currency:lang(ja) {
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(ko), .badge .badge-unit-plus:lang(ko), .badge .badge-unit-percent:lang(ko), .badge .badge-unit-currency:lang(ko) {
+.badge .badge-unit:lang(ko),
+.badge .badge-unit-plus:lang(ko),
+.badge .badge-unit-percent:lang(ko),
+.badge .badge-unit-currency:lang(ko) {
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(th), .badge .badge-unit-plus:lang(th), .badge .badge-unit-percent:lang(th), .badge .badge-unit-currency:lang(th) {
+.badge .badge-unit:lang(th),
+.badge .badge-unit-plus:lang(th),
+.badge .badge-unit-percent:lang(th),
+.badge .badge-unit-currency:lang(th) {
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(zh-CN), .badge .badge-unit-plus:lang(zh-CN), .badge .badge-unit-percent:lang(zh-CN), .badge .badge-unit-currency:lang(zh-CN) {
+.badge .badge-unit:lang(zh-CN),
+.badge .badge-unit-plus:lang(zh-CN),
+.badge .badge-unit-percent:lang(zh-CN),
+.badge .badge-unit-currency:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(zh-HK), .badge .badge-unit-plus:lang(zh-HK), .badge .badge-unit-percent:lang(zh-HK), .badge .badge-unit-currency:lang(zh-HK) {
+.badge .badge-unit:lang(zh-HK),
+.badge .badge-unit-plus:lang(zh-HK),
+.badge .badge-unit-percent:lang(zh-HK),
+.badge .badge-unit-currency:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(zh-MO), .badge .badge-unit-plus:lang(zh-MO), .badge .badge-unit-percent:lang(zh-MO), .badge .badge-unit-currency:lang(zh-MO) {
+.badge .badge-unit:lang(zh-MO),
+.badge .badge-unit-plus:lang(zh-MO),
+.badge .badge-unit-percent:lang(zh-MO),
+.badge .badge-unit-currency:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge .badge-unit:lang(zh-TW), .badge .badge-unit-plus:lang(zh-TW), .badge .badge-unit-percent:lang(zh-TW), .badge .badge-unit-currency:lang(zh-TW) {
+.badge .badge-unit:lang(zh-TW),
+.badge .badge-unit-plus:lang(zh-TW),
+.badge .badge-unit-percent:lang(zh-TW),
+.badge .badge-unit-currency:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -2981,7 +3238,10 @@ br.small {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit, .badge-super .badge-unit-plus, .badge-super .badge-unit-percent, .badge-super .badge-unit-currency {
+.badge-super .badge-unit,
+.badge-super .badge-unit-plus,
+.badge-super .badge-unit-percent,
+.badge-super .badge-unit-currency {
   font-size: 56px;
   line-height: 1;
   font-weight: 400;
@@ -2990,42 +3250,69 @@ br.small {
   font-weight: 600
 }
 
-.badge-super .badge-unit:lang(ar), .badge-super .badge-unit-plus:lang(ar), .badge-super .badge-unit-percent:lang(ar), .badge-super .badge-unit-currency:lang(ar) {
+.badge-super .badge-unit:lang(ar),
+.badge-super .badge-unit-plus:lang(ar),
+.badge-super .badge-unit-percent:lang(ar),
+.badge-super .badge-unit-currency:lang(ar) {
   letter-spacing: 0em;
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(ja), .badge-super .badge-unit-plus:lang(ja), .badge-super .badge-unit-percent:lang(ja), .badge-super .badge-unit-currency:lang(ja) {
+.badge-super .badge-unit:lang(ja),
+.badge-super .badge-unit-plus:lang(ja),
+.badge-super .badge-unit-percent:lang(ja),
+.badge-super .badge-unit-currency:lang(ja) {
   letter-spacing: 0em;
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(ko), .badge-super .badge-unit-plus:lang(ko), .badge-super .badge-unit-percent:lang(ko), .badge-super .badge-unit-currency:lang(ko) {
+.badge-super .badge-unit:lang(ko),
+.badge-super .badge-unit-plus:lang(ko),
+.badge-super .badge-unit-percent:lang(ko),
+.badge-super .badge-unit-currency:lang(ko) {
   letter-spacing: 0em;
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(zh), .badge-super .badge-unit-plus:lang(zh), .badge-super .badge-unit-percent:lang(zh), .badge-super .badge-unit-currency:lang(zh) {
+.badge-super .badge-unit:lang(zh),
+.badge-super .badge-unit-plus:lang(zh),
+.badge-super .badge-unit-percent:lang(zh),
+.badge-super .badge-unit-currency:lang(zh) {
   letter-spacing: 0em
 }
 
-.badge-super .badge-unit:lang(th), .badge-super .badge-unit-plus:lang(th), .badge-super .badge-unit-percent:lang(th), .badge-super .badge-unit-currency:lang(th) {
+.badge-super .badge-unit:lang(th),
+.badge-super .badge-unit-plus:lang(th),
+.badge-super .badge-unit-percent:lang(th),
+.badge-super .badge-unit-currency:lang(th) {
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(zh-CN), .badge-super .badge-unit-plus:lang(zh-CN), .badge-super .badge-unit-percent:lang(zh-CN), .badge-super .badge-unit-currency:lang(zh-CN) {
+.badge-super .badge-unit:lang(zh-CN),
+.badge-super .badge-unit-plus:lang(zh-CN),
+.badge-super .badge-unit-percent:lang(zh-CN),
+.badge-super .badge-unit-currency:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(zh-HK), .badge-super .badge-unit-plus:lang(zh-HK), .badge-super .badge-unit-percent:lang(zh-HK), .badge-super .badge-unit-currency:lang(zh-HK) {
+.badge-super .badge-unit:lang(zh-HK),
+.badge-super .badge-unit-plus:lang(zh-HK),
+.badge-super .badge-unit-percent:lang(zh-HK),
+.badge-super .badge-unit-currency:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(zh-MO), .badge-super .badge-unit-plus:lang(zh-MO), .badge-super .badge-unit-percent:lang(zh-MO), .badge-super .badge-unit-currency:lang(zh-MO) {
+.badge-super .badge-unit:lang(zh-MO),
+.badge-super .badge-unit-plus:lang(zh-MO),
+.badge-super .badge-unit-percent:lang(zh-MO),
+.badge-super .badge-unit-currency:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-super .badge-unit:lang(zh-TW), .badge-super .badge-unit-plus:lang(zh-TW), .badge-super .badge-unit-percent:lang(zh-TW), .badge-super .badge-unit-currency:lang(zh-TW) {
+.badge-super .badge-unit:lang(zh-TW),
+.badge-super .badge-unit-plus:lang(zh-TW),
+.badge-super .badge-unit-percent:lang(zh-TW),
+.badge-super .badge-unit-currency:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3191,7 +3478,10 @@ br.small {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit, .badge-elevated .badge-unit-plus, .badge-elevated .badge-unit-percent, .badge-elevated .badge-unit-currency {
+.badge-elevated .badge-unit,
+.badge-elevated .badge-unit-plus,
+.badge-elevated .badge-unit-percent,
+.badge-elevated .badge-unit-currency {
   font-size: 40px;
   line-height: 1;
   font-weight: 400;
@@ -3200,35 +3490,59 @@ br.small {
   font-weight: 600
 }
 
-.badge-elevated .badge-unit:lang(ar), .badge-elevated .badge-unit-plus:lang(ar), .badge-elevated .badge-unit-percent:lang(ar), .badge-elevated .badge-unit-currency:lang(ar) {
+.badge-elevated .badge-unit:lang(ar),
+.badge-elevated .badge-unit-plus:lang(ar),
+.badge-elevated .badge-unit-percent:lang(ar),
+.badge-elevated .badge-unit-currency:lang(ar) {
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(ja), .badge-elevated .badge-unit-plus:lang(ja), .badge-elevated .badge-unit-percent:lang(ja), .badge-elevated .badge-unit-currency:lang(ja) {
+.badge-elevated .badge-unit:lang(ja),
+.badge-elevated .badge-unit-plus:lang(ja),
+.badge-elevated .badge-unit-percent:lang(ja),
+.badge-elevated .badge-unit-currency:lang(ja) {
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(ko), .badge-elevated .badge-unit-plus:lang(ko), .badge-elevated .badge-unit-percent:lang(ko), .badge-elevated .badge-unit-currency:lang(ko) {
+.badge-elevated .badge-unit:lang(ko),
+.badge-elevated .badge-unit-plus:lang(ko),
+.badge-elevated .badge-unit-percent:lang(ko),
+.badge-elevated .badge-unit-currency:lang(ko) {
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(th), .badge-elevated .badge-unit-plus:lang(th), .badge-elevated .badge-unit-percent:lang(th), .badge-elevated .badge-unit-currency:lang(th) {
+.badge-elevated .badge-unit:lang(th),
+.badge-elevated .badge-unit-plus:lang(th),
+.badge-elevated .badge-unit-percent:lang(th),
+.badge-elevated .badge-unit-currency:lang(th) {
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(zh-CN), .badge-elevated .badge-unit-plus:lang(zh-CN), .badge-elevated .badge-unit-percent:lang(zh-CN), .badge-elevated .badge-unit-currency:lang(zh-CN) {
+.badge-elevated .badge-unit:lang(zh-CN),
+.badge-elevated .badge-unit-plus:lang(zh-CN),
+.badge-elevated .badge-unit-percent:lang(zh-CN),
+.badge-elevated .badge-unit-currency:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(zh-HK), .badge-elevated .badge-unit-plus:lang(zh-HK), .badge-elevated .badge-unit-percent:lang(zh-HK), .badge-elevated .badge-unit-currency:lang(zh-HK) {
+.badge-elevated .badge-unit:lang(zh-HK),
+.badge-elevated .badge-unit-plus:lang(zh-HK),
+.badge-elevated .badge-unit-percent:lang(zh-HK),
+.badge-elevated .badge-unit-currency:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(zh-MO), .badge-elevated .badge-unit-plus:lang(zh-MO), .badge-elevated .badge-unit-percent:lang(zh-MO), .badge-elevated .badge-unit-currency:lang(zh-MO) {
+.badge-elevated .badge-unit:lang(zh-MO),
+.badge-elevated .badge-unit-plus:lang(zh-MO),
+.badge-elevated .badge-unit-percent:lang(zh-MO),
+.badge-elevated .badge-unit-currency:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-elevated .badge-unit:lang(zh-TW), .badge-elevated .badge-unit-plus:lang(zh-TW), .badge-elevated .badge-unit-percent:lang(zh-TW), .badge-elevated .badge-unit-currency:lang(zh-TW) {
+.badge-elevated .badge-unit:lang(zh-TW),
+.badge-elevated .badge-unit-plus:lang(zh-TW),
+.badge-elevated .badge-unit-percent:lang(zh-TW),
+.badge-elevated .badge-unit-currency:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3380,7 +3694,10 @@ br.small {
   font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit, .badge-reduced .badge-unit-plus, .badge-reduced .badge-unit-percent, .badge-reduced .badge-unit-currency {
+.badge-reduced .badge-unit,
+.badge-reduced .badge-unit-plus,
+.badge-reduced .badge-unit-percent,
+.badge-reduced .badge-unit-currency {
   font-size: 28px;
   line-height: 1;
   font-weight: 400;
@@ -3389,35 +3706,59 @@ br.small {
   font-weight: 600
 }
 
-.badge-reduced .badge-unit:lang(ar), .badge-reduced .badge-unit-plus:lang(ar), .badge-reduced .badge-unit-percent:lang(ar), .badge-reduced .badge-unit-currency:lang(ar) {
+.badge-reduced .badge-unit:lang(ar),
+.badge-reduced .badge-unit-plus:lang(ar),
+.badge-reduced .badge-unit-percent:lang(ar),
+.badge-reduced .badge-unit-currency:lang(ar) {
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(ja), .badge-reduced .badge-unit-plus:lang(ja), .badge-reduced .badge-unit-percent:lang(ja), .badge-reduced .badge-unit-currency:lang(ja) {
+.badge-reduced .badge-unit:lang(ja),
+.badge-reduced .badge-unit-plus:lang(ja),
+.badge-reduced .badge-unit-percent:lang(ja),
+.badge-reduced .badge-unit-currency:lang(ja) {
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(ko), .badge-reduced .badge-unit-plus:lang(ko), .badge-reduced .badge-unit-percent:lang(ko), .badge-reduced .badge-unit-currency:lang(ko) {
+.badge-reduced .badge-unit:lang(ko),
+.badge-reduced .badge-unit-plus:lang(ko),
+.badge-reduced .badge-unit-percent:lang(ko),
+.badge-reduced .badge-unit-currency:lang(ko) {
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(th), .badge-reduced .badge-unit-plus:lang(th), .badge-reduced .badge-unit-percent:lang(th), .badge-reduced .badge-unit-currency:lang(th) {
+.badge-reduced .badge-unit:lang(th),
+.badge-reduced .badge-unit-plus:lang(th),
+.badge-reduced .badge-unit-percent:lang(th),
+.badge-reduced .badge-unit-currency:lang(th) {
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(zh-CN), .badge-reduced .badge-unit-plus:lang(zh-CN), .badge-reduced .badge-unit-percent:lang(zh-CN), .badge-reduced .badge-unit-currency:lang(zh-CN) {
+.badge-reduced .badge-unit:lang(zh-CN),
+.badge-reduced .badge-unit-plus:lang(zh-CN),
+.badge-reduced .badge-unit-percent:lang(zh-CN),
+.badge-reduced .badge-unit-currency:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(zh-HK), .badge-reduced .badge-unit-plus:lang(zh-HK), .badge-reduced .badge-unit-percent:lang(zh-HK), .badge-reduced .badge-unit-currency:lang(zh-HK) {
+.badge-reduced .badge-unit:lang(zh-HK),
+.badge-reduced .badge-unit-plus:lang(zh-HK),
+.badge-reduced .badge-unit-percent:lang(zh-HK),
+.badge-reduced .badge-unit-currency:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(zh-MO), .badge-reduced .badge-unit-plus:lang(zh-MO), .badge-reduced .badge-unit-percent:lang(zh-MO), .badge-reduced .badge-unit-currency:lang(zh-MO) {
+.badge-reduced .badge-unit:lang(zh-MO),
+.badge-reduced .badge-unit-plus:lang(zh-MO),
+.badge-reduced .badge-unit-percent:lang(zh-MO),
+.badge-reduced .badge-unit-currency:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-reduced .badge-unit:lang(zh-TW), .badge-reduced .badge-unit-plus:lang(zh-TW), .badge-reduced .badge-unit-percent:lang(zh-TW), .badge-reduced .badge-unit-currency:lang(zh-TW) {
+.badge-reduced .badge-unit:lang(zh-TW),
+.badge-reduced .badge-unit-plus:lang(zh-TW),
+.badge-reduced .badge-unit-percent:lang(zh-TW),
+.badge-reduced .badge-unit-currency:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3522,7 +3863,10 @@ br.small {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit, .badge-tiny .badge-unit-plus, .badge-tiny .badge-unit-percent, .badge-tiny .badge-unit-currency {
+.badge-tiny .badge-unit,
+.badge-tiny .badge-unit-plus,
+.badge-tiny .badge-unit-percent,
+.badge-tiny .badge-unit-currency {
   font-size: 19px;
   line-height: 1;
   font-weight: 400;
@@ -3531,35 +3875,59 @@ br.small {
   font-weight: 600
 }
 
-.badge-tiny .badge-unit:lang(ar), .badge-tiny .badge-unit-plus:lang(ar), .badge-tiny .badge-unit-percent:lang(ar), .badge-tiny .badge-unit-currency:lang(ar) {
+.badge-tiny .badge-unit:lang(ar),
+.badge-tiny .badge-unit-plus:lang(ar),
+.badge-tiny .badge-unit-percent:lang(ar),
+.badge-tiny .badge-unit-currency:lang(ar) {
   font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(ja), .badge-tiny .badge-unit-plus:lang(ja), .badge-tiny .badge-unit-percent:lang(ja), .badge-tiny .badge-unit-currency:lang(ja) {
+.badge-tiny .badge-unit:lang(ja),
+.badge-tiny .badge-unit-plus:lang(ja),
+.badge-tiny .badge-unit-percent:lang(ja),
+.badge-tiny .badge-unit-currency:lang(ja) {
   font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(ko), .badge-tiny .badge-unit-plus:lang(ko), .badge-tiny .badge-unit-percent:lang(ko), .badge-tiny .badge-unit-currency:lang(ko) {
+.badge-tiny .badge-unit:lang(ko),
+.badge-tiny .badge-unit-plus:lang(ko),
+.badge-tiny .badge-unit-percent:lang(ko),
+.badge-tiny .badge-unit-currency:lang(ko) {
   font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(th), .badge-tiny .badge-unit-plus:lang(th), .badge-tiny .badge-unit-percent:lang(th), .badge-tiny .badge-unit-currency:lang(th) {
+.badge-tiny .badge-unit:lang(th),
+.badge-tiny .badge-unit-plus:lang(th),
+.badge-tiny .badge-unit-percent:lang(th),
+.badge-tiny .badge-unit-currency:lang(th) {
   font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(zh-CN), .badge-tiny .badge-unit-plus:lang(zh-CN), .badge-tiny .badge-unit-percent:lang(zh-CN), .badge-tiny .badge-unit-currency:lang(zh-CN) {
+.badge-tiny .badge-unit:lang(zh-CN),
+.badge-tiny .badge-unit-plus:lang(zh-CN),
+.badge-tiny .badge-unit-percent:lang(zh-CN),
+.badge-tiny .badge-unit-currency:lang(zh-CN) {
   font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(zh-HK), .badge-tiny .badge-unit-plus:lang(zh-HK), .badge-tiny .badge-unit-percent:lang(zh-HK), .badge-tiny .badge-unit-currency:lang(zh-HK) {
+.badge-tiny .badge-unit:lang(zh-HK),
+.badge-tiny .badge-unit-plus:lang(zh-HK),
+.badge-tiny .badge-unit-percent:lang(zh-HK),
+.badge-tiny .badge-unit-currency:lang(zh-HK) {
   font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(zh-MO), .badge-tiny .badge-unit-plus:lang(zh-MO), .badge-tiny .badge-unit-percent:lang(zh-MO), .badge-tiny .badge-unit-currency:lang(zh-MO) {
+.badge-tiny .badge-unit:lang(zh-MO),
+.badge-tiny .badge-unit-plus:lang(zh-MO),
+.badge-tiny .badge-unit-percent:lang(zh-MO),
+.badge-tiny .badge-unit-currency:lang(zh-MO) {
   font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
-.badge-tiny .badge-unit:lang(zh-TW), .badge-tiny .badge-unit-plus:lang(zh-TW), .badge-tiny .badge-unit-percent:lang(zh-TW), .badge-tiny .badge-unit-currency:lang(zh-TW) {
+.badge-tiny .badge-unit:lang(zh-TW),
+.badge-tiny .badge-unit-plus:lang(zh-TW),
+.badge-tiny .badge-unit-percent:lang(zh-TW),
+.badge-tiny .badge-unit-currency:lang(zh-TW) {
   font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
@@ -3824,11 +4192,17 @@ br.small {
   color: #f5f5f7
 }
 
-.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
   color: #f5f5f7
 }
 
-.theme-dark a, .theme-dark .link {
+.theme-dark a,
+.theme-dark .link {
   color: #2997ff
 }
 
@@ -7051,7 +7425,9 @@ br.small {
   margin-top: 1.4em
 }
 
-.typography-headline-reduced+p, .typography-headline-reduced+ul, .typography-headline-reduced+.typography-body {
+.typography-headline-reduced+p,
+.typography-headline-reduced+ul,
+.typography-headline-reduced+.typography-body {
   margin-top: 1em
 }
 
@@ -7117,7 +7493,8 @@ br.small {
   }
 }
 
-html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] * {
+html.js [data-anim-lazy-image],
+html.js [data-anim-lazy-image] * {
   background-image: none !important;
   -webkit-mask-image: none !important;
   mask-image: none !important

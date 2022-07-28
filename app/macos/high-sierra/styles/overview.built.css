@@ -74,12 +74,15 @@
   z-index: 1
 }
 
-.ac-gn-segmentbar-visible .section-hero, .adv-wrapper~.main .section-hero {
+.ac-gn-segmentbar-visible .section-hero,
+.adv-wrapper~.main .section-hero {
   top: -40px
 }
 
 @media only screen and (max-width: 735px) {
-  .ac-gn-segmentbar-visible .section-hero, .adv-wrapper~.main .section-hero {
+
+  .ac-gn-segmentbar-visible .section-hero,
+  .adv-wrapper~.main .section-hero {
     top: -44px
   }
 }
@@ -107,7 +110,10 @@
   z-index: 1
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-hero .main-img {
     background-image: url("/macos/high-sierra/overview/hero/image_large_2x.jpg")
   }
@@ -120,7 +126,9 @@
   }
 }
 
-@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1442px) and (min-resolution: 1.5dppx), only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
+@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1442px) and (min-resolution: 1.5dppx),
+only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
   .section-hero .main-img {
     background-image: url("/macos/high-sierra/overview/hero/image_xlarge_2x.jpg")
   }
@@ -133,7 +141,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-hero .main-img {
     background-image: url("/macos/high-sierra/overview/hero/image_medium_2x.jpg")
   }
@@ -146,7 +156,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-hero .main-img {
     background-image: url("/macos/high-sierra/overview/hero/image_small_2x.jpg")
   }
@@ -169,7 +181,10 @@
   z-index: 3
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-hero .blur-img {
     background-image: url("/macos/high-sierra/overview/hero/image_fg_large_2x.jpg")
   }
@@ -182,7 +197,9 @@
   }
 }
 
-@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1442px) and (min-resolution: 1.5dppx), only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
+@media only screen and (min-width: 1442px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-width: 1442px) and (min-resolution: 1.5dppx),
+only screen and (min-width: 1442px) and (min-resolution: 144dpi) {
   .section-hero .blur-img {
     background-image: url("/macos/high-sierra/overview/hero/image_fg_xlarge_2x.jpg")
   }
@@ -195,7 +212,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-hero .blur-img {
     background-image: url("/macos/high-sierra/overview/hero/image_fg_medium_2x.jpg")
   }
@@ -208,19 +227,23 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-hero .blur-img {
     background-image: url("/macos/high-sierra/overview/hero/image_fg_small_2x.jpg")
   }
 }
 
-.section-hero .blur-bg, .section-hero .blur-img {
+.section-hero .blur-bg,
+.section-hero .blur-img {
   -webkit-transition: opacity 800ms;
   transition: opacity 800ms;
   opacity: 0.0001
 }
 
-.section-hero .blur-bg.active, .section-hero .blur-img.active {
+.section-hero .blur-bg.active,
+.section-hero .blur-img.active {
   opacity: 0.9999
 }
 
@@ -390,7 +413,8 @@ html.no-js .section-hero .inner {
   opacity: 0.9999
 }
 
-.section-hero .typography-product-elevated, .section-hero .typography-subsection-headline {
+.section-hero .typography-product-elevated,
+.section-hero .typography-subsection-headline {
   color: #fff
 }
 
@@ -430,7 +454,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-screen {
     background-image: url("/macos/high-sierra/overview/technology/image_large_2x.jpg")
   }
@@ -446,7 +473,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-screen {
     background-image: url("/macos/high-sierra/overview/technology/image_medium_2x.jpg")
   }
@@ -462,7 +491,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-screen {
     background-image: url("/macos/high-sierra/overview/technology/image_small_2x.jpg")
   }
@@ -476,7 +507,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/applefilesystem/modern/icon_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-modern {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/modern/icon_large_2x.jpg")
   }
@@ -492,7 +526,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-modern {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/modern/icon_medium_2x.jpg")
   }
@@ -508,7 +544,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-modern {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/modern/icon_small_2x.jpg")
   }
@@ -522,7 +560,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/applefilesystem/fast/icon_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-fast {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/fast/icon_large_2x.jpg")
   }
@@ -538,7 +579,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-fast {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/fast/icon_medium_2x.jpg")
   }
@@ -554,7 +597,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-fast {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/fast/icon_small_2x.jpg")
   }
@@ -568,7 +613,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/applefilesystem/safe/icon_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-safe {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/safe/icon_large_2x.jpg")
   }
@@ -584,7 +632,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-safe {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/safe/icon_medium_2x.jpg")
   }
@@ -600,7 +650,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-safe {
     background-image: url("/macos/high-sierra/overview/technology/applefilesystem/safe/icon_small_2x.jpg")
   }
@@ -614,7 +666,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/hevc/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-hevc {
     background-image: url("/macos/high-sierra/overview/technology/hevc/image_large_2x.jpg")
   }
@@ -630,7 +685,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-hevc {
     background-image: url("/macos/high-sierra/overview/technology/hevc/image_medium_2x.jpg")
   }
@@ -646,7 +703,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-hevc {
     background-image: url("/macos/high-sierra/overview/technology/hevc/image_small_2x.jpg")
   }
@@ -660,7 +719,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/metal2/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-metal2 {
     background-image: url("/macos/high-sierra/overview/technology/metal2/image_large_2x.jpg")
   }
@@ -676,7 +738,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-metal2 {
     background-image: url("/macos/high-sierra/overview/technology/metal2/image_medium_2x.jpg")
   }
@@ -692,7 +756,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-metal2 {
     background-image: url("/macos/high-sierra/overview/technology/metal2/image_small_2x.jpg")
   }
@@ -706,7 +772,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/vr/image_vr_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-vr {
     background-image: url("/macos/high-sierra/overview/technology/vr/image_vr_large_2x.jpg")
   }
@@ -722,7 +791,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-vr {
     background-image: url("/macos/high-sierra/overview/technology/vr/image_vr_medium_2x.jpg")
   }
@@ -738,7 +809,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-technology .image-technology-vr {
     background-image: url("/macos/high-sierra/overview/technology/vr/image_vr_small_2x.jpg")
   }
@@ -752,7 +825,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/technology/vr/image_mac_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-technology .image-technology-vr-mac {
     background-image: url("/macos/high-sierra/overview/technology/vr/image_mac_large_2x.jpg")
   }
@@ -853,7 +929,8 @@ html.no-js .section-hero .inner {
   }
 }
 
-.section-technology .subsection-hevc .fixed-width, .section-technology .subsection-metal2 .fixed-width {
+.section-technology .subsection-hevc .fixed-width,
+.section-technology .subsection-metal2 .fixed-width {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   -ms-flex: none;
@@ -864,7 +941,9 @@ html.no-js .section-hero .inner {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-technology .subsection-hevc .fixed-width, .section-technology .subsection-metal2 .fixed-width {
+
+  .section-technology .subsection-hevc .fixed-width,
+  .section-technology .subsection-metal2 .fixed-width {
     width: 600px;
     margin-right: 0;
     margin-bottom: 72px
@@ -872,14 +951,18 @@ html.no-js .section-hero .inner {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-technology .subsection-hevc .fixed-width, .section-technology .subsection-metal2 .fixed-width {
+
+  .section-technology .subsection-hevc .fixed-width,
+  .section-technology .subsection-metal2 .fixed-width {
     width: 100%;
     margin-bottom: 0
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-technology .subsection-hevc .medium-flex, .section-technology .subsection-metal2 .medium-flex {
+
+  .section-technology .subsection-hevc .medium-flex,
+  .section-technology .subsection-metal2 .medium-flex {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -893,13 +976,17 @@ html.no-js .section-hero .inner {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-technology .subsection-hevc .medium-flex, .section-technology .subsection-metal2 .medium-flex {
+
+  .section-technology .subsection-hevc .medium-flex,
+  .section-technology .subsection-metal2 .medium-flex {
     display: block
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-technology .subsection-hevc .medium-flex .image-hardware-small, .section-technology .subsection-metal2 .medium-flex .image-hardware-small {
+
+  .section-technology .subsection-hevc .medium-flex .image-hardware-small,
+  .section-technology .subsection-metal2 .medium-flex .image-hardware-small {
     -webkit-box-flex: 2;
     -webkit-flex: 2 0 auto;
     -ms-flex: 2 0 auto;
@@ -909,7 +996,9 @@ html.no-js .section-hero .inner {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-technology .subsection-hevc .medium-flex .image-hardware-small, .section-technology .subsection-metal2 .medium-flex .image-hardware-small {
+
+  .section-technology .subsection-hevc .medium-flex .image-hardware-small,
+  .section-technology .subsection-metal2 .medium-flex .image-hardware-small {
     left: 50%;
     margin-left: -177px;
     position: relative
@@ -917,7 +1006,9 @@ html.no-js .section-hero .inner {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-technology .subsection-hevc .medium-flex .badge, .section-technology .subsection-metal2 .medium-flex .badge {
+
+  .section-technology .subsection-hevc .medium-flex .badge,
+  .section-technology .subsection-metal2 .medium-flex .badge {
     -webkit-box-flex: 2;
     -webkit-flex: 2 1 auto;
     -ms-flex: 2 1 auto;
@@ -925,19 +1016,24 @@ html.no-js .section-hero .inner {
   }
 }
 
-.section-technology .subsection-hevc .column:last-child, .section-technology .subsection-metal2 .column:last-child {
+.section-technology .subsection-hevc .column:last-child,
+.section-technology .subsection-metal2 .column:last-child {
   margin-left: auto
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-technology .subsection-hevc .column:last-child, .section-technology .subsection-metal2 .column:last-child {
+
+  .section-technology .subsection-hevc .column:last-child,
+  .section-technology .subsection-metal2 .column:last-child {
     margin-left: 0;
     margin-right: auto
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .section-technology .subsection-hevc .column:last-child, .section-technology .subsection-metal2 .column:last-child {
+
+  .section-technology .subsection-hevc .column:last-child,
+  .section-technology .subsection-metal2 .column:last-child {
     margin-left: auto
   }
 }
@@ -1013,7 +1109,8 @@ html.no-js .section-hero .inner {
   text-align: center
 }
 
-.section-refinements .subsection-photos::before, .section-refinements .subsection-photos::after {
+.section-refinements .subsection-photos::before,
+.section-refinements .subsection-photos::after {
   content: ' ';
   display: table
 }
@@ -1060,14 +1157,19 @@ html.no-js .section-hero .inner {
   }
 }
 
-.section-refinements .subsection-photos, .section-refinements .photos-grid, .section-refinements .features-grid {
+.section-refinements .subsection-photos,
+.section-refinements .photos-grid,
+.section-refinements .features-grid {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-refinements .subsection-photos, .section-refinements .photos-grid, .section-refinements .features-grid {
+
+  .section-refinements .subsection-photos,
+  .section-refinements .photos-grid,
+  .section-refinements .features-grid {
     max-width: auto
   }
 }
@@ -1101,7 +1203,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .photos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_large_2x.jpg")
   }
@@ -1117,7 +1222,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .photos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_medium_2x.jpg")
   }
@@ -1133,7 +1240,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .photos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_small_2x.jpg")
   }
@@ -1147,7 +1256,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/sidebar/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .sidebar .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/sidebar/image_large_2x.jpg")
   }
@@ -1163,7 +1275,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .sidebar .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/sidebar/image_medium_2x.jpg")
   }
@@ -1179,7 +1293,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .sidebar .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/sidebar/image_small_2x.jpg")
   }
@@ -1193,7 +1309,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/gridview/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .gridview .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/gridview/image_large_2x.jpg")
   }
@@ -1209,7 +1328,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .gridview .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/gridview/image_medium_2x.jpg")
   }
@@ -1225,7 +1346,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .gridview .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/gridview/image_small_2x.jpg")
   }
@@ -1239,7 +1362,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/tools/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .tools .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/tools/image_large_2x.jpg")
   }
@@ -1255,7 +1381,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .tools .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/tools/image_medium_2x.jpg")
   }
@@ -1271,7 +1399,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .tools .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/tools/image_small_2x.jpg")
   }
@@ -1285,7 +1415,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/livephotos/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .livephotos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/livephotos/image_large_2x.jpg")
   }
@@ -1301,7 +1434,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .livephotos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/livephotos/image_medium_2x.jpg")
   }
@@ -1317,7 +1452,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .livephotos .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/livephotos/image_small_2x.jpg")
   }
@@ -1331,7 +1468,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/memory/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .memory .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/memory/image_large_2x.jpg")
   }
@@ -1347,7 +1487,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .memory .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/memory/image_medium_2x.jpg")
   }
@@ -1363,7 +1505,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .memory .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/memory/image_small_2x.jpg")
   }
@@ -1377,7 +1521,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/faces/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .faces .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/faces/image_large_2x.jpg")
   }
@@ -1393,7 +1540,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .faces .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/faces/image_medium_2x.jpg")
   }
@@ -1409,7 +1558,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .faces .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/faces/image_small_2x.jpg")
   }
@@ -1423,7 +1574,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/apps/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .apps .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/apps/image_large_2x.jpg")
   }
@@ -1439,7 +1593,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .apps .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/apps/image_medium_2x.jpg")
   }
@@ -1455,7 +1611,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .apps .image {
     background-image: url("/macos/high-sierra/overview/refinements/photos/apps/image_small_2x.jpg")
   }
@@ -1469,7 +1627,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safariprotection .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/image_large_2x.jpg")
   }
@@ -1485,7 +1646,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safariprotection .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/image_medium_2x.jpg")
   }
@@ -1501,7 +1664,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safariprotection .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/image_small_2x.jpg")
   }
@@ -1515,7 +1680,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safariprotection .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/icon_large_2x.png")
   }
@@ -1531,7 +1699,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safariprotection .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/icon_medium_2x.png")
   }
@@ -1547,7 +1717,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safariprotection .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariprotection/icon_small_2x.png")
   }
@@ -1561,7 +1733,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarivideo .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/image_large_2x.jpg")
   }
@@ -1577,7 +1752,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarivideo .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/image_medium_2x.jpg")
   }
@@ -1593,7 +1770,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarivideo .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/image_small_2x.jpg")
   }
@@ -1607,7 +1786,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarivideo .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/icon_large_2x.png")
   }
@@ -1623,7 +1805,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarivideo .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/icon_medium_2x.png")
   }
@@ -1639,7 +1823,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarivideo .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarivideo/icon_small_2x.png")
   }
@@ -1653,7 +1839,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarireader .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/image_large_2x.jpg")
   }
@@ -1669,7 +1858,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarireader .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/image_medium_2x.jpg")
   }
@@ -1685,7 +1876,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarireader .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/image_small_2x.jpg")
   }
@@ -1699,7 +1892,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarireader .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/icon_large_2x.png")
   }
@@ -1715,7 +1911,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarireader .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/icon_medium_2x.png")
   }
@@ -1731,7 +1929,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarireader .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarireader/icon_small_2x.png")
   }
@@ -1745,7 +1945,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarisettings .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/image_large_2x.jpg")
   }
@@ -1761,7 +1964,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarisettings .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/image_medium_2x.jpg")
   }
@@ -1777,7 +1982,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarisettings .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/image_small_2x.jpg")
   }
@@ -1791,7 +1998,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safarisettings .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/icon_large_2x.png")
   }
@@ -1807,7 +2017,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safarisettings .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/icon_medium_2x.png")
   }
@@ -1823,7 +2035,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safarisettings .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safarisettings/icon_small_2x.png")
   }
@@ -1837,7 +2051,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safariperformance .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/image_large_2x.jpg")
   }
@@ -1853,7 +2070,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safariperformance .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/image_medium_2x.jpg")
   }
@@ -1869,7 +2088,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safariperformance .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/image_small_2x.jpg")
   }
@@ -1883,7 +2104,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .safariperformance .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/icon_large_2x.png")
   }
@@ -1899,7 +2123,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .safariperformance .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/icon_medium_2x.png")
   }
@@ -1915,7 +2141,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .safariperformance .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/safariperformance/icon_small_2x.png")
   }
@@ -1929,7 +2157,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/siridj/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .siridj .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/image_large_2x.jpg")
   }
@@ -1945,7 +2176,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .siridj .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/image_medium_2x.jpg")
   }
@@ -1961,7 +2194,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .siridj .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/image_small_2x.jpg")
   }
@@ -1975,7 +2210,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/siridj/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .siridj .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/icon_large_2x.png")
   }
@@ -1991,7 +2229,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .siridj .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/icon_medium_2x.png")
   }
@@ -2007,7 +2247,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .siridj .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siridj/icon_small_2x.png")
   }
@@ -2021,7 +2263,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .siriexpressive .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/image_large_2x.jpg")
   }
@@ -2037,7 +2282,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .siriexpressive .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/image_medium_2x.jpg")
   }
@@ -2053,7 +2300,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .siriexpressive .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/image_small_2x.jpg")
   }
@@ -2067,7 +2316,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .siriexpressive .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/icon_large_2x.png")
   }
@@ -2083,7 +2335,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .siriexpressive .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/icon_medium_2x.png")
   }
@@ -2099,7 +2353,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .siriexpressive .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/siriexpressive/icon_small_2x.png")
   }
@@ -2113,7 +2369,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .spotlight .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/image_large_2x.jpg")
   }
@@ -2129,7 +2388,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .spotlight .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/image_medium_2x.jpg")
   }
@@ -2145,7 +2406,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .spotlight .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/image_small_2x.jpg")
   }
@@ -2159,7 +2422,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .spotlight .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/icon_large_2x.png")
   }
@@ -2175,7 +2441,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .spotlight .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/icon_medium_2x.png")
   }
@@ -2191,7 +2459,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .spotlight .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/spotlight/icon_small_2x.png")
   }
@@ -2205,7 +2475,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/mail/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .mail .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/image_large_2x.jpg")
   }
@@ -2221,7 +2494,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .mail .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/image_medium_2x.jpg")
   }
@@ -2237,7 +2512,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .mail .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/image_small_2x.jpg")
   }
@@ -2251,7 +2528,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/mail/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .mail .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/icon_large_2x.png")
   }
@@ -2267,7 +2547,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .mail .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/icon_medium_2x.png")
   }
@@ -2283,7 +2565,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .mail .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/mail/icon_small_2x.png")
   }
@@ -2297,7 +2581,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/facetime/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .facetime .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/image_large_2x.jpg")
   }
@@ -2313,7 +2600,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .facetime .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/image_medium_2x.jpg")
   }
@@ -2329,7 +2618,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .facetime .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/image_small_2x.jpg")
   }
@@ -2343,7 +2634,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/facetime/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .facetime .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/icon_large_2x.png")
   }
@@ -2359,7 +2653,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .facetime .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/icon_medium_2x.png")
   }
@@ -2375,7 +2671,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .facetime .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/facetime/icon_small_2x.png")
   }
@@ -2389,7 +2687,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .pinnotes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/image_large_2x.jpg")
   }
@@ -2405,7 +2706,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .pinnotes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/image_medium_2x.jpg")
   }
@@ -2421,7 +2724,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .pinnotes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/image_small_2x.jpg")
   }
@@ -2435,7 +2740,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .pinnotes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/icon_large_2x.png")
   }
@@ -2451,7 +2759,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .pinnotes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/icon_medium_2x.png")
   }
@@ -2467,7 +2777,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .pinnotes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/pinnotes/icon_small_2x.png")
   }
@@ -2481,7 +2793,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/notes/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .notes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/image_large_2x.jpg")
   }
@@ -2497,7 +2812,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .notes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/image_medium_2x.jpg")
   }
@@ -2513,7 +2830,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .notes .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/image_small_2x.jpg")
   }
@@ -2527,7 +2846,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/notes/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .notes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/icon_large_2x.png")
   }
@@ -2543,7 +2865,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .notes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/icon_medium_2x.png")
   }
@@ -2559,7 +2883,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .notes .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/notes/icon_small_2x.png")
   }
@@ -2573,7 +2899,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/image_large_2x.jpg")
   }
@@ -2589,7 +2918,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/image_medium_2x.jpg")
   }
@@ -2605,7 +2936,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/image_small_2x.jpg")
   }
@@ -2619,7 +2952,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/icon_large_2x.png")
   }
@@ -2635,7 +2971,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/icon_medium_2x.png")
   }
@@ -2651,7 +2989,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfilesharing .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfilesharing/icon_small_2x.png")
   }
@@ -2665,7 +3005,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/image_large_2x.jpg")
   }
@@ -2681,7 +3024,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/image_medium_2x.jpg")
   }
@@ -2697,7 +3042,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .image {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/image_small_2x.jpg")
   }
@@ -2711,7 +3058,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/icon_large_2x.png")
   }
@@ -2727,7 +3077,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/icon_medium_2x.png")
   }
@@ -2743,7 +3095,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .icloudfamilystorage .icon {
     background-image: url("/macos/high-sierra/overview/refinements/features/icloudfamilystorage/icon_small_2x.png")
   }
@@ -2767,7 +3121,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .image-refinements-hardware {
     background-image: url("/macos/high-sierra/overview/refinements/image_large_2x.jpg")
   }
@@ -2783,7 +3140,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-hardware {
     background-image: url("/macos/high-sierra/overview/refinements/image_medium_2x.jpg")
   }
@@ -2799,7 +3158,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-hardware {
     background-image: url("/macos/high-sierra/overview/refinements/image_small_2x.jpg")
   }
@@ -2813,7 +3174,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .image-refinements-screen {
     background-image: url("/macos/high-sierra/overview/refinements/image_large_2x.jpg")
   }
@@ -2829,7 +3193,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-screen {
     background-image: url("/macos/high-sierra/overview/refinements/image_medium_2x.jpg")
   }
@@ -2845,7 +3211,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-screen {
     background-image: url("/macos/high-sierra/overview/refinements/image_small_2x.jpg")
   }
@@ -2862,7 +3230,10 @@ html.no-js .section-hero .inner {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_large_2x.jpg")
   }
@@ -2878,7 +3249,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_medium_2x.jpg")
   }
@@ -2894,7 +3267,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos {
     background-image: url("/macos/high-sierra/overview/refinements/photos/image_small_2x.jpg")
   }
@@ -2924,7 +3299,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/overview/refinements/photos/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos-icon {
     background-image: url("/macos/high-sierra/overview/refinements/photos/icon_large_2x.png")
   }
@@ -2940,7 +3318,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos-icon {
     background-image: url("/macos/high-sierra/overview/refinements/photos/icon_medium_2x.png")
   }
@@ -2956,7 +3336,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-refinements .image-refinements-photos-icon {
     background-image: url("/macos/high-sierra/overview/refinements/photos/icon_small_2x.png")
   }
@@ -3144,11 +3526,17 @@ html.no-js .section-hero .inner {
   margin-bottom: 50px
 }
 
-.section-upgrade .more, .section-upgrade .upgrade-copy {
+.section-upgrade .more,
+.section-upgrade .upgrade-copy {
   margin-top: 1.3em
 }
 
-.section-upgrade .typography-headline, .section-upgrade .upgrade-copy, .section-upgrade .typography-eyebrow, .section-upgrade .typography-eyebrow-elevated, .section-upgrade .typography-intro-elevated, .section-upgrade a {
+.section-upgrade .typography-headline,
+.section-upgrade .upgrade-copy,
+.section-upgrade .typography-eyebrow,
+.section-upgrade .typography-eyebrow-elevated,
+.section-upgrade .typography-intro-elevated,
+.section-upgrade a {
   color: #fff
 }
 
@@ -3173,7 +3561,10 @@ html.no-js .section-hero .inner {
   background-position: center bottom
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-upgrade .image-upgrade-high-sierra {
     background-image: url("/macos/high-sierra/overview/upgrade/image_large_2x.jpg")
   }
@@ -3187,7 +3578,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-upgrade .image-upgrade-high-sierra {
     background-image: url("/macos/high-sierra/overview/upgrade/image_medium_2x.jpg")
   }
@@ -3201,7 +3594,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-upgrade .image-upgrade-high-sierra {
     background-image: url("/macos/high-sierra/overview/upgrade/image_small_2x.jpg")
   }
@@ -3225,7 +3620,10 @@ html.no-js .section-hero .inner {
   position: relative
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .image-hardware-large {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_1_large_2x.jpg")
   }
@@ -3241,7 +3639,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .image-hardware-large {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_1_medium_2x.jpg")
   }
@@ -3257,7 +3657,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .image-hardware-large {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_1_small_2x.jpg")
   }
@@ -3288,7 +3690,10 @@ html.no-js .section-hero .inner {
   background-image: url("/macos/high-sierra/site/sharedimages/hardware_2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .page-overview .image-hardware-small {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_2_large_2x.jpg")
   }
@@ -3304,7 +3709,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .page-overview .image-hardware-small {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_2_medium_2x.jpg")
   }
@@ -3320,7 +3727,9 @@ html.no-js .section-hero .inner {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .page-overview .image-hardware-small {
     background-image: url("/macos/high-sierra/site/sharedimages/hardware_2_small_2x.jpg")
   }

@@ -95,7 +95,8 @@
   }
 }
 
-.theme-dark .modal-standard .content-padding, .modal-standard.theme-dark .content-padding {
+.theme-dark .modal-standard .content-padding,
+.modal-standard.theme-dark .content-padding {
   background: #1d1d1f
 }
 
@@ -114,7 +115,8 @@
   padding: 0
 }
 
-.theme-dark .modal-full-viewport, .modal-full-viewport.theme-dark {
+.theme-dark .modal-full-viewport,
+.modal-full-viewport.theme-dark {
   background: black
 }
 
@@ -146,7 +148,8 @@
   color: rgba(134, 134, 139, 0.8)
 }
 
-.modal-close::before, .modal-close::after {
+.modal-close::before,
+.modal-close::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -160,7 +163,8 @@
   alt: ''
 }
 
-.modal-close::before, .modal-close::after {
+.modal-close::before,
+.modal-close::after {
   text-decoration: none
 }
 
@@ -168,7 +172,8 @@
   display: none
 }
 
-.modal-close::before, .modal-close::after {
+.modal-close::before,
+.modal-close::after {
   content: ""
 }
 
@@ -204,15 +209,21 @@
   background-repeat: no-repeat
 }
 
-.ac-video-icon.icon-ctrl_airplay, .ac-video-icon.controls-airplay-button {
+.ac-video-icon.icon-ctrl_airplay,
+.ac-video-icon.controls-airplay-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M14.5%2C14.8c0.5%2C0.7%2C0.2%2C1.2-0.6%2C1.2H6.1c-0.8%2C0-1.1-0.5-0.6-1.2l3.7-5.4c0.4-0.7%2C1.2-0.7%2C1.6%2C0L14.5%2C14.8z%0A%09%20M17.4%2C0H2.6C1.2%2C0%2C0%2C1.2%2C0%2C2.6v6.7C0%2C10.8%2C1.2%2C12%2C2.6%2C12H4c0.3%2C0%2C0.5-0.2%2C0.5-0.5S4.3%2C11%2C4%2C11H2.6C1.7%2C11%2C1%2C10.3%2C1%2C9.4V2.6%0A%09C1%2C1.7%2C1.7%2C1%2C2.6%2C1h14.8C18.3%2C1%2C19%2C1.7%2C19%2C2.6v6.7c0%2C0.9-0.7%2C1.6-1.6%2C1.6H16c-0.3%2C0-0.5%2C0.2-0.5%2C0.5S15.7%2C12%2C16%2C12h1.4%0A%09c1.4%2C0%2C2.6-1.2%2C2.6-2.6V2.6C20%2C1.2%2C18.8%2C0%2C17.4%2C0z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_airplay_active, .ac-video-icon.controls-airplay-button.airplay-active {
+.ac-video-icon.icon-ctrl_airplay_active,
+.ac-video-icon.controls-airplay-button.airplay-active {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20id%3D%22Layer_1%22%20data-name%3D%22Layer%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3Anone%3B%7D.cls-2%7Bfill%3A%232997ff%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3Ectrl_airplay_active%3C%2Ftitle%3E%3Crect%20id%3D%22Bounding-Box%22%20class%3D%22cls-1%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%3Cpath%20id%3D%22ctrl_airplay_active%22%20class%3D%22cls-2%22%20d%3D%22M10.8%2C9.4a.87.87%2C0%2C0%2C0-1.6%2C0L5.5%2C14.8c-.5.7-.2%2C1.2.6%2C1.2h7.8c.8%2C0%2C1.1-.5.6-1.2ZM20%2C2.6V9.4A2.65%2C2.65%2C0%2C0%2C1%2C17.4%2C12H16a.5.5%2C0%2C0%2C1%2C0-1h1.4A1.58%2C1.58%2C0%2C0%2C0%2C19%2C9.4V2.6A1.58%2C1.58%2C0%2C0%2C0%2C17.4%2C1H2.6A1.58%2C1.58%2C0%2C0%2C0%2C1%2C2.6V9.3A1.61%2C1.61%2C0%2C0%2C0%2C2.6%2C11H4a.5.5%2C0%2C0%2C1%2C0%2C1H2.6A2.65%2C2.65%2C0%2C0%2C1%2C0%2C9.4V2.6A2.65%2C2.65%2C0%2C0%2C1%2C2.6%2C0H17.4A2.65%2C2.65%2C0%2C0%2C1%2C20%2C2.6Z%22%2F%3E%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_arrow, .compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-top, .compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-right, .compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-bottom, .compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-left {
+.ac-video-icon.icon-ctrl_arrow,
+.compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-top,
+.compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-right,
+.compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-bottom,
+.compass-wrapper .compass-arrows .ac-video-icon.compass-arrow-left {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%229px%22%20height%3D%2210px%22%20viewBox%3D%220%200%209%2010%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M7.6%2C5.8c0.7-0.4%2C0.7-1.2%2C0-1.6L2.2%2C0.5C1.5%2C0%2C1%2C0.3%2C1%2C1.1v7.8C1%2C9.7%2C1.5%2C10%2C2.2%2C9.5L7.6%2C5.8z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20width%3D%229%22%20height%3D%2210%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
@@ -224,51 +235,63 @@
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M17.5%2C15.99h-15c-1.38%2C0-2.5-1.19-2.5-2.64V2.64C0%2C1.18%2C1.12%2C0%2C2.5%2C0h15C18.88%2C0%2C20%2C1.18%2C20%2C2.64%0A%09%09v10.71C20%2C14.81%2C18.88%2C15.99%2C17.5%2C15.99z%20M2.5%2C1C1.67%2C1%2C1%2C1.73%2C1%2C2.64v10.71c0%2C0.91%2C0.67%2C1.64%2C1.5%2C1.64h15%0A%09%09c0.83%2C0%2C1.5-0.74%2C1.5-1.64V2.64C19%2C1.73%2C18.33%2C1%2C17.5%2C1H2.5z%20M4.75%2C7.55c0-1.47%2C0.68-2.21%2C1.7-2.21s1.56%2C0.75%2C1.56%2C1.52h1.26V6.74%0A%09%09c0-1.34-1.02-2.56-2.83-2.56c-1.86%2C0-3.01%2C1.25-3.01%2C3.35v0.95c0%2C2.13%2C1.14%2C3.32%2C3%2C3.32c1.87%2C0%2C2.84-1.24%2C2.84-2.47V9.23H8.01%0A%09%09c0%2C0.77-0.53%2C1.43-1.55%2C1.43c-1.04%2C0-1.72-0.7-1.72-2.18V7.55z%20M12%2C7.55c0-1.47%2C0.68-2.21%2C1.7-2.21s1.56%2C0.75%2C1.56%2C1.52h1.26V6.74%0A%09%09c0-1.34-1.02-2.56-2.83-2.56c-1.86%2C0-3.01%2C1.25-3.01%2C3.35v0.95c0%2C2.13%2C1.14%2C3.32%2C3%2C3.32c1.87%2C0%2C2.84-1.24%2C2.84-2.47V9.23h-1.26%0A%09%09c0%2C0.77-0.53%2C1.43-1.55%2C1.43c-1.04%2C0-1.72-0.7-1.72-2.18V7.55z%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_cc_off, .ac-video-icon.controls-text-tracks-toggle-button {
+.ac-video-icon.icon-ctrl_cc_off,
+.ac-video-icon.controls-text-tracks-toggle-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M17.4%2C1C18.3%2C1%2C19%2C1.7%2C19%2C2.5v8c0%2C0.8-0.7%2C1.5-1.6%2C1.5H16l-4%2C2.5V12H2.6C1.7%2C12%2C1%2C11.3%2C1%2C10.4%0A%09V2.5C1%2C1.7%2C1.7%2C1%2C2.6%2C1H17.4%20M9.5%2C8h7C16.8%2C8%2C17%2C7.8%2C17%2C7.5S16.8%2C7%2C16.5%2C7h-7C9.2%2C7%2C9%2C7.2%2C9%2C7.5S9.2%2C8%2C9.5%2C8%20M3.5%2C8h4%0A%09C7.8%2C8%2C8%2C7.8%2C8%2C7.5S7.8%2C7%2C7.5%2C7h-4C3.2%2C7%2C3%2C7.2%2C3%2C7.5S3.2%2C8%2C3.5%2C8%20M12.5%2C10h4c0.3%2C0%2C0.5-0.2%2C0.5-0.5S16.8%2C9%2C16.5%2C9h-4%0A%09C12.2%2C9%2C12%2C9.2%2C12%2C9.5S12.2%2C10%2C12.5%2C10%20M3.5%2C10h7c0.3%2C0%2C0.5-0.2%2C0.5-0.5S10.8%2C9%2C10.5%2C9h-7C3.2%2C9%2C3%2C9.2%2C3%2C9.5S3.2%2C10%2C3.5%2C10%20M17.4%2C0%0A%09H2.6C1.2%2C0%2C0%2C1.1%2C0%2C2.5v7.9C0%2C11.9%2C1.1%2C13%2C2.6%2C13H11v1.5c0%2C0.4%2C0.2%2C0.7%2C0.5%2C0.9c0.2%2C0.1%2C0.3%2C0.1%2C0.5%2C0.1s0.4-0.1%2C0.6-0.2l3.7-2.3%0A%09h1.1c1.4%2C0%2C2.6-1.1%2C2.6-2.5v-8C20%2C1.1%2C18.8%2C0%2C17.4%2C0L17.4%2C0z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_cc_on, .ac-video-icon.controls-text-tracks-toggle-button.text-tracks-visible {
+.ac-video-icon.icon-ctrl_cc_on,
+.ac-video-icon.controls-text-tracks-toggle-button.text-tracks-visible {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M17.4%2C0H2.6C1.2%2C0%2C0%2C1.1%2C0%2C2.5v7.9C0%2C11.9%2C1.1%2C13%2C2.6%2C13H11v1.5c0%2C0.4%2C0.2%2C0.7%2C0.5%2C0.9%0A%09c0.2%2C0.1%2C0.3%2C0.1%2C0.5%2C0.1s0.4-0.1%2C0.6-0.2l3.7-2.3h1.1c1.4%2C0%2C2.6-1.1%2C2.6-2.5v-8C20%2C1.1%2C18.8%2C0%2C17.4%2C0z%20M3.5%2C7h4C7.8%2C7%2C8%2C7.2%2C8%2C7.5%0A%09S7.8%2C8%2C7.5%2C8h-4C3.2%2C8%2C3%2C7.8%2C3%2C7.5S3.2%2C7%2C3.5%2C7z%20M10.5%2C10h-7C3.2%2C10%2C3%2C9.8%2C3%2C9.5S3.2%2C9%2C3.5%2C9h7C10.8%2C9%2C11%2C9.2%2C11%2C9.5%0A%09S10.8%2C10%2C10.5%2C10z%20M16.5%2C10h-4C12.2%2C10%2C12%2C9.8%2C12%2C9.5S12.2%2C9%2C12.5%2C9h4C16.8%2C9%2C17%2C9.2%2C17%2C9.5S16.8%2C10%2C16.5%2C10z%20M16.5%2C8h-7%0A%09C9.2%2C8%2C9%2C7.8%2C9%2C7.5S9.2%2C7%2C9.5%2C7h7C16.8%2C7%2C17%2C7.2%2C17%2C7.5S16.8%2C8%2C16.5%2C8z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_check, .ac-video-controls .ac-video-captions-selector-container .controls-captions-selector li.showing::before {
+.ac-video-icon.icon-ctrl_check,
+.ac-video-controls .ac-video-captions-selector-container .controls-captions-selector li.showing::before {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%228px%22%20height%3D%2218px%22%20viewBox%3D%220%200%201222%202444%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpolygon%20class%3D%22fill%22%20points%3D%22154.84%2C1317.22%2043.16%2C1437.31%20469.88%2C1834.18%201179.1%2C1168.83%201066.9%2C1049.23%20469.4%2C1609.76%0A%09%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%228%22%20height%3D%2218%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_fullscreen, .ac-video-icon.controls-full-screen-button {
+.ac-video-icon.icon-ctrl_fullscreen,
+.ac-video-icon.controls-full-screen-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M6.87%2C9.97l-4.89%2C4.9C2.17%2C14.96%2C2.38%2C15%2C2.61%2C15h3.91c0.28%2C0%2C0.5%2C0.22%2C0.5%2C0.5S6.79%2C16%2C6.51%2C16%0A%09%09H2.61C1.17%2C16%2C0%2C14.82%2C0%2C13.37V9.51c0-0.28%2C0.22-0.5%2C0.5-0.5S1%2C9.23%2C1%2C9.51v3.86c0%2C0.23%2C0.05%2C0.45%2C0.13%2C0.65l4.89-4.89%0A%09%09c0.23-0.23%2C0.61-0.23%2C0.85%2C0C7.1%2C9.36%2C7.1%2C9.74%2C6.87%2C9.97z%20M13.4%2C0H9.5C9.23%2C0%2C9%2C0.22%2C9%2C0.5S9.23%2C1%2C9.5%2C1h3.89%0A%09%09c0.22%2C0%2C0.43%2C0.05%2C0.63%2C0.13L9.09%2C6.06c-0.23%2C0.23-0.23%2C0.61%2C0%2C0.85c0.12%2C0.12%2C0.27%2C0.18%2C0.42%2C0.18s0.31-0.06%2C0.42-0.18l4.93-4.93%0A%09%09C14.95%2C2.18%2C15%2C2.4%2C15%2C2.63V6.5C15%2C6.78%2C15.23%2C7%2C15.5%2C7S16%2C6.78%2C16%2C6.5V2.63C16%2C1.18%2C14.83%2C0%2C13.4%2C0z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2216%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_fullscreen_exit, .ac-video-icon.controls-full-screen-button.is-fullscreen {
+.ac-video-icon.icon-ctrl_fullscreen_exit,
+.ac-video-icon.controls-full-screen-button.is-fullscreen {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M7%2C11.65v3.86c0%2C0.28-0.22%2C0.5-0.5%2C0.5S6%2C15.79%2C6%2C15.51v-3.86C6%2C11.42%2C5.95%2C11.2%2C5.87%2C11l-4.84%2C4.82%0A%09%09C0.91%2C15.94%2C0.76%2C16%2C0.6%2C16c-0.15%2C0-0.31-0.06-0.42-0.18c-0.23-0.24-0.23-0.62%2C0-0.85l4.86-4.84C4.84%2C10.05%2C4.63%2C10%2C4.41%2C10H0.5%0A%09%09C0.23%2C10%2C0%2C9.78%2C0%2C9.5S0.23%2C9%2C0.5%2C9h3.91C5.84%2C9%2C7%2C10.19%2C7%2C11.65z%20M15.5%2C6h-3.89c-0.22%2C0-0.43-0.05-0.62-0.13l4.83-4.84%0A%09%09c0.23-0.23%2C0.23-0.61%2C0-0.85s-0.61-0.23-0.85%2C0l-4.83%2C4.84C10.05%2C4.82%2C10%2C4.6%2C10%2C4.36V0.5C10%2C0.22%2C9.78%2C0%2C9.5%2C0S9%2C0.22%2C9%2C0.5v3.87%0A%09%09C9%2C5.82%2C10.17%2C7%2C11.61%2C7h3.89C15.78%2C7%2C16%2C6.77%2C16%2C6.5S15.78%2C6%2C15.5%2C6z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2216%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_pause, .is-playing .ac-video-icon.controls-play-pause-button {
+.ac-video-icon.icon-ctrl_pause,
+.is-playing .ac-video-icon.controls-play-pause-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20viewBox%3D%220%200%2086%2086%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m0%200h86v86h-86z%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22m22%2064.715v-43.388c0-2.555%201.452-4.327%204.6-4.327h5.8c3.185%200%204.6%201.731%204.6%204.327v43.388c0%202.554-1.411%204.285-4.6%204.285h-5.8c-3.148%200-4.6-1.731-4.6-4.285zm26%200v-43.388c0-2.596%201.452-4.327%204.6-4.327h5.847c3.142%200%204.553%201.772%204.553%204.327v43.388c0%202.554-1.411%204.285-4.556%204.285h-5.844c-3.148%200-4.6-1.731-4.6-4.285z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_pip_active, .ac-video-icon.controls-picture-in-picture-button.is-picture-in-picture {
+.ac-video-icon.icon-ctrl_pip_active,
+.ac-video-icon.controls-picture-in-picture-button.is-picture-in-picture {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M17.99%2C16h-5.93c-1.26%2C0-2.01-1.02-2.01-2v-0.5c0-0.28%2C0.22-0.5%2C0.5-0.5s0.5%2C0.22%2C0.5%2C0.5V14%0A%09%09c0%2C0.49%2C0.38%2C1%2C1.01%2C1h5.93c0.57%2C0%2C1-0.43%2C1-1v-3c0-0.27-0.12-0.54-0.32-0.73c-0.13-0.13-0.37-0.29-0.67-0.26h-0.49%0A%09%09c-0.28%2C0-0.5-0.22-0.5-0.5s0.22-0.5%2C0.5-0.5h0.48c0.5-0.02%2C1%2C0.18%2C1.38%2C0.54C19.77%2C9.92%2C20%2C10.45%2C20%2C10.99v3%0A%09%09C20%2C15.12%2C19.12%2C16%2C17.99%2C16z%20M0%2C2v7c0%2C1.1%2C0.9%2C2%2C2%2C2h11c1.1%2C0%2C2-0.9%2C2-2V2c0-1.1-0.9-2-2-2H2C0.9%2C0%2C0%2C0.9%2C0%2C2z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-ctrl_pip_default, .ac-video-icon.controls-picture-in-picture-button {
+.ac-video-icon.icon-ctrl_pip_default,
+.ac-video-icon.controls-picture-in-picture-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M6.49%2C12H2.43C0.93%2C12%2C0%2C10.77%2C0%2C9.63V2.37C0%2C1.22%2C0.85%2C0%2C2.43%2C0h11.21C14.8%2C0%2C16%2C0.89%2C16%2C2.37v3.11%0A%09%09c0%2C0.28-0.22%2C0.5-0.5%2C0.5S15%2C5.75%2C15%2C5.48V2.37C15%2C1.48%2C14.3%2C1%2C13.63%2C1H2.43C1.26%2C1%2C1%2C1.99%2C1%2C2.37v7.27C1%2C10.19%2C1.46%2C11%2C2.43%2C11%0A%09%09h4.06c0.28%2C0%2C0.5%2C0.22%2C0.5%2C0.5S6.76%2C12%2C6.49%2C12z%20M10%2C11v3c0%2C1.1%2C0.9%2C2%2C2%2C2h6c1.1%2C0%2C2-0.9%2C2-2v-3c0-1.1-0.9-2-2-2h-6%0A%09%09C10.9%2C9%2C10%2C9.9%2C10%2C11z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_play, .ac-video-icon.controls-play-pause-button {
+.ac-video-icon.icon-ctrl_play,
+.ac-video-icon.controls-play-pause-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20viewBox%3D%220%200%2086%2086%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m0%200h86v86h-86z%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22m22%2064.728v-43.373c0-3.501%202.1-5.355%204.737-5.355a6.365%206.365%200%200%201%203.748%201.071l36.083%2021.048c2.471%201.442%203.831%202.636%203.831%204.9s-1.359%203.46-3.831%204.9l-36.083%2021.01a6.365%206.365%200%200%201%20-3.748%201.071c-2.637%200-4.737-1.812-4.737-5.272z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_replay, .end-state .ac-video-icon.controls-play-pause-button {
+.ac-video-icon.icon-ctrl_replay,
+.end-state .ac-video-icon.controls-play-pause-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20viewBox%3D%220%200%2086%2086%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m0%200h86v86h-86z%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22m37.932%2037.972a4.4%204.4%200%200%201%201.557-3.4l3.36-3.319h-.492c-8.4%200-14.67%206.679-14.67%2015.695a15.326%2015.326%200%201%200%2030.652%200%205.614%205.614%200%201%201%2011.228%200%2026.533%2026.533%200%201%201%20-53.067%200%2025.734%2025.734%200%200%201%2025.9-26.187h.041l-2.95-2.909a4.4%204.4%200%200%201%20-1.557-3.4%205.4%205.4%200%200%201%205.366-5.452%204.8%204.8%200%200%201%203.606%201.557l11.351%2011.6a5.329%205.329%200%200%201%201.762%204.016%205.414%205.414%200%200%201%20-1.762%204.016l-11.351%2011.635a4.819%204.819%200%200%201%20-3.606%201.476%205.352%205.352%200%200%201%20-5.368-5.328z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_volume_mute, .ac-video-icon.controls-toggle-mute-volume-button.is-muted {
+.ac-video-icon.icon-ctrl_volume_mute,
+.ac-video-icon.controls-toggle-mute-volume-button.is-muted {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M9%2C7.48L5.34%2C3.81l2.34-2.07c0.21-0.23%2C0.55-0.3%2C0.84-0.19C8.82%2C1.66%2C9.01%2C1.95%2C9%2C2.26V7.48z%0A%09%09%20M9%2C12.29v1.46c0%2C0.31-0.19%2C0.59-0.49%2C0.71c-0.09%2C0.03-0.18%2C0.05-0.28%2C0.05c-0.21%2C0-0.41-0.09-0.56-0.25L4%2C11H1%0A%09%09c-0.51%2C0-1-0.42-1-0.99V5.98C0%2C5.43%2C0.48%2C5%2C0.99%2C5h0.74L9%2C12.29z%20M12.57%2C13.91c0.13-0.01%2C0.26-0.07%2C0.35-0.17%0A%09%09c0.19-0.21%2C0.17-0.52-0.04-0.71L2.07%2C2.21C1.86%2C2.03%2C1.55%2C2.04%2C1.36%2C2.26C1.18%2C2.47%2C1.19%2C2.78%2C1.41%2C2.96l10.81%2C10.82%0A%09%09C12.31%2C13.88%2C12.44%2C13.92%2C12.57%2C13.91z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-ctrl_volume_on, .ac-video-icon.controls-toggle-mute-volume-button {
+.ac-video-icon.icon-ctrl_volume_on,
+.ac-video-icon.controls-toggle-mute-volume-button {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2020%2016%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M16.07%2C15.9c-0.14%2C0-0.29-0.05-0.4-0.16c-0.23-0.22-0.24-0.58-0.02-0.81%0A%09%09c1.79-1.88%2C2.78-4.34%2C2.78-6.93c0-2.62-1-5.09-2.82-6.97c-0.22-0.23-0.22-0.6%2C0-0.82c0.22-0.22%2C0.58-0.23%2C0.8%2C0%0A%09%09c0.01%2C0.01%2C0.04%2C0.04%2C0.05%2C0.06c2%2C2.07%2C3.12%2C4.83%2C3.12%2C7.74c0%2C2.89-1.1%2C5.63-3.1%2C7.73C16.37%2C15.84%2C16.22%2C15.9%2C16.07%2C15.9z%0A%09%09%20M12.91%2C13.03c1.36-1.29%2C2.17-3.17%2C2.17-5.03c0-1.85-0.81-3.73-2.17-5.03c-0.23-0.22-0.59-0.21-0.81%2C0.02%0A%09%09c-0.22%2C0.23-0.21%2C0.59%2C0.02%2C0.81c1.14%2C1.09%2C1.82%2C2.66%2C1.82%2C4.2c0%2C1.55-0.68%2C3.12-1.81%2C4.2c-0.23%2C0.22-0.24%2C0.58-0.02%2C0.81%0A%09%09c0.11%2C0.12%2C0.26%2C0.18%2C0.42%2C0.18C12.65%2C13.19%2C12.79%2C13.14%2C12.91%2C13.03z%20M7.68%2C1.74L4%2C5.01H0.99C0.48%2C5.01%2C0%2C5.44%2C0%2C5.99v3.98%0A%09%09c0%2C0.57%2C0.48%2C0.99%2C1%2C0.99h3l3.67%2C3.3c0.16%2C0.16%2C0.36%2C0.25%2C0.56%2C0.25c0.1%2C0%2C0.19-0.02%2C0.28-0.05C8.81%2C14.34%2C9%2C14.06%2C9%2C13.75V2.26%0A%09%09c0.01-0.31-0.18-0.6-0.48-0.71C8.23%2C1.44%2C7.9%2C1.52%2C7.68%2C1.74z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2220%22%20height%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E")
 }
 
@@ -292,15 +315,18 @@
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2219px%22%20height%3D%2217px%22%20viewBox%3D%220%200%2019%2017%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cpath%20class%3D%22fill%22%20d%3D%22M16.94%2C2.88c-0.26%2C0.34-0.57%2C0.61-0.93%2C0.83C16.7%2C3.63%2C17.36%2C3.44%2C18%2C3.15%0A%09%09c-0.47%2C0.72-1.05%2C1.33-1.74%2C1.84c0.06%2C1.36-0.16%2C2.72-0.63%2C3.99c-0.45%2C1.22-1.08%2C2.3-1.9%2C3.25c-0.86%2C0.99-1.91%2C1.8-3.1%2C2.36%0A%09%09c-1.3%2C0.61-2.71%2C0.91-4.25%2C0.91c-0.97%2C0-1.91-0.14-2.82-0.41c-0.88-0.28-1.72-0.67-2.49-1.18c0.27%2C0.04%2C0.54%2C0.06%2C0.83%2C0.06%0A%09%09c0.79%2C0%2C1.57-0.13%2C2.32-0.4c0.72-0.26%2C1.38-0.63%2C1.98-1.12c-1.5-0.03-2.81-1.02-3.23-2.46c0.21%2C0.05%2C0.43%2C0.07%2C0.64%2C0.07%0A%09%09c0.32%2C0%2C0.62-0.04%2C0.92-0.13C4%2C9.82%2C3.53%2C9.61%2C3.1%2C9.27C2.23%2C8.6%2C1.73%2C7.56%2C1.74%2C6.46V6.43C2.23%2C6.7%2C2.76%2C6.85%2C3.32%2C6.86%0A%09%09C2.84%2C6.54%2C2.47%2C6.12%2C2.2%2C5.61C1.92%2C5.09%2C1.77%2C4.53%2C1.77%2C3.92c0-0.63%2C0.15-1.22%2C0.46-1.78c0.86%2C1.08%2C1.94%2C1.96%2C3.16%2C2.6%0A%09%09C6.64%2C5.4%2C7.98%2C5.77%2C9.4%2C5.84c-0.06-0.26-0.09-0.53-0.09-0.8c0-0.64%2C0.16-1.24%2C0.47-1.79c0.87-1.55%2C2.78-2.18%2C4.4-1.45%0A%09%09C14.62%2C2%2C15%2C2.27%2C15.32%2C2.62c0.78-0.16%2C1.51-0.45%2C2.2-0.86C17.4%2C2.17%2C17.2%2C2.54%2C16.94%2C2.88L16.94%2C2.88z%22%2F%3E%0A%3Crect%20class%3D%22no-fill%22%20id%3D%22Bounding-Box%22%20width%3D%2219%22%20height%3D%2217%22%2F%3E%0A%3C%2Fsvg%3E")
 }
 
-.ac-video-icon.icon-view_field, .compass-wrapper .ac-video-icon.compass-field {
+.ac-video-icon.icon-view_field,
+.compass-wrapper .ac-video-icon.compass-field {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2238px%22%20height%3D%2238px%22%20viewBox%3D%220%200%2038%2038%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cg%3E%0A%09%3Crect%20class%3D%22no-fill%22%20width%3D%2238%22%20height%3D%2238%22%2F%3E%0A%09%3Cpath%20style%3D%22opacity%3A0.32%3Bfill%3A%23FFFFFF%3B%22%20d%3D%22M25.11%2C11.73c0%2C0-2.5-2.23-6.11-2.23s-6.11%2C2.23-6.11%2C2.23c-0.38%2C0.32-0.61%2C0.8-0.61%2C1.33%0A%09%09c0%2C0.48%2C0.19%2C0.91%2C0.5%2C1.23c0.32%2C0.32%2C5.24%2C5.32%2C5.46%2C5.53c0.2%2C0.19%2C0.47%2C0.31%2C0.77%2C0.31s0.57-0.12%2C0.77-0.31%0A%09%09c0.22-0.21%2C5.14-5.21%2C5.46-5.53c0.31-0.32%2C0.5-0.75%2C0.5-1.23C25.73%2C12.53%2C25.49%2C12.05%2C25.11%2C11.73z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-view_ring, .compass-wrapper .ac-video-icon.compass-ring {
+.ac-video-icon.icon-view_ring,
+.compass-wrapper .ac-video-icon.compass-ring {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2238px%22%20height%3D%2238px%22%20viewBox%3D%220%200%2038%2038%22%3E%0A%3Cdefs%3E%3Cstyle%3E.fill%7Bfill%3A%23fff%3B%7D.no-fill%7Bfill%3Anone%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0A%3Cg%20id%3D%22View_Ring_1_%22%3E%0A%09%3Cpolyline%20class%3D%22no-fill%22%20points%3D%220%2C0%2038%2C0%2038%2C38%200%2C38%22%2F%3E%0A%09%3Cpath%20class%3D%22fill%22%20style%3D%22opacity%3A0.32%22%20d%3D%22M28.4%2C9.3C26%2C6.9%2C22.7%2C5.6%2C19%2C5.6s-7%2C1.4-9.4%2C3.8C7%2C11.8%2C5.4%2C15.2%2C5.4%2C19c0%2C7.5%2C6.1%2C13.6%2C13.6%2C13.6%0A%09%09S32.6%2C26.5%2C32.6%2C19C32.6%2C15.2%2C31%2C11.8%2C28.4%2C9.3z%20M19%2C30.4c-6.3%2C0-11.4-5.1-11.4-11.4c0-3.2%2C1.3-6.2%2C3.4-8.3c2.1-2%2C4.9-3.2%2C8-3.2%0A%09%09s5.9%2C1.3%2C8%2C3.2c2.2%2C2.1%2C3.4%2C5.1%2C3.4%2C8.3C30.4%2C25.3%2C25.3%2C30.4%2C19%2C30.4z%22%2F%3E%0A%09%3Cpath%20class%3D%22fill%22%20style%3D%22display%3Anone%3B%22%20d%3D%22M19%2C30.5c-6.3%2C0-11.4-5.1-11.4-11.4c0-3.3%2C1.3-6.3%2C3.5-8.4S16%2C7.5%2C19%2C7.5s5.9%2C1.3%2C7.9%2C3.1%0A%09%09c2.2%2C2.1%2C3.5%2C5.1%2C3.5%2C8.4C30.4%2C25.4%2C25.3%2C30.5%2C19%2C30.5z%22%2F%3E%0A%09%3Cpath%20class%3D%22fill%22%20d%3D%22M19%2C5.5c-3.6%2C0-6.9%2C1.4-9.4%2C3.8l0%2C0C9.4%2C9.5%2C9.3%2C9.7%2C9.3%2C10c0%2C0.6%2C0.5%2C1%2C1%2C1%0A%09%09c0.4%2C0%2C0.6-0.2%2C0.8-0.4C13%2C8.8%2C15.9%2C7.5%2C19%2C7.5s6%2C1.3%2C7.9%2C3.1c0.2%2C0.2%2C0.4%2C0.4%2C0.8%2C0.4c0.5%2C0%2C1-0.4%2C1-1c0-0.3-0.1-0.5-0.3-0.7l0%2C0%0A%09%09C25.9%2C6.9%2C22.6%2C5.5%2C19%2C5.5z%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A")
 }
 
-.ac-video-icon.icon-view_scrim, .compass-wrapper .ac-video-icon.compass-background {
+.ac-video-icon.icon-view_scrim,
+.compass-wrapper .ac-video-icon.compass-background {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20width%3D%2238px%22%20height%3D%2238px%22%20viewBox%3D%220%200%2038%2038%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cg%20id%3D%22Sticker-Sheet%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22view_scrim%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20id%3D%22boundingbox%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2238%22%20height%3D%2238%22%3E%3C%2Frect%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ccircle%20id%3D%22icon%22%20fill%3D%22%236E6E73%22%20fill-rule%3D%22nonzero%22%20opacity%3D%220.4%22%20cx%3D%2219%22%20cy%3D%2219%22%20r%3D%2218.12%22%3E%3C%2Fcircle%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E")
 }
 
@@ -382,7 +408,8 @@
   -webkit-tap-highlight-color: transparent
 }
 
-.ac-video-player.threesixty-video .start-state .controls-play-pause-button-container, .ac-video-player.threesixty-video .end-state .controls-play-pause-button-container {
+.ac-video-player.threesixty-video .start-state .controls-play-pause-button-container,
+.ac-video-player.threesixty-video .end-state .controls-play-pause-button-container {
   pointer-events: all
 }
 
@@ -426,7 +453,8 @@
   bottom: 0
 }
 
-.ac-video-player video, .ac-video-player video img {
+.ac-video-player video,
+.ac-video-player video img {
   display: block;
   outline: none
 }
@@ -453,7 +481,8 @@
   transform: translateX(-50%) translateY(-50%)
 }
 
-.ac-video-player video::-webkit-media-controls-start-playback-tint, .ac-video-player video::-webkit-media-controls-start-playback-glyph {
+.ac-video-player video::-webkit-media-controls-start-playback-tint,
+.ac-video-player video::-webkit-media-controls-start-playback-glyph {
   background: none
 }
 
@@ -869,12 +898,16 @@ video::cue {
   background: rgba(0, 0, 0, 0.64)
 }
 
-.mouse-leave .center-button-container, .mouse-leave .controls-social-tray, .mouse-leave .main-controls-container {
+.mouse-leave .center-button-container,
+.mouse-leave .controls-social-tray,
+.mouse-leave .main-controls-container {
   -webkit-transform: translateY(20px);
   transform: translateY(20px)
 }
 
-.initial-play .center-button-container, .initial-play .controls-social-tray, .initial-play .main-controls-container {
+.initial-play .center-button-container,
+.initial-play .controls-social-tray,
+.initial-play .main-controls-container {
   -webkit-transition: opacity 0.4s cubic-bezier(0.4, 0, 0.6, 1) 0.05s, -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.6, 1);
   transition: opacity 0.4s cubic-bezier(0.4, 0, 0.6, 1) 0.05s, -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.6, 1);
   transition: opacity 0.4s cubic-bezier(0.4, 0, 0.6, 1) 0.05s, transform 0.5s cubic-bezier(0.4, 0, 0.6, 1);
@@ -890,11 +923,19 @@ video::cue {
   cursor: grabbing
 }
 
-.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .main-controls-container, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-play-pause-button-container, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-social-tray, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-progress-bar, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .end-state-wrapper {
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .main-controls-container,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-play-pause-button-container,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-social-tray,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-progress-bar,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .end-state-wrapper {
   pointer-events: none
 }
 
-.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .main-controls-container *, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-play-pause-button-container *, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-social-tray *, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-progress-bar *, .threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .end-state-wrapper * {
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .main-controls-container *,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-play-pause-button-container *,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-social-tray *,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .controls-progress-bar *,
+.threesixty-video.recently-dragging.dragging .ac-video-controls .controls-container .end-state-wrapper * {
   pointer-events: none
 }
 
@@ -928,7 +969,8 @@ video::cue {
   cursor: grab
 }
 
-.threesixty-video.user-hover .ac-video-controls.start-state .center-button-container, .threesixty-video.user-hover .ac-video-controls.end-state .center-button-container {
+.threesixty-video.user-hover .ac-video-controls.start-state .center-button-container,
+.threesixty-video.user-hover .ac-video-controls.end-state .center-button-container {
   cursor: pointer
 }
 
@@ -969,11 +1011,14 @@ video::cue {
   cursor: pointer
 }
 
-.loading .ac-video-icon.icon-ctrl_pause, .loading .is-playing .ac-video-icon.controls-play-pause-button, .is-playing .loading .ac-video-icon.controls-play-pause-button {
+.loading .ac-video-icon.icon-ctrl_pause,
+.loading .is-playing .ac-video-icon.controls-play-pause-button,
+.is-playing .loading .ac-video-icon.controls-play-pause-button {
   background-image: none
 }
 
-.loading .ac-video-icon.icon-ctrl_play, .loading .ac-video-icon.controls-play-pause-button {
+.loading .ac-video-icon.icon-ctrl_play,
+.loading .ac-video-icon.controls-play-pause-button {
   background-image: none
 }
 
@@ -984,7 +1029,8 @@ video::cue {
   transition: opacity 0.5s ease
 }
 
-.main-controls:hover .ac-video-icon, .sharing-state:hover .ac-video-icon {
+.main-controls:hover .ac-video-icon,
+.sharing-state:hover .ac-video-icon {
   opacity: 0.56 !important
 }
 
@@ -992,15 +1038,20 @@ video::cue {
   opacity: 0.8 !important
 }
 
-.main-controls .ac-video-icon:hover, .controls-social-tray .ac-video-icon:hover, .controls-social-tray .textarea-active .ac-video-icon:hover, .center-button-container:hover .ac-video-icon {
+.main-controls .ac-video-icon:hover,
+.controls-social-tray .ac-video-icon:hover,
+.controls-social-tray .textarea-active .ac-video-icon:hover,
+.center-button-container:hover .ac-video-icon {
   opacity: 1 !important
 }
 
-.user-hover .controls-play-pause-button-container, .user-hover .controls-play-pause-button {
+.user-hover .controls-play-pause-button-container,
+.user-hover .controls-play-pause-button {
   cursor: pointer
 }
 
-.main-controls-container, .controls-social-tray {
+.main-controls-container,
+.controls-social-tray {
   cursor: default
 }
 
@@ -1242,7 +1293,8 @@ video::cue {
   display: none
 }
 
-.controls-elapsed-time, .controls-remaining-time {
+.controls-elapsed-time,
+.controls-remaining-time {
   display: block
 }
 
@@ -1416,7 +1468,8 @@ video::cue {
   width: 10px
 }
 
-.controls-progress-indicator .ac-slider-chapter-container:hover .ac-slider-chapter-marker, .controls-progress-indicator .ac-slider-chapter-container:focus .ac-slider-chapter-marker {
+.controls-progress-indicator .ac-slider-chapter-container:hover .ac-slider-chapter-marker,
+.controls-progress-indicator .ac-slider-chapter-container:focus .ac-slider-chapter-marker {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -1432,7 +1485,8 @@ video::cue {
   outline-offset: 1px
 }
 
-.controls-progress-indicator .ac-slider-chapter-container:focus::before[data-focus-method="mouse"]:not(input):not(textarea):not(select), .controls-progress-indicator .ac-slider-chapter-container:focus::before[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.controls-progress-indicator .ac-slider-chapter-container:focus::before[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.controls-progress-indicator .ac-slider-chapter-container:focus::before[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   outline: none
 }
 
@@ -1483,7 +1537,8 @@ video::cue {
   padding-bottom: 14px
 }
 
-.controls-progress-indicator .ac-slider-thumb-background-wrapper:hover .ac-slider-thumb-background, .controls-progress-indicator .ac-slider-thumb-background-wrapper:active .ac-slider-thumb-background {
+.controls-progress-indicator .ac-slider-thumb-background-wrapper:hover .ac-slider-thumb-background,
+.controls-progress-indicator .ac-slider-thumb-background-wrapper:active .ac-slider-thumb-background {
   -webkit-transform: scale(1);
   transform: scale(1)
 }
@@ -1634,7 +1689,8 @@ video::cue {
   left: -1px
 }
 
-.controls-volume .ac-slider-thumb-background-wrapper:hover .ac-slider-thumb-background, .controls-volume .ac-slider-thumb-background-wrapper:active .ac-slider-thumb-background {
+.controls-volume .ac-slider-thumb-background-wrapper:hover .ac-slider-thumb-background,
+.controls-volume .ac-slider-thumb-background-wrapper:active .ac-slider-thumb-background {
   -webkit-transform: scale(1);
   transform: scale(1)
 }
@@ -1667,11 +1723,21 @@ video::cue {
   will-change: bottom
 }
 
-.controls-volume:hover, .controls-volume:hover .controls-volume-level-indicator, .controls-volume:active, .controls-volume:active .controls-volume-level-indicator, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive), .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-volume-level-indicator {
+.controls-volume:hover,
+.controls-volume:hover .controls-volume-level-indicator,
+.controls-volume:active,
+.controls-volume:active .controls-volume-level-indicator,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive),
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-volume-level-indicator {
   pointer-events: all
 }
 
-.controls-volume:hover .ac-slider-ax-track, .controls-volume:hover .controls-volume-level-indicator .ac-slider-ax-track, .controls-volume:active .ac-slider-ax-track, .controls-volume:active .controls-volume-level-indicator .ac-slider-ax-track, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-ax-track, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-volume-level-indicator .ac-slider-ax-track {
+.controls-volume:hover .ac-slider-ax-track,
+.controls-volume:hover .controls-volume-level-indicator .ac-slider-ax-track,
+.controls-volume:active .ac-slider-ax-track,
+.controls-volume:active .controls-volume-level-indicator .ac-slider-ax-track,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-ax-track,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-volume-level-indicator .ac-slider-ax-track {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1679,24 +1745,35 @@ video::cue {
   width: 100%
 }
 
-.controls-volume:hover .controls-toggle-mute-volume-button, .controls-volume:active .controls-toggle-mute-volume-button, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-toggle-mute-volume-button {
+.controls-volume:hover .controls-toggle-mute-volume-button,
+.controls-volume:active .controls-toggle-mute-volume-button,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .controls-toggle-mute-volume-button {
   opacity: 1 !important
 }
 
-.controls-volume:hover .ac-slider-background, .controls-volume:active .ac-slider-background, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-background {
+.controls-volume:hover .ac-slider-background,
+.controls-volume:active .ac-slider-background,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-background {
   height: 100%;
   opacity: 1;
   -webkit-transition: height 0.2345s ease-out, opacity 0.0335s ease-out;
   transition: height 0.2345s ease-out, opacity 0.0335s ease-out
 }
 
-.controls-volume:hover .ac-slider-inner-track, .controls-volume:hover .ac-slider-thumb-wrapper, .controls-volume:active .ac-slider-inner-track, .controls-volume:active .ac-slider-thumb-wrapper, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-inner-track, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-thumb-wrapper {
+.controls-volume:hover .ac-slider-inner-track,
+.controls-volume:hover .ac-slider-thumb-wrapper,
+.controls-volume:active .ac-slider-inner-track,
+.controls-volume:active .ac-slider-thumb-wrapper,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-inner-track,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-thumb-wrapper {
   height: 100%;
   -webkit-transition: height 0.268s ease-out 0.067s;
   transition: height 0.268s ease-out 0.067s
 }
 
-.controls-volume:hover .ac-slider-thumb, .controls-volume:active .ac-slider-thumb, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-thumb {
+.controls-volume:hover .ac-slider-thumb,
+.controls-volume:active .ac-slider-thumb,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-thumb {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -1706,19 +1783,23 @@ video::cue {
   transition: transform 0.25125s ease-out 0.05025s, opacity 0.05025s ease-out 0.05025s, -webkit-transform 0.25125s ease-out 0.05025s
 }
 
-.controls-volume:hover .ac-slider-scrubbed, .controls-volume:active .ac-slider-scrubbed, .controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-scrubbed {
+.controls-volume:hover .ac-slider-scrubbed,
+.controls-volume:active .ac-slider-scrubbed,
+.controls-volume .controls-volume-level-indicator:not(.ac-slider-inactive) .ac-slider-scrubbed {
   margin-bottom: 5px;
   -webkit-transition: margin-bottom 0.335s linear;
   transition: margin-bottom 0.335s linear
 }
 
-.controls-progress-dvr-label-container, .live-stream {
+.controls-progress-dvr-label-container,
+.live-stream {
   display: none;
   text-align: center;
   white-space: nowrap
 }
 
-.controls-progress-dvr-label-container .live-stream-text, .live-stream .live-stream-text {
+.controls-progress-dvr-label-container .live-stream-text,
+.live-stream .live-stream-text {
   color: #fff;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 600;
@@ -1729,19 +1810,23 @@ video::cue {
   position: relative
 }
 
-.ac-video-player.small .controls-progress-dvr-label-container .live-stream-text, .ac-video-player.small .live-stream .live-stream-text {
+.ac-video-player.small .controls-progress-dvr-label-container .live-stream-text,
+.ac-video-player.small .live-stream .live-stream-text {
   top: 12px
 }
 
-.ac-video-player.medium .controls-progress-dvr-label-container .live-stream-text, .ac-video-player.medium .live-stream .live-stream-text {
+.ac-video-player.medium .controls-progress-dvr-label-container .live-stream-text,
+.ac-video-player.medium .live-stream .live-stream-text {
   top: 12px
 }
 
-.ac-video-player.large .controls-progress-dvr-label-container .live-stream-text, .ac-video-player.large .live-stream .live-stream-text {
+.ac-video-player.large .controls-progress-dvr-label-container .live-stream-text,
+.ac-video-player.large .live-stream .live-stream-text {
   top: 14px
 }
 
-.controls-progress-dvr-label-container .live-stream-text::before, .live-stream .live-stream-text::before {
+.controls-progress-dvr-label-container .live-stream-text::before,
+.live-stream .live-stream-text::before {
   content: '';
   width: 5px;
   height: 5px;
@@ -1869,7 +1954,8 @@ video::cue {
   transform: translateX(50%) translateY(50%)
 }
 
-.ac-video-player.small.loading .loading-indicator>*, .ac-video-player.medium.loading .loading-indicator>* {
+.ac-video-player.small.loading .loading-indicator>*,
+.ac-video-player.medium.loading .loading-indicator>* {
   width: 3px;
   height: 9px;
   border-radius: 1.5px
@@ -2236,7 +2322,8 @@ video::cue {
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.6, 1), transform 0.4s cubic-bezier(0.4, 0, 0.6, 1), -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.6, 1)
 }
 
-.ac-video-player.user-hover .start-state .ac-video-overlay-container, .ac-video-player.user-hover .end-state .ac-video-overlay-container {
+.ac-video-player.user-hover .start-state .ac-video-overlay-container,
+.ac-video-player.user-hover .end-state .ac-video-overlay-container {
   visibility: hidden
 }
 
@@ -2766,7 +2853,10 @@ html[dir="rtl"] .controls-social-tray {
   transition: opacity 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.06s
 }
 
-.compass-wrapper .compass-arrows .compass-arrow-top, .compass-wrapper .compass-arrows .compass-arrow-right, .compass-wrapper .compass-arrows .compass-arrow-bottom, .compass-wrapper .compass-arrows .compass-arrow-left {
+.compass-wrapper .compass-arrows .compass-arrow-top,
+.compass-wrapper .compass-arrows .compass-arrow-right,
+.compass-wrapper .compass-arrows .compass-arrow-bottom,
+.compass-wrapper .compass-arrows .compass-arrow-left {
   border: 0;
   padding: 0;
   margin: 0;
@@ -2788,11 +2878,21 @@ html[dir="rtl"] .controls-social-tray {
   transition: transform 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.03s, -webkit-transform 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.03s
 }
 
-.compass-wrapper .compass-arrows .compass-arrow-top:focus, .compass-wrapper .compass-arrows .compass-arrow-top:active, .compass-wrapper .compass-arrows .compass-arrow-right:focus, .compass-wrapper .compass-arrows .compass-arrow-right:active, .compass-wrapper .compass-arrows .compass-arrow-bottom:focus, .compass-wrapper .compass-arrows .compass-arrow-bottom:active, .compass-wrapper .compass-arrows .compass-arrow-left:focus, .compass-wrapper .compass-arrows .compass-arrow-left:active {
+.compass-wrapper .compass-arrows .compass-arrow-top:focus,
+.compass-wrapper .compass-arrows .compass-arrow-top:active,
+.compass-wrapper .compass-arrows .compass-arrow-right:focus,
+.compass-wrapper .compass-arrows .compass-arrow-right:active,
+.compass-wrapper .compass-arrows .compass-arrow-bottom:focus,
+.compass-wrapper .compass-arrows .compass-arrow-bottom:active,
+.compass-wrapper .compass-arrows .compass-arrow-left:focus,
+.compass-wrapper .compass-arrows .compass-arrow-left:active {
   opacity: 1
 }
 
-.ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-top, .ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-right, .ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-bottom, .ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-left {
+.ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-top,
+.ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-right,
+.ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-bottom,
+.ac-video-controls.mobile .compass-wrapper .compass-arrows .compass-arrow-left {
   pointer-events: all
 }
 
@@ -2830,7 +2930,10 @@ html[dir="rtl"] .controls-social-tray {
   transition: opacity 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.06s
 }
 
-.compass-wrapper.show-arrows .compass-arrow-top, .compass-wrapper.show-arrows .compass-arrow-right, .compass-wrapper.show-arrows .compass-arrow-bottom, .compass-wrapper.show-arrows .compass-arrow-left {
+.compass-wrapper.show-arrows .compass-arrow-top,
+.compass-wrapper.show-arrows .compass-arrow-right,
+.compass-wrapper.show-arrows .compass-arrow-bottom,
+.compass-wrapper.show-arrows .compass-arrow-left {
   pointer-events: all;
   -webkit-transition: -webkit-transform 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.06s;
   transition: -webkit-transform 0.275s cubic-bezier(0.4, 0, 0.6, 1) 0.06s;
@@ -3099,7 +3202,8 @@ html[dir="rtl"] .controls-social-tray {
   display: flex
 }
 
-.modal .modal-content .ac-player-container.ac-video-cinematic-aspect-ratio, .modal .modal-content .ac-player-container.ac-video-cinematic-aspect-ratio .ac-video-player .ac-video-poster {
+.modal .modal-content .ac-player-container.ac-video-cinematic-aspect-ratio,
+.modal .modal-content .ac-player-container.ac-video-cinematic-aspect-ratio .ac-video-player .ac-video-poster {
   max-width: 1536px
 }
 

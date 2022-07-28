@@ -9,22 +9,51 @@ body {
   padding: 0
 }
 
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr {
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr {
   margin: 0;
   padding: 0
 }
 
-pre, code, address, caption, th, figcaption {
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
   font-size: 1em;
   font-weight: normal;
   font-style: normal
 }
 
-fieldset, iframe, img {
+fieldset,
+iframe,
+img {
   border: 0
 }
 
-caption, th {
+caption,
+th {
   text-align: left
 }
 
@@ -33,11 +62,25 @@ table {
   border-spacing: 0
 }
 
-article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
   display: block
 }
 
-audio, canvas, video, progress {
+audio,
+canvas,
+video,
+progress {
   display: inline-block;
   vertical-align: baseline
 }
@@ -49,16 +92,26 @@ button {
 }
 
 @media print {
-  body, #main, #content {
+
+  body,
+  #main,
+  #content {
     color: #000
   }
 
-  a, a:link, a:visited {
+  a,
+  a:link,
+  a:visited {
     color: #000;
     text-decoration: none
   }
 
-  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide {
+  #globalheader,
+  #globalfooter,
+  #directorynav,
+  #tabs,
+  .noprint,
+  .hide {
     display: none
   }
 }
@@ -117,7 +170,11 @@ html[lang=zh-CN] body {
   line-height: 1.75
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -128,7 +185,9 @@ a {
   color: #08c
 }
 
-a:visited, a:link, a:active {
+a:visited,
+a:link,
+a:active {
   text-decoration: none
 }
 
@@ -140,24 +199,43 @@ html.no-touch a:hover {
   text-decoration: underline
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.45em 0
 }
 
-*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
   margin-top: 1em
 }
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
   display: block;
   margin: 0
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold
 }
 
-em, i, cite, dfn {
+em,
+i,
+cite,
+dfn {
   font-style: italic
 }
 
@@ -169,16 +247,21 @@ li li {
   font-size: 1em
 }
 
-ul, ol {
+ul,
+ol {
   margin: 1em 0 1em 1.11111em
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   margin: 0
 }
@@ -191,11 +274,15 @@ sup {
   bottom: -.2em
 }
 
-h1 sup, h2 sup, h3 sup {
+h1 sup,
+h2 sup,
+h3 sup {
   font-size: .4em
 }
 
-html.oldie h4 sup, html.oldie h5 sup, html.oldie h6 sup {
+html.oldie h4 sup,
+html.oldie h5 sup,
+html.oldie h6 sup {
   font-size: .8em;
   font-weight: normal;
   line-height: 1;
@@ -219,7 +306,8 @@ abbr {
   border: 0
 }
 
-.selfclear:before, .selfclear:after {
+.selfclear:before,
+.selfclear:after {
   content: ' ';
   display: table
 }
@@ -283,7 +371,8 @@ html.oldie .selfclear {
   z-index: 1
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
   content: ' ';
   display: table
 }
@@ -929,7 +1018,9 @@ html.oldie .large-offset-12 {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.icon:before, .icon:after, .icon .icon-htc {
+.icon:before,
+.icon:after,
+.icon .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -942,7 +1033,8 @@ html.oldie .large-offset-12 {
   z-index: 1
 }
 
-.icon:after, .icon .icon-htc {
+.icon:after,
+.icon .icon-htc {
   top: 0;
   padding-left: 0.3em
 }
@@ -955,7 +1047,9 @@ html.oldie .large-offset-12 {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.icon-before:before, .icon-before:after, .icon-before .icon-htc {
+.icon-before:before,
+.icon-before:after,
+.icon-before .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -968,7 +1062,8 @@ html.oldie .large-offset-12 {
   z-index: 1
 }
 
-.icon-before:before, .icon-before .icon-htc {
+.icon-before:before,
+.icon-before .icon-htc {
   top: -0.125em;
   padding-right: 0.3em
 }
@@ -981,7 +1076,9 @@ html.oldie .large-offset-12 {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.icon-standalone:before, .icon-standalone:after, .icon-standalone .icon-htc {
+.icon-standalone:before,
+.icon-standalone:after,
+.icon-standalone .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -994,7 +1091,8 @@ html.oldie .large-offset-12 {
   z-index: 1
 }
 
-.icon-standalone:after, .icon-standalone .icon-htc {
+.icon-standalone:after,
+.icon-standalone .icon-htc {
   top: 0;
   padding-left: 0;
   padding-right: 0
@@ -1030,7 +1128,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   text-decoration: underline
 }
 
-.icon-chevrondown:before, .icon-chevrondown:after {
+.icon-chevrondown:before,
+.icon-chevrondown:after {
   content: ""
 }
 
@@ -1038,7 +1137,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevrondownalt:before, .icon-chevrondownalt:after {
+.icon-chevrondownalt:before,
+.icon-chevrondownalt:after {
   content: ""
 }
 
@@ -1046,7 +1146,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronleft:before, .icon-chevronleft:after {
+.icon-chevronleft:before,
+.icon-chevronleft:after {
   content: ""
 }
 
@@ -1054,7 +1155,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronrightalt:before, .icon-chevronrightalt:after {
+.icon-chevronrightalt:before,
+.icon-chevronrightalt:after {
   content: ""
 }
 
@@ -1062,7 +1164,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronright:before, .icon-chevronright:after {
+.icon-chevronright:before,
+.icon-chevronright:after {
   content: ""
 }
 
@@ -1070,7 +1173,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronleftalt:before, .icon-chevronleftalt:after {
+.icon-chevronleftalt:before,
+.icon-chevronleftalt:after {
   content: ""
 }
 
@@ -1078,7 +1182,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronup:before, .icon-chevronup:after {
+.icon-chevronup:before,
+.icon-chevronup:after {
   content: ""
 }
 
@@ -1086,7 +1191,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-chevronupalt:before, .icon-chevronupalt:after {
+.icon-chevronupalt:before,
+.icon-chevronupalt:after {
   content: ""
 }
 
@@ -1094,7 +1200,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-close:before, .icon-close:after {
+.icon-close:before,
+.icon-close:after {
   content: ""
 }
 
@@ -1102,7 +1209,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-closealt:before, .icon-closealt:after {
+.icon-closealt:before,
+.icon-closealt:after {
   content: ""
 }
 
@@ -1110,7 +1218,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-download:before, .icon-download:after {
+.icon-download:before,
+.icon-download:after {
   content: ""
 }
 
@@ -1118,7 +1227,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-downloadalt:before, .icon-downloadalt:after {
+.icon-downloadalt:before,
+.icon-downloadalt:after {
   content: ""
 }
 
@@ -1126,7 +1236,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-external:before, .icon-external:after {
+.icon-external:before,
+.icon-external:after {
   content: ""
 }
 
@@ -1134,7 +1245,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-alert:before, .icon-alert:after {
+.icon-alert:before,
+.icon-alert:after {
   content: ""
 }
 
@@ -1142,7 +1254,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-list:before, .icon-list:after {
+.icon-list:before,
+.icon-list:after {
   content: ""
 }
 
@@ -1150,7 +1263,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-paddledown:before, .icon-paddledown:after {
+.icon-paddledown:before,
+.icon-paddledown:after {
   content: ""
 }
 
@@ -1158,7 +1272,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-paddleleft:before, .icon-paddleleft:after {
+.icon-paddleleft:before,
+.icon-paddleleft:after {
   content: ""
 }
 
@@ -1166,7 +1281,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-paddleright:before, .icon-paddleright:after {
+.icon-paddleright:before,
+.icon-paddleright:after {
   content: ""
 }
 
@@ -1174,7 +1290,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-paddleup:before, .icon-paddleup:after {
+.icon-paddleup:before,
+.icon-paddleup:after {
   content: ""
 }
 
@@ -1182,7 +1299,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-pause:before, .icon-pause:after {
+.icon-pause:before,
+.icon-pause:after {
   content: ""
 }
 
@@ -1190,7 +1308,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-play:before, .icon-play:after {
+.icon-play:before,
+.icon-play:after {
   content: ""
 }
 
@@ -1198,7 +1317,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-playalt:before, .icon-playalt:after {
+.icon-playalt:before,
+.icon-playalt:after {
   content: ""
 }
 
@@ -1206,7 +1326,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-replay:before, .icon-replay:after {
+.icon-replay:before,
+.icon-replay:after {
   content: ""
 }
 
@@ -1214,7 +1335,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-zoomalt:before, .icon-zoomalt:after {
+.icon-zoomalt:before,
+.icon-zoomalt:after {
   content: ""
 }
 
@@ -1222,7 +1344,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-closeinlinealt:before, .icon-closeinlinealt:after {
+.icon-closeinlinealt:before,
+.icon-closeinlinealt:after {
   content: ""
 }
 
@@ -1230,7 +1353,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-grid:before, .icon-grid:after {
+.icon-grid:before,
+.icon-grid:after {
   content: ""
 }
 
@@ -1238,7 +1362,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-checkalt:before, .icon-checkalt:after {
+.icon-checkalt:before,
+.icon-checkalt:after {
   content: ""
 }
 
@@ -1246,7 +1371,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-stop:before, .icon-stop:after {
+.icon-stop:before,
+.icon-stop:after {
   content: ""
 }
 
@@ -1254,7 +1380,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-stopalt:before, .icon-stopalt:after {
+.icon-stopalt:before,
+.icon-stopalt:after {
   content: ""
 }
 
@@ -1262,7 +1389,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-replayalt:before, .icon-replayalt:after {
+.icon-replayalt:before,
+.icon-replayalt:after {
   content: ""
 }
 
@@ -1270,7 +1398,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-facebook:before, .icon-facebook:after {
+.icon-facebook:before,
+.icon-facebook:after {
   content: ""
 }
 
@@ -1278,7 +1407,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-link:before, .icon-link:after {
+.icon-link:before,
+.icon-link:after {
   content: ""
 }
 
@@ -1286,7 +1416,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-mail:before, .icon-mail:after {
+.icon-mail:before,
+.icon-mail:after {
   content: ""
 }
 
@@ -1294,7 +1425,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-pinterest:before, .icon-pinterest:after {
+.icon-pinterest:before,
+.icon-pinterest:after {
   content: ""
 }
 
@@ -1302,7 +1434,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-qqweibo:before, .icon-qqweibo:after {
+.icon-qqweibo:before,
+.icon-qqweibo:after {
   content: ""
 }
 
@@ -1310,7 +1443,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-qzone:before, .icon-qzone:after {
+.icon-qzone:before,
+.icon-qzone:after {
   content: ""
 }
 
@@ -1318,7 +1452,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-renren:before, .icon-renren:after {
+.icon-renren:before,
+.icon-renren:after {
   content: ""
 }
 
@@ -1326,7 +1461,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-share:before, .icon-share:after {
+.icon-share:before,
+.icon-share:after {
   content: ""
 }
 
@@ -1334,7 +1470,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-tumblr:before, .icon-tumblr:after {
+.icon-tumblr:before,
+.icon-tumblr:after {
   content: ""
 }
 
@@ -1342,7 +1479,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-twitter:before, .icon-twitter:after {
+.icon-twitter:before,
+.icon-twitter:after {
   content: ""
 }
 
@@ -1350,7 +1488,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-webo:before, .icon-webo:after {
+.icon-webo:before,
+.icon-webo:after {
   content: ""
 }
 
@@ -1358,7 +1497,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-instagram:before, .icon-instagram:after {
+.icon-instagram:before,
+.icon-instagram:after {
   content: ""
 }
 
@@ -1366,7 +1506,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-check:before, .icon-check:after {
+.icon-check:before,
+.icon-check:after {
   content: ""
 }
 
@@ -1374,7 +1515,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-linkedin:before, .icon-linkedin:after {
+.icon-linkedin:before,
+.icon-linkedin:after {
   content: ""
 }
 
@@ -1382,7 +1524,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-snapchat:before, .icon-snapchat:after {
+.icon-snapchat:before,
+.icon-snapchat:after {
   content: ""
 }
 
@@ -1390,7 +1533,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-zoom:before, .icon-zoom:after {
+.icon-zoom:before,
+.icon-zoom:after {
   content: ""
 }
 
@@ -1398,7 +1542,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-zoomoutalt:before, .icon-zoomoutalt:after {
+.icon-zoomoutalt:before,
+.icon-zoomoutalt:after {
   content: ""
 }
 
@@ -1406,7 +1551,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-zoomout:before, .icon-zoomout:after {
+.icon-zoomout:before,
+.icon-zoomout:after {
   content: ""
 }
 
@@ -1414,7 +1560,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-favorite:before, .icon-favorite:after {
+.icon-favorite:before,
+.icon-favorite:after {
   content: ""
 }
 
@@ -1422,7 +1569,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-clearsolid:before, .icon-clearsolid:after {
+.icon-clearsolid:before,
+.icon-clearsolid:after {
   content: ""
 }
 
@@ -1430,7 +1578,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-remove:before, .icon-remove:after {
+.icon-remove:before,
+.icon-remove:after {
   content: ""
 }
 
@@ -1438,7 +1587,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-unvalidatedalt:before, .icon-unvalidatedalt:after {
+.icon-unvalidatedalt:before,
+.icon-unvalidatedalt:after {
   content: ""
 }
 
@@ -1446,7 +1596,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-unvalidated:before, .icon-unvalidated:after {
+.icon-unvalidated:before,
+.icon-unvalidated:after {
   content: ""
 }
 
@@ -1454,7 +1605,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-info:before, .icon-info:after {
+.icon-info:before,
+.icon-info:after {
   content: ""
 }
 
@@ -1462,7 +1614,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-add:before, .icon-add:after {
+.icon-add:before,
+.icon-add:after {
   content: ""
 }
 
@@ -1470,7 +1623,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-exclamation:before, .icon-exclamation:after {
+.icon-exclamation:before,
+.icon-exclamation:after {
   content: ""
 }
 
@@ -1478,7 +1632,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-infoalt:before, .icon-infoalt:after {
+.icon-infoalt:before,
+.icon-infoalt:after {
   content: ""
 }
 
@@ -1486,7 +1641,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-circle:before, .icon-circle:after {
+.icon-circle:before,
+.icon-circle:after {
   content: ""
 }
 
@@ -1494,7 +1650,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.icon-apple:before, .icon-apple:after {
+.icon-apple:before,
+.icon-apple:after {
   content: ""
 }
 
@@ -1506,7 +1663,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.more:before, .more:after {
+.more:before,
+.more:after {
   content: ""
 }
 
@@ -1514,7 +1672,9 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   x-content: ""
 }
 
-.more:before, .more:after, .more .icon-htc {
+.more:before,
+.more:after,
+.more .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -1527,7 +1687,8 @@ html.no-touch .icon-ie-parent:link:hover .icon-ie-link {
   z-index: 1
 }
 
-.more:after, .more .icon-htc {
+.more:after,
+.more .icon-htc {
   top: 0;
   padding-left: 0.3em
 }
@@ -1690,7 +1851,8 @@ html.touch .paddlenav-arrow {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.paddlenav-arrow-left:before, .paddlenav-arrow-left:after {
+.paddlenav-arrow-left:before,
+.paddlenav-arrow-left:after {
   content: ""
 }
 
@@ -1698,7 +1860,9 @@ html.touch .paddlenav-arrow {
   x-content: ""
 }
 
-.paddlenav-arrow-left:before, .paddlenav-arrow-left:after, .paddlenav-arrow-left .icon-htc {
+.paddlenav-arrow-left:before,
+.paddlenav-arrow-left:after,
+.paddlenav-arrow-left .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -1711,7 +1875,8 @@ html.touch .paddlenav-arrow {
   z-index: 1
 }
 
-.paddlenav-arrow-left:after, .paddlenav-arrow-left .icon-htc {
+.paddlenav-arrow-left:after,
+.paddlenav-arrow-left .icon-htc {
   top: 0;
   padding-left: 0;
   padding-right: 0
@@ -1726,7 +1891,8 @@ html.touch .paddlenav-arrow {
   behavior: url("/v/ios-imovie/c/built/assets/ac-appleicons/behaviors/icons.htc")
 }
 
-.paddlenav-arrow-right:before, .paddlenav-arrow-right:after {
+.paddlenav-arrow-right:before,
+.paddlenav-arrow-right:after {
   content: ""
 }
 
@@ -1734,7 +1900,9 @@ html.touch .paddlenav-arrow {
   x-content: ""
 }
 
-.paddlenav-arrow-right:before, .paddlenav-arrow-right:after, .paddlenav-arrow-right .icon-htc {
+.paddlenav-arrow-right:before,
+.paddlenav-arrow-right:after,
+.paddlenav-arrow-right .icon-htc {
   display: inline-block;
   color: inherit;
   font-family: "AppleIcons";
@@ -1747,7 +1915,8 @@ html.touch .paddlenav-arrow {
   z-index: 1
 }
 
-.paddlenav-arrow-right:after, .paddlenav-arrow-right .icon-htc {
+.paddlenav-arrow-right:after,
+.paddlenav-arrow-right .icon-htc {
   top: 0;
   padding-left: 0;
   padding-right: 0
@@ -1973,7 +2142,8 @@ html.oldie .violator {
   }
 }
 
-html.oldie, html.oldie body {
+html.oldie,
+html.oldie body {
   overflow-x: hidden
 }
 
@@ -1986,7 +2156,8 @@ html.oldie, html.oldie body {
   text-align: center
 }
 
-.section:before, .section:after {
+.section:before,
+.section:after {
   content: ' ';
   display: table
 }
@@ -2586,7 +2757,10 @@ html[lang=th-TH] .section-header .section-hero .hero-cta {
   height: auto
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .ipadmini {
     background-image: url("/v/ios-imovie/c/images/gallery_hardware_ipad_large_2x.png")
   }
@@ -2605,7 +2779,10 @@ html[lang=th-TH] .section-header .section-hero .hero-cta {
   background-position: 50% 0%
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .iphone-portrait {
     background-image: url("/v/ios-imovie/c/images/gallery_hardware_iphone_portrait_large_2x.png")
   }
@@ -2738,7 +2915,10 @@ html.oldie .platforms .row .large-6 .platforms-icon {
   background-image: url("/v/ios-imovie/c/images/icon_imovie_mac_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .platforms .row .large-6 .platforms-icon.imovie-mac {
     background-image: url("/v/ios-imovie/c/images/icon_imovie_mac_large_2x.png")
   }
@@ -2752,7 +2932,10 @@ html.oldie .platforms .row .large-6 .platforms-icon {
   background-image: url("/v/ios-imovie/c/images/platform_icon_ios_imovie_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .platforms .row .large-6 .platforms-icon.imovie-ios {
     background-image: url("/v/ios-imovie/c/images/platform_icon_ios_imovie_large_2x.jpg")
   }
@@ -2924,7 +3107,9 @@ html.touch .paddlenav {
   overflow: hidden
 }
 
-.has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .globalheader, .has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav-wrapper, .has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav {
+.has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .globalheader,
+.has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav-wrapper,
+.has-modal.modal-open:-webkit-full-screen-ancestor:not(iframe) .localnav {
   visibility: hidden
 }
 
@@ -2961,7 +3146,8 @@ html.touch .paddlenav {
   padding: 0
 }
 
-.modal .modal-close:focus, .modal .modal-close:active {
+.modal .modal-close:focus,
+.modal .modal-close:active {
   outline: none
 }
 
@@ -3064,12 +3250,19 @@ html.touch .paddlenav {
   width: 100%
 }
 
-.ac-video-player video, .ac-video-player embed, .ac-video-player object {
+.ac-video-player video,
+.ac-video-player embed,
+.ac-video-player object {
   width: 100%;
   height: 100%
 }
 
-.ac-video-player video, .ac-video-player video img, .ac-video-player embed, .ac-video-player embed img, .ac-video-player object, .ac-video-player object img {
+.ac-video-player video,
+.ac-video-player video img,
+.ac-video-player embed,
+.ac-video-player embed img,
+.ac-video-player object,
+.ac-video-player object img {
   display: block;
   outline: none
 }
@@ -3143,7 +3336,9 @@ html.touch .paddlenav {
   width: 848px
 }
 
-.ac-video-quicktime-download .ac-video-quicktime-download-title, .ac-video-quicktime-download .ac-video-quicktime-download-text, .ac-video-quicktime-download .ac-video-quicktime-download-button {
+.ac-video-quicktime-download .ac-video-quicktime-download-title,
+.ac-video-quicktime-download .ac-video-quicktime-download-text,
+.ac-video-quicktime-download .ac-video-quicktime-download-button {
   display: block;
   z-index: 10012;
   cursor: pointer;
@@ -3192,11 +3387,13 @@ html.touch .paddlenav {
   width: 74px
 }
 
-body.cursor-pointer, body.cursor-pointer * {
+body.cursor-pointer,
+body.cursor-pointer * {
   cursor: pointer
 }
 
-.control-bar-skin-default, .control-bar-skin-default * {
+.control-bar-skin-default,
+.control-bar-skin-default * {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -3296,7 +3493,8 @@ body.cursor-pointer, body.cursor-pointer * {
   z-index: -1
 }
 
-.control-bar-skin-default .left, .control-bar-skin-default .right {
+.control-bar-skin-default .left,
+.control-bar-skin-default .right {
   z-index: 2
 }
 
@@ -3395,7 +3593,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-min-volume-button {
     width: 14px;
     height: 15px;
@@ -3412,7 +3615,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-min-volume-button:hover {
     width: 14px;
     height: 15px;
@@ -3426,7 +3634,10 @@ body.cursor-pointer, body.cursor-pointer * {
   height: 20px
 }
 
-.control-bar-skin-default .controls-max-volume-button, .control-bar-skin-default .controls-play-pause-button, .control-bar-skin-default .controls-text-tracks-toggle-button, .control-bar-skin-default .controls-full-screen-button {
+.control-bar-skin-default .controls-max-volume-button,
+.control-bar-skin-default .controls-play-pause-button,
+.control-bar-skin-default .controls-text-tracks-toggle-button,
+.control-bar-skin-default .controls-full-screen-button {
   *padding-left: 100%
 }
 
@@ -3438,7 +3649,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-max-volume-button {
     width: 19px;
     height: 16px;
@@ -3455,7 +3671,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-max-volume-button:hover {
     width: 19px;
     height: 16px;
@@ -3472,7 +3693,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-play-pause-button {
     width: 29.5px;
     height: 29.5px;
@@ -3489,7 +3715,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-play-pause-button:hover {
     width: 29.5px;
     height: 29.5px;
@@ -3506,7 +3737,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-play-pause-button.is-playing {
     width: 24px;
     height: 29.5px;
@@ -3523,7 +3759,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-play-pause-button.is-playing:hover {
     width: 24px;
     height: 29.5px;
@@ -3532,7 +3773,9 @@ body.cursor-pointer, body.cursor-pointer * {
   }
 }
 
-.control-bar-skin-default .controls-text-tracks-toggle-button.no-text-tracks, .control-bar-skin-default .controls-text-tracks-off-button.no-text-tracks, .control-bar-skin-default .controls-text-tracks-on-button.no-text-tracks {
+.control-bar-skin-default .controls-text-tracks-toggle-button.no-text-tracks,
+.control-bar-skin-default .controls-text-tracks-off-button.no-text-tracks,
+.control-bar-skin-default .controls-text-tracks-on-button.no-text-tracks {
   display: none
 }
 
@@ -3544,7 +3787,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-text-tracks-toggle-button {
     width: 27px;
     height: 22px;
@@ -3561,7 +3809,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-text-tracks-toggle-button:hover {
     width: 27px;
     height: 22px;
@@ -3578,7 +3831,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-text-tracks-toggle-button.text-tracks-visible {
     width: 27px;
     height: 22px;
@@ -3621,7 +3879,8 @@ body.cursor-pointer, body.cursor-pointer * {
   border-radius: 3px
 }
 
-.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb, .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb,
+.control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
   margin-top: -8px;
   height: 16px;
   width: 12px
@@ -3640,7 +3899,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background {
     width: 17px;
     height: 17px;
@@ -3657,7 +3921,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-volume-level-indicator .ac-slider-thumb-background:hover {
     width: 17px;
     height: 17px;
@@ -3678,7 +3947,12 @@ body.cursor-pointer, body.cursor-pointer * {
   display: none
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-full-screen-button {
     width: 27px;
     height: 22px;
@@ -3695,7 +3969,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-full-screen-button:hover {
     width: 27px;
     height: 22px;
@@ -3712,7 +3991,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-full-screen-button.is-fullscreen {
     width: 27px;
     height: 22px;
@@ -3729,7 +4013,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-full-screen-button.is-fullscreen:hover {
     width: 27px;
     height: 22px;
@@ -3743,7 +4032,8 @@ body.cursor-pointer, body.cursor-pointer * {
   top: 4px
 }
 
-.control-bar-skin-default .controls-elapsed-time-indicator, .control-bar-skin-default .controls-remaining-time-indicator {
+.control-bar-skin-default .controls-elapsed-time-indicator,
+.control-bar-skin-default .controls-remaining-time-indicator {
   color: #d5d5d5;
   font: bold 9px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   *font-size: 8px;
@@ -3751,7 +4041,8 @@ body.cursor-pointer, body.cursor-pointer * {
   word-spacing: 0px
 }
 
-.control-bar-skin-default .controls-elapsed-time-indicator .label, .control-bar-skin-default .controls-remaining-time-indicator .label {
+.control-bar-skin-default .controls-elapsed-time-indicator .label,
+.control-bar-skin-default .controls-remaining-time-indicator .label {
   display: none
 }
 
@@ -3791,7 +4082,8 @@ body.cursor-pointer, body.cursor-pointer * {
   width: 9px
 }
 
-.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb, .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb,
+.control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
   height: 14px;
   margin-top: -6.25px
 }
@@ -3811,7 +4103,12 @@ body.cursor-pointer, body.cursor-pointer * {
   z-index: 2
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background {
     width: 14.5px;
     height: 14.5px;
@@ -3828,7 +4125,12 @@ body.cursor-pointer, body.cursor-pointer * {
   background-image: url("/v/ios-imovie/c/built/assets/ac-video-controls/default_spritesheet.png")
 }
 
-@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (-webkit-min-device-pixel-ratio: 144), screen and (min-resolution: 144dppx) {
+@media print,
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 144dpi),
+screen and (-webkit-min-device-pixel-ratio: 144),
+screen and (min-resolution: 144dppx) {
   .control-bar-skin-default .controls-progress-indicator .ac-slider-thumb-background:hover {
     width: 14.5px;
     height: 14.5px;
@@ -3863,7 +4165,8 @@ body.cursor-pointer, body.cursor-pointer * {
   color: #666
 }
 
-.modal .modal-close:after, .modal .modal-close .icon-htc {
+.modal .modal-close:after,
+.modal .modal-close .icon-htc {
   line-height: 44px;
   padding: 0
 }
@@ -3890,7 +4193,8 @@ body.cursor-pointer, body.cursor-pointer * {
   }
 }
 
-.modal .ac-video-player, .modal .ac-video-nosupport {
+.modal .ac-video-player,
+.modal .ac-video-nosupport {
   margin-top: -28.125%;
   padding-bottom: 56.25%;
   position: absolute;
@@ -3901,7 +4205,8 @@ body.cursor-pointer, body.cursor-pointer * {
   z-index: 1
 }
 
-html.oldie .modal .ac-video-player, html.oldie .modal .ac-video-nosupport {
+html.oldie .modal .ac-video-player,
+html.oldie .modal .ac-video-nosupport {
   margin-top: -360px;
   padding-bottom: 0;
   height: 720px
@@ -3998,7 +4303,10 @@ html[lang=th-TH] .page-imovie .subsection-subheadline {
   background-image: url("/v/ios-imovie/c/images/ios_imovie_icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-header .apps-icon {
     background-image: url("/v/ios-imovie/c/images/ios_imovie_icon_large_2x.png")
   }
@@ -4023,7 +4331,10 @@ html[lang=th-TH] .page-imovie .subsection-subheadline {
   background-image: url("/v/ios-imovie/c/images/masterpiece_hero_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-header .hero-image {
     background-image: url("/v/ios-imovie/c/images/masterpiece_hero_large_2x.png")
   }
@@ -4038,7 +4349,10 @@ html[lang=th-TH] .page-imovie .subsection-subheadline {
   background-image: url("/v/ios-imovie/c/images/masterpiece_hero_update_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-header .us-hero-image {
     background-image: url("/v/ios-imovie/c/images/masterpiece_hero_update_large_2x.png")
   }
@@ -4101,7 +4415,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/browse_scenes_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-browse .browse-scenes {
     background-image: url("/v/ios-imovie/c/images/browse_scenes_large_2x.jpg")
   }
@@ -4125,7 +4442,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/browse_share_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-browse .browse-share {
     background-image: url("/v/ios-imovie/c/images/browse_share_large_2x.jpg")
   }
@@ -4145,7 +4465,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/movies_editing_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .movies-editing {
     background-image: url("/v/ios-imovie/c/images/movies_editing_large_2x.png")
   }
@@ -4161,7 +4484,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/movies_effects_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .movies-effects {
     background-image: url("/v/ios-imovie/c/images/movies_effects_large_2x.png")
   }
@@ -4177,7 +4503,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/movies_effects_update_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .us-movies-effects {
     background-image: url("/v/ios-imovie/c/images/movies_effects_update_large_2x.png")
   }
@@ -4193,7 +4522,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/movies_audio_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .movies-audio {
     background-image: url("/v/ios-imovie/c/images/movies_audio_large_2x.png")
   }
@@ -4209,7 +4541,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/movies_audio_update_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .us-movies-audio {
     background-image: url("/v/ios-imovie/c/images/movies_audio_update_large_2x.png")
   }
@@ -4224,7 +4559,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-left: -392px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .features {
     background-image: url("/v/ios-imovie/c/images/new_features_large_2x.png")
   }
@@ -4239,7 +4577,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-left: -392px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-simplicity .us-features {
     background-image: url("/v/ios-imovie/c/images/new_features_update_large_2x.png")
   }
@@ -4263,7 +4604,8 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-top: 20px
 }
 
-.page-imovie .section-simplicity .row .new-features .subsection-subheadline, .page-imovie .section-simplicity .row .new-features p {
+.page-imovie .section-simplicity .row .new-features .subsection-subheadline,
+.page-imovie .section-simplicity .row .new-features p {
   padding-right: 20px;
   margin-left: -20px
 }
@@ -4279,7 +4621,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-bottom: 50px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-trailers .trailers-one {
     background-image: url("/v/ios-imovie/c/images/gallery_trailers_1_large_2x.jpg")
   }
@@ -4296,7 +4641,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-bottom: 50px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-trailers .trailers-two {
     background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_large_2x.jpg")
   }
@@ -4313,7 +4661,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-bottom: 50px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-trailers .us-trailers-two {
     background-image: url("/v/ios-imovie/c/images/gallery_trailers_2_update_large_2x.png")
   }
@@ -4335,7 +4686,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/imovie_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-theater .hero-image {
     background-image: url("/v/ios-imovie/c/images/imovie_large_2x.png")
   }
@@ -4349,7 +4703,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/imovie_update_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-theater .us-hero-image {
     background-image: url("/v/ios-imovie/c/images/imovie_update_large_2x.png")
   }
@@ -4363,7 +4720,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/theater_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-theater .image-theater {
     background-image: url("/v/ios-imovie/c/images/theater_large_2x.png")
   }
@@ -4406,7 +4766,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/gallery_share_1_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-share .share-release-one {
     background-image: url("/v/ios-imovie/c/images/gallery_share_1_large_2x.jpg")
   }
@@ -4420,7 +4783,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/gallery_share_2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-share .share-release-two {
     background-image: url("/v/ios-imovie/c/images/gallery_share_2_large_2x.jpg")
   }
@@ -4434,7 +4800,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/gallery_share_3_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-share .share-play-one {
     background-image: url("/v/ios-imovie/c/images/gallery_share_3_large_2x.jpg")
   }
@@ -4448,7 +4817,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   background-image: url("/v/ios-imovie/c/images/gallery_share_4_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-share .share-play-two {
     background-image: url("/v/ios-imovie/c/images/gallery_share_4_large_2x.jpg")
   }
@@ -4492,7 +4864,10 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-left: -65px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi),
+(-webkit-min-device-pixel-ratio: 144),
+(min-resolution: 144dppx) {
   .page-imovie .section-extension .image-extension {
     background-image: url("/v/ios-imovie/c/images/extensions_large_2x.png")
   }
@@ -4502,6 +4877,8 @@ html.touch .page-imovie .section-header .hero-cta .icon-downloadalt {
   margin-top: 1px
 }
 
-.oldie #make-movies-gallery .dotnav, .oldie #theater-gallery .dotnav, .oldie #share-gallery .dotnav {
+.oldie #make-movies-gallery .dotnav,
+.oldie #theater-gallery .dotnav,
+.oldie #share-gallery .dotnav {
   margin-top: 10px
 }

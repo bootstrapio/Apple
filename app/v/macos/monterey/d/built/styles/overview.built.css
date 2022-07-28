@@ -862,7 +862,12 @@ html.text-zoom .typography-blockquote-copy:lang(zh-TW) {
   }
 }
 
-html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-anim-lazy-image]:after, html.js [data-anim-lazy-image] :after, html.js [data-anim-lazy-image]:before, html.js [data-anim-lazy-image] :before {
+html.js [data-anim-lazy-image],
+html.js [data-anim-lazy-image] *,
+html.js [data-anim-lazy-image]:after,
+html.js [data-anim-lazy-image] :after,
+html.js [data-anim-lazy-image]:before,
+html.js [data-anim-lazy-image] :before {
   background-image: none !important;
   -webkit-mask-image: none !important;
   mask-image: none !important
@@ -907,7 +912,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   margin-left: -105.5px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-hero .image-product-name {
     background-image: url(../../images/overview/hero/logo_macOS__chqi0dkoyrv6_large_2x.png)
   }
@@ -923,7 +931,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-hero .image-product-name {
     background-image: url(../../images/overview/hero/logo_macOS__chqi0dkoyrv6_medium_2x.png)
   }
@@ -939,7 +949,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-hero .image-product-name {
     background-image: url(../../images/overview/hero/logo_macOS__chqi0dkoyrv6_small_2x.png)
   }
@@ -1072,7 +1084,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   top: 170px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware {
     background-image: url(../../images/overview/hero/hero_fallback__bz4vu75puzma_large_2x.png)
   }
@@ -1088,7 +1103,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware {
     background-image: url(../../images/overview/hero/hero_fallback__bz4vu75puzma_medium_2x.png)
   }
@@ -1104,7 +1121,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware {
     background-image: url(../../images/overview/hero/hero_fallback__bz4vu75puzma_small_2x.png)
   }
@@ -1205,7 +1224,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   margin-left: -681px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware:before {
     background-image: url(../../images/overview/hero/hero_hardware__dg4szzi47yye_large_2x.png)
   }
@@ -1221,7 +1243,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware:before {
     background-image: url(../../images/overview/hero/hero_hardware__dg4szzi47yye_medium_2x.png)
   }
@@ -1237,7 +1261,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware:before {
     background-image: url(../../images/overview/hero/hero_hardware__dg4szzi47yye_small_2x.png)
   }
@@ -1268,7 +1294,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   background-image: url(../../images/overview/hero/hero_desktop__buokcfsx51py_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .screen-placeholder {
     background-image: url(../../images/overview/hero/hero_desktop__buokcfsx51py_large_2x.jpg)
   }
@@ -1284,7 +1313,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .screen-placeholder {
     background-image: url(../../images/overview/hero/hero_desktop__buokcfsx51py_medium_2x.jpg)
   }
@@ -1300,7 +1331,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .screen-placeholder {
     background-image: url(../../images/overview/hero/hero_desktop__buokcfsx51py_small_2x.jpg)
   }
@@ -1359,7 +1392,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   left: 332px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-safari {
     background-image: url(../../images/overview/hero/hero_safari__gnqmlhjv8iy6_large_2x.png)
   }
@@ -1375,7 +1411,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-safari {
     background-image: url(../../images/overview/hero/hero_safari__gnqmlhjv8iy6_medium_2x.png)
   }
@@ -1391,7 +1429,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-safari {
     background-image: url(../../images/overview/hero/hero_safari__gnqmlhjv8iy6_small_2x.png)
   }
@@ -1421,7 +1461,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   left: 186px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-facetime {
     background-image: url(../../images/overview/hero/hero_facetime__cfc7ez17nf6u_large_2x.png)
   }
@@ -1437,7 +1480,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-facetime {
     background-image: url(../../images/overview/hero/hero_facetime__cfc7ez17nf6u_medium_2x.png)
   }
@@ -1453,7 +1498,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-facetime {
     background-image: url(../../images/overview/hero/hero_facetime__cfc7ez17nf6u_small_2x.png)
   }
@@ -1483,7 +1530,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   right: 329px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-messages {
     background-image: url(../../images/overview/hero/hero_messages__gitayvc0416y_large_2x.png)
   }
@@ -1499,7 +1549,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-messages {
     background-image: url(../../images/overview/hero/hero_messages__gitayvc0416y_medium_2x.png)
   }
@@ -1515,7 +1567,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-messages {
     background-image: url(../../images/overview/hero/hero_messages__gitayvc0416y_small_2x.png)
   }
@@ -1545,7 +1599,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   right: 236px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-sharing {
     background-image: url(../../images/overview/hero/hero_sharing__bxb9s17b4mc2_large_2x.png)
   }
@@ -1561,7 +1618,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-sharing {
     background-image: url(../../images/overview/hero/hero_sharing__bxb9s17b4mc2_medium_2x.png)
   }
@@ -1577,13 +1636,17 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-sharing {
     background-image: url(../../images/overview/hero/hero_sharing__bxb9s17b4mc2_small_2x.png)
   }
 }
 
-@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1069px)and (min-resolution:1.5dppx), only screen and (min-width:1069px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1069px)and (min-resolution:1.5dppx),
+only screen and (min-width:1069px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-sharing {
     background-image: url(../../images/overview/hero/hero_sharing__bxb9s17b4mc2_large.png)
   }
@@ -1616,7 +1679,10 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   transform-origin: bottom
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-dock {
     background-image: url(../../images/overview/hero/hero_dock__mlpp5tqzrmqi_large_2x.png)
   }
@@ -1632,7 +1698,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-dock {
     background-image: url(../../images/overview/hero/hero_dock__mlpp5tqzrmqi_medium_2x.png)
   }
@@ -1648,13 +1716,17 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-dock {
     background-image: url(../../images/overview/hero/hero_dock__mlpp5tqzrmqi_small_2x.png)
   }
 }
 
-@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1069px)and (min-resolution:1.5dppx), only screen and (min-width:1069px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1069px)and (min-resolution:1.5dppx),
+only screen and (min-width:1069px)and (min-resolution:144dpi) {
   .no-hero-fallback .section-hero div[data-component-list=HeroComponent] .hero-hardware .hero-animation-app.image-app-dock {
     background-image: url(../../images/overview/hero/hero_dock__mlpp5tqzrmqi_large.png)
   }
@@ -1672,7 +1744,9 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   }
 }
 
-@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1069px)and (min-resolution:1.5dppx), only screen and (min-width:1069px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1069px)and (min-resolution:1.5dppx),
+only screen and (min-width:1069px)and (min-resolution:144dpi) {
   .no-hero-fallback.chrome .section-hero div[data-component-list=HeroComponent] .hero-hardware:before {
     background-image: url(../../images/overview/hero/hero_hardware__dg4szzi47yye_large.png)
   }
@@ -1698,17 +1772,21 @@ html.js [data-anim-lazy-image], html.js [data-anim-lazy-image] *, html.js [data-
   opacity: 0
 }
 
-.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro, .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name {
+.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro,
+.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name {
   color: #fff;
   will-change: opacity
 }
 
-.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro.title, .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name.title {
+.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro.title,
+.section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name.title {
   margin-top: 0
 }
 
 @media only screen and (max-width:734px) {
-  .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro.title, .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name.title {
+
+  .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-intro.title,
+  .section-hero div[data-component-list=HeroComponent] .intro-text-block .product-name.title {
     position: relative;
     left: -3px
   }
@@ -1932,7 +2010,8 @@ html.safari .tile {
   max-width: var(--tile-copy-max-width)
 }
 
-.theme-dark .tile-headline, .tile-headline {
+.theme-dark .tile-headline,
+.tile-headline {
   color: var(--tile-overlay-background-color, var(--section-color))
 }
 
@@ -1970,7 +2049,8 @@ html.safari .tile {
   transition: background-color .66s cubic-bezier(0.66, 0, 0.01, 1) .66s, color .66s cubic-bezier(0.66, 0, 0.01, 1) .66s, transform .66s cubic-bezier(0.66, 0, 0.2, 1), opacity 100ms linear
 }
 
-.tile-button:focus, .tile-button:hover {
+.tile-button:focus,
+.tile-button:hover {
   opacity: 1
 }
 
@@ -2043,7 +2123,8 @@ html.reduced-motion .tile-overlay-content {
   align-items: center
 }
 
-.tile-overlay-copy, .tile-overlay-headline {
+.tile-overlay-copy,
+.tile-overlay-headline {
   color: #fff
 }
 
@@ -2096,7 +2177,9 @@ html.reduced-motion .tile-overlay-copy {
   outline-offset: 1px
 }
 
-.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus, .tile-overlay-toggle:checked~.tile-overlay :focus[data-focus-method=mouse]:not(input):not(textarea):not(select), .tile-overlay-toggle:checked~.tile-overlay :focus[data-focus-method=touch]:not(input):not(textarea):not(select) {
+.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus,
+.tile-overlay-toggle:checked~.tile-overlay :focus[data-focus-method=mouse]:not(input):not(textarea):not(select),
+.tile-overlay-toggle:checked~.tile-overlay :focus[data-focus-method=touch]:not(input):not(textarea):not(select) {
   outline: none
 }
 
@@ -2105,7 +2188,8 @@ html.reduced-motion .tile-overlay-copy {
   outline: none
 }
 
-.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=mouse]:not(input):not(textarea):not(select), .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=touch]:not(input):not(textarea):not(select) {
+.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=mouse]:not(input):not(textarea):not(select),
+.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=touch]:not(input):not(textarea):not(select) {
   box-shadow: none
 }
 
@@ -2114,7 +2198,10 @@ html.reduced-motion .tile-overlay-copy {
   outline: none
 }
 
-.focus-outline-white .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=mouse]:not(input):not(textarea):not(select), .focus-outline-white .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=touch]:not(input):not(textarea):not(select), .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus[data-focus-method=mouse]:not(input):not(textarea):not(select) .tile-button, .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus[data-focus-method=touch]:not(input):not(textarea):not(select) .tile-button {
+.focus-outline-white .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=mouse]:not(input):not(textarea):not(select),
+.focus-outline-white .tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus .tile-button[data-focus-method=touch]:not(input):not(textarea):not(select),
+.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus[data-focus-method=mouse]:not(input):not(textarea):not(select) .tile-button,
+.tile-overlay-toggle:checked~.tile-overlay .tile-button-wrapper:focus[data-focus-method=touch]:not(input):not(textarea):not(select) .tile-button {
   box-shadow: none
 }
 
@@ -2138,7 +2225,8 @@ html.reduced-motion .tile-overlay-copy {
   position: relative
 }
 
-.inline-video-container.loading-disabled .static-frame, .inline-video-container.loading-error .static-frame {
+.inline-video-container.loading-disabled .static-frame,
+.inline-video-container.loading-error .static-frame {
   opacity: 1
 }
 
@@ -2195,11 +2283,14 @@ html.reduced-motion .tile-overlay-copy {
   height: 100%
 }
 
-html.no-enhanced .inline-video-container .static-frame, html.no-js .inline-video-container .static-frame {
+html.no-enhanced .inline-video-container .static-frame,
+html.no-js .inline-video-container .static-frame {
   opacity: 1
 }
 
-.inline-video-container~.inline-video-ui, html.no-enhanced .inline-video-container~.inline-video-ui, html.no-js .inline-video-container~.inline-video-ui {
+.inline-video-container~.inline-video-ui,
+html.no-enhanced .inline-video-container~.inline-video-ui,
+html.no-js .inline-video-container~.inline-video-ui {
   display: none
 }
 
@@ -2207,7 +2298,10 @@ html.no-enhanced .inline-video-container .static-frame, html.no-js .inline-video
   display: block
 }
 
-.inline-video-icon-pause, .inline-video-icon-play, .inline-video-icon-replay, .paused~.inline-video-ui:not(.with-play) {
+.inline-video-icon-pause,
+.inline-video-icon-play,
+.inline-video-icon-replay,
+.paused~.inline-video-ui:not(.with-play) {
   display: none
 }
 
@@ -2227,7 +2321,9 @@ html.no-enhanced .inline-video-container .static-frame, html.no-js .inline-video
   display: none
 }
 
-.ended~.with-replay .inline-video-icon-replay, .inline-video-container~.inline-video-ui.with-replay-disabled, .inline-video-container~.with-replay-disabled .inline-video-icon-replay {
+.ended~.with-replay .inline-video-icon-replay,
+.inline-video-container~.inline-video-ui.with-replay-disabled,
+.inline-video-container~.with-replay-disabled .inline-video-icon-replay {
   display: block
 }
 
@@ -2450,7 +2546,10 @@ html.reduced-motion .tile-overlay-image {
   background-size: 1390px 1390px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .grid-item.wallpapered .tile {
     background-image: url(../../images/overview/wallpaper_tiles__fxfx9x6kt4ii_large_2x.jpg)
   }
@@ -2463,7 +2562,9 @@ html.reduced-motion .tile-overlay-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .grid-item.wallpapered .tile {
     background-image: url(../../images/overview/wallpaper_tiles__fxfx9x6kt4ii_medium_2x.jpg)
   }
@@ -2476,7 +2577,9 @@ html.reduced-motion .tile-overlay-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .grid-item.wallpapered .tile {
     background-image: url(../../images/overview/wallpaper_tiles__fxfx9x6kt4ii_small_2x.jpg)
   }
@@ -2602,7 +2705,8 @@ html.text-zoom .grid-item.wallpapered .tile {
   margin-top: 0
 }
 
-.parent-section+.app-section, .parent-section+.parent-section {
+.parent-section+.app-section,
+.parent-section+.parent-section {
   margin-top: var(--section-spacing)
 }
 
@@ -2686,7 +2790,10 @@ html.text-zoom .grid-item.wallpapered .tile {
   margin-bottom: 15px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-facetime-links .tile-image {
     background-image: url(../../images/overview/icon_facetime_links__f6gqij5uj96q_large_2x.png)
   }
@@ -2702,7 +2809,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-facetime-links .tile-image {
     background-image: url(../../images/overview/icon_facetime_links__f6gqij5uj96q_medium_2x.png)
   }
@@ -2718,7 +2827,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-facetime-links .tile-image {
     background-image: url(../../images/overview/icon_facetime_links__f6gqij5uj96q_small_2x.png)
   }
@@ -2748,7 +2859,10 @@ html.text-zoom .grid-item.wallpapered .tile {
   background-image: url(../../images/overview/facetime_grid_view__h2on1ris752e_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-grid-view .tile-image {
     background-image: url(../../images/overview/facetime_grid_view__h2on1ris752e_large_2x.jpg)
   }
@@ -2764,7 +2878,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-grid-view .tile-image {
     background-image: url(../../images/overview/facetime_grid_view__h2on1ris752e_medium_2x.jpg)
   }
@@ -2780,7 +2896,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-grid-view .tile-image {
     background-image: url(../../images/overview/facetime_grid_view__h2on1ris752e_small_2x.jpg)
   }
@@ -2816,7 +2934,10 @@ html.text-zoom .grid-item.wallpapered .tile {
   background-image: url(../../images/overview/facetime_other_device__e8uzbpkjtqem_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-invite-anyone .tile-image {
     background-image: url(../../images/overview/facetime_other_device__e8uzbpkjtqem_large_2x.jpg)
   }
@@ -2832,7 +2953,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-invite-anyone .tile-image {
     background-image: url(../../images/overview/facetime_other_device__e8uzbpkjtqem_medium_2x.jpg)
   }
@@ -2848,7 +2971,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-invite-anyone .tile-image {
     background-image: url(../../images/overview/facetime_other_device__e8uzbpkjtqem_small_2x.jpg)
   }
@@ -2876,7 +3001,10 @@ html.text-zoom .grid-item.wallpapered .tile {
   background-size: cover
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-listen-together .tile-body .tile-image {
     background-image: url(../../images/overview/facetime_group_listening_fallback__dgv5on9qbsae_large_2x.jpg)
   }
@@ -2896,7 +3024,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-listen-together .tile-body .tile-image {
     background-image: url(../../images/overview/facetime_group_listening_fallback__dgv5on9qbsae_medium_2x.jpg)
   }
@@ -2918,7 +3048,9 @@ html.text-zoom .grid-item.wallpapered .tile {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-listen-together .tile-body .tile-image {
     background-image: url(../../images/overview/facetime_group_listening_fallback__dgv5on9qbsae_small_2x.jpg)
   }
@@ -3294,7 +3426,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/facetime_background_blur__dxrnbl6rmagm_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-portrait-mode .tile-image {
     background-image: url(../../images/overview/facetime_background_blur__dxrnbl6rmagm_large_2x.jpg)
   }
@@ -3310,7 +3445,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-portrait-mode .tile-image {
     background-image: url(../../images/overview/facetime_background_blur__dxrnbl6rmagm_medium_2x.jpg)
   }
@@ -3326,7 +3463,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-portrait-mode .tile-image {
     background-image: url(../../images/overview/facetime_background_blur__dxrnbl6rmagm_small_2x.jpg)
   }
@@ -3362,7 +3501,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/facetime_screen_sharing__bvvgynshm2j6_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-share-your-screen .tile-image {
     background-image: url(../../images/overview/facetime_screen_sharing__bvvgynshm2j6_large_2x.jpg)
   }
@@ -3378,7 +3520,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-share-your-screen .tile-image {
     background-image: url(../../images/overview/facetime_screen_sharing__bvvgynshm2j6_medium_2x.jpg)
   }
@@ -3394,7 +3538,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-share-your-screen .tile-image {
     background-image: url(../../images/overview/facetime_screen_sharing__bvvgynshm2j6_small_2x.jpg)
   }
@@ -3426,7 +3572,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/facetime__gaawyqmbyxqy_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-shareplay .tile-image {
     background-image: url(../../images/overview/facetime__gaawyqmbyxqy_large_2x.jpg)
   }
@@ -3442,7 +3591,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-shareplay .tile-image {
     background-image: url(../../images/overview/facetime__gaawyqmbyxqy_medium_2x.jpg)
   }
@@ -3458,7 +3609,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-shareplay .tile-image {
     background-image: url(../../images/overview/facetime__gaawyqmbyxqy_small_2x.jpg)
   }
@@ -3487,7 +3640,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-position: 70% 100%
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-spatial-audio .tile .tile-content {
     background-image: url(../../images/overview/facetime_spatial_audio__8p2i4mi7g76e_large_2x.jpg)
   }
@@ -3501,7 +3657,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-spatial-audio .tile .tile-content {
     background-image: url(../../images/overview/facetime_spatial_audio__8p2i4mi7g76e_medium_2x.jpg)
   }
@@ -3515,7 +3673,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-spatial-audio .tile .tile-content {
     background-image: url(../../images/overview/facetime_spatial_audio__8p2i4mi7g76e_small_2x.jpg)
   }
@@ -3545,7 +3705,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/facetime_watch_together__dpnwngfjbpm6_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-facetime .grid-item-watch-together .tile-image {
     background-image: url(../../images/overview/facetime_watch_together__dpnwngfjbpm6_large_2x.jpg)
   }
@@ -3561,7 +3724,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-watch-together .tile-image {
     background-image: url(../../images/overview/facetime_watch_together__dpnwngfjbpm6_medium_2x.jpg)
   }
@@ -3577,7 +3742,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-facetime .grid-item-watch-together .tile-image {
     background-image: url(../../images/overview/facetime_watch_together__dpnwngfjbpm6_small_2x.jpg)
   }
@@ -3640,7 +3807,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   max-width: 505px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-messages .grid-item-photo-collections .tile-image {
     background-image: url(../../images/overview/messages_photo_collages__b09gp18frk2u_large_2x.jpg)
   }
@@ -3660,7 +3830,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-messages .grid-item-photo-collections .tile-image {
     background-image: url(../../images/overview/messages_photo_collages__b09gp18frk2u_medium_2x.jpg)
   }
@@ -3682,7 +3854,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-messages .grid-item-photo-collections .tile-image {
     background-image: url(../../images/overview/messages_photo_collages__b09gp18frk2u_small_2x.jpg)
   }
@@ -3732,7 +3906,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/messages_share__flgvahjv1eaa_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-messages .grid-item-shared-with-you .tile-image {
     background-image: url(../../images/overview/messages_share__flgvahjv1eaa_large_2x.jpg)
   }
@@ -3748,7 +3925,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-messages .grid-item-shared-with-you .tile-image {
     background-image: url(../../images/overview/messages_share__flgvahjv1eaa_medium_2x.jpg)
   }
@@ -3764,7 +3943,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-messages .grid-item-shared-with-you .tile-image {
     background-image: url(../../images/overview/messages_share__flgvahjv1eaa_small_2x.jpg)
   }
@@ -3815,7 +3996,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/focus_across_devices__bxqgkbqi690i_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-focus .grid-item-across-devices .tile-image {
     background-image: url(../../images/overview/focus_across_devices__bxqgkbqi690i_large_2x.jpg)
   }
@@ -3831,7 +4015,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-focus .grid-item-across-devices .tile-image {
     background-image: url(../../images/overview/focus_across_devices__bxqgkbqi690i_medium_2x.jpg)
   }
@@ -3847,7 +4033,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-focus .grid-item-across-devices .tile-image {
     background-image: url(../../images/overview/focus_across_devices__bxqgkbqi690i_small_2x.jpg)
   }
@@ -3877,7 +4065,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-image: url(../../images/overview/focus_notification__e9ngvxp06m62_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-focus .grid-item-automatic-filtering .tile-image {
     background-image: url(../../images/overview/focus_notification__e9ngvxp06m62_large_2x.jpg)
   }
@@ -3893,7 +4084,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-focus .grid-item-automatic-filtering .tile-image {
     background-image: url(../../images/overview/focus_notification__e9ngvxp06m62_medium_2x.jpg)
   }
@@ -3909,7 +4102,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-focus .grid-item-automatic-filtering .tile-image {
     background-image: url(../../images/overview/focus_notification__e9ngvxp06m62_small_2x.jpg)
   }
@@ -3933,7 +4128,10 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   background-size: cover
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-focus .grid-item-status .tile-image {
     background-image: url(../../images/overview/focus_status_fallback__ggl12vjfso2m_large_2x.jpg)
   }
@@ -3953,7 +4151,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-focus .grid-item-status .tile-image {
     background-image: url(../../images/overview/focus_status_fallback__ggl12vjfso2m_medium_2x.jpg)
   }
@@ -3975,7 +4175,9 @@ html.enhanced .section-facetime .grid-item-mic-modes .term:not(.primary-content)
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-focus .grid-item-status .tile-image {
     background-image: url(../../images/overview/focus_status_fallback__ggl12vjfso2m_small_2x.jpg)
   }
@@ -4040,7 +4242,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/safari_streamlined__c4ptqnb6dz0i_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-safari .grid-item-redesigned-toolbar .tile-image {
     background-image: url(../../images/overview/safari_streamlined__c4ptqnb6dz0i_large_2x.jpg)
   }
@@ -4056,7 +4261,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-safari .grid-item-redesigned-toolbar .tile-image {
     background-image: url(../../images/overview/safari_streamlined__c4ptqnb6dz0i_medium_2x.jpg)
   }
@@ -4072,7 +4279,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-safari .grid-item-redesigned-toolbar .tile-image {
     background-image: url(../../images/overview/safari_streamlined__c4ptqnb6dz0i_small_2x.jpg)
   }
@@ -4118,7 +4327,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/safari_tab_group__dgmuyu3iboa6_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-safari .grid-item-tab-groups .tile-image {
     background-image: url(../../images/overview/safari_tab_group__dgmuyu3iboa6_large_2x.png)
   }
@@ -4134,7 +4346,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-safari .grid-item-tab-groups .tile-image {
     background-image: url(../../images/overview/safari_tab_group__dgmuyu3iboa6_medium_2x.png)
   }
@@ -4150,7 +4364,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-safari .grid-item-tab-groups .tile-image {
     background-image: url(../../images/overview/safari_tab_group__dgmuyu3iboa6_small_2x.png)
   }
@@ -4202,7 +4418,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/safari_access__ewze2lmr38qe_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-safari .grid-item-access .tile-image {
     background-image: url(../../images/overview/safari_access__ewze2lmr38qe_large_2x.jpg)
   }
@@ -4218,7 +4437,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-safari .grid-item-access .tile-image {
     background-image: url(../../images/overview/safari_access__ewze2lmr38qe_medium_2x.jpg)
   }
@@ -4234,7 +4455,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-safari .grid-item-access .tile-image {
     background-image: url(../../images/overview/safari_access__ewze2lmr38qe_small_2x.jpg)
   }
@@ -4281,7 +4504,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/notes_create__fp5ljjj8csey_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-quick-notes-and-notes .grid-item-create-from-anywhere .tile-image {
     background-image: url(../../images/overview/notes_create__fp5ljjj8csey_large_2x.jpg)
   }
@@ -4297,7 +4523,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-create-from-anywhere .tile-image {
     background-image: url(../../images/overview/notes_create__fp5ljjj8csey_medium_2x.jpg)
   }
@@ -4313,7 +4541,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-create-from-anywhere .tile-image {
     background-image: url(../../images/overview/notes_create__fp5ljjj8csey_small_2x.jpg)
   }
@@ -4343,7 +4573,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/notes_links__bsqsxij61jzm_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-quick-notes-and-notes .grid-item-links-and-text .tile-image {
     background-image: url(../../images/overview/notes_links__bsqsxij61jzm_large_2x.jpg)
   }
@@ -4359,7 +4592,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-links-and-text .tile-image {
     background-image: url(../../images/overview/notes_links__bsqsxij61jzm_medium_2x.jpg)
   }
@@ -4375,7 +4610,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-links-and-text .tile-image {
     background-image: url(../../images/overview/notes_links__bsqsxij61jzm_small_2x.jpg)
   }
@@ -4429,7 +4666,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-attach-quick-note .tile-image {
     background-image: url(../../images/overview/notes_quick__ddf668zm3mqa_large_2x.jpg)
   }
@@ -4451,7 +4690,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-attach-quick-note .tile-image {
     background-image: url(../../images/overview/notes_quick__ddf668zm3mqa_medium_2x.jpg)
   }
@@ -4475,7 +4716,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-attach-quick-note .tile-image {
     background-image: url(../../images/overview/notes_quick__ddf668zm3mqa_small_2x.jpg)
   }
@@ -4505,7 +4748,10 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   background-image: url(../../images/overview/notes_activity__boi3akmtlfci_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-quick-notes-and-notes .grid-item-activity-stream .tile-image {
     background-image: url(../../images/overview/notes_activity__boi3akmtlfci_large_2x.jpg)
   }
@@ -4521,7 +4767,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-activity-stream .tile-image {
     background-image: url(../../images/overview/notes_activity__boi3akmtlfci_medium_2x.jpg)
   }
@@ -4537,7 +4785,9 @@ html.enhanced .section-focus .grid-item-status .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-quick-notes-and-notes .grid-item-activity-stream .tile-image {
     background-image: url(../../images/overview/notes_activity__boi3akmtlfci_small_2x.jpg)
   }
@@ -4821,7 +5071,10 @@ html.enhanced .section-quick-notes-and-notes .grid-item-tags .tags-container {
   align-self: center
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-universal-control .grid-item-no-setup .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_large_2x.jpg)
   }
@@ -4837,7 +5090,9 @@ html.enhanced .section-quick-notes-and-notes .grid-item-tags .tags-container {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-no-setup .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_medium_2x.jpg)
   }
@@ -4853,7 +5108,9 @@ html.enhanced .section-quick-notes-and-notes .grid-item-tags .tags-container {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-no-setup .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_small_2x.jpg)
   }
@@ -4879,7 +5136,10 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container {
     background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_large_2x.jpg)
   }
@@ -4895,7 +5155,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container {
     background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_medium_2x.jpg)
   }
@@ -4911,7 +5173,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container {
     background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_small_2x.jpg)
   }
@@ -4928,7 +5192,10 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   margin-left: -459px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_large_2x.jpg)
   }
@@ -4949,7 +5216,10 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
     mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_large.png)
   }
 
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+  @media (-webkit-min-device-pixel-ratio:1.5),
+  (min-resolution:144dpi),
+  only screen and (-webkit-min-device-pixel-ratio:1.5),
+  only screen and (min-resolution:1.5dppx) {
     html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
       background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_large_2x.jpg);
       -webkit-mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_large_2x.png);
@@ -4968,7 +5238,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_medium_2x.jpg)
   }
@@ -4990,7 +5262,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
       mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_medium.png)
     }
 
-    @media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+    @media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+    only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+    only screen and (max-width:1068px)and (min-resolution:144dpi) {
       html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
         background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_medium_2x.jpg);
         -webkit-mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_medium_2x.png);
@@ -5010,7 +5284,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
     background-image: url(../../images/overview/universal_control_no_setup_fallback__bonwbxvnvvpy_small_2x.jpg)
   }
@@ -5032,7 +5308,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
       mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_small.png)
     }
 
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+    only screen and (max-width:734px)and (min-resolution:1.5dppx),
+    only screen and (max-width:734px)and (min-resolution:144dpi) {
       html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup {
         background-image: url(../../images/overview/universal_control_no_setup__c1bt3tqbxvqu_small_2x.jpg);
         -webkit-mask-image: url(../../images/overview/universal_control_no_setup_mask__brgohxjn2mhe_small_2x.png);
@@ -5047,7 +5325,10 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   background-image: url(../../images/overview/universal_control_no_setup_startframe__cp1aax0588ty_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .start-frame {
     background-image: url(../../images/overview/universal_control_no_setup_startframe__cp1aax0588ty_large_2x.jpg)
   }
@@ -5060,7 +5341,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .start-frame {
     background-image: url(../../images/overview/universal_control_no_setup_startframe__cp1aax0588ty_medium_2x.jpg)
   }
@@ -5073,7 +5356,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .start-frame {
     background-image: url(../../images/overview/universal_control_no_setup_startframe__cp1aax0588ty_small_2x.jpg)
   }
@@ -5084,7 +5369,10 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   background-image: url(../../images/overview/universal_control_no_setup_endframe__ffix0tfnzdui_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .end-frame {
     background-image: url(../../images/overview/universal_control_no_setup_endframe__ffix0tfnzdui_large_2x.jpg)
   }
@@ -5097,7 +5385,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .end-frame {
     background-image: url(../../images/overview/universal_control_no_setup_endframe__ffix0tfnzdui_medium_2x.jpg)
   }
@@ -5110,7 +5400,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-container .inline-video-no-setup .end-frame {
     background-image: url(../../images/overview/universal_control_no_setup_endframe__ffix0tfnzdui_small_2x.jpg)
   }
@@ -5224,7 +5516,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (min-width:1440px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1440px)and (min-resolution:1.5dppx), only screen and (min-width:1440px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1440px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1440px)and (min-resolution:1.5dppx),
+only screen and (min-width:1440px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_one_input_fallback__f3n037x3v3yq_large_2x.jpg)
   }
@@ -5240,7 +5534,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1439px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1439px)and (min-resolution:1.5dppx), only screen and (max-width:1439px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1439px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1439px)and (min-resolution:1.5dppx),
+only screen and (max-width:1439px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_one_input_fallback__f3n037x3v3yq_large_2x.jpg)
   }
@@ -5263,7 +5559,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_one_input_fallback__f3n037x3v3yq_medium_2x.jpg)
   }
@@ -5286,7 +5584,9 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
     background-image: url(../../images/overview/universal_control_one_input_fallback__f3n037x3v3yq_small_2x.jpg)
   }
@@ -5300,7 +5600,8 @@ html.enhanced .section-universal-control .grid-item-no-setup .enhanced-hardware-
   }
 }
 
-.section-universal-control .grid-item-one-input .enhanced-hardware-container, html.enhanced .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
+.section-universal-control .grid-item-one-input .enhanced-hardware-container,
+html.enhanced .section-universal-control .grid-item-one-input .image-wrapper .tile-image {
   display: none
 }
 
@@ -5318,7 +5619,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   max-width: 1186px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .hardware-image {
     background-image: url(../../images/overview/universal_control_one_input__deoha12ebzsm_large_2x.jpg)
   }
@@ -5331,7 +5635,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .hardware-image {
     background-image: url(../../images/overview/universal_control_one_input__deoha12ebzsm_medium_2x.jpg)
   }
@@ -5344,7 +5650,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .hardware-image {
     background-image: url(../../images/overview/universal_control_one_input__deoha12ebzsm_small_2x.jpg)
   }
@@ -5373,7 +5681,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   z-index: 1
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .apple-pencil-image {
     background-image: url(../../images/overview/universal_control_one_input_pencil__q62s2oh6naqu_large_2x.png)
   }
@@ -5386,7 +5697,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .apple-pencil-image {
     background-image: url(../../images/overview/universal_control_one_input_pencil__q62s2oh6naqu_medium_2x.png)
   }
@@ -5399,7 +5712,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-one-input .enhanced-hardware-container .apple-pencil-image {
     background-image: url(../../images/overview/universal_control_one_input_pencil__q62s2oh6naqu_small_2x.png)
   }
@@ -5414,7 +5729,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   mask-size: cover
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input {
     -webkit-mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_large_2x.png);
     mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_large_2x.png)
@@ -5426,7 +5744,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   background-image: url(../../images/overview/universal_control_one_input_startframe__emtzt6db77au_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .start-frame {
     background-image: url(../../images/overview/universal_control_one_input_startframe__emtzt6db77au_large_2x.jpg)
   }
@@ -5439,7 +5760,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .start-frame {
     background-image: url(../../images/overview/universal_control_one_input_startframe__emtzt6db77au_medium_2x.jpg)
   }
@@ -5452,7 +5775,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .start-frame {
     background-image: url(../../images/overview/universal_control_one_input_startframe__emtzt6db77au_small_2x.png)
   }
@@ -5463,7 +5788,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   background-image: url(../../images/overview/universal_control_one_input_endframe__etrvdsn4y24i_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .end-frame {
     background-image: url(../../images/overview/universal_control_one_input_endframe__etrvdsn4y24i_large_2x.jpg)
   }
@@ -5476,7 +5804,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .end-frame {
     background-image: url(../../images/overview/universal_control_one_input_endframe__etrvdsn4y24i_medium_2x.jpg)
   }
@@ -5489,7 +5819,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input .end-frame {
     background-image: url(../../images/overview/universal_control_one_input_endframe__etrvdsn4y24i_small_2x.jpg)
   }
@@ -5523,7 +5855,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input {
     -webkit-mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_medium_2x.png);
     mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_medium_2x.png)
@@ -5542,7 +5876,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware-container .inline-video-one-input {
     -webkit-mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_small_2x.png);
     mask-image: url(../../images/overview/universal_control_one_input_mask__ddzgo33mj7ue_small_2x.png)
@@ -5557,7 +5893,10 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   background-image: url(../../images/overview/universal_control_multi_device__eldjooav5ga6_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-universal-control .grid-item-multidevice .tile-image {
     background-image: url(../../images/overview/universal_control_multi_device__eldjooav5ga6_large_2x.png)
   }
@@ -5573,7 +5912,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-multidevice .tile-image {
     background-image: url(../../images/overview/universal_control_multi_device__eldjooav5ga6_medium_2x.png)
   }
@@ -5589,7 +5930,9 @@ html.enhanced .section-universal-control .grid-item-one-input .enhanced-hardware
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-universal-control .grid-item-multidevice .tile-image {
     background-image: url(../../images/overview/universal_control_multi_device__eldjooav5ga6_small_2x.png)
   }
@@ -5699,7 +6042,10 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   max-width: 628px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-airplay-to-mac .grid-item-airplay-speaker .tile-image {
     background-image: url(../../images/overview/airplay_speaker__cg8g9j92yeqa_large_2x.jpg)
   }
@@ -5719,7 +6065,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-airplay-to-mac .grid-item-airplay-speaker .tile-image {
     background-image: url(../../images/overview/airplay_speaker__cg8g9j92yeqa_medium_2x.jpg)
   }
@@ -5741,7 +6089,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-airplay-to-mac .grid-item-airplay-speaker .tile-image {
     background-image: url(../../images/overview/airplay_speaker__cg8g9j92yeqa_small_2x.jpg)
   }
@@ -5787,7 +6137,10 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   max-width: 653px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-airplay-to-mac .grid-item-display .tile-image {
     background-image: url(../../images/overview/airplay_display__cns7t92o0cwi_large_2x.jpg)
   }
@@ -5807,7 +6160,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-airplay-to-mac .grid-item-display .tile-image {
     background-image: url(../../images/overview/airplay_display__cns7t92o0cwi_medium_2x.jpg)
   }
@@ -5829,7 +6184,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-airplay-to-mac .grid-item-display .tile-image {
     background-image: url(../../images/overview/airplay_display__cns7t92o0cwi_small_2x.jpg)
   }
@@ -5884,7 +6241,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1069px)and (min-resolution:1.5dppx), only screen and (min-width:1069px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1069px)and (min-resolution:1.5dppx),
+only screen and (min-width:1069px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-in-apps .tile-image {
     background-image: url(../../images/overview/live_text_apps__gkhs1plk3n2a_large_2x.jpg)
   }
@@ -5898,7 +6257,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-in-apps .tile-image {
     background-image: url(../../images/overview/live_text_apps__gkhs1plk3n2a_medium_2x.jpg)
   }
@@ -5922,7 +6283,9 @@ html.text-zoom .section-universal-control .grid-item-multidevice .tile-blockquot
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-in-apps .tile-image {
     background-image: url(../../images/overview/live_text_apps__gkhs1plk3n2a_small_2x.jpg)
   }
@@ -5940,7 +6303,10 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   background-size: cover
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-live-text .grid-item-visual-look-up .tile-content {
     background-image: url(../../images/overview/live_text_all_device__gb6ec4b6rtiu_large_2x.jpg)
   }
@@ -5954,7 +6320,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-visual-look-up .tile-content {
     background-image: url(../../images/overview/live_text_all_device__gb6ec4b6rtiu_medium_2x.jpg)
   }
@@ -5968,7 +6336,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-visual-look-up .tile-content {
     background-image: url(../../images/overview/live_text_all_device__gb6ec4b6rtiu_small_2x.jpg)
   }
@@ -5992,7 +6362,10 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   background-image: url(../../images/overview/live_text_all_device_dialogue__cl0ddvbh9jma_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-live-text .grid-item-visual-look-up .tile-image {
     background-image: url(../../images/overview/live_text_all_device_dialogue__cl0ddvbh9jma_large_2x.png)
   }
@@ -6008,7 +6381,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-visual-look-up .tile-image {
     background-image: url(../../images/overview/live_text_all_device_dialogue__cl0ddvbh9jma_medium_2x.png)
   }
@@ -6024,7 +6399,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-live-text .grid-item-visual-look-up .tile-image {
     background-image: url(../../images/overview/live_text_all_device_dialogue__cl0ddvbh9jma_small_2x.png)
   }
@@ -6054,7 +6431,10 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   background-image: url(../../images/overview/shortcuts_share__b4qecm88enhy_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-shortcuts-on-mac .grid-item-share .tile-image {
     background-image: url(../../images/overview/shortcuts_share__b4qecm88enhy_large_2x.jpg)
   }
@@ -6070,7 +6450,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-share .tile-image {
     background-image: url(../../images/overview/shortcuts_share__b4qecm88enhy_medium_2x.jpg)
   }
@@ -6086,7 +6468,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-share .tile-image {
     background-image: url(../../images/overview/shortcuts_share__b4qecm88enhy_small_2x.jpg)
   }
@@ -6125,7 +6509,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:1069px)and (min-resolution:1.5dppx), only screen and (min-width:1069px)and (min-resolution:144dpi) {
+@media only screen and (min-width:1069px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:1069px)and (min-resolution:1.5dppx),
+only screen and (min-width:1069px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-shortcuts-app .tile-image {
     background-image: url(../../images/overview/shortcuts_app__c3iufw18cfsm_large_2x.png)
   }
@@ -6149,7 +6535,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-shortcuts-app .tile-image {
     background-image: url(../../images/overview/shortcuts_app__c3iufw18cfsm_medium_2x.png)
   }
@@ -6166,7 +6554,9 @@ html.text-zoom .section-live-text .grid-item-visual-look-up .tile-header {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-shortcuts-app .tile-image {
     background-image: url(../../images/overview/shortcuts_app__c3iufw18cfsm_small_2x.png)
   }
@@ -6360,7 +6750,8 @@ html.reduced-motion .section-shortcuts-on-mac .grid-item-prebuilt .tile-body .pr
   transform: translateY(-50%)
 }
 
-.section-shortcuts-on-mac .grid-item-prebuilt .play-button, .section-shortcuts-on-mac .grid-item-prebuilt .replay-button {
+.section-shortcuts-on-mac .grid-item-prebuilt .play-button,
+.section-shortcuts-on-mac .grid-item-prebuilt .replay-button {
   pointer-events: none;
   position: absolute;
   display: block;
@@ -6371,7 +6762,8 @@ html.reduced-motion .section-shortcuts-on-mac .grid-item-prebuilt .tile-body .pr
   padding-right: var(--tile-padding-right)
 }
 
-.section-shortcuts-on-mac .grid-item-prebuilt .play-button.show, .section-shortcuts-on-mac .grid-item-prebuilt .replay-button.show {
+.section-shortcuts-on-mac .grid-item-prebuilt .play-button.show,
+.section-shortcuts-on-mac .grid-item-prebuilt .replay-button.show {
   opacity: 1;
   pointer-events: all;
   cursor: pointer
@@ -6403,7 +6795,10 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .play-button {
   padding-bottom: 10px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
     background-image: url(../../images/overview/shortcuts_icon__dxsrchzotlea_large_2x.png)
   }
@@ -6419,7 +6814,9 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .play-button {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
     background-image: url(../../images/overview/shortcuts_icon__dxsrchzotlea_medium_2x.png)
   }
@@ -6435,7 +6832,9 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .play-button {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
     background-image: url(../../images/overview/shortcuts_icon__dxsrchzotlea_small_2x.png)
   }
@@ -6469,7 +6868,10 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
   background-image: url(../../images/overview/shortcuts_editor__chdpbpmze9py_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-shortcuts-on-mac .grid-item-make-your-own .tile-image {
     background-image: url(../../images/overview/shortcuts_editor__chdpbpmze9py_large_2x.png)
   }
@@ -6485,7 +6887,9 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-make-your-own .tile-image {
     background-image: url(../../images/overview/shortcuts_editor__chdpbpmze9py_medium_2x.png)
   }
@@ -6501,7 +6905,9 @@ html.enhanced .section-shortcuts-on-mac .grid-item-prebuilt .tile-image {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-shortcuts-on-mac .grid-item-make-your-own .tile-image {
     background-image: url(../../images/overview/shortcuts_editor__chdpbpmze9py_small_2x.png)
   }
@@ -6562,7 +6968,10 @@ html.text-zoom .section-maps .grid-item-city-view .tile-copy {
   background-image: url(../../images/overview/maps_city_view_fallback__fklzqeb7rq6i_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-maps .grid-item-city-view .tile-image {
     background-image: url(../../images/overview/maps_city_view_fallback__fklzqeb7rq6i_large_2x.jpg)
   }
@@ -6578,7 +6987,9 @@ html.text-zoom .section-maps .grid-item-city-view .tile-copy {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-maps .grid-item-city-view .tile-image {
     background-image: url(../../images/overview/maps_city_view_fallback__fklzqeb7rq6i_medium_2x.jpg)
   }
@@ -6594,7 +7005,9 @@ html.text-zoom .section-maps .grid-item-city-view .tile-copy {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-maps .grid-item-city-view .tile-image {
     background-image: url(../../images/overview/maps_city_view_fallback__fklzqeb7rq6i_small_2x.jpg)
   }
@@ -6622,7 +7035,10 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-
   background-image: url(../../images/overview/maps_city_view_startframe__qx8y69hwi8yu_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-frame {
     background-image: url(../../images/overview/maps_city_view_startframe__qx8y69hwi8yu_large_2x.jpg)
   }
@@ -6635,7 +7051,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-frame {
     background-image: url(../../images/overview/maps_city_view_startframe__qx8y69hwi8yu_medium_2x.jpg)
   }
@@ -6648,7 +7066,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .start-frame {
     background-image: url(../../images/overview/maps_city_view_startframe__qx8y69hwi8yu_small_2x.jpg)
   }
@@ -6659,7 +7079,10 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   background-image: url(../../images/overview/maps_city_view_endframe__f4u1r0aymviq_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-frame {
     background-image: url(../../images/overview/maps_city_view_endframe__f4u1r0aymviq_large_2x.jpg)
   }
@@ -6672,7 +7095,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-frame {
     background-image: url(../../images/overview/maps_city_view_endframe__f4u1r0aymviq_medium_2x.jpg)
   }
@@ -6685,7 +7110,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-frame {
     background-image: url(../../images/overview/maps_city_view_endframe__f4u1r0aymviq_small_2x.jpg)
   }
@@ -6729,7 +7156,10 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   background-image: url(../../images/overview/maps_new_transit__f6u14aiw976m_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-maps .grid-item-transit .tile-image {
     background-image: url(../../images/overview/maps_new_transit__f6u14aiw976m_large_2x.jpg)
   }
@@ -6745,7 +7175,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-maps .grid-item-transit .tile-image {
     background-image: url(../../images/overview/maps_new_transit__f6u14aiw976m_medium_2x.jpg)
   }
@@ -6761,7 +7193,9 @@ html.enhanced .section-maps .grid-item-city-view .inline-video-city-view .end-fr
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-maps .grid-item-transit .tile-image {
     background-image: url(../../images/overview/maps_new_transit__f6u14aiw976m_small_2x.jpg)
   }
@@ -6794,7 +7228,10 @@ html.text-zoom .section-maps .grid-item-interactive-globe .tile-header {
   margin-left: -341px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-maps .grid-item-interactive-globe .tile-image {
     background-image: url(../../images/overview/maps_interactive_globe_fallback__bbetce0pmzjm_large_2x.jpg)
   }
@@ -6810,7 +7247,9 @@ html.text-zoom .section-maps .grid-item-interactive-globe .tile-header {
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-maps .grid-item-interactive-globe .tile-image {
     background-image: url(../../images/overview/maps_interactive_globe_fallback__bbetce0pmzjm_medium_2x.jpg)
   }
@@ -6826,7 +7265,9 @@ html.text-zoom .section-maps .grid-item-interactive-globe .tile-header {
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-maps .grid-item-interactive-globe .tile-image {
     background-image: url(../../images/overview/maps_interactive_globe_fallback__bbetce0pmzjm_small_2x.jpg)
   }
@@ -6846,7 +7287,8 @@ html.text-zoom .section-maps .grid-item-interactive-globe .tile-header {
   }
 }
 
-.section-maps .grid-item-interactive-globe .inline-video-interactive-globe, html.enhanced .section-maps .grid-item-interactive-globe .tile-image {
+.section-maps .grid-item-interactive-globe .inline-video-interactive-globe,
+html.enhanced .section-maps .grid-item-interactive-globe .tile-image {
   display: none
 }
 
@@ -6864,7 +7306,10 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   background-image: url(../../images/overview/maps_interactive_globe_startframe__9w5um594bhei_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .start-frame {
     background-image: url(../../images/overview/maps_interactive_globe_startframe__9w5um594bhei_large_2x.jpg)
   }
@@ -6877,7 +7322,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .start-frame {
     background-image: url(../../images/overview/maps_interactive_globe_startframe__9w5um594bhei_medium_2x.jpg)
   }
@@ -6890,7 +7337,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .start-frame {
     background-image: url(../../images/overview/maps_interactive_globe_startframe__9w5um594bhei_small_2x.jpg)
   }
@@ -6901,7 +7350,10 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   background-image: url(../../images/overview/maps_interactive_globe_endframe__euwlcke4zqi6_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .end-frame {
     background-image: url(../../images/overview/maps_interactive_globe_endframe__euwlcke4zqi6_large_2x.jpg)
   }
@@ -6914,7 +7366,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .end-frame {
     background-image: url(../../images/overview/maps_interactive_globe_endframe__euwlcke4zqi6_medium_2x.jpg)
   }
@@ -6927,7 +7381,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interactive-globe .end-frame {
     background-image: url(../../images/overview/maps_interactive_globe_endframe__euwlcke4zqi6_small_2x.jpg)
   }
@@ -6985,7 +7441,10 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   background-image: url(../../images/overview/privacy_recording__givvg6pjw0i2_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-privacy .grid-item-app-privacy .tile-image {
     background-image: url(../../images/overview/privacy_recording__givvg6pjw0i2_large_2x.jpg)
   }
@@ -7001,7 +7460,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-privacy .grid-item-app-privacy .tile-image {
     background-image: url(../../images/overview/privacy_recording__givvg6pjw0i2_medium_2x.jpg)
   }
@@ -7017,7 +7478,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-privacy .grid-item-app-privacy .tile-image {
     background-image: url(../../images/overview/privacy_recording__givvg6pjw0i2_small_2x.jpg)
   }
@@ -7031,7 +7494,10 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   background-image: url(../../images/overview/privacy_icon_mail_tracking__fq2z3ungicii_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-privacy .grid-item-mail-tracking-prevention .tile-image {
     background-image: url(../../images/overview/privacy_icon_mail_tracking__fq2z3ungicii_large_2x.png)
   }
@@ -7047,7 +7513,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-privacy .grid-item-mail-tracking-prevention .tile-image {
     background-image: url(../../images/overview/privacy_icon_mail_tracking__fq2z3ungicii_small_2x.png)
   }
@@ -7126,7 +7594,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-more-icloud-than-ever .tile-image {
     background-image: url(../../images/overview/icloud_more__clta50vwkg76_large_2x.jpg)
   }
@@ -7148,7 +7618,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-more-icloud-than-ever .tile-image {
     background-image: url(../../images/overview/icloud_more__clta50vwkg76_medium_2x.jpg)
   }
@@ -7172,7 +7644,9 @@ html.enhanced .section-maps .grid-item-interactive-globe .inline-video-interacti
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-more-icloud-than-ever .tile-image {
     background-image: url(../../images/overview/icloud_more__clta50vwkg76_small_2x.jpg)
   }
@@ -7232,7 +7706,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   margin-bottom: 10px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-icloud-plus .grid-item-private-proxy .tile-image {
     background-image: url(../../images/overview/icon_icloud_vpn__dcjk20l23yi6_large_2x.png)
   }
@@ -7248,7 +7725,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-private-proxy .tile-image {
     background-image: url(../../images/overview/icon_icloud_vpn__dcjk20l23yi6_medium_2x.png)
   }
@@ -7264,7 +7743,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-private-proxy .tile-image {
     background-image: url(../../images/overview/icon_icloud_vpn__dcjk20l23yi6_small_2x.png)
   }
@@ -7298,7 +7779,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   background-image: url(../../images/overview/icloud_hide_email__ezxbu9j7gscy_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-icloud-plus .grid-item-hide-my-email .tile-image {
     background-image: url(../../images/overview/icloud_hide_email__ezxbu9j7gscy_large_2x.png)
   }
@@ -7314,7 +7798,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-hide-my-email .tile-image {
     background-image: url(../../images/overview/icloud_hide_email__ezxbu9j7gscy_medium_2x.png)
   }
@@ -7330,7 +7816,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-icloud-plus .grid-item-hide-my-email .tile-image {
     background-image: url(../../images/overview/icloud_hide_email__ezxbu9j7gscy_small_2x.png)
   }
@@ -7396,7 +7884,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   margin-bottom: 121px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-more .image-more {
     background-image: url(../../images/overview/even_more__fdvcgx80tx6y_large_2x.jpg)
   }
@@ -7412,7 +7903,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-more .image-more {
     background-image: url(../../images/overview/even_more__fdvcgx80tx6y_medium_2x.jpg)
   }
@@ -7428,7 +7921,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-more .image-more {
     background-image: url(../../images/overview/even_more__fdvcgx80tx6y_small_2x.jpg)
   }
@@ -7535,7 +8030,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   background-image: url(../../images/overview/icon_airpods_spatial_audio__ebkxd9egiksy_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-more .icon-features-airpods-spatial-audio {
     background-image: url(../../images/overview/icon_airpods_spatial_audio__ebkxd9egiksy_large_2x.png)
   }
@@ -7551,7 +8049,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-more .icon-features-airpods-spatial-audio {
     background-image: url(../../images/overview/icon_airpods_spatial_audio__ebkxd9egiksy_small_2x.png)
   }
@@ -7565,7 +8065,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   background-image: url(../../images/overview/icon_low_power__zq4r48x0kia6_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-more .icon-features-low-power {
     background-image: url(../../images/overview/icon_low_power__zq4r48x0kia6_large_2x.png)
   }
@@ -7581,7 +8084,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-more .icon-features-low-power {
     background-image: url(../../images/overview/icon_low_power__zq4r48x0kia6_small_2x.png)
   }
@@ -7595,7 +8100,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   background-image: url(../../images/overview/icon_translation__zcgvhod77o26_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-more .icon-features-translation {
     background-image: url(../../images/overview/icon_translation__zcgvhod77o26_large_2x.png)
   }
@@ -7611,7 +8119,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-more .icon-features-translation {
     background-image: url(../../images/overview/icon_translation__zcgvhod77o26_small_2x.png)
   }
@@ -7625,7 +8135,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   background-image: url(../../images/overview/icon_account__e25yoytqw5si_large.png)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-more .icon-features-account {
     background-image: url(../../images/overview/icon_account__e25yoytqw5si_large_2x.png)
   }
@@ -7641,7 +8154,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-more .icon-features-account {
     background-image: url(../../images/overview/icon_account__e25yoytqw5si_small_2x.png)
   }
@@ -7696,7 +8211,10 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   margin-bottom: 25px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-router .router-compatibility {
     background-image: url(../../images/router/compatible_devices__c6f7igvtk7u6_large_2x.jpg)
   }
@@ -7710,7 +8228,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-router .router-compatibility {
     background-image: url(../../images/router/compatible_devices__c6f7igvtk7u6_medium_2x.jpg)
   }
@@ -7724,7 +8244,9 @@ html.text-zoom .section-icloud-plus .grid-item-private-proxy .blockquote-wrapper
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-router .router-compatibility {
     background-image: url(../../images/router/compatible_devices__c6f7igvtk7u6_small_2x.jpg)
   }
@@ -7752,7 +8274,8 @@ html.text-zoom .section-router .router-compatibility {
   }
 }
 
-.section-router .router-compatibility .router-cta a, .section-router .router-compatibility .router-headline {
+.section-router .router-compatibility .router-cta a,
+.section-router .router-compatibility .router-headline {
   color: inherit
 }
 
@@ -7880,19 +8403,24 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   margin-top: 40px
 }
 
-.section-router .router-compatibility .product-name, .section-router .router-compatibility .product-year {
+.section-router .router-compatibility .product-name,
+.section-router .router-compatibility .product-year {
   display: block;
   margin-bottom: 6px
 }
 
 @media only screen and (max-width:1068px) {
-  .section-router .router-compatibility .product-name, .section-router .router-compatibility .product-year {
+
+  .section-router .router-compatibility .product-name,
+  .section-router .router-compatibility .product-year {
     margin-bottom: -2px
   }
 }
 
 @media only screen and (max-width:734px) {
-  .section-router .router-compatibility .product-name, .section-router .router-compatibility .product-year {
+
+  .section-router .router-compatibility .product-name,
+  .section-router .router-compatibility .product-year {
     margin-bottom: 0
   }
 }
@@ -7928,7 +8456,10 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   margin: 69px auto auto
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
   .section-router .router-developers .router-image {
     background-image: url(../../images/router/icon_sdk__cy8fpbsypfue_large_2x.png)
   }
@@ -7944,7 +8475,9 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   }
 }
 
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
   .section-router .router-developers .router-image {
     background-image: url(../../images/router/icon_sdk__cy8fpbsypfue_medium_2x.png)
   }
@@ -7960,7 +8493,9 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-router .router-developers .router-image {
     background-image: url(../../images/router/icon_sdk__cy8fpbsypfue_small_2x.png)
   }
@@ -7989,7 +8524,9 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   }
 }
 
-@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (min-resolution:144dpi) {
   .section-router .router-why-mac .router-image {
     background-image: url(../../images/router/why_mac__bh26etpjcqaa_large_2x.jpg)
   }
@@ -8006,7 +8543,9 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   }
 }
 
-@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
+@media only screen and (min-width:735px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (min-width:735px)and (max-width:1068px)and (min-resolution:144dpi) {
   .section-router .router-why-mac .router-image {
     background-image: url(../../images/router/why_mac__bh26etpjcqaa_medium_2x.jpg)
   }
@@ -8022,7 +8561,9 @@ html.text-zoom .section-router .router-compatibility .compatibility-list .router
   }
 }
 
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
   .section-router .router-why-mac .router-image {
     background-image: url(../../images/router/why_mac__bh26etpjcqaa_small_2x.jpg)
   }

@@ -1,2 +1,30 @@
-# wayback_machine_downloader https://www.apple.com/clips/ --from 20190000000000 --to 20190624021559
-wayback_machine_downloader https://www.apple.com/clips/ --from 20200000000000 --to 20200629024139
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/BrokenBrush-32.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/BrokenBrush-32.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/BrokenBrush-64.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/BrokenBrush-64.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/color-pencil-16.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/color-pencil-16.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-10.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-10.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-12.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-12.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-15.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-15.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-20.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-20.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-6.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/GelPen-6.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-128.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-128.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-16.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-16.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-32.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-32.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-64.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-64.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-96.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/brushes/Highlighter-96.png
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/data/automatic-conversion-1.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/data/automatic-conversion-2.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/data/circle-to-select.json
+wayback_machine_downloader https://www.apple.com/ipados/ipados-14/scribbles/data/scratch-to-delete.json

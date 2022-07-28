@@ -4,7 +4,9 @@
     background-color: #fff
   }
 
-  html.no-static-interaction .section.billboards, html.no-static-interaction .section-compatible, html.no-static-interaction .section-router {
+  html.no-static-interaction .section.billboards,
+  html.no-static-interaction .section-compatible,
+  html.no-static-interaction .section-router {
     background-color: #f2f2f2
   }
 
@@ -104,7 +106,10 @@
   background-image: url("/ios/ios-12/overview/hero/image1_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-image1 {
     background-image: url("/ios/ios-12/overview/hero/image1_large_2x.jpg")
   }
@@ -120,7 +125,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-image1 {
     background-image: url("/ios/ios-12/overview/hero/image1_medium_2x.jpg")
   }
@@ -136,7 +143,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-image1 {
     background-image: url("/ios/ios-12/overview/hero/image1_small_2x.jpg")
   }
@@ -170,7 +179,10 @@
   background-image: url("/ios/ios-12/overview/hero/image2_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-image2 {
     background-image: url("/ios/ios-12/overview/hero/image2_large_2x.png")
   }
@@ -186,7 +198,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-image2 {
     background-image: url("/ios/ios-12/overview/hero/image2_medium_2x.png")
   }
@@ -202,7 +216,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-image2 {
     background-image: url("/ios/ios-12/overview/hero/image2_small_2x.jpg")
   }
@@ -236,7 +252,10 @@
   background-image: url("/ios/ios-12/overview/hero/image3_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-image3 {
     background-image: url("/ios/ios-12/overview/hero/image3_large_2x.jpg")
   }
@@ -252,7 +271,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-image3 {
     background-image: url("/ios/ios-12/overview/hero/image3_medium_2x.jpg")
   }
@@ -268,7 +289,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-image3 {
     background-image: url("/ios/ios-12/overview/hero/image3_small_2x.jpg")
   }
@@ -302,7 +325,10 @@
   background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-media-hero-hero-startframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_large_2x.jpg")
   }
@@ -318,7 +344,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-media-hero-hero-startframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_medium_2x.jpg")
   }
@@ -332,7 +360,10 @@
   background-image: url("/ios/ios-12/overview/hero/media-hero/hero_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-media-hero-hero-endframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_endframe_large_2x.jpg")
   }
@@ -348,7 +379,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-media-hero-hero-endframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_endframe_medium_2x.jpg")
   }
@@ -362,7 +395,10 @@
   background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-hero-media-hero-hero-static {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_large_2x.jpg")
   }
@@ -378,7 +414,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-hero-media-hero-hero-static {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_medium_2x.jpg")
   }
@@ -394,7 +432,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-notifications-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-notifications_static_small_2x.jpg")
   }
@@ -421,7 +461,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-animoji-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-animoji_static_small_2x.jpg")
   }
@@ -448,7 +490,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-facetime-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-facetime_static_small_2x.jpg")
   }
@@ -475,7 +519,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-addeffects-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-addeffects_static_small_2x.jpg")
   }
@@ -502,7 +548,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-donotdisturb-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-donotdisturb_static_small_2x.jpg")
   }
@@ -529,7 +577,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-hero-small-only-hero-sharephotos-static {
     background-image: url("/ios/ios-12/overview/hero/small-only/hero-sharephotos_static_small_2x.jpg")
   }
@@ -554,7 +604,10 @@
   background-image: url("/ios/ios-12/overview/routerbanner/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-routerbanner-image {
     background-image: url("/ios/ios-12/overview/routerbanner/image_large_2x.png")
   }
@@ -570,7 +623,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-routerbanner-image {
     background-image: url("/ios/ios-12/overview/routerbanner/image_medium_2x.png")
   }
@@ -586,7 +641,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-routerbanner-image {
     background-image: url("/ios/ios-12/overview/routerbanner/image_small_2x.png")
   }
@@ -620,7 +677,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_large_2x.jpg")
   }
@@ -636,7 +696,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_medium_2x.jpg")
   }
@@ -652,7 +714,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_small_2x.jpg")
   }
@@ -686,7 +750,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_endframe_large_2x.jpg")
   }
@@ -702,7 +769,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_endframe_medium_2x.jpg")
   }
@@ -718,7 +787,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_endframe_small_2x.jpg")
   }
@@ -752,7 +823,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-static {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_large_2x.jpg")
   }
@@ -768,7 +842,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-static {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_medium_2x.jpg")
   }
@@ -784,7 +860,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-wallpaper-wallpaper-static {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_small_2x.jpg")
   }
@@ -818,7 +896,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-camera-camera-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_large_2x.jpg")
   }
@@ -834,7 +915,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_medium_2x.jpg")
   }
@@ -850,7 +933,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_small_2x.jpg")
   }
@@ -884,7 +969,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-camera/camera_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-camera-camera-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_endframe_large_2x.jpg")
   }
@@ -900,7 +988,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_endframe_medium_2x.jpg")
   }
@@ -916,7 +1006,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_endframe_small_2x.jpg")
   }
@@ -950,7 +1042,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-camera-camera-static {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_large_2x.jpg")
   }
@@ -966,7 +1061,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-static {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_medium_2x.jpg")
   }
@@ -982,7 +1079,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-camera-camera-static {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_small_2x.jpg")
   }
@@ -1016,7 +1115,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_large_2x.jpg")
   }
@@ -1032,7 +1134,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_medium_2x.jpg")
   }
@@ -1048,7 +1152,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_small_2x.jpg")
   }
@@ -1082,7 +1188,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_endframe_large_2x.jpg")
   }
@@ -1098,7 +1207,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_endframe_medium_2x.jpg")
   }
@@ -1114,7 +1225,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-endframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_endframe_small_2x.jpg")
   }
@@ -1148,7 +1261,10 @@
   background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-static {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_large_2x.jpg")
   }
@@ -1164,7 +1280,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-static {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_medium_2x.jpg")
   }
@@ -1180,7 +1298,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-performance-media-keyboard-keyboard-static {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_small_2x.jpg")
   }
@@ -1214,7 +1334,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_large_2x.jpg")
   }
@@ -1230,7 +1353,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_medium_2x.jpg")
   }
@@ -1246,7 +1371,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_small_2x.jpg")
   }
@@ -1280,7 +1407,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_endframe_large_2x.jpg")
   }
@@ -1296,7 +1426,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_endframe_medium_2x.jpg")
   }
@@ -1312,7 +1444,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_endframe_small_2x.jpg")
   }
@@ -1346,7 +1480,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-static {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_large_2x.jpg")
   }
@@ -1362,7 +1499,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-static {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_medium_2x.jpg")
   }
@@ -1378,7 +1517,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-facetime-media-facetime-facetime-static {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_small_2x.jpg")
   }
@@ -1412,7 +1553,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_large_2x.jpg")
   }
@@ -1428,7 +1572,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_medium_2x.jpg")
   }
@@ -1444,7 +1590,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_small_2x.jpg")
   }
@@ -1478,7 +1626,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_endframe_large_2x.jpg")
   }
@@ -1494,7 +1645,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_endframe_medium_2x.jpg")
   }
@@ -1510,7 +1663,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_endframe_small_2x.jpg")
   }
@@ -1544,7 +1699,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_large_2x.jpg")
   }
@@ -1560,7 +1718,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_medium_2x.jpg")
   }
@@ -1576,7 +1736,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-custom-media-animoji-custom-animoji-custom-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_small_2x.jpg")
   }
@@ -1610,7 +1772,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_large_2x.jpg")
   }
@@ -1626,7 +1791,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_medium_2x.jpg")
   }
@@ -1642,7 +1809,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_small_2x.jpg")
   }
@@ -1676,7 +1845,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_endframe_large_2x.jpg")
   }
@@ -1692,7 +1864,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_endframe_medium_2x.jpg")
   }
@@ -1708,7 +1882,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_endframe_small_2x.jpg")
   }
@@ -1742,7 +1918,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_large_2x.jpg")
   }
@@ -1758,7 +1937,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_medium_2x.jpg")
   }
@@ -1774,7 +1955,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-animoji-media-animoji-animoji-static {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_small_2x.jpg")
   }
@@ -1808,7 +1991,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_large_2x.jpg")
   }
@@ -1824,7 +2010,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_medium_2x.jpg")
   }
@@ -1840,7 +2028,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_small_2x.jpg")
   }
@@ -1874,7 +2064,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_endframe_large_2x.jpg")
   }
@@ -1890,7 +2083,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_endframe_medium_2x.jpg")
   }
@@ -1906,7 +2101,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-endframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_endframe_small_2x.jpg")
   }
@@ -1940,7 +2137,10 @@
   background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-static {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_large_2x.jpg")
   }
@@ -1956,7 +2156,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-static {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_medium_2x.jpg")
   }
@@ -1972,7 +2174,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-riverflow-addeffects-media-addeffects-addeffects-static {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_small_2x.jpg")
   }
@@ -2006,7 +2210,10 @@
   background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-ar-media-ar-ar-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_large_2x.jpg")
   }
@@ -2022,7 +2229,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_medium_2x.jpg")
   }
@@ -2038,7 +2247,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_small_2x.jpg")
   }
@@ -2072,7 +2283,10 @@
   background-image: url("/ios/ios-12/overview/ar/media-ar/ar_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-ar-media-ar-ar-endframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_endframe_large_2x.jpg")
   }
@@ -2088,7 +2302,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-endframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_endframe_medium_2x.jpg")
   }
@@ -2104,7 +2320,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-endframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_endframe_small_2x.jpg")
   }
@@ -2138,7 +2356,10 @@
   background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-ar-media-ar-ar-static {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_large_2x.jpg")
   }
@@ -2154,7 +2375,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-static {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_medium_2x.jpg")
   }
@@ -2170,7 +2393,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-ar-media-ar-ar-static {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_small_2x.jpg")
   }
@@ -2222,7 +2447,10 @@
   background-image: url("/ios/ios-12/overview/screentime/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-screentime-image {
     background-image: url("/ios/ios-12/overview/screentime/image_large_2x.jpg")
   }
@@ -2238,7 +2466,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-screentime-image {
     background-image: url("/ios/ios-12/overview/screentime/image_medium_2x.jpg")
   }
@@ -2254,7 +2484,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-screentime-image {
     background-image: url("/ios/ios-12/overview/screentime/image_small_2x.jpg")
   }
@@ -2288,7 +2520,10 @@
   background-image: url("/ios/ios-12/overview/screentime/ipad_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-screentime-ipad {
     background-image: url("/ios/ios-12/overview/screentime/ipad_large_2x.png")
   }
@@ -2304,7 +2539,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-screentime-ipad {
     background-image: url("/ios/ios-12/overview/screentime/ipad_medium_2x.png")
   }
@@ -2320,7 +2557,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-screentime-ipad {
     background-image: url("/ios/ios-12/overview/screentime/ipad_small_2x.png")
   }
@@ -2354,7 +2593,10 @@
   background-image: url("/ios/ios-12/overview/notifications/image2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-notifications-image2 {
     background-image: url("/ios/ios-12/overview/notifications/image2_large_2x.jpg")
   }
@@ -2370,7 +2612,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-notifications-image2 {
     background-image: url("/ios/ios-12/overview/notifications/image2_medium_2x.jpg")
   }
@@ -2384,7 +2628,10 @@
   background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_large_2x.jpg")
   }
@@ -2400,7 +2647,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_medium_2x.jpg")
   }
@@ -2416,7 +2665,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_small_2x.jpg")
   }
@@ -2450,7 +2701,10 @@
   background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_endframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-endframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_endframe_large_2x.jpg")
   }
@@ -2466,7 +2720,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-endframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_endframe_medium_2x.jpg")
   }
@@ -2482,7 +2738,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-endframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_endframe_small_2x.jpg")
   }
@@ -2516,7 +2774,10 @@
   background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-static {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_large_2x.jpg")
   }
@@ -2532,7 +2793,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-static {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_medium_2x.jpg")
   }
@@ -2548,7 +2811,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-notifications-media-notifications-notifications-static {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_small_2x.jpg")
   }
@@ -2582,7 +2847,10 @@
   background-image: url("/ios/ios-12/overview/donotdisturb/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-donotdisturb-image {
     background-image: url("/ios/ios-12/overview/donotdisturb/image_large_2x.jpg")
   }
@@ -2598,7 +2866,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-donotdisturb-image {
     background-image: url("/ios/ios-12/overview/donotdisturb/image_medium_2x.jpg")
   }
@@ -2614,7 +2884,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-donotdisturb-image {
     background-image: url("/ios/ios-12/overview/donotdisturb/image_small_2x.jpg")
   }
@@ -2648,7 +2920,10 @@
   background-image: url("/ios/ios-12/overview/sharephotos/image1_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sharephotos-image1 {
     background-image: url("/ios/ios-12/overview/sharephotos/image1_large_2x.jpg")
   }
@@ -2664,7 +2939,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-sharephotos-image1 {
     background-image: url("/ios/ios-12/overview/sharephotos/image1_medium_2x.jpg")
   }
@@ -2680,7 +2957,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharephotos-image1 {
     background-image: url("/ios/ios-12/overview/sharephotos/image1_small_2x.jpg")
   }
@@ -2714,7 +2993,10 @@
   background-image: url("/ios/ios-12/overview/sharephotos/image2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sharephotos-image2 {
     background-image: url("/ios/ios-12/overview/sharephotos/image2_large_2x.jpg")
   }
@@ -2730,7 +3012,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-sharephotos-image2 {
     background-image: url("/ios/ios-12/overview/sharephotos/image2_medium_2x.jpg")
   }
@@ -2744,7 +3028,10 @@
   background-image: url("/ios/ios-12/overview/photosearch/image1_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-photosearch-image1 {
     background-image: url("/ios/ios-12/overview/photosearch/image1_large_2x.jpg")
   }
@@ -2760,7 +3047,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-photosearch-image1 {
     background-image: url("/ios/ios-12/overview/photosearch/image1_medium_2x.jpg")
   }
@@ -2776,7 +3065,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-photosearch-image1 {
     background-image: url("/ios/ios-12/overview/photosearch/image1_small_2x.jpg")
   }
@@ -2810,7 +3101,10 @@
   background-image: url("/ios/ios-12/overview/photosearch/image2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-photosearch-image2 {
     background-image: url("/ios/ios-12/overview/photosearch/image2_large_2x.jpg")
   }
@@ -2826,7 +3120,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-photosearch-image2 {
     background-image: url("/ios/ios-12/overview/photosearch/image2_medium_2x.jpg")
   }
@@ -2840,7 +3136,10 @@
   background-image: url("/ios/ios-12/overview/shortcuts/image1_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-shortcuts-image1 {
     background-image: url("/ios/ios-12/overview/shortcuts/image1_large_2x.jpg")
   }
@@ -2856,7 +3155,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-shortcuts-image1 {
     background-image: url("/ios/ios-12/overview/shortcuts/image1_medium_2x.jpg")
   }
@@ -2872,7 +3173,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-shortcuts-image1 {
     background-image: url("/ios/ios-12/overview/shortcuts/image1_small_2x.jpg")
   }
@@ -2906,7 +3209,10 @@
   background-image: url("/ios/ios-12/overview/shortcuts/image2_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-shortcuts-image2 {
     background-image: url("/ios/ios-12/overview/shortcuts/image2_large_2x.jpg")
   }
@@ -2922,7 +3228,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-shortcuts-image2 {
     background-image: url("/ios/ios-12/overview/shortcuts/image2_medium_2x.jpg")
   }
@@ -2936,7 +3244,10 @@
   background-image: url("/ios/ios-12/overview/privacy/ipad_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-privacy-ipad {
     background-image: url("/ios/ios-12/overview/privacy/ipad_large_2x.png")
   }
@@ -2952,7 +3263,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-privacy-ipad {
     background-image: url("/ios/ios-12/overview/privacy/ipad_medium_2x.png")
   }
@@ -2968,7 +3281,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-privacy-image {
     background-image: url("/ios/ios-12/overview/privacy/image_small_2x.jpg")
   }
@@ -2993,7 +3308,10 @@
   background-image: url("/ios/ios-12/overview/more/readingtoday/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-readingtoday-image {
     background-image: url("/ios/ios-12/overview/more/readingtoday/image_large_2x.jpg")
   }
@@ -3009,7 +3327,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-more-readingtoday-image {
     background-image: url("/ios/ios-12/overview/more/readingtoday/image_medium_2x.jpg")
   }
@@ -3025,7 +3345,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-more-readingtoday-image {
     background-image: url("/ios/ios-12/overview/more/readingtoday/image_small_2x.jpg")
   }
@@ -3059,7 +3381,10 @@
   background-image: url("/ios/ios-12/overview/more/readingtoday/ipad_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-readingtoday-ipad {
     background-image: url("/ios/ios-12/overview/more/readingtoday/ipad_large_2x.png")
   }
@@ -3075,7 +3400,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-more-readingtoday-ipad {
     background-image: url("/ios/ios-12/overview/more/readingtoday/ipad_medium_2x.png")
   }
@@ -3089,7 +3416,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/books/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-books-icon {
     background-image: url("/ios/ios-12/overview/more/apps/books/icon_large_2x.png")
   }
@@ -3103,7 +3433,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/stocks/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-stocks-icon {
     background-image: url("/ios/ios-12/overview/more/apps/stocks/icon_large_2x.png")
   }
@@ -3117,7 +3450,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/voicememos/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-voicememos-icon {
     background-image: url("/ios/ios-12/overview/more/apps/voicememos/icon_large_2x.png")
   }
@@ -3131,7 +3467,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/news/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-news-icon {
     background-image: url("/ios/ios-12/overview/more/apps/news/icon_large_2x.png")
   }
@@ -3145,7 +3484,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/safari/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-safari-icon {
     background-image: url("/ios/ios-12/overview/more/apps/safari/icon_large_2x.png")
   }
@@ -3159,7 +3501,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/messages/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-messages-icon {
     background-image: url("/ios/ios-12/overview/more/apps/messages/icon_large_2x.png")
   }
@@ -3173,7 +3518,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/carplay/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-carplay-icon {
     background-image: url("/ios/ios-12/overview/more/apps/carplay/icon_large_2x.png")
   }
@@ -3187,7 +3535,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/siri/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-siri-icon {
     background-image: url("/ios/ios-12/overview/more/apps/siri/icon_large_2x.png")
   }
@@ -3201,7 +3552,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/wallet/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-wallet-icon {
     background-image: url("/ios/ios-12/overview/more/apps/wallet/icon_large_2x.png")
   }
@@ -3215,7 +3569,10 @@
   background-image: url("/ios/ios-12/overview/more/apps/health/icon_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-more-apps-health-icon {
     background-image: url("/ios/ios-12/overview/more/apps/health/icon_large_2x.png")
   }
@@ -3229,7 +3586,10 @@
   background-image: url("/ios/ios-12/overview/compatible/iphone/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-compatible-iphone-image {
     background-image: url("/ios/ios-12/overview/compatible/iphone/image_large_2x.jpg")
   }
@@ -3243,7 +3603,10 @@
   background-image: url("/ios/ios-12/overview/compatible/ipad/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-compatible-ipad-image {
     background-image: url("/ios/ios-12/overview/compatible/ipad/image_large_2x.jpg")
   }
@@ -3257,7 +3620,10 @@
   background-image: url("/ios/ios-12/overview/compatible/ipod/image_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-compatible-ipod-image {
     background-image: url("/ios/ios-12/overview/compatible/ipod/image_large_2x.jpg")
   }
@@ -3271,7 +3637,10 @@
   background-image: url("/ios/ios-12/overview/sdk/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sdk-image {
     background-image: url("/ios/ios-12/overview/sdk/image_large_2x.png")
   }
@@ -3287,7 +3656,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sdk-image {
     background-image: url("/ios/ios-12/overview/sdk/image_small_2x.png")
   }
@@ -3314,7 +3685,10 @@
   background-image: url("/ios/ios-12/overview/upgrade/image_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-upgrade-image {
     background-image: url("/ios/ios-12/overview/upgrade/image_large_2x.png")
   }
@@ -3330,7 +3704,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-upgrade-image {
     background-image: url("/ios/ios-12/overview/upgrade/image_small_2x.png")
   }
@@ -3357,7 +3733,10 @@
   background-image: url("/ios/ios-12/site/sharedhardware/iphonex/hardware_iphonex_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sharedhardware-iphonex-hardware-iphonex {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonex/hardware_iphonex_large_2x.png")
   }
@@ -3373,7 +3752,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphonex-hardware-iphonex {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonex/hardware_iphonex_medium_2x.png")
   }
@@ -3389,7 +3770,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphonex-hardware-iphonex {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonex/hardware_iphonex_small_2x.png")
   }
@@ -3425,7 +3808,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphonex-hardware-iphonex-hero {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonex/hardware_iphonex_hero_small_2x.png")
   }
@@ -3452,7 +3837,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphone8-hardware-iphone8-hero {
     background-image: url("/ios/ios-12/site/sharedhardware/iphone8/hardware_iphone8_hero_small_2x.png")
   }
@@ -3477,7 +3864,10 @@
   background-image: url("/ios/ios-12/site/sharedhardware/iphone6s/hardware_iphone6s_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sharedhardware-iphone6s-hardware-iphone6s {
     background-image: url("/ios/ios-12/site/sharedhardware/iphone6s/hardware_iphone6s_large_2x.png")
   }
@@ -3493,7 +3883,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphone6s-hardware-iphone6s {
     background-image: url("/ios/ios-12/site/sharedhardware/iphone6s/hardware_iphone6s_medium_2x.png")
   }
@@ -3509,7 +3901,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphone6s-hardware-iphone6s {
     background-image: url("/ios/ios-12/site/sharedhardware/iphone6s/hardware_iphone6s_small_2x.png")
   }
@@ -3543,7 +3937,10 @@
   background-image: url("/ios/ios-12/site/sharedhardware/iphonese/hardware_iphonese_large.png")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .image-sharedhardware-iphonese-hardware-iphonese {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonese/hardware_iphonese_large_2x.png")
   }
@@ -3559,7 +3956,9 @@
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphonese-hardware-iphonese {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonese/hardware_iphonese_medium_2x.png")
   }
@@ -3575,7 +3974,9 @@
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .image-sharedhardware-iphonese-hardware-iphonese {
     background-image: url("/ios/ios-12/site/sharedhardware/iphonese/hardware_iphonese_small_2x.png")
   }
@@ -3905,7 +4306,9 @@ html.static-interaction .features .sticky-headline {
 }
 
 @media only screen and (max-width: 735px) {
-  .features .image-hardware, .features .image-ipad {
+
+  .features .image-hardware,
+  .features .image-ipad {
     position: relative
   }
 }
@@ -4116,7 +4519,8 @@ html.static-interaction .features .sticky-headline {
   }
 }
 
-html.progressive-image.js [data-progressive-image], html.progressive-image.js [data-progressive-image] * {
+html.progressive-image.js [data-progressive-image],
+html.progressive-image.js [data-progressive-image] * {
   background-image: none !important;
   -webkit-mask-image: none !important;
   mask-image: none !important;
@@ -4228,7 +4632,9 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   transition-delay: 200ms, 0ms
 }
 
-.section-hero .hero-cluster .inline-video, .section-hero .hero-cluster .inline-video-posterframe, .section-hero .hero-cluster .inline-video-startframe {
+.section-hero .hero-cluster .inline-video,
+.section-hero .hero-cluster .inline-video-posterframe,
+.section-hero .hero-cluster .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -4240,7 +4646,8 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   z-index: 1
 }
 
-.section-hero .hero-cluster .inline-video-posterframe, .section-hero .hero-cluster .inline-video-startframe {
+.section-hero .hero-cluster .inline-video-posterframe,
+.section-hero .hero-cluster .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -4261,7 +4668,10 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-hero .hero-cluster .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_large_2x.jpg")
   }
@@ -4275,7 +4685,9 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-hero .hero-cluster .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_static_medium_2x.jpg")
   }
@@ -4288,7 +4700,10 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-hero .hero-cluster .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_large_2x.jpg")
   }
@@ -4302,7 +4717,9 @@ html.progressive-image.js [data-progressive-image], html.progressive-image.js [d
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-hero .hero-cluster .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/hero/media-hero/hero_startframe_medium_2x.jpg")
   }
@@ -4332,7 +4749,10 @@ html.inline-video.js .section-hero .hero-cluster .static-show {
   opacity: 0
 }
 
-html.no-js .section-hero .hero-cluster .static-hide, html.no-inline-video .section-hero .hero-cluster .static-hide, html.no-js .section-hero .hero-cluster .static-hide, html.no-inline-video .section-hero .hero-cluster .static-hide {
+html.no-js .section-hero .hero-cluster .static-hide,
+html.no-inline-video .section-hero .hero-cluster .static-hide,
+html.no-js .section-hero .hero-cluster .static-hide,
+html.no-inline-video .section-hero .hero-cluster .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -4467,12 +4887,16 @@ html.no-js .section-hero .hero-cluster .static-hide, html.no-inline-video .secti
     opacity: 0
   }
 
-  html.no-animated-hero .section-hero .hero-text-wrap, html.no-js .section-hero .hero-text-wrap, html.no-animated-hero .section-hero .hero-text-wrap, html.no-js .section-hero .hero-text-wrap {
+  html.no-animated-hero .section-hero .hero-text-wrap,
+  html.no-js .section-hero .hero-text-wrap,
+  html.no-animated-hero .section-hero .hero-text-wrap,
+  html.no-js .section-hero .hero-text-wrap {
     opacity: 1
   }
 }
 
-.section-hero h1[class*="typography"], .section-hero h2[class*="typography"] {
+.section-hero h1[class*="typography"],
+.section-hero h2[class*="typography"] {
   width: 100%;
   z-index: 1;
   position: relative
@@ -4636,7 +5060,8 @@ html.no-animated-hero .section-routerbanner .section-content {
   margin: 6px 0 -6px
 }
 
-.section-routerbanner .new-os-wrap .ios-13, .section-routerbanner .new-os-wrap .ipad-os {
+.section-routerbanner .new-os-wrap .ios-13,
+.section-routerbanner .new-os-wrap .ipad-os {
   -ms-flex-item-align: center;
   align-self: center;
   margin-top: -44px;
@@ -4644,7 +5069,9 @@ html.no-animated-hero .section-routerbanner .section-content {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-routerbanner .new-os-wrap .ios-13, .section-routerbanner .new-os-wrap .ipad-os {
+
+  .section-routerbanner .new-os-wrap .ios-13,
+  .section-routerbanner .new-os-wrap .ipad-os {
     -ms-flex-item-align: start;
     align-self: flex-start;
     margin-top: 19px;
@@ -4653,7 +5080,9 @@ html.no-animated-hero .section-routerbanner .section-content {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-routerbanner .new-os-wrap .ios-13, .section-routerbanner .new-os-wrap .ipad-os {
+
+  .section-routerbanner .new-os-wrap .ios-13,
+  .section-routerbanner .new-os-wrap .ipad-os {
     margin-top: 12px;
     width: 100%;
     text-align: center
@@ -5009,7 +5438,9 @@ html.no-animated-hero .section-routerbanner .section-content {
   transition-delay: 200ms, 0ms
 }
 
-.section-performance .wallpaper-wrapper .inline-video, .section-performance .wallpaper-wrapper .inline-video-posterframe, .section-performance .wallpaper-wrapper .inline-video-startframe {
+.section-performance .wallpaper-wrapper .inline-video,
+.section-performance .wallpaper-wrapper .inline-video-posterframe,
+.section-performance .wallpaper-wrapper .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5021,7 +5452,8 @@ html.no-animated-hero .section-routerbanner .section-content {
   z-index: 1
 }
 
-.section-performance .wallpaper-wrapper .inline-video-posterframe, .section-performance .wallpaper-wrapper .inline-video-startframe {
+.section-performance .wallpaper-wrapper .inline-video-posterframe,
+.section-performance .wallpaper-wrapper .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -5042,7 +5474,10 @@ html.no-animated-hero .section-routerbanner .section-content {
   background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_large_2x.jpg")
   }
@@ -5056,7 +5491,9 @@ html.no-animated-hero .section-routerbanner .section-content {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_medium_2x.jpg")
   }
@@ -5070,7 +5507,9 @@ html.no-animated-hero .section-routerbanner .section-content {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_static_small_2x.jpg")
   }
@@ -5083,7 +5522,10 @@ html.no-animated-hero .section-routerbanner .section-content {
   background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_large_2x.jpg")
   }
@@ -5097,7 +5539,9 @@ html.no-animated-hero .section-routerbanner .section-content {
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_medium_2x.jpg")
   }
@@ -5111,7 +5555,9 @@ html.no-animated-hero .section-routerbanner .section-content {
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .wallpaper-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-wallpaper/wallpaper_startframe_small_2x.jpg")
   }
@@ -5141,7 +5587,10 @@ html.inline-video.js .section-performance .wallpaper-wrapper .static-show {
   opacity: 0
 }
 
-html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-video .section-performance .wallpaper-wrapper .static-hide, html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-video .section-performance .wallpaper-wrapper .static-hide {
+html.no-js .section-performance .wallpaper-wrapper .static-hide,
+html.no-inline-video .section-performance .wallpaper-wrapper .static-hide,
+html.no-js .section-performance .wallpaper-wrapper .static-hide,
+html.no-inline-video .section-performance .wallpaper-wrapper .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -5213,7 +5662,9 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   transition-delay: 200ms, 0ms
 }
 
-.section-performance .camera-wrapper .inline-video, .section-performance .camera-wrapper .inline-video-posterframe, .section-performance .camera-wrapper .inline-video-startframe {
+.section-performance .camera-wrapper .inline-video,
+.section-performance .camera-wrapper .inline-video-posterframe,
+.section-performance .camera-wrapper .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5225,7 +5676,8 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   z-index: 1
 }
 
-.section-performance .camera-wrapper .inline-video-posterframe, .section-performance .camera-wrapper .inline-video-startframe {
+.section-performance .camera-wrapper .inline-video-posterframe,
+.section-performance .camera-wrapper .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -5246,7 +5698,10 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_large_2x.jpg")
   }
@@ -5260,7 +5715,9 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_medium_2x.jpg")
   }
@@ -5274,7 +5731,9 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_static_small_2x.jpg")
   }
@@ -5287,7 +5746,10 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_large_2x.jpg")
   }
@@ -5301,7 +5763,9 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_medium_2x.jpg")
   }
@@ -5315,7 +5779,9 @@ html.no-js .section-performance .wallpaper-wrapper .static-hide, html.no-inline-
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .camera-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-camera/camera_startframe_small_2x.jpg")
   }
@@ -5345,7 +5811,10 @@ html.inline-video.js .section-performance .camera-wrapper .static-show {
   opacity: 0
 }
 
-html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-video .section-performance .camera-wrapper .static-hide, html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-video .section-performance .camera-wrapper .static-hide {
+html.no-js .section-performance .camera-wrapper .static-hide,
+html.no-inline-video .section-performance .camera-wrapper .static-hide,
+html.no-js .section-performance .camera-wrapper .static-hide,
+html.no-inline-video .section-performance .camera-wrapper .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -5417,7 +5886,9 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   transition-delay: 200ms, 0ms
 }
 
-.section-performance .keyboard-wrapper .inline-video, .section-performance .keyboard-wrapper .inline-video-posterframe, .section-performance .keyboard-wrapper .inline-video-startframe {
+.section-performance .keyboard-wrapper .inline-video,
+.section-performance .keyboard-wrapper .inline-video-posterframe,
+.section-performance .keyboard-wrapper .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5429,7 +5900,8 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   z-index: 1
 }
 
-.section-performance .keyboard-wrapper .inline-video-posterframe, .section-performance .keyboard-wrapper .inline-video-startframe {
+.section-performance .keyboard-wrapper .inline-video-posterframe,
+.section-performance .keyboard-wrapper .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -5450,7 +5922,10 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_large_2x.jpg")
   }
@@ -5464,7 +5939,9 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_medium_2x.jpg")
   }
@@ -5478,7 +5955,9 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_static_small_2x.jpg")
   }
@@ -5491,7 +5970,10 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_large_2x.jpg")
   }
@@ -5505,7 +5987,9 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_medium_2x.jpg")
   }
@@ -5519,7 +6003,9 @@ html.no-js .section-performance .camera-wrapper .static-hide, html.no-inline-vid
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-performance .keyboard-wrapper .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/performance/media-keyboard/keyboard_startframe_small_2x.jpg")
   }
@@ -5549,7 +6035,10 @@ html.inline-video.js .section-performance .keyboard-wrapper .static-show {
   opacity: 0
 }
 
-html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-video .section-performance .keyboard-wrapper .static-hide, html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-video .section-performance .keyboard-wrapper .static-hide {
+html.no-js .section-performance .keyboard-wrapper .static-hide,
+html.no-inline-video .section-performance .keyboard-wrapper .static-hide,
+html.no-js .section-performance .keyboard-wrapper .static-hide,
+html.no-inline-video .section-performance .keyboard-wrapper .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -5621,7 +6110,9 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   transition-delay: 200ms, 0ms
 }
 
-.section-facetime .inline-video, .section-facetime .inline-video-posterframe, .section-facetime .inline-video-startframe {
+.section-facetime .inline-video,
+.section-facetime .inline-video-posterframe,
+.section-facetime .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5633,7 +6124,8 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   z-index: 1
 }
 
-.section-facetime .inline-video-posterframe, .section-facetime .inline-video-startframe {
+.section-facetime .inline-video-posterframe,
+.section-facetime .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -5654,7 +6146,10 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-facetime .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_large_2x.jpg")
   }
@@ -5668,7 +6163,9 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-facetime .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_medium_2x.jpg")
   }
@@ -5682,7 +6179,9 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-facetime .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_static_small_2x.jpg")
   }
@@ -5695,7 +6194,10 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-facetime .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_large_2x.jpg")
   }
@@ -5709,7 +6211,9 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-facetime .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_medium_2x.jpg")
   }
@@ -5723,7 +6227,9 @@ html.no-js .section-performance .keyboard-wrapper .static-hide, html.no-inline-v
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-facetime .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/facetime/media-facetime/facetime_startframe_small_2x.jpg")
   }
@@ -5753,7 +6259,10 @@ html.inline-video.js .section-facetime .static-show {
   opacity: 0
 }
 
-html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetime .static-hide, html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetime .static-hide {
+html.no-js .section-facetime .static-hide,
+html.no-inline-video .section-facetime .static-hide,
+html.no-js .section-facetime .static-hide,
+html.no-inline-video .section-facetime .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -5877,7 +6386,9 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   transition-delay: 200ms, 0ms
 }
 
-.section-animoji-custom .inline-video, .section-animoji-custom .inline-video-posterframe, .section-animoji-custom .inline-video-startframe {
+.section-animoji-custom .inline-video,
+.section-animoji-custom .inline-video-posterframe,
+.section-animoji-custom .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5889,7 +6400,8 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   z-index: 1
 }
 
-.section-animoji-custom .inline-video-posterframe, .section-animoji-custom .inline-video-startframe {
+.section-animoji-custom .inline-video-posterframe,
+.section-animoji-custom .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -5910,7 +6422,10 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_large_2x.jpg")
   }
@@ -5924,7 +6439,9 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_medium_2x.jpg")
   }
@@ -5938,7 +6455,9 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_static_small_2x.jpg")
   }
@@ -5951,7 +6470,10 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_large_2x.jpg")
   }
@@ -5965,7 +6487,9 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_medium_2x.jpg")
   }
@@ -5979,7 +6503,9 @@ html.no-js .section-facetime .static-hide, html.no-inline-video .section-facetim
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-animoji-custom .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji-custom/media-animoji-custom/animoji-custom_startframe_small_2x.jpg")
   }
@@ -6009,7 +6535,10 @@ html.inline-video.js .section-animoji-custom .static-show {
   opacity: 0
 }
 
-html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-animoji-custom .static-hide, html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-animoji-custom .static-hide {
+html.no-js .section-animoji-custom .static-hide,
+html.no-inline-video .section-animoji-custom .static-hide,
+html.no-js .section-animoji-custom .static-hide,
+html.no-inline-video .section-animoji-custom .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -6128,7 +6657,9 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   transition-delay: 200ms, 0ms
 }
 
-.section-animoji .inline-video, .section-animoji .inline-video-posterframe, .section-animoji .inline-video-startframe {
+.section-animoji .inline-video,
+.section-animoji .inline-video-posterframe,
+.section-animoji .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -6140,7 +6671,8 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   z-index: 1
 }
 
-.section-animoji .inline-video-posterframe, .section-animoji .inline-video-startframe {
+.section-animoji .inline-video-posterframe,
+.section-animoji .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -6161,7 +6693,10 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-animoji .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_large_2x.jpg")
   }
@@ -6175,7 +6710,9 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-animoji .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_medium_2x.jpg")
   }
@@ -6189,7 +6726,9 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-animoji .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_static_small_2x.jpg")
   }
@@ -6202,7 +6741,10 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-animoji .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_large_2x.jpg")
   }
@@ -6216,7 +6758,9 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-animoji .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_medium_2x.jpg")
   }
@@ -6230,7 +6774,9 @@ html.no-js .section-animoji-custom .static-hide, html.no-inline-video .section-a
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-animoji .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/animoji/media-animoji/animoji_startframe_small_2x.jpg")
   }
@@ -6260,7 +6806,10 @@ html.inline-video.js .section-animoji .static-show {
   opacity: 0
 }
 
-html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji .static-hide, html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji .static-hide {
+html.no-js .section-animoji .static-hide,
+html.no-inline-video .section-animoji .static-hide,
+html.no-js .section-animoji .static-hide,
+html.no-inline-video .section-animoji .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -6469,7 +7018,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-screentime .headline-wrapper, .section-screentime .copy-wrapper {
+
+  .section-screentime .headline-wrapper,
+  .section-screentime .copy-wrapper {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 34px
@@ -6477,7 +7028,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
 }
 
 @media only screen and (max-width: 735px) {
-  .section-screentime .headline-wrapper, .section-screentime .copy-wrapper {
+
+  .section-screentime .headline-wrapper,
+  .section-screentime .copy-wrapper {
     padding-left: 0
   }
 }
@@ -6590,7 +7143,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   transition-delay: 200ms, 0ms
 }
 
-.section-ar .inline-video, .section-ar .inline-video-posterframe, .section-ar .inline-video-startframe {
+.section-ar .inline-video,
+.section-ar .inline-video-posterframe,
+.section-ar .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -6602,7 +7157,8 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   z-index: 1
 }
 
-.section-ar .inline-video-posterframe, .section-ar .inline-video-startframe {
+.section-ar .inline-video-posterframe,
+.section-ar .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -6623,7 +7179,10 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-ar .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_large_2x.jpg")
   }
@@ -6637,7 +7196,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-ar .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_medium_2x.jpg")
   }
@@ -6651,7 +7212,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-ar .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_static_small_2x.jpg")
   }
@@ -6664,7 +7227,10 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-ar .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_large_2x.jpg")
   }
@@ -6678,7 +7244,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-ar .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_medium_2x.jpg")
   }
@@ -6692,7 +7260,9 @@ html.no-js .section-animoji .static-hide, html.no-inline-video .section-animoji 
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-ar .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/ar/media-ar/ar_startframe_small_2x.jpg")
   }
@@ -6722,7 +7292,10 @@ html.inline-video.js .section-ar .static-show {
   opacity: 0
 }
 
-html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hide, html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hide {
+html.no-js .section-ar .static-hide,
+html.no-inline-video .section-ar .static-hide,
+html.no-js .section-ar .static-hide,
+html.no-inline-video .section-ar .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -6740,7 +7313,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   height: 100%
 }
 
-.section-ar .inline-video-graphic-loading, .section-ar .inline-video-button-play, .section-ar .inline-video-button-pause {
+.section-ar .inline-video-graphic-loading,
+.section-ar .inline-video-button-play,
+.section-ar .inline-video-button-pause {
   z-index: 1;
   display: none;
   position: absolute;
@@ -6753,12 +7328,16 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   cursor: pointer
 }
 
-.section-ar .inline-video-graphic-loading.active, .section-ar .inline-video-button-play.active, .section-ar .inline-video-button-pause.active {
+.section-ar .inline-video-graphic-loading.active,
+.section-ar .inline-video-button-play.active,
+.section-ar .inline-video-button-pause.active {
   z-index: 2;
   display: block
 }
 
-.section-ar .inline-video-graphic-loading .label, .section-ar .inline-video-button-play .label, .section-ar .inline-video-button-pause .label {
+.section-ar .inline-video-graphic-loading .label,
+.section-ar .inline-video-button-play .label,
+.section-ar .inline-video-button-pause .label {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -6909,7 +7488,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   transition-delay: 200ms, 0ms
 }
 
-.section-notifications .inline-video, .section-notifications .inline-video-posterframe, .section-notifications .inline-video-startframe {
+.section-notifications .inline-video,
+.section-notifications .inline-video-posterframe,
+.section-notifications .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -6921,7 +7502,8 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   z-index: 1
 }
 
-.section-notifications .inline-video-posterframe, .section-notifications .inline-video-startframe {
+.section-notifications .inline-video-posterframe,
+.section-notifications .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -6942,7 +7524,10 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-notifications .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_large_2x.jpg")
   }
@@ -6956,7 +7541,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-notifications .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_medium_2x.jpg")
   }
@@ -6970,7 +7557,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-notifications .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_static_small_2x.jpg")
   }
@@ -6983,7 +7572,10 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-notifications .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_large_2x.jpg")
   }
@@ -6997,7 +7589,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-notifications .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_medium_2x.jpg")
   }
@@ -7011,7 +7605,9 @@ html.no-js .section-ar .static-hide, html.no-inline-video .section-ar .static-hi
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-notifications .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/notifications/media-notifications/notifications_startframe_small_2x.jpg")
   }
@@ -7041,7 +7637,10 @@ html.inline-video.js .section-notifications .static-show {
   opacity: 0
 }
 
-html.no-js .section-notifications .static-hide, html.no-inline-video .section-notifications .static-hide, html.no-js .section-notifications .static-hide, html.no-inline-video .section-notifications .static-hide {
+html.no-js .section-notifications .static-hide,
+html.no-inline-video .section-notifications .static-hide,
+html.no-js .section-notifications .static-hide,
+html.no-inline-video .section-notifications .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -7160,7 +7759,9 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   transition-delay: 200ms, 0ms
 }
 
-.section-addeffects .inline-video, .section-addeffects .inline-video-posterframe, .section-addeffects .inline-video-startframe {
+.section-addeffects .inline-video,
+.section-addeffects .inline-video-posterframe,
+.section-addeffects .inline-video-startframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -7172,7 +7773,8 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   z-index: 1
 }
 
-.section-addeffects .inline-video-posterframe, .section-addeffects .inline-video-startframe {
+.section-addeffects .inline-video-posterframe,
+.section-addeffects .inline-video-startframe {
   display: block;
   visibility: hidden;
   opacity: 0;
@@ -7193,7 +7795,10 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-addeffects .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_large_2x.jpg")
   }
@@ -7207,7 +7812,9 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-addeffects .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_medium_2x.jpg")
   }
@@ -7221,7 +7828,9 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-addeffects .inline-video-posterframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_static_small_2x.jpg")
   }
@@ -7234,7 +7843,10 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_large.jpg")
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .section-addeffects .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_large_2x.jpg")
   }
@@ -7248,7 +7860,9 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   }
 }
 
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
   .section-addeffects .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_medium_2x.jpg")
   }
@@ -7262,7 +7876,9 @@ html.no-js .section-notifications .static-hide, html.no-inline-video .section-no
   }
 }
 
-@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
   .section-addeffects .inline-video-startframe {
     background-image: url("/ios/ios-12/overview/riverflow/addeffects/media-addeffects/addeffects_startframe_small_2x.jpg")
   }
@@ -7292,7 +7908,10 @@ html.inline-video.js .section-addeffects .static-show {
   opacity: 0
 }
 
-html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addeffects .static-hide, html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addeffects .static-hide {
+html.no-js .section-addeffects .static-hide,
+html.no-inline-video .section-addeffects .static-hide,
+html.no-js .section-addeffects .static-hide,
+html.no-inline-video .section-addeffects .static-hide {
   display: none;
   background-image: none !important;
   -webkit-mask-image: none !important;
@@ -7586,14 +8205,18 @@ html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addef
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-more .headline-wrapper, .section-more .copy-wrapper {
+
+  .section-more .headline-wrapper,
+  .section-more .copy-wrapper {
     -webkit-box-sizing: border-box;
     box-sizing: border-box
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .section-more .headline-wrapper, .section-more .copy-wrapper {
+
+  .section-more .headline-wrapper,
+  .section-more .copy-wrapper {
     padding-left: 0
   }
 }
@@ -7707,7 +8330,9 @@ html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addef
   }
 }
 
-.section-sdk a, .section-sdk p, .section-sdk .typography-headline-reduced {
+.section-sdk a,
+.section-sdk p,
+.section-sdk .typography-headline-reduced {
   color: #fff
 }
 
@@ -8034,7 +8659,8 @@ html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addef
   margin: 0
 }
 
-.section-router .router-alt .router-text-wrap, .section-router .router-alt .image {
+.section-router .router-alt .router-text-wrap,
+.section-router .router-alt .image {
   position: relative
 }
 
@@ -8238,7 +8864,8 @@ html.no-js .section-addeffects .static-hide, html.no-inline-video .section-addef
   }
 }
 
-.gradient-background, .sticky-content {
+.gradient-background,
+.sticky-content {
   background-repeat: repeat-x;
   background-size: contain
 }

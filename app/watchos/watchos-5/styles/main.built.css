@@ -3,7 +3,12 @@
   color: #ccc
 }
 
-.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
   color: #fff
 }
 
@@ -65,20 +70,25 @@
   }
 }
 
-html.progressive-image.js [data-progressive-image], html.progressive-image.js [data-progressive-image] * {
+html.progressive-image.js [data-progressive-image],
+html.progressive-image.js [data-progressive-image] * {
   background-image: none !important;
   -webkit-mask-image: none !important;
   mask-image: none !important;
   opacity: 0
 }
 
-html.progressive-image.js .progressive-image-animated, html.progressive-image.js .progressive-image-animated * {
+html.progressive-image.js .progressive-image-animated,
+html.progressive-image.js .progressive-image-animated * {
   opacity: 0;
   -webkit-transition: opacity 1s ease-out;
   transition: opacity 1s ease-out
 }
 
-html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded], html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded] *, html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded], html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded] * {
+html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded],
+html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded] *,
+html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded],
+html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded] * {
   opacity: 1
 }
 
@@ -92,22 +102,52 @@ body {
   padding: 0
 }
 
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button {
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
   margin: 0;
   padding: 0
 }
 
-pre, code, address, caption, th, figcaption {
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
   font-size: 1em;
   font-weight: normal;
   font-style: normal
 }
 
-fieldset, iframe, img {
+fieldset,
+iframe,
+img {
   border: 0
 }
 
-caption, th {
+caption,
+th {
   text-align: left
 }
 
@@ -116,11 +156,25 @@ table {
   border-spacing: 0
 }
 
-article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
   display: block
 }
 
-audio, canvas, video, progress {
+audio,
+canvas,
+video,
+progress {
   display: inline-block;
   vertical-align: baseline
 }
@@ -148,7 +202,8 @@ button:disabled {
   outline-offset: 1px
 }
 
-:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), :focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   outline: none
 }
 
@@ -158,16 +213,26 @@ button:disabled {
 }
 
 @media print {
-  body, #main, #content {
+
+  body,
+  #main,
+  #content {
     color: #000
   }
 
-  a, a:link, a:visited {
+  a,
+  a:link,
+  a:visited {
     color: #000;
     text-decoration: none
   }
 
-  #globalheader, #globalfooter, #directorynav, #tabs, .noprint, .hide {
+  #globalheader,
+  #globalfooter,
+  #directorynav,
+  #tabs,
+  .noprint,
+  .hide {
     display: none
   }
 }
@@ -269,7 +334,11 @@ body {
   font-style: normal
 }
 
-body, input, textarea, select, button {
+body,
+input,
+textarea,
+select,
+button {
   font-synthesis: none;
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
@@ -278,41 +347,115 @@ body, input, textarea, select, button {
   text-align: left
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #111
 }
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
   display: block;
   margin: 0
 }
 
-h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
+h1+*,
+h2+*,
+h3+*,
+h4+*,
+h5+*,
+h6+* {
   margin-top: .8em
 }
 
-h1+h1, h1+h2, h1+h3, h1+h4, h1+h5, h1+h6, h2+h1, h2+h2, h2+h3, h2+h4, h2+h5, h2+h6, h3+h1, h3+h2, h3+h3, h3+h4, h3+h5, h3+h6, h4+h1, h4+h2, h4+h3, h4+h4, h4+h5, h4+h6, h5+h1, h5+h2, h5+h3, h5+h4, h5+h5, h5+h6, h6+h1, h6+h2, h6+h3, h6+h4, h6+h5, h6+h6 {
+h1+h1,
+h1+h2,
+h1+h3,
+h1+h4,
+h1+h5,
+h1+h6,
+h2+h1,
+h2+h2,
+h2+h3,
+h2+h4,
+h2+h5,
+h2+h6,
+h3+h1,
+h3+h2,
+h3+h3,
+h3+h4,
+h3+h5,
+h3+h6,
+h4+h1,
+h4+h2,
+h4+h3,
+h4+h4,
+h4+h5,
+h4+h6,
+h5+h1,
+h5+h2,
+h5+h3,
+h5+h4,
+h5+h5,
+h5+h6,
+h6+h1,
+h6+h2,
+h6+h3,
+h6+h4,
+h6+h5,
+h6+h6 {
   margin-top: .4em
 }
 
-p+h1, ul+h1, ol+h1, p+h2, ul+h2, ol+h2, p+h3, ul+h3, ol+h3, p+h4, ul+h4, ol+h4, p+h5, ul+h5, ol+h5, p+h6, ul+h6, ol+h6 {
+p+h1,
+ul+h1,
+ol+h1,
+p+h2,
+ul+h2,
+ol+h2,
+p+h3,
+ul+h3,
+ol+h3,
+p+h4,
+ul+h4,
+ol+h4,
+p+h5,
+ul+h5,
+ol+h5,
+p+h6,
+ul+h6,
+ol+h6 {
   margin-top: 1.6em
 }
 
-p+*, ul+*, ol+* {
+p+*,
+ul+*,
+ol+* {
   margin-top: .8em
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 1.17647em
 }
 
-ul ul, ul ol, ol ul, ol ol {
+ul ul,
+ul ol,
+ol ul,
+ol ol {
   margin-top: 0;
   margin-bottom: 0
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   margin: 0;
   list-style: none
 }
@@ -325,7 +468,8 @@ a {
   color: #0070c9
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none
 }
 
@@ -341,7 +485,8 @@ p+a {
   display: inline-block
 }
 
-.links-inline, .links-stacked {
+.links-inline,
+.links-stacked {
   margin-left: 0;
   margin-right: 0;
   list-style: none
@@ -382,11 +527,15 @@ p+a {
   color: #0070c9
 }
 
-b, strong {
+b,
+strong {
   font-weight: 600
 }
 
-em, i, cite, dfn {
+em,
+i,
+cite,
+dfn {
   font-style: italic
 }
 
@@ -397,7 +546,9 @@ sup {
   bottom: -.2em
 }
 
-h1 sup, h2 sup, h3 sup {
+h1 sup,
+h2 sup,
+h3 sup {
   font-size: .4em
 }
 
@@ -419,7 +570,8 @@ abbr {
   border: 0
 }
 
-.selfclear::before, .selfclear::after {
+.selfclear::before,
+.selfclear::after {
   content: ' ';
   display: table
 }
@@ -475,7 +627,8 @@ abbr {
   z-index: 1
 }
 
-.row::before, .row::after {
+.row::before,
+.row::after {
   content: ' ';
   display: table
 }
@@ -1497,7 +1650,10 @@ abbr {
   }
 }
 
-.icon::before, .icon::after, .more::before, .more::after {
+.icon::before,
+.icon::after,
+.more::before,
+.more::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -1511,15 +1667,20 @@ abbr {
   alt: ''
 }
 
-.icon::before, .icon::after, .more::before, .more::after {
+.icon::before,
+.icon::after,
+.more::before,
+.more::after {
   text-decoration: none
 }
 
-.icon::before, .more::before {
+.icon::before,
+.more::before {
   display: none
 }
 
-.icon-after::after, .more::after {
+.icon-after::after,
+.more::after {
   padding-left: .3em;
   top: 0
 }
@@ -1544,299 +1705,373 @@ abbr {
   display: none
 }
 
-.icon-apple::before, .icon-apple::after {
+.icon-apple::before,
+.icon-apple::after {
   content: ""
 }
 
-.icon-chevrondown::before, .icon-chevrondown::after {
+.icon-chevrondown::before,
+.icon-chevrondown::after {
   content: ""
 }
 
-.icon-chevrondowncircle::before, .icon-chevrondowncircle::after {
+.icon-chevrondowncircle::before,
+.icon-chevrondowncircle::after {
   content: ""
 }
 
-.icon-chevronleft::before, .icon-chevronleft::after {
+.icon-chevronleft::before,
+.icon-chevronleft::after {
   content: ""
 }
 
-.icon-chevronleftcircle::before, .icon-chevronleftcircle::after {
+.icon-chevronleftcircle::before,
+.icon-chevronleftcircle::after {
   content: ""
 }
 
-.icon-chevronright::before, .icon-chevronright::after {
+.icon-chevronright::before,
+.icon-chevronright::after {
   content: ""
 }
 
-.icon-chevronrightcircle::before, .icon-chevronrightcircle::after {
+.icon-chevronrightcircle::before,
+.icon-chevronrightcircle::after {
   content: ""
 }
 
-.icon-chevronup::before, .icon-chevronup::after {
+.icon-chevronup::before,
+.icon-chevronup::after {
   content: ""
 }
 
-.icon-chevronupcircle::before, .icon-chevronupcircle::after {
+.icon-chevronupcircle::before,
+.icon-chevronupcircle::after {
   content: ""
 }
 
-.icon-downloadcircle::before, .icon-downloadcircle::after {
+.icon-downloadcircle::before,
+.icon-downloadcircle::after {
   content: ""
 }
 
-.icon-external::before, .icon-external::after {
+.icon-external::before,
+.icon-external::after {
   content: ""
 }
 
-.icon-share::before, .icon-share::after {
+.icon-share::before,
+.icon-share::after {
   content: ""
 }
 
-.icon-pausecircle::before, .icon-pausecircle::after {
+.icon-pausecircle::before,
+.icon-pausecircle::after {
   content: ""
 }
 
-.icon-playcircle::before, .icon-playcircle::after {
+.icon-playcircle::before,
+.icon-playcircle::after {
   content: ""
 }
 
-.icon-replay::before, .icon-replay::after {
+.icon-replay::before,
+.icon-replay::after {
   content: ""
 }
 
-.icon-stopcircle::before, .icon-stopcircle::after {
+.icon-stopcircle::before,
+.icon-stopcircle::after {
   content: ""
 }
 
-.icon-circle::before, .icon-circle::after {
+.icon-circle::before,
+.icon-circle::after {
   content: ""
 }
 
-.icon-check::before, .icon-check::after {
+.icon-check::before,
+.icon-check::after {
   content: ""
 }
 
-.icon-checkcircle::before, .icon-checkcircle::after {
+.icon-checkcircle::before,
+.icon-checkcircle::after {
   content: ""
 }
 
-.icon-checksolid::before, .icon-checksolid::after {
+.icon-checksolid::before,
+.icon-checksolid::after {
   content: ""
 }
 
-.icon-reset::before, .icon-reset::after {
+.icon-reset::before,
+.icon-reset::after {
   content: ""
 }
 
-.icon-resetcircle::before, .icon-resetcircle::after {
+.icon-resetcircle::before,
+.icon-resetcircle::after {
   content: ""
 }
 
-.icon-resetsolid::before, .icon-resetsolid::after {
+.icon-resetsolid::before,
+.icon-resetsolid::after {
   content: ""
 }
 
-.icon-exclamation::before, .icon-exclamation::after {
+.icon-exclamation::before,
+.icon-exclamation::after {
   content: ""
 }
 
-.icon-exclamationcircle::before, .icon-exclamationcircle::after {
+.icon-exclamationcircle::before,
+.icon-exclamationcircle::after {
   content: ""
 }
 
-.icon-exclamationsolid::before, .icon-exclamationsolid::after {
+.icon-exclamationsolid::before,
+.icon-exclamationsolid::after {
   content: ""
 }
 
-.icon-infocircle::before, .icon-infocircle::after {
+.icon-infocircle::before,
+.icon-infocircle::after {
   content: ""
 }
 
-.icon-question::before, .icon-question::after {
+.icon-question::before,
+.icon-question::after {
   content: ""
 }
 
-.icon-questioncircle::before, .icon-questioncircle::after {
+.icon-questioncircle::before,
+.icon-questioncircle::after {
   content: ""
 }
 
-.icon-questionsolid::before, .icon-questionsolid::after {
+.icon-questionsolid::before,
+.icon-questionsolid::after {
   content: ""
 }
 
-.icon-plus::before, .icon-plus::after {
+.icon-plus::before,
+.icon-plus::after {
   content: ""
 }
 
-.icon-pluscircle::before, .icon-pluscircle::after {
+.icon-pluscircle::before,
+.icon-pluscircle::after {
   content: ""
 }
 
-.icon-plussolid::before, .icon-plussolid::after {
+.icon-plussolid::before,
+.icon-plussolid::after {
   content: ""
 }
 
-.icon-minus::before, .icon-minus::after {
+.icon-minus::before,
+.icon-minus::after {
   content: ""
 }
 
-.icon-minuscircle::before, .icon-minuscircle::after {
+.icon-minuscircle::before,
+.icon-minuscircle::after {
   content: ""
 }
 
-.icon-minussolid::before, .icon-minussolid::after {
+.icon-minussolid::before,
+.icon-minussolid::after {
   content: ""
 }
 
-.icon-1circle::before, .icon-1circle::after {
+.icon-1circle::before,
+.icon-1circle::after {
   content: ""
 }
 
-.icon-2circle::before, .icon-2circle::after {
+.icon-2circle::before,
+.icon-2circle::after {
   content: ""
 }
 
-.icon-3circle::before, .icon-3circle::after {
+.icon-3circle::before,
+.icon-3circle::after {
   content: ""
 }
 
-.icon-4circle::before, .icon-4circle::after {
+.icon-4circle::before,
+.icon-4circle::after {
   content: ""
 }
 
-.icon-5circle::before, .icon-5circle::after {
+.icon-5circle::before,
+.icon-5circle::after {
   content: ""
 }
 
-.icon-6circle::before, .icon-6circle::after {
+.icon-6circle::before,
+.icon-6circle::after {
   content: ""
 }
 
-.icon-7circle::before, .icon-7circle::after {
+.icon-7circle::before,
+.icon-7circle::after {
   content: ""
 }
 
-.icon-8circle::before, .icon-8circle::after {
+.icon-8circle::before,
+.icon-8circle::after {
   content: ""
 }
 
-.icon-9circle::before, .icon-9circle::after {
+.icon-9circle::before,
+.icon-9circle::after {
   content: ""
 }
 
-.icon-10circle::before, .icon-10circle::after {
+.icon-10circle::before,
+.icon-10circle::after {
   content: ""
 }
 
-.icon-11circle::before, .icon-11circle::after {
+.icon-11circle::before,
+.icon-11circle::after {
   content: ""
 }
 
-.icon-12circle::before, .icon-12circle::after {
+.icon-12circle::before,
+.icon-12circle::after {
   content: ""
 }
 
-.icon-13circle::before, .icon-13circle::after {
+.icon-13circle::before,
+.icon-13circle::after {
   content: ""
 }
 
-.icon-14circle::before, .icon-14circle::after {
+.icon-14circle::before,
+.icon-14circle::after {
   content: ""
 }
 
-.icon-15circle::before, .icon-15circle::after {
+.icon-15circle::before,
+.icon-15circle::after {
   content: ""
 }
 
-.icon-16circle::before, .icon-16circle::after {
+.icon-16circle::before,
+.icon-16circle::after {
   content: ""
 }
 
-.icon-17circle::before, .icon-17circle::after {
+.icon-17circle::before,
+.icon-17circle::after {
   content: ""
 }
 
-.icon-18circle::before, .icon-18circle::after {
+.icon-18circle::before,
+.icon-18circle::after {
   content: ""
 }
 
-.icon-19circle::before, .icon-19circle::after {
+.icon-19circle::before,
+.icon-19circle::after {
   content: ""
 }
 
-.icon-20circle::before, .icon-20circle::after {
+.icon-20circle::before,
+.icon-20circle::after {
   content: ""
 }
 
-.icon-close::before, .icon-close::after {
+.icon-close::before,
+.icon-close::after {
   content: ""
 }
 
-.icon-closecompact::before, .icon-closecompact::after {
+.icon-closecompact::before,
+.icon-closecompact::after {
   content: ""
 }
 
-.icon-paddleleft::before, .icon-paddleleft::after {
+.icon-paddleleft::before,
+.icon-paddleleft::after {
   content: ""
 }
 
-.icon-paddleleftcompact::before, .icon-paddleleftcompact::after {
+.icon-paddleleftcompact::before,
+.icon-paddleleftcompact::after {
   content: ""
 }
 
-.icon-paddleright::before, .icon-paddleright::after {
+.icon-paddleright::before,
+.icon-paddleright::after {
   content: ""
 }
 
-.icon-paddlerightcompact::before, .icon-paddlerightcompact::after {
+.icon-paddlerightcompact::before,
+.icon-paddlerightcompact::after {
   content: ""
 }
 
-.icon-paddleup::before, .icon-paddleup::after {
+.icon-paddleup::before,
+.icon-paddleup::after {
   content: ""
 }
 
-.icon-paddleupcompact::before, .icon-paddleupcompact::after {
+.icon-paddleupcompact::before,
+.icon-paddleupcompact::after {
   content: ""
 }
 
-.icon-paddledown::before, .icon-paddledown::after {
+.icon-paddledown::before,
+.icon-paddledown::after {
   content: ""
 }
 
-.icon-paddledowncompact::before, .icon-paddledowncompact::after {
+.icon-paddledowncompact::before,
+.icon-paddledowncompact::after {
   content: ""
 }
 
-.icon-thumbnailreplay::before, .icon-thumbnailreplay::after {
+.icon-thumbnailreplay::before,
+.icon-thumbnailreplay::after {
   content: ""
 }
 
-.icon-thumbnailpause::before, .icon-thumbnailpause::after {
+.icon-thumbnailpause::before,
+.icon-thumbnailpause::after {
   content: ""
 }
 
-.icon-thumbnailplay::before, .icon-thumbnailplay::after {
+.icon-thumbnailplay::before,
+.icon-thumbnailplay::after {
   content: ""
 }
 
-.icon-externalrtl::before, .icon-externalrtl::after {
+.icon-externalrtl::before,
+.icon-externalrtl::after {
   content: ""
 }
 
-.icon-questionrtl::before, .icon-questionrtl::after {
+.icon-questionrtl::before,
+.icon-questionrtl::after {
   content: ""
 }
 
-.icon-questioncirclertl::before, .icon-questioncirclertl::after {
+.icon-questioncirclertl::before,
+.icon-questioncirclertl::after {
   content: ""
 }
 
-.icon-questionsolidrtl::before, .icon-questionsolidrtl::after {
+.icon-questionsolidrtl::before,
+.icon-questionsolidrtl::after {
   content: ""
 }
 
-.more::before, .more::after {
+.more::before,
+.more::after {
   content: ""
 }
 
@@ -1844,7 +2079,10 @@ abbr {
   margin-top: .5em
 }
 
-.icon-wrapper .icon, .icon-wrapper .more::after, .icon-wrapper .icon-before::before, .icon-wrapper .icon-after::after {
+.icon-wrapper .icon,
+.icon-wrapper .more::after,
+.icon-wrapper .icon-before::before,
+.icon-wrapper .icon-after::after {
   display: inline
 }
 
@@ -2021,7 +2259,8 @@ br.small {
   outline: none
 }
 
-.dotnav-item:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .dotnav-item:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.dotnav-item:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.dotnav-item:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   -webkit-box-shadow: none;
   box-shadow: none
 }
@@ -2051,15 +2290,18 @@ br.small {
     line-height: 52px
   }
 
-  .paddlenav .paddlenav-arrow-next, .paddlenav .paddlenav-arrow-previous {
+  .paddlenav .paddlenav-arrow-next,
+  .paddlenav .paddlenav-arrow-previous {
     margin-top: -26px
   }
 
-  .paddlenav .paddlenav-arrow-up, .paddlenav .paddlenav-arrow-down {
+  .paddlenav .paddlenav-arrow-up,
+  .paddlenav .paddlenav-arrow-down {
     margin-left: -26px
   }
 
-  .paddlenav .paddlenav-arrow-next::before, .paddlenav .paddlenav-arrow-next::after {
+  .paddlenav .paddlenav-arrow-next::before,
+  .paddlenav .paddlenav-arrow-next::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2073,7 +2315,8 @@ br.small {
     alt: ''
   }
 
-  .paddlenav .paddlenav-arrow-next::before, .paddlenav .paddlenav-arrow-next::after {
+  .paddlenav .paddlenav-arrow-next::before,
+  .paddlenav .paddlenav-arrow-next::after {
     text-decoration: none
   }
 
@@ -2081,7 +2324,8 @@ br.small {
     display: none
   }
 
-  .paddlenav .paddlenav-arrow-next::before, .paddlenav .paddlenav-arrow-next::after {
+  .paddlenav .paddlenav-arrow-next::before,
+  .paddlenav .paddlenav-arrow-next::after {
     content: ""
   }
 
@@ -2089,7 +2333,8 @@ br.small {
     margin-right: -.044em
   }
 
-  .paddlenav .paddlenav-arrow-previous::before, .paddlenav .paddlenav-arrow-previous::after {
+  .paddlenav .paddlenav-arrow-previous::before,
+  .paddlenav .paddlenav-arrow-previous::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2103,7 +2348,8 @@ br.small {
     alt: ''
   }
 
-  .paddlenav .paddlenav-arrow-previous::before, .paddlenav .paddlenav-arrow-previous::after {
+  .paddlenav .paddlenav-arrow-previous::before,
+  .paddlenav .paddlenav-arrow-previous::after {
     text-decoration: none
   }
 
@@ -2111,7 +2357,8 @@ br.small {
     display: none
   }
 
-  .paddlenav .paddlenav-arrow-previous::before, .paddlenav .paddlenav-arrow-previous::after {
+  .paddlenav .paddlenav-arrow-previous::before,
+  .paddlenav .paddlenav-arrow-previous::after {
     content: ""
   }
 
@@ -2119,7 +2366,8 @@ br.small {
     margin-left: -.044em
   }
 
-  .paddlenav .paddlenav-arrow-up::before, .paddlenav .paddlenav-arrow-up::after {
+  .paddlenav .paddlenav-arrow-up::before,
+  .paddlenav .paddlenav-arrow-up::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2133,7 +2381,8 @@ br.small {
     alt: ''
   }
 
-  .paddlenav .paddlenav-arrow-up::before, .paddlenav .paddlenav-arrow-up::after {
+  .paddlenav .paddlenav-arrow-up::before,
+  .paddlenav .paddlenav-arrow-up::after {
     text-decoration: none
   }
 
@@ -2141,11 +2390,13 @@ br.small {
     display: none
   }
 
-  .paddlenav .paddlenav-arrow-up::before, .paddlenav .paddlenav-arrow-up::after {
+  .paddlenav .paddlenav-arrow-up::before,
+  .paddlenav .paddlenav-arrow-up::after {
     content: ""
   }
 
-  .paddlenav .paddlenav-arrow-down::before, .paddlenav .paddlenav-arrow-down::after {
+  .paddlenav .paddlenav-arrow-down::before,
+  .paddlenav .paddlenav-arrow-down::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2159,7 +2410,8 @@ br.small {
     alt: ''
   }
 
-  .paddlenav .paddlenav-arrow-down::before, .paddlenav .paddlenav-arrow-down::after {
+  .paddlenav .paddlenav-arrow-down::before,
+  .paddlenav .paddlenav-arrow-down::after {
     text-decoration: none
   }
 
@@ -2167,7 +2419,8 @@ br.small {
     display: none
   }
 
-  .paddlenav .paddlenav-arrow-down::before, .paddlenav .paddlenav-arrow-down::after {
+  .paddlenav .paddlenav-arrow-down::before,
+  .paddlenav .paddlenav-arrow-down::after {
     content: ""
   }
 }
@@ -2188,12 +2441,14 @@ br.small {
   transition: 250ms background-color linear, 250ms color linear, 250ms opacity linear
 }
 
-.paddlenav-arrow-next, .paddlenav-arrow-previous {
+.paddlenav-arrow-next,
+.paddlenav-arrow-previous {
   margin-top: -45px;
   top: 50%
 }
 
-.paddlenav-arrow-up, .paddlenav-arrow-down {
+.paddlenav-arrow-up,
+.paddlenav-arrow-down {
   margin-left: -45px;
   left: 50%
 }
@@ -2202,7 +2457,8 @@ br.small {
   right: 18px
 }
 
-.paddlenav-arrow-next::before, .paddlenav-arrow-next::after {
+.paddlenav-arrow-next::before,
+.paddlenav-arrow-next::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2216,7 +2472,8 @@ br.small {
   alt: ''
 }
 
-.paddlenav-arrow-next::before, .paddlenav-arrow-next::after {
+.paddlenav-arrow-next::before,
+.paddlenav-arrow-next::after {
   text-decoration: none
 }
 
@@ -2224,7 +2481,8 @@ br.small {
   display: none
 }
 
-.paddlenav-arrow-next::before, .paddlenav-arrow-next::after {
+.paddlenav-arrow-next::before,
+.paddlenav-arrow-next::after {
   content: ""
 }
 
@@ -2236,7 +2494,8 @@ br.small {
   left: 18px
 }
 
-.paddlenav-arrow-previous::before, .paddlenav-arrow-previous::after {
+.paddlenav-arrow-previous::before,
+.paddlenav-arrow-previous::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2250,7 +2509,8 @@ br.small {
   alt: ''
 }
 
-.paddlenav-arrow-previous::before, .paddlenav-arrow-previous::after {
+.paddlenav-arrow-previous::before,
+.paddlenav-arrow-previous::after {
   text-decoration: none
 }
 
@@ -2258,7 +2518,8 @@ br.small {
   display: none
 }
 
-.paddlenav-arrow-previous::before, .paddlenav-arrow-previous::after {
+.paddlenav-arrow-previous::before,
+.paddlenav-arrow-previous::after {
   content: ""
 }
 
@@ -2270,7 +2531,8 @@ br.small {
   top: 18px
 }
 
-.paddlenav-arrow-up::before, .paddlenav-arrow-up::after {
+.paddlenav-arrow-up::before,
+.paddlenav-arrow-up::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2284,7 +2546,8 @@ br.small {
   alt: ''
 }
 
-.paddlenav-arrow-up::before, .paddlenav-arrow-up::after {
+.paddlenav-arrow-up::before,
+.paddlenav-arrow-up::after {
   text-decoration: none
 }
 
@@ -2292,7 +2555,8 @@ br.small {
   display: none
 }
 
-.paddlenav-arrow-up::before, .paddlenav-arrow-up::after {
+.paddlenav-arrow-up::before,
+.paddlenav-arrow-up::after {
   content: ""
 }
 
@@ -2300,7 +2564,8 @@ br.small {
   bottom: 18px
 }
 
-.paddlenav-arrow-down::before, .paddlenav-arrow-down::after {
+.paddlenav-arrow-down::before,
+.paddlenav-arrow-down::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2314,7 +2579,8 @@ br.small {
   alt: ''
 }
 
-.paddlenav-arrow-down::before, .paddlenav-arrow-down::after {
+.paddlenav-arrow-down::before,
+.paddlenav-arrow-down::after {
   text-decoration: none
 }
 
@@ -2322,7 +2588,8 @@ br.small {
   display: none
 }
 
-.paddlenav-arrow-down::before, .paddlenav-arrow-down::after {
+.paddlenav-arrow-down::before,
+.paddlenav-arrow-down::after {
   content: ""
 }
 
@@ -2341,21 +2608,27 @@ br.small {
   outline: none
 }
 
-.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   -webkit-box-shadow: none;
   box-shadow: none
 }
 
-.paddlenav-arrow:disabled, .paddlenav-arrow.disabled {
+.paddlenav-arrow:disabled,
+.paddlenav-arrow.disabled {
   cursor: default;
   opacity: 0
 }
 
-.paddlenav-arrow:disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow:disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select), .paddlenav-arrow.disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select), .paddlenav-arrow.disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+.paddlenav-arrow:disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow:disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+.paddlenav-arrow.disabled:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.paddlenav-arrow.disabled:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
   opacity: 0
 }
 
-html.touch .paddlenav-arrow:disabled, html.touch .paddlenav-arrow.disabled {
+html.touch .paddlenav-arrow:disabled,
+html.touch .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -2377,7 +2650,8 @@ html.no-touch .with-paddlenav-onhover:hover .paddlenav-arrow {
   opacity: 1
 }
 
-html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .with-paddlenav-onhover .paddlenav-arrow.disabled {
+html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled,
+html.no-touch .with-paddlenav-onhover .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -2388,7 +2662,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   clip-path: inset(0px 0px 99.9% 99.9%)
 }
 
-.with-paddlenav-visuallyhidden .paddlenav-arrow:focus, .with-paddlenav-visuallyhidden .paddlenav-arrow:hover {
+.with-paddlenav-visuallyhidden .paddlenav-arrow:focus,
+.with-paddlenav-visuallyhidden .paddlenav-arrow:hover {
   clip: auto;
   -webkit-clip-path: none;
   clip-path: none
@@ -2403,15 +2678,18 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   line-height: 52px
 }
 
-.paddlenav-compact .paddlenav-arrow-next, .paddlenav-compact .paddlenav-arrow-previous {
+.paddlenav-compact .paddlenav-arrow-next,
+.paddlenav-compact .paddlenav-arrow-previous {
   margin-top: -26px
 }
 
-.paddlenav-compact .paddlenav-arrow-up, .paddlenav-compact .paddlenav-arrow-down {
+.paddlenav-compact .paddlenav-arrow-up,
+.paddlenav-compact .paddlenav-arrow-down {
   margin-left: -26px
 }
 
-.paddlenav-compact .paddlenav-arrow-next::before, .paddlenav-compact .paddlenav-arrow-next::after {
+.paddlenav-compact .paddlenav-arrow-next::before,
+.paddlenav-compact .paddlenav-arrow-next::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2425,7 +2703,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.paddlenav-compact .paddlenav-arrow-next::before, .paddlenav-compact .paddlenav-arrow-next::after {
+.paddlenav-compact .paddlenav-arrow-next::before,
+.paddlenav-compact .paddlenav-arrow-next::after {
   text-decoration: none
 }
 
@@ -2433,7 +2712,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.paddlenav-compact .paddlenav-arrow-next::before, .paddlenav-compact .paddlenav-arrow-next::after {
+.paddlenav-compact .paddlenav-arrow-next::before,
+.paddlenav-compact .paddlenav-arrow-next::after {
   content: ""
 }
 
@@ -2441,7 +2721,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   margin-right: -.044em
 }
 
-.paddlenav-compact .paddlenav-arrow-previous::before, .paddlenav-compact .paddlenav-arrow-previous::after {
+.paddlenav-compact .paddlenav-arrow-previous::before,
+.paddlenav-compact .paddlenav-arrow-previous::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2455,7 +2736,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.paddlenav-compact .paddlenav-arrow-previous::before, .paddlenav-compact .paddlenav-arrow-previous::after {
+.paddlenav-compact .paddlenav-arrow-previous::before,
+.paddlenav-compact .paddlenav-arrow-previous::after {
   text-decoration: none
 }
 
@@ -2463,7 +2745,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.paddlenav-compact .paddlenav-arrow-previous::before, .paddlenav-compact .paddlenav-arrow-previous::after {
+.paddlenav-compact .paddlenav-arrow-previous::before,
+.paddlenav-compact .paddlenav-arrow-previous::after {
   content: ""
 }
 
@@ -2471,7 +2754,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   margin-left: -.044em
 }
 
-.paddlenav-compact .paddlenav-arrow-up::before, .paddlenav-compact .paddlenav-arrow-up::after {
+.paddlenav-compact .paddlenav-arrow-up::before,
+.paddlenav-compact .paddlenav-arrow-up::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2485,7 +2769,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.paddlenav-compact .paddlenav-arrow-up::before, .paddlenav-compact .paddlenav-arrow-up::after {
+.paddlenav-compact .paddlenav-arrow-up::before,
+.paddlenav-compact .paddlenav-arrow-up::after {
   text-decoration: none
 }
 
@@ -2493,11 +2778,13 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.paddlenav-compact .paddlenav-arrow-up::before, .paddlenav-compact .paddlenav-arrow-up::after {
+.paddlenav-compact .paddlenav-arrow-up::before,
+.paddlenav-compact .paddlenav-arrow-up::after {
   content: ""
 }
 
-.paddlenav-compact .paddlenav-arrow-down::before, .paddlenav-compact .paddlenav-arrow-down::after {
+.paddlenav-compact .paddlenav-arrow-down::before,
+.paddlenav-compact .paddlenav-arrow-down::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2511,7 +2798,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.paddlenav-compact .paddlenav-arrow-down::before, .paddlenav-compact .paddlenav-arrow-down::after {
+.paddlenav-compact .paddlenav-arrow-down::before,
+.paddlenav-compact .paddlenav-arrow-down::after {
   text-decoration: none
 }
 
@@ -2519,7 +2807,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.paddlenav-compact .paddlenav-arrow-down::before, .paddlenav-compact .paddlenav-arrow-down::after {
+.paddlenav-compact .paddlenav-arrow-down::before,
+.paddlenav-compact .paddlenav-arrow-down::after {
   content: ""
 }
 
@@ -2532,15 +2821,18 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   line-height: 52px
 }
 
-.large-paddlenav-compact .paddlenav-arrow-next, .large-paddlenav-compact .paddlenav-arrow-previous {
+.large-paddlenav-compact .paddlenav-arrow-next,
+.large-paddlenav-compact .paddlenav-arrow-previous {
   margin-top: -26px
 }
 
-.large-paddlenav-compact .paddlenav-arrow-up, .large-paddlenav-compact .paddlenav-arrow-down {
+.large-paddlenav-compact .paddlenav-arrow-up,
+.large-paddlenav-compact .paddlenav-arrow-down {
   margin-left: -26px
 }
 
-.large-paddlenav-compact .paddlenav-arrow-next::before, .large-paddlenav-compact .paddlenav-arrow-next::after {
+.large-paddlenav-compact .paddlenav-arrow-next::before,
+.large-paddlenav-compact .paddlenav-arrow-next::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2554,7 +2846,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.large-paddlenav-compact .paddlenav-arrow-next::before, .large-paddlenav-compact .paddlenav-arrow-next::after {
+.large-paddlenav-compact .paddlenav-arrow-next::before,
+.large-paddlenav-compact .paddlenav-arrow-next::after {
   text-decoration: none
 }
 
@@ -2562,7 +2855,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.large-paddlenav-compact .paddlenav-arrow-next::before, .large-paddlenav-compact .paddlenav-arrow-next::after {
+.large-paddlenav-compact .paddlenav-arrow-next::before,
+.large-paddlenav-compact .paddlenav-arrow-next::after {
   content: ""
 }
 
@@ -2570,7 +2864,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   margin-right: -.044em
 }
 
-.large-paddlenav-compact .paddlenav-arrow-previous::before, .large-paddlenav-compact .paddlenav-arrow-previous::after {
+.large-paddlenav-compact .paddlenav-arrow-previous::before,
+.large-paddlenav-compact .paddlenav-arrow-previous::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2584,7 +2879,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.large-paddlenav-compact .paddlenav-arrow-previous::before, .large-paddlenav-compact .paddlenav-arrow-previous::after {
+.large-paddlenav-compact .paddlenav-arrow-previous::before,
+.large-paddlenav-compact .paddlenav-arrow-previous::after {
   text-decoration: none
 }
 
@@ -2592,7 +2888,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.large-paddlenav-compact .paddlenav-arrow-previous::before, .large-paddlenav-compact .paddlenav-arrow-previous::after {
+.large-paddlenav-compact .paddlenav-arrow-previous::before,
+.large-paddlenav-compact .paddlenav-arrow-previous::after {
   content: ""
 }
 
@@ -2600,7 +2897,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   margin-left: -.044em
 }
 
-.large-paddlenav-compact .paddlenav-arrow-up::before, .large-paddlenav-compact .paddlenav-arrow-up::after {
+.large-paddlenav-compact .paddlenav-arrow-up::before,
+.large-paddlenav-compact .paddlenav-arrow-up::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2614,7 +2912,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.large-paddlenav-compact .paddlenav-arrow-up::before, .large-paddlenav-compact .paddlenav-arrow-up::after {
+.large-paddlenav-compact .paddlenav-arrow-up::before,
+.large-paddlenav-compact .paddlenav-arrow-up::after {
   text-decoration: none
 }
 
@@ -2622,11 +2921,13 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.large-paddlenav-compact .paddlenav-arrow-up::before, .large-paddlenav-compact .paddlenav-arrow-up::after {
+.large-paddlenav-compact .paddlenav-arrow-up::before,
+.large-paddlenav-compact .paddlenav-arrow-up::after {
   content: ""
 }
 
-.large-paddlenav-compact .paddlenav-arrow-down::before, .large-paddlenav-compact .paddlenav-arrow-down::after {
+.large-paddlenav-compact .paddlenav-arrow-down::before,
+.large-paddlenav-compact .paddlenav-arrow-down::after {
   font-family: "SF Pro Icons";
   color: inherit;
   display: inline-block;
@@ -2640,7 +2941,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   alt: ''
 }
 
-.large-paddlenav-compact .paddlenav-arrow-down::before, .large-paddlenav-compact .paddlenav-arrow-down::after {
+.large-paddlenav-compact .paddlenav-arrow-down::before,
+.large-paddlenav-compact .paddlenav-arrow-down::after {
   text-decoration: none
 }
 
@@ -2648,7 +2950,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   display: none
 }
 
-.large-paddlenav-compact .paddlenav-arrow-down::before, .large-paddlenav-compact .paddlenav-arrow-down::after {
+.large-paddlenav-compact .paddlenav-arrow-down::before,
+.large-paddlenav-compact .paddlenav-arrow-down::after {
   content: ""
 }
 
@@ -2662,15 +2965,18 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     line-height: 52px
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-next, .xlarge-paddlenav-compact .paddlenav-arrow-previous {
+  .xlarge-paddlenav-compact .paddlenav-arrow-next,
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous {
     margin-top: -26px
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-up, .xlarge-paddlenav-compact .paddlenav-arrow-down {
+  .xlarge-paddlenav-compact .paddlenav-arrow-up,
+  .xlarge-paddlenav-compact .paddlenav-arrow-down {
     margin-left: -26px
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-next::before, .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2684,7 +2990,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-next::before, .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
     text-decoration: none
   }
 
@@ -2692,7 +2999,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-next::before, .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-next::after {
     content: ""
   }
 
@@ -2700,7 +3008,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-right: -.044em
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before, .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2714,7 +3023,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before, .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
     text-decoration: none
   }
 
@@ -2722,7 +3032,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before, .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-previous::after {
     content: ""
   }
 
@@ -2730,7 +3041,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-left: -.044em
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-up::before, .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2744,7 +3056,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-up::before, .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
     text-decoration: none
   }
 
@@ -2752,11 +3065,13 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-up::before, .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-up::after {
     content: ""
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-down::before, .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2770,7 +3085,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-down::before, .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
     text-decoration: none
   }
 
@@ -2778,7 +3094,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .xlarge-paddlenav-compact .paddlenav-arrow-down::before, .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::before,
+  .xlarge-paddlenav-compact .paddlenav-arrow-down::after {
     content: ""
   }
 }
@@ -2793,15 +3110,18 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     line-height: 52px
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-next, .medium-paddlenav-compact .paddlenav-arrow-previous {
+  .medium-paddlenav-compact .paddlenav-arrow-next,
+  .medium-paddlenav-compact .paddlenav-arrow-previous {
     margin-top: -26px
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-up, .medium-paddlenav-compact .paddlenav-arrow-down {
+  .medium-paddlenav-compact .paddlenav-arrow-up,
+  .medium-paddlenav-compact .paddlenav-arrow-down {
     margin-left: -26px
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-next::before, .medium-paddlenav-compact .paddlenav-arrow-next::after {
+  .medium-paddlenav-compact .paddlenav-arrow-next::before,
+  .medium-paddlenav-compact .paddlenav-arrow-next::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2815,7 +3135,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-next::before, .medium-paddlenav-compact .paddlenav-arrow-next::after {
+  .medium-paddlenav-compact .paddlenav-arrow-next::before,
+  .medium-paddlenav-compact .paddlenav-arrow-next::after {
     text-decoration: none
   }
 
@@ -2823,7 +3144,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-next::before, .medium-paddlenav-compact .paddlenav-arrow-next::after {
+  .medium-paddlenav-compact .paddlenav-arrow-next::before,
+  .medium-paddlenav-compact .paddlenav-arrow-next::after {
     content: ""
   }
 
@@ -2831,7 +3153,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-right: -.044em
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-previous::before, .medium-paddlenav-compact .paddlenav-arrow-previous::after {
+  .medium-paddlenav-compact .paddlenav-arrow-previous::before,
+  .medium-paddlenav-compact .paddlenav-arrow-previous::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2845,7 +3168,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-previous::before, .medium-paddlenav-compact .paddlenav-arrow-previous::after {
+  .medium-paddlenav-compact .paddlenav-arrow-previous::before,
+  .medium-paddlenav-compact .paddlenav-arrow-previous::after {
     text-decoration: none
   }
 
@@ -2853,7 +3177,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-previous::before, .medium-paddlenav-compact .paddlenav-arrow-previous::after {
+  .medium-paddlenav-compact .paddlenav-arrow-previous::before,
+  .medium-paddlenav-compact .paddlenav-arrow-previous::after {
     content: ""
   }
 
@@ -2861,7 +3186,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-left: -.044em
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-up::before, .medium-paddlenav-compact .paddlenav-arrow-up::after {
+  .medium-paddlenav-compact .paddlenav-arrow-up::before,
+  .medium-paddlenav-compact .paddlenav-arrow-up::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2875,7 +3201,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-up::before, .medium-paddlenav-compact .paddlenav-arrow-up::after {
+  .medium-paddlenav-compact .paddlenav-arrow-up::before,
+  .medium-paddlenav-compact .paddlenav-arrow-up::after {
     text-decoration: none
   }
 
@@ -2883,11 +3210,13 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-up::before, .medium-paddlenav-compact .paddlenav-arrow-up::after {
+  .medium-paddlenav-compact .paddlenav-arrow-up::before,
+  .medium-paddlenav-compact .paddlenav-arrow-up::after {
     content: ""
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-down::before, .medium-paddlenav-compact .paddlenav-arrow-down::after {
+  .medium-paddlenav-compact .paddlenav-arrow-down::before,
+  .medium-paddlenav-compact .paddlenav-arrow-down::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2901,7 +3230,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-down::before, .medium-paddlenav-compact .paddlenav-arrow-down::after {
+  .medium-paddlenav-compact .paddlenav-arrow-down::before,
+  .medium-paddlenav-compact .paddlenav-arrow-down::after {
     text-decoration: none
   }
 
@@ -2909,7 +3239,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .medium-paddlenav-compact .paddlenav-arrow-down::before, .medium-paddlenav-compact .paddlenav-arrow-down::after {
+  .medium-paddlenav-compact .paddlenav-arrow-down::before,
+  .medium-paddlenav-compact .paddlenav-arrow-down::after {
     content: ""
   }
 }
@@ -2924,15 +3255,18 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     line-height: 52px
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-next, .small-paddlenav-compact .paddlenav-arrow-previous {
+  .small-paddlenav-compact .paddlenav-arrow-next,
+  .small-paddlenav-compact .paddlenav-arrow-previous {
     margin-top: -26px
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-up, .small-paddlenav-compact .paddlenav-arrow-down {
+  .small-paddlenav-compact .paddlenav-arrow-up,
+  .small-paddlenav-compact .paddlenav-arrow-down {
     margin-left: -26px
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-next::before, .small-paddlenav-compact .paddlenav-arrow-next::after {
+  .small-paddlenav-compact .paddlenav-arrow-next::before,
+  .small-paddlenav-compact .paddlenav-arrow-next::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2946,7 +3280,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-next::before, .small-paddlenav-compact .paddlenav-arrow-next::after {
+  .small-paddlenav-compact .paddlenav-arrow-next::before,
+  .small-paddlenav-compact .paddlenav-arrow-next::after {
     text-decoration: none
   }
 
@@ -2954,7 +3289,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-next::before, .small-paddlenav-compact .paddlenav-arrow-next::after {
+  .small-paddlenav-compact .paddlenav-arrow-next::before,
+  .small-paddlenav-compact .paddlenav-arrow-next::after {
     content: ""
   }
 
@@ -2962,7 +3298,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-right: -.044em
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-previous::before, .small-paddlenav-compact .paddlenav-arrow-previous::after {
+  .small-paddlenav-compact .paddlenav-arrow-previous::before,
+  .small-paddlenav-compact .paddlenav-arrow-previous::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -2976,7 +3313,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-previous::before, .small-paddlenav-compact .paddlenav-arrow-previous::after {
+  .small-paddlenav-compact .paddlenav-arrow-previous::before,
+  .small-paddlenav-compact .paddlenav-arrow-previous::after {
     text-decoration: none
   }
 
@@ -2984,7 +3322,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-previous::before, .small-paddlenav-compact .paddlenav-arrow-previous::after {
+  .small-paddlenav-compact .paddlenav-arrow-previous::before,
+  .small-paddlenav-compact .paddlenav-arrow-previous::after {
     content: ""
   }
 
@@ -2992,7 +3331,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     margin-left: -.044em
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-up::before, .small-paddlenav-compact .paddlenav-arrow-up::after {
+  .small-paddlenav-compact .paddlenav-arrow-up::before,
+  .small-paddlenav-compact .paddlenav-arrow-up::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -3006,7 +3346,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-up::before, .small-paddlenav-compact .paddlenav-arrow-up::after {
+  .small-paddlenav-compact .paddlenav-arrow-up::before,
+  .small-paddlenav-compact .paddlenav-arrow-up::after {
     text-decoration: none
   }
 
@@ -3014,11 +3355,13 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-up::before, .small-paddlenav-compact .paddlenav-arrow-up::after {
+  .small-paddlenav-compact .paddlenav-arrow-up::before,
+  .small-paddlenav-compact .paddlenav-arrow-up::after {
     content: ""
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-down::before, .small-paddlenav-compact .paddlenav-arrow-down::after {
+  .small-paddlenav-compact .paddlenav-arrow-down::before,
+  .small-paddlenav-compact .paddlenav-arrow-down::after {
     font-family: "SF Pro Icons";
     color: inherit;
     display: inline-block;
@@ -3032,7 +3375,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     alt: ''
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-down::before, .small-paddlenav-compact .paddlenav-arrow-down::after {
+  .small-paddlenav-compact .paddlenav-arrow-down::before,
+  .small-paddlenav-compact .paddlenav-arrow-down::after {
     text-decoration: none
   }
 
@@ -3040,7 +3384,8 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
     display: none
   }
 
-  .small-paddlenav-compact .paddlenav-arrow-down::before, .small-paddlenav-compact .paddlenav-arrow-down::after {
+  .small-paddlenav-compact .paddlenav-arrow-down::before,
+  .small-paddlenav-compact .paddlenav-arrow-down::after {
     content: ""
   }
 }
@@ -3064,21 +3409,25 @@ html.no-touch .with-paddlenav-onhover .paddlenav-arrow:disabled, html.no-touch .
   opacity: 1
 }
 
-.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover, .paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):hover,
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):hover {
   background-color: rgba(214, 214, 214, 0.3);
   color: #888
 }
 
-.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active, .paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select):active,
+.paddlenav-framed .paddlenav-arrow:focus[data-focus-method="touch"]:not(input):not(textarea):not(select):active {
   background-color: rgba(214, 214, 214, 0.4);
   color: #888
 }
 
-.paddlenav-framed .paddlenav-arrow:disabled, .paddlenav-framed .paddlenav-arrow.disabled {
+.paddlenav-framed .paddlenav-arrow:disabled,
+.paddlenav-framed .paddlenav-arrow.disabled {
   opacity: 0
 }
 
-html.touch .paddlenav-framed .paddlenav-arrow:disabled, html.touch .paddlenav-framed .paddlenav-arrow.disabled {
+html.touch .paddlenav-framed .paddlenav-arrow:disabled,
+html.touch .paddlenav-framed .paddlenav-arrow.disabled {
   opacity: 0
 }
 
@@ -3418,7 +3767,8 @@ br.large {
   }
 }
 
-html.ie8, html.ie8 body {
+html.ie8,
+html.ie8 body {
   overflow-x: hidden
 }
 
@@ -3438,14 +3788,17 @@ html.ie8, html.ie8 body {
   overflow: auto
 }
 
-.section-wrapper, .section-content {
+.section-wrapper,
+.section-content {
   margin-left: auto;
   margin-right: auto;
   width: 980px
 }
 
 @media only screen and (min-width: 1442px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 980px
@@ -3453,7 +3806,9 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 692px
@@ -3461,40 +3816,53 @@ html.ie8, html.ie8 body {
 }
 
 @media only screen and (max-width: 735px) {
-  .section-wrapper, .section-content {
+
+  .section-wrapper,
+  .section-content {
     margin-left: auto;
     margin-right: auto;
     width: 87.5%
   }
 }
 
-.section-wrapper::before, .section-wrapper::after, .section-content::before, .section-content::after {
+.section-wrapper::before,
+.section-wrapper::after,
+.section-content::before,
+.section-content::after {
   content: ' ';
   display: table
 }
 
-.section-wrapper::after, .section-content::after {
+.section-wrapper::after,
+.section-content::after {
   clear: both
 }
 
 @media only screen and (min-width: 1442px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 125px
   }
 }
 
-.section-block:last-child, .section-block.section-block--last {
+.section-block:last-child,
+.section-block.section-block--last {
   margin-bottom: 125px
 }
 
 @media only screen and (max-width: 1068px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 100px
   }
 }
 
 @media only screen and (max-width: 735px) {
-  .section-block:last-child, .section-block.section-block--last {
+
+  .section-block:last-child,
+  .section-block.section-block--last {
     margin-bottom: 70px
   }
 }
@@ -3922,7 +4290,8 @@ html.ie8, html.ie8 body {
   z-index: 5
 }
 
-.left, .right {
+.left,
+.right {
   z-index: 6
 }
 
@@ -3930,7 +4299,8 @@ html.ie8, html.ie8 body {
   z-index: 6
 }
 
-html.no-js .card-small, html.ie .card-small {
+html.no-js .card-small,
+html.ie .card-small {
   z-index: 6
 }
 
@@ -4320,19 +4690,25 @@ html.no-js .card-small, html.ie .card-small {
   margin-top: 0
 }
 
-.typography-headline-reduced+p, .typography-headline-reduced+ul, .typography-intro-product-reduced+p, .typography-intro-product-reduced+ul {
+.typography-headline-reduced+p,
+.typography-headline-reduced+ul,
+.typography-intro-product-reduced+p,
+.typography-intro-product-reduced+ul {
   margin-top: 1em
 }
 
-.typography-headline+.typography-intro, .typography-intro-product+.typography-intro {
+.typography-headline+.typography-intro,
+.typography-intro-product+.typography-intro {
   margin-top: 1.2em
 }
 
-.typography-headline-elevated+.typography-intro-elevated, .typography-intro-product-elevated+.typography-intro-elevated {
+.typography-headline-elevated+.typography-intro-elevated,
+.typography-intro-product-elevated+.typography-intro-elevated {
   margin-top: 1.4em
 }
 
-.typography-headline-super+.typography-intro-elevated, .typography-intro-product-super+.typography-intro-elevated {
+.typography-headline-super+.typography-intro-elevated,
+.typography-intro-product-super+.typography-intro-elevated {
   margin-top: 1.6em
 }
 
@@ -4372,19 +4748,24 @@ html.ie8 .has-center-content .center-block {
   vertical-align: middle
 }
 
-html.progressive-image.js [data-progressive-image], html.progressive-image.js [data-progressive-image] * {
+html.progressive-image.js [data-progressive-image],
+html.progressive-image.js [data-progressive-image] * {
   background-image: none !important;
   -webkit-mask-image: none !important;
   mask-image: none !important;
   opacity: 0
 }
 
-html.progressive-image.js .progressive-image-animated, html.progressive-image.js .progressive-image-animated * {
+html.progressive-image.js .progressive-image-animated,
+html.progressive-image.js .progressive-image-animated * {
   opacity: 0;
   -webkit-transition: opacity 1s ease-out;
   transition: opacity 1s ease-out
 }
 
-html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded], html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded] *, html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded], html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded] * {
+html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded],
+html.progressive-image.js .progressive-image-animated[data-progressive-image-loaded] *,
+html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded],
+html.progressive-image.js .progressive-image-animated *[data-progressive-image-loaded] * {
   opacity: 1
 }
