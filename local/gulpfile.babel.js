@@ -40,8 +40,19 @@ var
 
 const
   { series, parallel }  = require('gulp'),
+  gulpBeautify          = require('gulp-jsbeautifier'),
   config                = require('./app.config.js'),
   $                     = gulpLoadPlugins();
+
+  // Gulp | Beautify
+function beautify() {
+  return gulp.src(['../app/**/*.{css,js,html}'])
+    .pipe(gulpBeautify(
+      { indent_size: 2 }
+    ))
+    .pipe(gulp.dest('../beautify'))
+    .pipe($.size({title: 'beautify'}))
+}
 
 // Lint JavaScript
 function lint() {
@@ -158,7 +169,7 @@ function html() {
 
 // Clean output directory
 function clean() {
-  return del(['.tmp', '../dist/*', '!dist/.git'], {dot: true, force: true})
+  return del(['.tmp', '../dist/*', '!dist/.git', '../beautify/*'], {dot: true, force: true})
 }
 
 // Watch files for changes & reload
@@ -225,6 +236,11 @@ function generateServiceWorker() {
 // Run: `npm install --save-dev require-dir` from the command-line
 // try { require('require-dir')('tasks'); } catch (err) { console.error(err); }
 exports.clean = clean;
+
+exports.beautify = series(
+  clean,
+  beautify
+);
 
 // Build production files, the default task
 exports.default = series(
