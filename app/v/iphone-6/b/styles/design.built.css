@@ -1,0 +1,2294 @@
+/**
+ * The `base-font-size` is what's used when calculating `em()`s.
+ *
+ * @group settings
+ * @type Number
+ * @access public
+ */
+/**
+ * The default border-radius for components
+ *
+ * @group settings
+ * @type Number
+ * @access public
+ */
+/**
+ * The default color of text
+ *
+ * @group settings
+ * @type Color
+ * @access public
+ *
+ * @todo Deprecate this
+ */
+/**
+ * The default color of links
+ *
+ * @group settings
+ * @type Color
+ * @access public
+ *
+ * @todo Deprecate this
+ */
+/**
+ * The default color of the background
+ *
+ * @group settings
+ * @type Color
+ * @access public
+ *
+ * @todo Deprecate this
+ */
+/**
+ * Whether or not the project has JS-based feature detection
+ *
+ * @group settings
+ * @type Boolean
+ * @access public
+ */
+/**
+ * A map containing the names and paths to places assets could live. Defaults to false as this must be set on a per-project basis
+ *
+ * @group settings
+ * @type {Map|Boolean}
+ * @access public
+ */
+/**
+ * The class to use for IE7
+ *
+ * @group ie
+ *
+ * @type String
+ *
+ * @access public
+ *
+ */
+/**
+ * The class to use for IE8
+ *
+ * @group ie
+ *
+ * @type String
+ *
+ * @access public
+ *
+ */
+/**
+ * Output styles only for IE7/8
+ *
+ * @group ie
+ *
+ * @access public
+ *
+ * @requires $ie7-selector
+ * @requires $ie8-selector
+ *
+ */
+/**
+ * Output styles only for IE7
+ *
+ * @group ie
+ *
+ * @access public
+ *
+ * @requires $ie7-selector
+ *
+ */
+/**
+ * Output styles only for IE8
+ *
+ * @group ie
+ *
+ * @access public
+ *
+ * @requires $ie8-selector
+ *
+ */
+/**
+ * IE7 hack for the `inherit` value. Uses expressions.
+ *
+ * @group ie
+ *
+ * @access public
+ *
+ * @param {String} $property - CSS property  whose value should be set to `inherit`
+ *
+ * @requires {mixin} ie7
+ *
+ */
+/**
+ * IE7 hack for the `inline-block`.
+ *
+ * @group ie
+ *
+ * @access public
+ *
+ * @requires {mixin} ie7
+ *
+ */
+/**
+ * Removes units from a value
+ *
+ * @group utilities
+ *
+ * @param {Number} $value 
+ *
+ * @return {Number} Value without units
+ *
+ */
+/**
+ * Converts a Number to em units
+ *
+ * @group utilities
+ *
+ * @param {Number} $value
+ * @param {Number} $context ($base-font-size)
+ *
+ * @requires $base-font-size
+ * @requires strip-units
+ *
+ * @return {Number} The $value converted to em's
+ *
+ */
+/**
+ * Converts a Number to rem units
+ *
+ * @group utilities
+ *
+ * @param {Number} $value
+ *
+ * @requires strip-units
+ * @requires em
+ *
+ * @return {Number} The $value converted to rem's
+ *
+ */
+/**
+ * Returns the first item in a list
+ *
+ * @group utilities
+ *
+ * @param {List} $list
+ *
+ * @return {Number | String | Color | Boolean | List | Map} First value in the list
+ *
+ */
+/**
+ * Returns the last item in a list
+ *
+ * @group utilities
+ *
+ * @param {List} $list
+ *
+ * @return {Number | String | Color | Boolean | List | Map} Last value in the list
+ *
+ */
+/**
+ * Converts rgba/hsla to an opaque color
+ *
+ * @group utilities
+ *
+ * @param {Color} $alpha - The alpha color
+ * @param {Boolean | Color} $mix (false) - A color to mix with
+ *
+ * @return {Color} An opaque color
+ *
+ */
+/**
+ * Get the full path of an asset with a base path from `$path-urls`
+ *
+ * @param {String} $asset - The relative asset path
+ * @param {String} $base ('default') - Which base path to use
+ *
+ * @return {String} A full asset path
+ *
+ */
+/**
+ * Get the full `url()` of an asset with a base path from `$path-urls`
+ *
+ * @param {String} $asset - The relative asset path
+ * @param {String} $base ('default') - Which base path to use
+ * 
+ * @requires path
+ *
+ * @return {String} A full asset path wraped in `url()`
+ *
+ */
+/**
+ * Convenience method for setting a key-value pair in an existing map
+ *
+ * @group utilities
+ *
+ * @param {Map} $map - An existing map
+ * @param {String} $key - The value's key
+ * @param {Number | String | Color | Boolean | List | Map} $value - The value
+ *
+ * @returns {Map} A new map with the additional key-value pair
+ *
+ */
+/**
+ * Center an element or offset it if it's large than the content-width
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {Boolean|Number} $width (false) - width of element to be centered
+ * @param {Number} $content-width (980px ) - width of parent element
+ */
+/**
+ * Center an element and the text within it
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {Boolean|Number} $width (false) - width of element to be centered
+ * @param {Number} $content-width (980px) - width of parent element
+ *
+ * @requires {mixin} center
+ *
+ */
+/**
+ * Self clear an element (a clearfix)
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @link http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+/**
+ * Visually hide an element
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ */
+/**
+ * Hide text for image replacement
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ */
+/**
+ * CSS3 cursor fallbacks
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {String} $value - cursor property value
+ *
+ */
+/**
+ * Add a selector on the `html` element
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {String} $selector - selector to append to the HTML element
+ *
+ */
+/**
+ * Target SVG Support
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {Boolean} $support  (true) - False for `.no-svg`
+ *
+ */
+/**
+ * Target Touch Devices
+ *
+ * @group helpers
+ *
+ * @access public
+ *
+ * @param {Boolean} $support (true) -  False for `.no-touch`
+ *
+ */
+/**
+ * Mouse-hover only, ingnore touch events
+ *
+ * @group helpers
+ *
+ * @access public
+ */
+/**
+ *
+ * 1. Media queries in em's are always relative to 16px,
+ * regardless of the <html> or <body> font size
+ *
+ * @group media
+ *
+ */
+/**
+ * Returns a string for min-width conditions
+ *
+ * @group media
+ *
+ * @param {Number} $width - The width
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for max-width conditions
+ *
+ * @group media
+ *
+ * @param {Number} $width - The width
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for min-height conditions
+ *
+ * @group media
+ *
+ * @param {Number} $height - The height
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for max-height conditions
+ *
+ * @group media
+ *
+ * @param {Number} $height - The height
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for portrait conditions
+ *
+ * @group media
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for landscape conditions
+ *
+ * @group media
+ *
+ * @returns {String}
+ *
+ */
+/**
+ * Returns a string for retina conditions
+ *
+ * @group media
+ *
+ * @returns {List}
+ *
+ */
+/**
+ * Output a media query with the specified conditions
+ *
+ * @group media
+ *
+ * @param {String} $query - The media query conditions
+ * @param {Boolean} $screen (true) - Add `only screen` condition
+ *
+ */
+/**
+ * Apply CSS only to viewports of max-width
+ *
+ * @group media
+ *
+ * @param {Number} $width - The max-width of the viewport
+ *
+ * @requires {mixin} media
+ * @requires max-width
+ *
+ */
+/**
+ * Apply CSS only to viewports of min-width
+ *
+ * @group media
+ *
+ * @param {Number} $width - The min-width of the viewport
+ *
+ * @requires {mixin} media
+ * @requires min-width
+ *
+ */
+/**
+ * Apply CSS only to viewports of max-height
+ *
+ * @group media
+ *
+ * @param {Number} $height - The max-height of the viewport
+ *
+ * @requires {mixin} media
+ * @requires max-height
+ *
+ */
+/**
+ * Apply CSS only to viewports of min-height
+ *
+ * @group media
+ *
+ * @param {Number} $height - The min-height of the viewport
+ *
+ * @requires {mixin} media
+ * @requires min-height
+ *
+ */
+/**
+ * Apply CSS only to viewports in portrait orientation
+ *
+ * @group media
+ *
+ * @requires {mixin} media
+ * @requires portrait
+ *
+ */
+/**
+ * Apply CSS only to viewports in landscape orientation
+ *
+ * @group media
+ *
+ * @requires {mixin} media
+ * @requires landscape
+ *
+ */
+/**
+ * The base-width for viewports. This determines whether to us `min-width` or `max-width` when using `viewport()`
+ * @group viewports
+ * @type Number
+ * @access public
+ */
+/**
+ * Use percentages for this viewport (and down)
+ * @group viewports
+ * @type List
+ * @access public
+ */
+/**
+ * Each viewport defintion includes a `width` and `content-width` for that viewport. Optionally a custom `query` can be defined, as well as being able to __always__ output styles for IE `oldie:true`
+ *
+ * @group viewports
+ *
+ * @type Viewport Dictionary
+ *
+ * @access private
+ *
+ * @param {Number} $width - Viewport width; min/max determined from base width; can be a range with `to` or `through`
+ * @param {Number} $width - Content width for the viewport-content() mixin
+ * @param {String|Boolean} $query - A custom query or `false` for no media query
+ * @param {Boolean} $oldie - `@content` for this viewport should always apply for oldie
+ */
+/**
+ * Check if a viewport with the given name exists
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - the name of the viewport
+ *
+ * @requires $-viewports
+ *
+ * @returns {Boolean} - Whether the viewport exists or not
+ */
+/**
+ * Get viewport of a given name
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the viewport
+ *
+ * @requires $-viewports
+ * @requires viewport-exists
+ *
+ * @returns {Map|Boolean} - Viewport or False
+ */
+/**
+ * Get dpr for a viewport of a given name
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the viewport
+ *
+ * @requires $-viewports
+ * @requires viewport-exists
+ *
+ * @returns {String|Boolean} - dpr or False
+ */
+/**
+ * Add a viewport to the Viewports Dictionary
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the viewport
+ * @param {Map} $properties - A map of viewport properties
+ *
+ * @requires map-set
+ * @requires $-viewports
+ *
+ */
+/**
+ * Remove a viewport from the Viewports Dictionary
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the viewport
+ *
+ * @requires $-viewports
+ *
+ */
+/**
+ * Outputs the CSS at a viewport
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the viewport
+ *
+ * @requires viewport-get
+ * @requires $viewport-base-width
+ * @requires {mixin} media
+ * @requires {mixin} supports-touch
+ *
+ */
+/**
+ * Outputs the CSS property at each viewport
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String} $property - The name of the property
+ * @param {Map} $values - The values in the form `viewport: value`
+ *
+ * @requires viewport-exists
+ * @requires {mixin} viewport
+ *
+ */
+/**
+ * Get the min-width of a viewport
+ *
+ * @group viewports
+ *
+ * @param {String} $name - name of viewport
+ *
+ * @requires viewport-exists
+ * @requires viewport-get
+ *
+ */
+/**
+ * Get the max-width of a viewport
+ *
+ * @group viewports
+ *
+ * @param {String} $name - name of viewport
+ *
+ * @requires viewport-exists
+ * @requires viewport-get
+ *
+ */
+/**
+ * Sets the width of the element to the content-width at each viewport
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @requires $-viewports
+ * @requires {mixin} viewport-property
+ *
+ */
+/**
+ * Gets the content width for a specific viewport
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @requires $-viewports
+ * @requires {function} viewport-get
+ *
+ * @returns {Number|String} - Viewport content width or "auto" if viewport is not defined
+ *
+ */
+/**
+ * Gets the content padding for a specific viewport
+ *
+ * @group viewports
+ *
+ * @access public
+ *
+ * @param {String | List} $name - name of viewport
+ *
+ * @requires viewport-exists
+ * @requires viewport-get
+ * @requires viewport-get-min
+ * @requires viewport-get-max
+ * @requires viewport-content-width-for
+ * @requires $viewports-flexible-from
+ *
+ */
+/**
+ * The number of columns to use in the outputted grid
+ * @group grid
+ * @type Number
+ * @access public
+ */
+/**
+ * The column float direction
+ * @group grid
+ * @type Number
+ * @access public
+ */
+/**
+ * The column class name
+ * @group grid
+ * @type String
+ * @access public
+ */
+/**
+ * Row width
+ * @group grid
+ * @type Percentage
+ * @access private
+ */
+/**
+ * Row width for IE&/8 (oldie)
+ * @group grid
+ * @type Percentage
+ * @access private
+ */
+/**
+ * Make your own grid system
+ *
+ * @group grid
+ *
+ * @access public
+ *
+ * @param {Number} $columns ($grid-columns) -  Number of columns
+ * @param {String} $class ($grid-default-class) - Class to denote columns
+ * @param {String} $oldie ($grid-oldie-class) - Class name for columns in IE7/8
+ *
+ */
+/**
+ * Include column widths on an element without using the grid system's classes
+ *
+ * @group grid
+ *
+ * @access public
+ *
+ * @param {Number} $column-count ($grid-columns) - Width of the column in _n_ columns
+ * @param {Number} $total-columns ($grid-columns) - Total number of columns in the grid
+ * @param {String} $oldie ($grid-oldie-class) - Class name for columns in IE7/8
+ *
+ * @requires $grid-column-float
+ * @requires $grid-full-width
+ * @requires $grid-full-width-oldie
+ *
+ */
+/**
+ * Create a new row without using the grid system's classes
+ *
+ * @group grid
+ *
+ * @access public
+ *
+ */
+/**
+ * Helpers for show/hide and auto positioning classes.
+ *
+ * @group grid
+ *
+ * @access public
+ *
+ * @param {String} $class ($grid-default-class) - The prefix for the helper classes
+ *
+ */
+/**
+ * Each image defintion is a map of supported viewports for that image key. Each of those maps contain a `src`, `width` and `height` property.
+ *
+ * @group images
+ *
+ * @type Image Dictionary
+ *
+ * @access private
+ *
+ */
+/**
+ * Check if a image with the given name exists
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - the name of the image
+ *
+ * @requires $-images
+ *
+ * @returns {Boolean} - Whether the images exists or not
+ */
+/**
+ * Check if a image by the given name exists for a given type (usually viewport-name or svg)
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires $-images
+ * @requires image-get
+ *
+ * @returns {Boolean} - Whether the images exists or not
+ */
+/**
+ * Get image data for a given name
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ *
+ * @requires -images
+ * @requires image-exists
+ *
+ * @returns {Map|Boolean} - Image object or False
+ */
+/**
+ * Get image data for a given name and a given type (usually a viewport or 'svg')
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get
+ * @requires image-exists-for
+ *
+ * @returns {Map|Boolean} - Image object or False
+ */
+/**
+ * Get the width for a given image of a given type (usually viewport-name or 'svg')
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get-for
+ * @requires image-exists-for
+ *
+ * @returns {Number|Boolean} - Image width or False
+ */
+/**
+ * Get the height for a given image of a given type (usually viewport-name or 'svg')
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get-for
+ * @requires image-exists-for
+ *
+ * @returns {Number|Boolean} - Image height or False
+ */
+/**
+ * Get the src for a given image of a given type (usually viewport-name or 'svg')
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get-for
+ * @requires image-exists-for
+ *
+ * @returns {String|Boolean} - Image src or False
+ */
+/**
+ * Check if a 2x asset exists for a given image and viewport
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get-for
+ * @requires image-exists-for
+ *
+ * @returns {Boolean} - Image src or False
+ */
+/**
+ * Get the 2x-src for a given image of a given viewport
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport or 'svg'
+ *
+ * @requires image-get-for
+ * @requires image-exists-for
+ *
+ * @returns {String|Boolean} - Image src or False
+ */
+/**
+ * Output the image dimensions for a given image name at each viewport
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ *
+ * @requires image-exists
+ * @requires image-exists-for
+ * @requires image-width-for
+ * @requires image-height-for
+ * @requires $-viewports
+ * @requires {mixin} viewport
+ *
+ */
+/**
+ * Add an image to the Image Dictionary of a type (usually viewport-name or 'svg')
+ *
+ * @group images
+ *
+ * @access private
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $type - The name of the viewport
+ * @param {Map} $properties - The image properties (`src`, `width`, `height`)
+ *
+ * @requires $-images
+ * @requires image-exists
+ * @requires image-exists-for
+ * @requires image-get
+ * @requires map-set
+ *
+ * @returns {Image Dictionary}
+ */
+/**
+ * Add an image to the Image Dictionary
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {Map} $attributes - A map of viewports, each containing a map of image properties (`src`, `width`, `height`) for that viewport
+ *
+ * @requires image-add-of-type
+ *
+ */
+/**
+ * Output retina media query with _2x image path
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $path - The path to the image
+ *
+ * @requires {mixin} retina
+ *
+ */
+/**
+ * Output size for element with background-image
+ *
+ * @group images
+ *
+ * @param {Number} $width - The width of the image
+ * @param {Number} $height - The height of the image
+ * @param {Boolean} $size - Should we make the size of the element the size of the image
+ * @param {Boolean} $center - Should we center the element in the content width. (Requires content-width to be passed.)
+ * @param {Number} $viewport-content-width - The content width of a viewport
+ * @access private
+ *
+ * @requires {mixin} retina
+ *
+ */
+/**
+ * Generates the CSS for a background image at each viewport
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {Boolean} $size (true) - Output the image size. Defaults to true.
+ * @param {Boolean} $center (false) - Center image in each viewport. Defaults to false.
+ *
+ * @requires $-viewports
+ * @requires {mixin} viewport
+ * @requires viewport-dpr
+ * @requires image-exists
+ * @requires image-exists-for
+ * @requires image-width-for
+ * @requires image-height-for
+ * @requires image-src-for
+ * @requires center
+ *
+ * @todo Use `image-get-for` instead of `map-get($image, $viewport-name)`
+ */
+/**
+ * Generates the CSS for a SVG background image at each viewport
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the image
+ * @param {String} $sizes - Map of the image ratios at each viewport (xlarge: 1.2, large: 1, medium: .7, small: .4, xsmall: .3 )
+ * @param {Boolean} $size (true) - Output the image size. Defaults to true.
+ * @param {Boolean} $center (false) - Center image in each viewport. Defaults to false.
+ *
+ * @requires $-viewports
+ * @requires {mixin} viewport
+ * @requires image-exists
+ * @requires image-exists-for
+ * @requires image-width-for
+ * @requires image-height-for
+ * @requires image-src-for
+ * @requires center
+ *
+ * @todo Use `image-get-for` instead of `map-get($image, $viewport-name)`
+ */
+/**
+ * Generates the CSS for a SVG headline based upon defined typography sizes
+ *
+ * @group images
+ *
+ * @access public
+ *
+ * @param {String} $image - The name of the image
+ * @param {String} $typography-style-name - The name of the typography style to grab ratios from
+ * @param {Boolean} $default (large) - The default viewport size (native SVG size)
+ *
+ * @requires $-viewports
+ * @requires {mixin} image-svg
+ * @requires typography-get-fontsize-withoutunit-for
+ *
+ */
+/**
+ * Apply CSS only to retina devices
+ *
+ * @group retina
+ *
+ */
+/**
+ * AC Retina Equivalent Media Query
+ *
+ * @group retina
+ *
+ */
+/**
+ * A list of font stacks to use for different locales
+ *
+ * @group typography
+ *
+ * @type Map
+ *
+ * @access private
+ *
+ */
+/**
+ * Outputs font-family with the correct Applecom font stack for all locales
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ */
+/**
+ * Outputs font-weight with IE support
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $weight - The desired font-weight
+ *
+ */
+/**
+ * Each typography defintion is a map of supported viewports for that typography key. Each of those maps contain the properties for that type style (each property maps to a CSS property.)
+ *
+ * @group typography
+ *
+ * @type Typography Dictionary
+ *
+ * @access private
+ *
+ */
+/**
+ * Check if a typography style with the given name exists
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - the name of the typography style
+ *
+ * @requires $-typography
+ *
+ * @returns {Boolean} - Whether the typography style exists or not
+ */
+/**
+ * Check if a typography style by the given name exists for a given viewport
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the typography style
+ * @param {String} $viewport - The name of the viewport
+ *
+ * @requires $-typography
+ * @requires typography-get
+ *
+ * @returns {Boolean} - Whether the typography style exists or not
+ */
+/**
+ * Get typography style of a given name
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the typography style
+ *
+ * @requires $-typography
+ * @requires typography-exists
+ *
+ * @returns {Map|Boolean} - Typography Style or False
+ */
+/**
+ * Get a unitless font-size for a style of a given name for a given viewport
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the typography style
+ * @param {String} $viewport-name - The name of the viewport
+ *
+ * @requires typography-get
+ *
+ * @returns {Number} - Unitless font-size for type-style at a given viewport.
+ */
+/**
+ * Add a typography style to the Typography Dictionary for a particular viewport
+ *
+ * @group typography
+ *
+ * @access private
+ *
+ * @param {String} $name - The name of the typography style
+ * @param {String} $viewport - The name of the viewport
+ * @param {Map} $styles - The style properties (`font-size`, `line-height`, `font-weight`)
+ *
+ * @requires $-typography
+ * @requires typography-exists
+ * @requires typography-exists-for-viewport
+ * @requires typography-get
+ * @requires map-set
+ *
+ * @todo Use `typography-get-for-viewport` instead of `map-get(typography-get($name), $viewport)`
+ *
+ * @returns {Typography Dictionary}
+ */
+/**
+ * Add a typography style to the Typography Dictionary
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the typography style
+ * @param {Map|List} $styles - A map of viewports, each containing a map of style properties (`font-size:`, `line-height:`, `font-weight:`) for that viewport or a list of 2x pt values from the PSD _(font size, line-height, font weight)_.
+ *
+ * @requires typography-add-to-viewport
+ *
+ */
+/**
+ * Generates the CSS for a typography style at each viewport
+ *
+ * @group typography
+ *
+ * @access public
+ *
+ * @param {String} $name - The name of the typography style
+ *
+ * @requires $-viewports
+ * @requires {mixin} viewport
+ * @requires typography-get
+ * @requires typography-exists-for-viewport
+ *
+ * @todo Use `typography-get-for-viewport` instead of `map-get($typography-styles, $viewport-name)`
+ */
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero h1 {
+    letter-spacing: -2px;
+  }
+}
+/* line 16, ./src/scss/design.scss */
+.page-design .section-hero .hero-image {
+  background-repeat: no-repeat;
+  background-size: 1666px 308px;
+  height: 308px;
+  width: 1666px;
+  background-image: url("../images/design/design_hero_large.png");
+  margin-top: -74px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 16, ./src/scss/design.scss */
+  .page-design .section-hero .hero-image {
+    background-image: url("../images/design/design_hero_large_2x.png");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 16, ./src/scss/design.scss */
+  .page-design .section-hero .hero-image {
+    background-size: 1442px 268px;
+    height: 268px;
+    width: 1442px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 16, ./src/scss/design.scss */
+  .page-design .section-hero .hero-image {
+    background-image: url("../images/design/design_hero_medium.png");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 16, ./src/scss/design.scss */
+  .page-design .section-hero .hero-image {
+    background-image: url("../images/design/design_hero_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero .hero-image {
+    background-size: 576px 106px;
+    height: 106px;
+    width: 576px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero .hero-image {
+    background-image: url("../images/design/design_hero_xsmall.png");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero .hero-image {
+    background-image: url("../images/design/design_hero_xsmall_2x.png");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero .hero-image {
+    margin: -44px 0 0 0;
+  }
+}
+/* line 26, ./src/scss/design.scss */
+.page-design .section-hero .hero-copy {
+  padding-top: 85px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-hero .hero-copy {
+    padding-top: 35px;
+  }
+}
+/* line 36, ./src/scss/design.scss */
+.page-design .section-angles {
+  background-color: #f2f2f2;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+}
+/* line 41, ./src/scss/design.scss */
+.page-design .section-angles .left-column {
+  border-right: 5px solid white;
+  margin-right: -5px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 41, ./src/scss/design.scss */
+  .page-design .section-angles .left-column {
+    overflow: hidden;
+  }
+}
+/* line 48, ./src/scss/design.scss */
+.page-design .section-angles .right-column {
+  border-left: 5px solid white;
+  margin-left: -5px;
+}
+/* line 52, ./src/scss/design.scss */
+.page-design .section-angles .angles-back-image {
+  background-repeat: no-repeat;
+  background-size: 134px 486px;
+  height: 486px;
+  width: 134px;
+  background-image: url("../images/design/angles_side_large.jpg");
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 52, ./src/scss/design.scss */
+  .page-design .section-angles .angles-back-image {
+    background-image: url("../images/design/angles_side_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 52, ./src/scss/design.scss */
+  .page-design .section-angles .angles-back-image {
+    background-size: 94px 341px;
+    height: 341px;
+    width: 94px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 52, ./src/scss/design.scss */
+  .page-design .section-angles .angles-back-image {
+    background-image: url("../images/design/angles_side_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 52, ./src/scss/design.scss */
+  .page-design .section-angles .angles-back-image {
+    background-image: url("../images/design/angles_side_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-back-image {
+    background-size: 65px 233px;
+    height: 233px;
+    width: 65px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-back-image {
+    background-image: url("../images/design/angles_side_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-back-image {
+    background-image: url("../images/design/angles_side_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 52, ./src/scss/design.scss */
+  .page-design .section-angles .angles-back-image {
+    margin-top: 54px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-back-image {
+    margin-top: 49px;
+    height: 225px;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 320px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-back-image {
+    margin-left: 27px;
+    margin-right: initial;
+  }
+}
+
+/* line 69, ./src/scss/design.scss */
+.page-design .section-angles .angles-side-image {
+  background-repeat: no-repeat;
+  background-size: 496px 486px;
+  height: 486px;
+  width: 496px;
+  background-image: url("../images/design/angles_back_large.jpg");
+  margin-top: 47px;
+  margin-left: 120px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 69, ./src/scss/design.scss */
+  .page-design .section-angles .angles-side-image {
+    background-image: url("../images/design/angles_back_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 69, ./src/scss/design.scss */
+  .page-design .section-angles .angles-side-image {
+    background-size: 352px 345px;
+    height: 345px;
+    width: 352px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 69, ./src/scss/design.scss */
+  .page-design .section-angles .angles-side-image {
+    background-image: url("../images/design/angles_back_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 69, ./src/scss/design.scss */
+  .page-design .section-angles .angles-side-image {
+    background-image: url("../images/design/angles_back_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-side-image {
+    background-size: 229px 224px;
+    height: 224px;
+    width: 229px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-side-image {
+    background-image: url("../images/design/angles_back_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-side-image {
+    background-image: url("../images/design/angles_back_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 69, ./src/scss/design.scss */
+  .page-design .section-angles .angles-side-image {
+    margin-top: 51px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-side-image {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 638px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-angles .angles-side-image {
+    margin-left: 30px;
+  }
+}
+
+/* line 88, ./src/scss/design.scss */
+.page-design .section-seamless {
+  overflow: hidden;
+}
+/* line 90, ./src/scss/design.scss */
+.page-design .section-seamless .seamless-image {
+  background-repeat: no-repeat;
+  background-size: 1091px 523px;
+  height: 523px;
+  width: 1091px;
+  background-image: url("../images/design/seamless_large.jpg");
+  margin: 0 0 10px 30px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_large_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-size: 1536px 736px;
+    height: 736px;
+    width: 1536px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_xlarge.jpg");
+  }
+}
+@media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1440px) and (min-resolution: 144dpi), only screen and (min-width: 1440px) and (min-resolution: 144dppx) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_xlarge_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-size: 1091px 523px;
+    height: 523px;
+    width: 1091px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .seamless-image {
+    background-size: 305px 269px;
+    height: 269px;
+    width: 305px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .seamless-image {
+    background-image: url("../images/design/seamless_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    margin-top: -120px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 90, ./src/scss/design.scss */
+  .page-design .section-seamless .seamless-image {
+    margin-top: -120px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .seamless-image {
+    float: right;
+    margin-top: -24px;
+    margin-left: 0;
+    margin-bottom: -60px;
+    margin-right: 47px;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 350px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .seamless-image {
+    margin-right: 30px;
+  }
+}
+
+/* line 116, ./src/scss/design.scss */
+.page-design .section-seamless .section-copy {
+  padding-top: 386px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 116, ./src/scss/design.scss */
+  .page-design .section-seamless .section-copy {
+    padding-top: 260px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-seamless .section-copy {
+    padding-bottom: 36px;
+    padding-top: 55px;
+  }
+}
+/* line 128, ./src/scss/design.scss */
+.page-design .section-side-thin {
+  background-color: #f2f2f2;
+  border-bottom: 10px solid #fff;
+}
+/* line 132, ./src/scss/design.scss */
+.page-design .section-side-thin .side-image {
+  background-repeat: no-repeat;
+  background-size: 980px 54px;
+  height: 54px;
+  width: 980px;
+  margin-left: 0px;
+  background-image: url("../images/design/side_large.jpg");
+  margin-top: 223px;
+  margin-bottom: 223px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 132, ./src/scss/design.scss */
+  .page-design .section-side-thin .side-image {
+    background-image: url("../images/design/side_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 132, ./src/scss/design.scss */
+  .page-design .section-side-thin .side-image {
+    background-size: 696px 40px;
+    height: 40px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 132, ./src/scss/design.scss */
+  .page-design .section-side-thin .side-image {
+    background-image: url("../images/design/side_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 132, ./src/scss/design.scss */
+  .page-design .section-side-thin .side-image {
+    background-image: url("../images/design/side_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-side-thin .side-image {
+    background-size: 648px 36px;
+    height: 36px;
+    width: 648px;
+    margin-left: -180px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-side-thin .side-image {
+    background-image: url("../images/design/side_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-side-thin .side-image {
+    background-image: url("../images/design/side_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 132, ./src/scss/design.scss */
+  .page-design .section-side-thin .side-image {
+    margin-top: 196px;
+    margin-bottom: 196px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-side-thin .side-image {
+    margin-top: 131px;
+    margin-bottom: 131px;
+    margin-left: 15px;
+  }
+}
+/* line 151, ./src/scss/design.scss */
+.page-design .section-thin {
+  position: relative;
+  margin-top: 70px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin {
+    margin-top: 40px;
+  }
+}
+/* line 159, ./src/scss/design.scss */
+.page-design .section-thin .section-top {
+  z-index: 10;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 162, ./src/scss/design.scss */
+  .page-design .section-thin .section-copy {
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .section-copy {
+    margin-bottom: 0;
+  }
+}
+/* line 170, ./src/scss/design.scss */
+.page-design .section-thin .thin-image {
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 856px 1176px;
+  height: 1176px;
+  width: 856px;
+  background-image: url("../images/design/thin_large.jpg");
+  margin-top: 70px;
+  margin-left: 9px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 170, ./src/scss/design.scss */
+  .page-design .section-thin .thin-image {
+    background-image: url("../images/design/thin_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 170, ./src/scss/design.scss */
+  .page-design .section-thin .thin-image {
+    background-size: 608px 832px;
+    height: 832px;
+    width: 608px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 170, ./src/scss/design.scss */
+  .page-design .section-thin .thin-image {
+    background-image: url("../images/design/thin_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 170, ./src/scss/design.scss */
+  .page-design .section-thin .thin-image {
+    background-image: url("../images/design/thin_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .thin-image {
+    background-size: 411px 582px;
+    height: 582px;
+    width: 411px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .thin-image {
+    background-image: url("../images/design/thin_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .thin-image {
+    background-image: url("../images/design/thin_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 170, ./src/scss/design.scss */
+  .page-design .section-thin .thin-image {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .thin-image {
+    margin-top: 0;
+  }
+}
+/* line 185, ./src/scss/design.scss */
+.page-design .section-thin .thin-image.mediaObject-enhanced {
+  background-image: none;
+}
+/* line 188, ./src/scss/design.scss */
+.page-design .section-thin .thin-image.mediaObject-enhanced .mediaObject-element {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+/* line 198, ./src/scss/design.scss */
+.page-design .section-thin .callout-row {
+  width: 100%;
+  margin-top: -690px;
+  margin-left: -85px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 198, ./src/scss/design.scss */
+  .page-design .section-thin .callout-row {
+    margin-top: 0;
+    margin-left: -41px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .callout-row {
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 450px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .callout-row {
+    margin-left: -50px;
+  }
+}
+
+/* line 214, ./src/scss/design.scss */
+.page-design .section-thin .callout-row .infographic-columns {
+  z-index: 10;
+}
+/* line 217, ./src/scss/design.scss */
+.page-design .section-thin .callout-row .callout {
+  position: absolute;
+  z-index: 2;
+}
+/* line 221, ./src/scss/design.scss */
+.page-design .section-thin .callout-row .callout-from-right {
+  top: 641px;
+  left: 72px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 221, ./src/scss/design.scss */
+  .page-design .section-thin .callout-row .callout-from-right {
+    top: 345px;
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .callout-row .callout-from-right {
+    top: 384px;
+    left: 57px;
+  }
+}
+/* line 233, ./src/scss/design.scss */
+.page-design .section-thin .callout-row .callout-from-left {
+  top: 641px;
+  left: 807px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 233, ./src/scss/design.scss */
+  .page-design .section-thin .callout-row .callout-from-left {
+    top: 345px;
+    left: 484px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .callout-row .callout-from-left {
+    top: 42px;
+    left: 245px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 245, ./src/scss/design.scss */
+  .page-design .section-thin .callout-row .info-iphone6 {
+    margin-top: 185px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-thin .callout-row .info-iphone6 {
+    margin-top: 334px;
+  }
+}
+/* line 257, ./src/scss/design.scss */
+.page-design .section-intuitive {
+  margin-top: 150px;
+  padding-top: 0;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 257, ./src/scss/design.scss */
+  .page-design .section-intuitive {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+/* line 264, ./src/scss/design.scss */
+.page-design .section-intuitive .side-image-col {
+  position: absolute;
+  bottom: 97px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 264, ./src/scss/design.scss */
+  .page-design .section-intuitive .side-image-col {
+    bottom: auto;
+    top: 75px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .side-image-col {
+    position: relative;
+    bottom: auto;
+  }
+}
+/* line 276, ./src/scss/design.scss */
+.page-design .section-intuitive .straight-image-col {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .straight-image-col {
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
+}
+/* line 286, ./src/scss/design.scss */
+.page-design .section-intuitive .smart-side-image {
+  background-repeat: no-repeat;
+  background-size: 264px 1000px;
+  height: 1000px;
+  width: 264px;
+  background-image: url("../images/design/smart_left_large.png");
+  margin: -23px 0 0 -19px;
+  margin-top: 0;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 286, ./src/scss/design.scss */
+  .page-design .section-intuitive .smart-side-image {
+    background-image: url("../images/design/smart_left_large_2x.png");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 286, ./src/scss/design.scss */
+  .page-design .section-intuitive .smart-side-image {
+    background-size: 188px 710px;
+    height: 710px;
+    width: 188px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 286, ./src/scss/design.scss */
+  .page-design .section-intuitive .smart-side-image {
+    background-image: url("../images/design/smart_left_medium.png");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 286, ./src/scss/design.scss */
+  .page-design .section-intuitive .smart-side-image {
+    background-image: url("../images/design/smart_left_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .smart-side-image {
+    background-size: 148px 558px;
+    height: 558px;
+    width: 148px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .smart-side-image {
+    background-image: url("../images/design/smart_left_xsmall.png");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .smart-side-image {
+    background-image: url("../images/design/smart_left_xsmall_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 286, ./src/scss/design.scss */
+  .page-design .section-intuitive .smart-side-image {
+    margin-top: 38px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .smart-side-image {
+    margin-top: 15px;
+    margin-left: 11px;
+  }
+}
+/* line 300, ./src/scss/design.scss */
+.page-design .section-intuitive .intuitive-image {
+  background-repeat: no-repeat;
+  background-size: 746px 1076px;
+  height: 1076px;
+  width: 746px;
+  background-image: url("../images/design/smart_right_large.png");
+  margin-top: 20px;
+  margin-left: 30px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 300, ./src/scss/design.scss */
+  .page-design .section-intuitive .intuitive-image {
+    background-image: url("../images/design/smart_right_large_2x.png");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 300, ./src/scss/design.scss */
+  .page-design .section-intuitive .intuitive-image {
+    background-size: 530px 764px;
+    height: 764px;
+    width: 530px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 300, ./src/scss/design.scss */
+  .page-design .section-intuitive .intuitive-image {
+    background-image: url("../images/design/smart_right_medium.png");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 300, ./src/scss/design.scss */
+  .page-design .section-intuitive .intuitive-image {
+    background-image: url("../images/design/smart_right_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .intuitive-image {
+    background-size: 368px 512px;
+    height: 512px;
+    width: 368px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .intuitive-image {
+    background-image: url("../images/design/smart_right_xsmall.png");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .intuitive-image {
+    background-image: url("../images/design/smart_right_xsmall_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 300, ./src/scss/design.scss */
+  .page-design .section-intuitive .intuitive-image {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .intuitive-image {
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 767px) and (max-width: 564px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .intuitive-image {
+    margin-left: 18px;
+  }
+}
+
+/* line 316, ./src/scss/design.scss */
+.page-design .section-intuitive .section-copy {
+  margin-left: 44px;
+  min-height: 980px;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 316, ./src/scss/design.scss */
+  .page-design .section-intuitive .section-copy {
+    min-height: initial;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-intuitive .section-copy {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+}
+/* line 329, ./src/scss/design.scss */
+.page-design .section-materials {
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 329, ./src/scss/design.scss */
+  .page-design .section-materials {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials {
+    background-position: right 460px;
+    padding-bottom: 0;
+  }
+}
+/* line 340, ./src/scss/design.scss */
+.page-design .section-materials .materials-col {
+  z-index: 5;
+}
+/* line 343, ./src/scss/design.scss */
+.page-design .section-materials .section-copy {
+  position: relative;
+  z-index: 5;
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .section-copy {
+    padding-right: 21px;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .head-section-copy {
+    padding-bottom: 20px;
+    padding-top: 80px;
+  }
+}
+/* line 359, ./src/scss/design.scss */
+.page-design .section-materials .materials-image {
+  background-repeat: no-repeat;
+  background-size: 1059px 642px;
+  height: 642px;
+  width: 1059px;
+  background-image: url("../images/design/materials_large.jpg");
+  position: relative;
+  z-index: -1;
+  margin-top: -316px;
+  margin-left: -220px;
+  height: 635px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_large_2x.jpg");
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-size: 1488px 902px;
+    height: 902px;
+    width: 1488px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_xlarge.jpg");
+  }
+}
+@media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1440px) and (min-resolution: 144dpi), only screen and (min-width: 1440px) and (min-resolution: 144dppx) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_xlarge_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-size: 1059px 642px;
+    height: 642px;
+    width: 1059px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .materials-image {
+    background-size: 320px 342px;
+    height: 342px;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .materials-image {
+    background-image: url("../images/design/materials_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    margin-top: -428px;
+    margin-left: -164px;
+    height: 885px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 359, ./src/scss/design.scss */
+  .page-design .section-materials .materials-image {
+    margin-top: -316px;
+    margin-left: -247px;
+    height: 635px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-materials .materials-image {
+    margin-top: -100px;
+    margin-left: auto;
+    float: none;
+    margin-right: auto;
+  }
+}
+/* line 385, ./src/scss/design.scss */
+.page-design .section-next {
+  min-height: 0;
+}
+/* line 387, ./src/scss/design.scss */
+.page-design .section-next .next-copy {
+  z-index: 2;
+}
+/* line 390, ./src/scss/design.scss */
+.page-design .section-next .section-copy {
+  padding: 105px 0 0;
+}
+@media only screen and (max-width: 1023px) {
+  /* line 390, ./src/scss/design.scss */
+  .page-design .section-next .section-copy {
+    padding: 80px 0 0;
+  }
+}
+/* line 397, ./src/scss/design.scss */
+.page-design .section-next .next-image {
+  background-repeat: no-repeat;
+  background-size: 379px 324px;
+  height: 324px;
+  width: 379px;
+  background-image: url("../images/design/display_teaser_large.jpg");
+  margin-top: 64px;
+  margin-left: -75px;
+  height: 285px;
+}
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+  /* line 397, ./src/scss/design.scss */
+  .page-design .section-next .next-image {
+    background-image: url("../images/design/display_teaser_large_2x.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 397, ./src/scss/design.scss */
+  .page-design .section-next .next-image {
+    background-size: 302px 313px;
+    height: 313px;
+    width: 302px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 397, ./src/scss/design.scss */
+  .page-design .section-next .next-image {
+    background-image: url("../images/design/display_teaser_medium.jpg");
+  }
+}
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+  /* line 397, ./src/scss/design.scss */
+  .page-design .section-next .next-image {
+    background-image: url("../images/design/display_teaser_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-next .next-image {
+    background-size: 265px 273px;
+    height: 273px;
+    width: 265px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-next .next-image {
+    background-image: url("../images/design/display_teaser_xsmall.jpg");
+  }
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-next .next-image {
+    background-image: url("../images/design/display_teaser_xsmall_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* line 397, ./src/scss/design.scss */
+  .page-design .section-next .next-image {
+    margin-top: 64px;
+    margin-left: -94px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 157, /Users/joe/Development/applecom/us/branches/ic29/us/internal/sites/iphone-6/node_modules/grunt-ac-toolkit/node_modules/ac-toolkit/src/toolkit/core/_helpers.scss */
+  html.touch .page-design .section-next .next-image {
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

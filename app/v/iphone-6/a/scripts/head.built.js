@@ -426,8 +426,8 @@ p=p.replace(/^(webkit|Moz|ms|O)/,"").charAt(0).toLowerCase()+p.slice(1);p=p.repl
 });o.some(function(r,q){var s=(r==="")?p:r+p.charAt(0).toUpperCase()+p.slice(1);
 if(s in m.style){n=g.getStyle(m,s);return true}});return n};g.insert=function(n,o,m){if(!n||!(n.nodeType===1||n.nodeType===3||n.nodeType===11)){throw new TypeError("ac-base.Element.insert: element must be a valid node of type element, text, or document fragment")
 }if(!o||!(o.nodeType===1||o.nodeType===11)){throw new TypeError("ac-base.Element.insert: target must be a valid node of type element or document fragment")
-}switch(m){case"before":if(o.nodeType===11){throw new TypeError("ac-base.Element.insert: target cannot be nodeType of documentFragment when using placement â€˜beforeâ€™")
-}o.parentNode.insertBefore(n,o);break;case"after":if(o.nodeType===11){throw new TypeError("ac-base.Element.insert: target cannot be nodeType of documentFragment when using placement â€˜afterâ€™")
+}switch(m){case"before":if(o.nodeType===11){throw new TypeError("ac-base.Element.insert: target cannot be nodeType of documentFragment when using placement ‘before’")
+}o.parentNode.insertBefore(n,o);break;case"after":if(o.nodeType===11){throw new TypeError("ac-base.Element.insert: target cannot be nodeType of documentFragment when using placement ‘after’")
 }o.parentNode.insertBefore(n,o.nextSibling);break;case"first":o.insertBefore(n,o.firstChild);
 break;default:o.appendChild(n)}};g.insertAt=function(q,r,n){var p;var m;var o;q=g.getElementById(q);
 r=g.getElementById(r);if(!g.isElement(q)||!g.isElement(r)){throw new TypeError("ac-base.Element.insertAt: element must be a valid DOM element")
