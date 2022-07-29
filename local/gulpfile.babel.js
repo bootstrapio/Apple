@@ -46,7 +46,7 @@ const
 
   // Gulp | Beautify
 function beautify() {
-  return gulp.src(['../app/**/*.js'])
+  return gulp.src(['../app/**/*.{css,html,js}'])
     .pipe(gulpBeautify(
       { indent_size: 2 }
     ))

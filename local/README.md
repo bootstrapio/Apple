@@ -1,13 +1,13 @@
 Remove meta properties
 <(link|meta) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>)
-(aria-label|data-analytics-|data-store-|data-string).*?(\").*?(\")
+(aria-label|data-analytics-|data-hires|data-store-|data-search-|data-string).*?(\").*?(\")
 <script type="application/ld+json">
 <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
 globalnav
 globalfooter
 
 Select all specific CSS JS
-https://(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json)
+(http).*?.(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json|htc)
 
 Search for URLs
 https://web.archive.org/cdx/search/cdx?collapse=urlkey&fl=original&url=apple.com/ios/*

@@ -1,0 +1,30 @@
+@media screen and (min-width:1024px) and (max-width:1440px) {
+  .page-tips .snap-photos {
+    width: 1440px;
+    margin-left: -230px;
+  }
+
+  .page-tips .image_tips_snap_photos {
+    background-repeat: no-repeat;
+    background-size: 1440px 862px;
+    height: 862px;
+    width: 1440px;
+    background-image: url("https://www.apple.com/iphone-6/tips/images/snap_photos_large.png");
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .page-tips .caption-nestled {
+    margin-left: -260px;
+    bottom: 85px;
+  }
+}
+
+@media print,
+only screen and (min-width:1024px) and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-width:1024px) and (min-resolution: 144dpi),
+screen and (min-width:1024px) and (min-resolution: 144dppx) {
+  .page-tips .image_tips_snap_photos {
+    background-image: url("https://www.apple.com/iphone-6/tips/images/snap_photos_large_2x.png")
+  }
+}

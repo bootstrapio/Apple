@@ -1,0 +1,53 @@
+<public:component>
+<public:attach event="onpropertychange" onevent="toolkit_icons()" />
+<script type="text/javascript">
+	function toolkit_icons() {
+		var innerHTML, existingHTML, icon;
+		var icons = {
+			more: "&#xf004;",
+			chevronright: "&#xf004;",
+			chevronrightalt: "&#xf005;",
+			chevrondown: "&#xf000;",
+			chevrondownalt: "&#xf001;",
+			chevronleft: "&#xf002;",
+			chevronleftalt: "&#xf003;",
+			chevronup: "&#xf006;",
+			chevronupalt: "&#xf007;",
+			close: "&#xf008;",
+			closealt: "&#xf009;",
+			closeinlinealt: "&#xf024;",
+			download: "&#xf010;",
+			downloadalt: "&#xf011;",
+			external: "&#xf012;",
+			info: "&#xf013;",
+			list: "&#xf014;",
+			paddledown: "&#xf015;",
+			paddleleft: "&#xf016;",
+			left: "&#xf016;",
+			paddleright: "&#xf017;",
+			right: "&#xf017;",
+			paddleup: "&#xf018;",
+			pause: "&#xf019;",
+			play: "&#xf020;",
+			playalt: "&#xf021;",
+			replay: "&#xf022;",
+			zoom: "&#xf023;"
+		};
+
+		if (!element.getAttribute('icons-htc')) {
+		    element.setAttribute('icons-htc', true);
+		    existingHTML = element.innerHTML;
+		    element.className += ' icon-ie-parent';
+			if ((navigator.userAgent.replace(/.*MSIE\s(\d+).*/i, '$1') > 8)) {
+			    element.innerHTML = '<span class="icon-ie-link">' + existingHTML + '</span>';
+		    } else {
+		  		icon = element.className.match(/( icon-| paddlenav-arrow-|thumbnail-)((?!before)[a-z\-]*)/)[2] || false;
+		  		if( icon && icons[icon] ) {
+			  		element.innerHTML = existingHTML + "<span class='icon-htc'>"+icons[icon]+"</span>";
+			  	}
+		    }
+		}
+	}
+	toolkit_icons();
+</script>
+</public:component>
