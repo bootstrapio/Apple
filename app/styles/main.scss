@@ -1,0 +1,54 @@
+@import
+  '../../local/node_modules/bootstrap/scss/bootstrap',
+  '../../local/node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+
+$TLDR-bootstrap-icons-font: 'bootstrap-icons' !default;
+$TLDR-bootstrap-icons-font-src:
+  url('../fonts/bootstrap/bootstrap-icons.woff2') format('woff2'),
+  url('../fonts/bootstrap/bootstrap-icons.woff') format('woff') !default;
+
+@font-face {
+  font-family: $TLDR-bootstrap-icons-font;
+  src: $TLDR-bootstrap-icons-font-src;
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: $TLDR-bootstrap-icons-font !important;
+}
+
+.font-monospace {
+  white-space: pre-line;
+  word-break: break-all;
+  word-wrap: break-word;
+
+  @extend .small;
+}
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &:focus,
+  &:active,
+  &:active:focus {
+    outline: none !important;
+    outline-style: none !important;
+  }
+}
+
+body {
+  touch-action: manipulation;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+@import 'themes/main';
