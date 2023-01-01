@@ -1634,24 +1634,24 @@ html.oldie .large-show-inlineblock {
   font-family: "AppleIcons";
   font-style: normal;
   font-weight: 400;
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.eot");
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.eot?#iefix") format("embedded-opentype"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.woff") format("woff"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.ttf") format("truetype")
+  src: url("/wss/fonts/Apple-Icons/appleicons_text.eot");
+  src: url("/wss/fonts/Apple-Icons/appleicons_text.eot?#iefix") format("embedded-opentype"), url("/wss/fonts/Apple-Icons/appleicons_text.woff") format("woff"), url("/wss/fonts/Apple-Icons/appleicons_text.ttf") format("truetype")
 }
 
 @font-face {
   font-family: "AppleIcons";
   font-style: normal;
   font-weight: 200;
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.eot");
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.eot?#iefix") format("embedded-opentype"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.woff") format("woff"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.ttf") format("truetype")
+  src: url("/wss/fonts/Apple-Icons/appleicons_thin.eot");
+  src: url("/wss/fonts/Apple-Icons/appleicons_thin.eot?#iefix") format("embedded-opentype"), url("/wss/fonts/Apple-Icons/appleicons_thin.woff") format("woff"), url("/wss/fonts/Apple-Icons/appleicons_thin.ttf") format("truetype")
 }
 
 @font-face {
   font-family: "AppleIcons";
   font-style: normal;
   font-weight: 100;
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.eot");
-  src: url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.eot?#iefix") format("embedded-opentype"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.woff") format("woff"), url("https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.ttf") format("truetype")
+  src: url("/wss/fonts/Apple-Icons/appleicons_ultralight.eot");
+  src: url("/wss/fonts/Apple-Icons/appleicons_ultralight.eot?#iefix") format("embedded-opentype"), url("/wss/fonts/Apple-Icons/appleicons_ultralight.woff") format("woff"), url("/wss/fonts/Apple-Icons/appleicons_ultralight.ttf") format("truetype")
 }
 
 .icon {
