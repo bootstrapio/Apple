@@ -42,7 +42,7 @@ https://web.archive.org/web/20151229014315/https://www.apple.com/ios/photos/
 
 2. Terminal | Wayback Machine Download HTML
 wayback_machine_downloader https://www.apple.com/wss/fonts/SF-Pro-Icons/v1/SFProIcons_regular.ttf
-wayback_machine_downloader http://www.apple.com/ios/photos/ -e -f20211226025842 -t20220626025842 -d2021
+wayback_machine_downloader http://www.apple.com/pages/ -e -f20161226025842 -t20170626025842 -d2017
 
 3. Remove Unnecessary Files
 <(link|meta) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>)
@@ -53,10 +53,12 @@ globalnav
 globalfooter
 Empty Space |"	" "       "
 
-4. Match External CSS/JS to download on SiteSucker
+4. Match CSS/JS to download on SiteSucker
 http(.*)(js|css)
+="/(ac|metrics|wss|v)(.*)(css|js|1|2)"
+(http).*?.(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json|htc)
 
 5. Replace Fonts/URLs
 <link rel="stylesheet" href="/wss/fonts/SF-Pro.css" />
-Remove: http://images.apple.com
+Remove: (http).*?.(www|images).*?.com
 /wss/fonts?family=Myriad+Set+Pro&amp;v=1 -> /wss/fonts/Myriad-Set-Pro.css
