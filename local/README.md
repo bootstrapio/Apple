@@ -57,6 +57,7 @@ Empty Space |"	" "       "
 http(.*)(js|css)
 ="/(ac|metrics|wss|v)(.*)(css|js|1|2)"
 (http).*?.(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json|htc)
+\("(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)"\)
 
 5. Replace Fonts/URLs
 <link rel="stylesheet" href="/wss/fonts/SF-Pro.css" />

@@ -1,10 +1,1 @@
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.eot
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.woff
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_text.ttf
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.eot
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.woff
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_thin.ttf
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.eot
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.woff
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/fonts/appleicons_ultralight.ttf
-wayback_machine_downloader https://www.apple.com/v/ios/n/built/assets/ac-appleicons/behaviors/icons.htc
+wayback_machine_downloader https://www.apple.com/iphone-6/styles/iphone-6.css
