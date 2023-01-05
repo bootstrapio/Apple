@@ -59,6 +59,9 @@ http(.*)(js|css)
 (http).*?.(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json|htc)
 \("(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)"\)
 
+Match the parent domain (if needed to remove)
+(http).*?.(www|images).*?.com
+
 5. Replace Fonts/URLs
 <link rel="stylesheet" href="/wss/fonts/SF-Pro.css" />
 Remove: (http).*?.(www|images).*?.com
