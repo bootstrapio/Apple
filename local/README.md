@@ -59,6 +59,10 @@ http(.*)(js|css)
 (http).*?.(www|images).*?.(css|js|png|gif|jpg|svg|woff2|woff|ttf|eot|json|htc)
 \("(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)"\)
 
+For CSS Files
+\(/(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)\)
+\/(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)
+
 Match the parent domain (if needed to remove)
 (http).*?.(www|images).*?.com
 
