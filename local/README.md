@@ -38,15 +38,17 @@ https://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&filter=mimetype:tex
 
 
 1. Get The URL:
+https://web.archive.org/web/20210916120426/https://www.apple.com/apple-fitness-plus/
 https://web.archive.org/web/20221228220540/https://www.apple.com/macbook-pro-14-and-16/
 
 2. Terminal | Wayback Machine Download HTML
 wayback_machine_downloader https://www.apple.com/wss/fonts/SF-Pro-Icons/v1/SFProIcons_regular.ttf
-wayback_machine_downloader https://www.apple.com/macbook-pro-14-and-16/ -e -f20211226025842 -t20220626025842 -d2021
+wayback_machine_downloader https://www.apple.com/apple-fitness-plus/ -e -f20211226025842 -t20220626025842 -d2022
 
 3. Remove Unnecessary Files
 <(link|meta) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>)
-(aria-label|data-analytics-|data-hires|data-store-|data-search-|data-string).*?(\").*?(\")
+(aria-label|data-analytics-|data-hires|data-store-|data-search-|data-string).*?(=\').*?(\')
+(aria-label|data-analytics-|data-hires|data-store-|data-search-|data-string).*?(=\").*?(\")
 <script type="application/ld+json">
 <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
 globalnav
