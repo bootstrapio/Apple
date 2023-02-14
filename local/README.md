@@ -38,11 +38,11 @@ https://web.archive.org/cdx/search/cdx?url=apple.com/macos/*&filter=mimetype:tex
 
 
 1. Get The URL:
-https://web.archive.org/web/20151229014315/https://www.apple.com/ios/photos/
+https://web.archive.org/web/20221228220540/https://www.apple.com/macbook-pro-14-and-16/
 
 2. Terminal | Wayback Machine Download HTML
 wayback_machine_downloader https://www.apple.com/wss/fonts/SF-Pro-Icons/v1/SFProIcons_regular.ttf
-wayback_machine_downloader http://www.apple.com/pages/ -e -f20161226025842 -t20170626025842 -d2017
+wayback_machine_downloader https://www.apple.com/macbook-pro-14-and-16/ -e -f20211226025842 -t20220626025842 -d2021
 
 3. Remove Unnecessary Files
 <(link|meta) (src=\"\/metrics|rel=\"alternate|property|name=\"twitter|name=\"ac-).*?(\>)
