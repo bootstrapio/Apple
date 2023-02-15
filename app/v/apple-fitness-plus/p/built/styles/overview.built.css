@@ -10165,9 +10165,9 @@ html.enhanced-layout .album-gallery-item.animated-item {
 
 @media only screen and (max-width:1068px) {
   .album-1 {
-    width: 154px;
+    width: 111px;
     height: 154px;
-    background-size: 154px 154px;
+    background-size: 111px 154px;
   }
 }
 
@@ -10180,32 +10180,18 @@ html.enhanced-layout .album-gallery-item.animated-item {
 }
 
 .album-2 {
-  width: 263px;
+  width: 189px;
   height: 263px;
-  background-size: 263px 263px;
+  background-size: 189px 263px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .album-2 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_large_2x.jpg)
-  }
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/39.png');
 }
 
 @media only screen and (max-width:1068px) {
   .album-2 {
-    width: 231px;
+    width: 166px;
     height: 231px;
-    background-size: 231px 231px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-2 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_medium_2x.jpg)
+    background-size: 166px 231px;
   }
 }
 
@@ -10214,30 +10200,22 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 187px;
     height: 187px;
     background-size: 187px 187px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .album-2 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_small_2x.jpg)
   }
 }
 
 .album-3 {
-  width: 263px;
+  width: 189px;
   height: 263px;
-  background-size: 263px 263px;
+  background-size: 189px 263px;
   background-repeat: no-repeat;
   background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/35.png');
 }
 
 @media only screen and (max-width:1068px) {
   .album-3 {
-    width: 225px;
+    width: 162px;
     height: 225px;
-    background-size: 225px 225px;
+    background-size: 162px 225px;
   }
 }
 
@@ -10250,48 +10228,34 @@ html.enhanced-layout .album-gallery-item.animated-item {
 }
 
 .album-4 {
-  width: 338px;
+  width: 242px;
   height: 338px;
-  background-size: 338px 338px;
+  background-size: 242px 338px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_album_04__ftochszqdmqi_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .album-4 {
-    background-image: url(../../images/overview/trainers_album_04__ftochszqdmqi_large_2x.jpg)
-  }
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/40.png');
 }
 
 @media only screen and (max-width:1068px) {
   .album-4 {
-    width: 273px;
+    width: 196px;
     height: 273px;
-    background-size: 273px 273px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_04__ftochszqdmqi_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-4 {
-    background-image: url(../../images/overview/trainers_album_04__ftochszqdmqi_medium_2x.jpg)
+    background-size: 196px 273px;
   }
 }
 
 .album-5 {
-  width: 378px;
+  width: 271px;
   height: 378px;
-  background-size: 378px 378px;
+  background-size: 271px 378px;
   background-repeat: no-repeat;
   background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/34.png');
 }
 
 @media only screen and (max-width:1068px) {
   .album-5 {
-    width: 305px;
+    width: 219px;
     height: 305px;
-    background-size: 305px 305px;
+    background-size: 219px 305px;
   }
 }
 
@@ -10596,80 +10560,26 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
 }
 
 .section-trainers .trainers-music-screen .iphone {
-  width: 338px;
-  height: 674px;
   position: absolute;
-
-
   width: 338px;
-  height: 674px;
-  background-size: 338px 674px;
+  height: 472px;
+  background-size: 338px 472px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg)
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/38.png');
 }
 
 @media only screen and (max-width:734px) {
   .section-trainers .trainers-music-screen .iphone {
     width: 280px;
-    height: 560px
-  }
-}
-
-.section-trainers .trainers-music-screen .iphone glass-hardware {
-}
-
-@media only screen and (max-width:734px) {
-  .section-trainers .trainers-music-screen .iphone glass-hardware {
-    width: 280px;
-    height: 560px;
-    background-size: 280px 560px;
-  }
-}
-
-.section-trainers .trainers-music-screen .iphone glass-screen {
-  width: 298px;
-  height: 638px;
-  background-size: 298px 638px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_iphone_screen__cowih0g7km1y_large.jpg);
-  z-index: 4;
-  margin-left: 20px;
-  margin-top: 18px
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .trainers-music-screen .iphone glass-screen {
-    background-image: url(../../images/overview/trainers_iphone_screen__cowih0g7km1y_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-trainers .trainers-music-screen .iphone glass-screen {
-    width: 246px;
-    height: 530px;
-    background-size: 246px 530px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_iphone_screen__cowih0g7km1y_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .trainers-music-screen .iphone glass-screen {
-    background-image: url(../../images/overview/trainers_iphone_screen__cowih0g7km1y_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-trainers .trainers-music-screen .iphone glass-screen {
-    margin-left: 17px;
-    margin-top: 15px
+    height: 391px;
+    background-size: 280px 391px;
   }
 }
 
 .section-trainers .trainers-music-screen .iphone:before {
-  width: 578px;
-  height: 836px;
-  background-size: 578px 836px;
+  width: 618px;
+  height: 611px;
+  background-size: 618px 611px;
   background-repeat: no-repeat;
   background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_large.png);
   left: -32px;
@@ -10678,50 +10588,11 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
 
 @media only screen and (max-width:734px) {
   .section-trainers .trainers-music-screen .iphone:before {
-    width: 484px;
-    height: 698px;
-    background-size: 484px 698px;
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-trainers .trainers-music-screen .iphone:before {
+    width: 512px;
+    height: 506px;
+    background-size: 512px 506px;
     left: -27px;
     top: -13px
-  }
-}
-
-@supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-  .section-trainers .trainers-music-screen .iphone glass-screen {
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_large.png);
-    mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_large.png)
-  }
-
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-    .section-trainers .trainers-music-screen .iphone glass-screen {
-      -webkit-mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_large_2x.png);
-      mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_large_2x.png)
-    }
-  }
-}
-
-@media only screen and (max-width:734px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .trainers-music-screen .iphone glass-screen {
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_small.png);
-      mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_small.png)
-    }
-
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-      .section-trainers .trainers-music-screen .iphone glass-screen {
-        -webkit-mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_small_2x.png);
-        mask-image: url(../../images/overview/iphone_screen_mask__bds5hatpqqdu_small_2x.png)
-      }
-    }
   }
 }
 
