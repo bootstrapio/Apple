@@ -9862,1265 +9862,6 @@ html.enhanced-layout .section-trainers .anim-text-animate.animated-copy-element 
   }
 }
 
-.trainer-card {
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
-  display: flex
-}
-
-.trainer-card:after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 72%, rgba(0, 0, 0, 0.65))
-}
-
-.trainer-card-sam-sanchez {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-sam-sanchez {
-    background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-sam-sanchez {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-sam-sanchez {
-    background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-sam-sanchez {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-sam-sanchez {
-    background-image: url(../../images/overview/trainers_gallery_sam_sanchez__bmoxo7v77j2a_small_2x.jpg)
-  }
-}
-
-.trainer-card-amir-ekbatani {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-amir-ekbatani {
-    background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-amir-ekbatani {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-amir-ekbatani {
-    background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-amir-ekbatani {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-amir-ekbatani {
-    background-image: url(../../images/overview/trainers_gallery_amir_ekbatani__vkkij8ozv8y2_small_2x.jpg)
-  }
-}
-
-.trainer-card-betina-gozo {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-betina-gozo {
-    background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-betina-gozo {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-betina-gozo {
-    background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-betina-gozo {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-betina-gozo {
-    background-image: url(../../images/overview/trainers_gallery_betina_gozo__ww0kx5z7pj62_small_2x.jpg)
-  }
-}
-
-.trainer-card-tyrell-desean {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-tyrell-desean {
-    background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-tyrell-desean {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-tyrell-desean {
-    background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-tyrell-desean {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-tyrell-desean {
-    background-image: url(../../images/overview/trainers_gallery_tyrell_desean__ciw4hovbwwgi_small_2x.jpg)
-  }
-}
-
-.trainer-card-kym-perfetto {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-kym-perfetto {
-    background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-kym-perfetto {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-kym-perfetto {
-    background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-kym-perfetto {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-kym-perfetto {
-    background-image: url(../../images/overview/trainers_gallery_kym_perfetto__fxxxsqdea1qq_small_2x.jpg)
-  }
-}
-
-.trainer-card-lashawn-jones {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-lashawn-jones {
-    background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-lashawn-jones {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-lashawn-jones {
-    background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-lashawn-jones {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-lashawn-jones {
-    background-image: url(../../images/overview/trainers_gallery_lashawn_jones__ebw1rch9k9ci_small_2x.jpg)
-  }
-}
-
-.trainer-card-jhon-gonzalez {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-jhon-gonzalez {
-    background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-jhon-gonzalez {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-jhon-gonzalez {
-    background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-jhon-gonzalez {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-jhon-gonzalez {
-    background-image: url(../../images/overview/trainers_gallery_jhon_gonzalez__dxm80rwa3kwi_small_2x.jpg)
-  }
-}
-
-.trainer-card-josh-crosby {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-josh-crosby {
-    background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-josh-crosby {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-josh-crosby {
-    background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-josh-crosby {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-josh-crosby {
-    background-image: url(../../images/overview/trainers_gallery_josh_crosby__ede7xdufa926_small_2x.jpg)
-  }
-}
-
-.trainer-card-anja-garcia {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-anja-garcia {
-    background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-anja-garcia {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-anja-garcia {
-    background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-anja-garcia {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-anja-garcia {
-    background-image: url(../../images/overview/trainers_gallery_anja_garcia__d2xasikdq2gm_small_2x.jpg)
-  }
-}
-
-.trainer-card-bakari-williams {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-bakari-williams {
-    background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-bakari-williams {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-bakari-williams {
-    background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-bakari-williams {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-bakari-williams {
-    background-image: url(../../images/overview/trainers_gallery_bakari_williams__d6vmi2i6cqky_small_2x.jpg)
-  }
-}
-
-.trainer-card-christian-howard {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-christian-howard {
-    background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-christian-howard {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-christian-howard {
-    background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-christian-howard {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-christian-howard {
-    background-image: url(../../images/overview/trainers_gallery_christian_howard__bvgu8w30r076_small_2x.jpg)
-  }
-}
-
-.trainer-card-ben-allen {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-ben-allen {
-    background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-ben-allen {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-ben-allen {
-    background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-ben-allen {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-ben-allen {
-    background-image: url(../../images/overview/trainers_gallery_ben_allen__cni2l8vxhuoi_small_2x.jpg)
-  }
-}
-
-.trainer-card-marimba-gold-watts {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-marimba-gold-watts {
-    background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-marimba-gold-watts {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-marimba-gold-watts {
-    background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-marimba-gold-watts {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-marimba-gold-watts {
-    background-image: url(../../images/overview/trainers_gallery_marimba_gold_watts__bqka7dnejqeu_small_2x.jpg)
-  }
-}
-
-.trainer-card-dustin-brown {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-dustin-brown {
-    background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-dustin-brown {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-dustin-brown {
-    background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-dustin-brown {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-dustin-brown {
-    background-image: url(../../images/overview/trainers_gallery_dustin_brown__s61ai4yq4sya_small_2x.jpg)
-  }
-}
-
-.trainer-card-cory-wharton-malcolm {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-cory-wharton-malcolm {
-    background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-cory-wharton-malcolm {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-cory-wharton-malcolm {
-    background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-cory-wharton-malcolm {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-cory-wharton-malcolm {
-    background-image: url(../../images/overview/trainers_gallery_cory_wharton_malcolm__cke8t3ldslg2_small_2x.jpg)
-  }
-}
-
-.trainer-card-molly-fox {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-molly-fox {
-    background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-molly-fox {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-molly-fox {
-    background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-molly-fox {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-molly-fox {
-    background-image: url(../../images/overview/trainers_gallery_molly_fox__fvq5gsfop2ie_small_2x.jpg)
-  }
-}
-
-.trainer-card-scott-carvin {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-scott-carvin {
-    background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-scott-carvin {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-scott-carvin {
-    background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-scott-carvin {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-scott-carvin {
-    background-image: url(../../images/overview/trainers_gallery_scott_carvin__c7ib7jsicj8m_small_2x.jpg)
-  }
-}
-
-.trainer-card-gregg-cook {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-gregg-cook {
-    background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-gregg-cook {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-gregg-cook {
-    background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-gregg-cook {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-gregg-cook {
-    background-image: url(../../images/overview/trainers_gallery_gregg_cook__5t2lo9uyjfmm_small_2x.jpg)
-  }
-}
-
-.trainer-card-jessica-skye {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-jessica-skye {
-    background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-jessica-skye {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-jessica-skye {
-    background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-jessica-skye {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-jessica-skye {
-    background-image: url(../../images/overview/trainers_gallery_jessica_skye__ghn5ea5b6mye_small_2x.jpg)
-  }
-}
-
-.trainer-card-jamie-ray-hartshorne {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-jamie-ray-hartshorne {
-    background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-jamie-ray-hartshorne {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-jamie-ray-hartshorne {
-    background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-jamie-ray-hartshorne {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-jamie-ray-hartshorne {
-    background-image: url(../../images/overview/trainers_gallery_jamie_ray_hartshorne__cm72htv4ibrm_small_2x.jpg)
-  }
-}
-
-.trainer-card-sherica-holmon {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-sherica-holmon {
-    background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-sherica-holmon {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-sherica-holmon {
-    background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-sherica-holmon {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-sherica-holmon {
-    background-image: url(../../images/overview/trainers_gallery_sherica_holmon__bkos1s3alnpy_small_2x.jpg)
-  }
-}
-
-.trainer-card-kyle-ardill {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-kyle-ardill {
-    background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-kyle-ardill {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-kyle-ardill {
-    background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-kyle-ardill {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-kyle-ardill {
-    background-image: url(../../images/overview/trainers_gallery_kyle_ardill__t7ixvgg1aeam_small_2x.jpg)
-  }
-}
-
-.trainer-card-kim-ngo {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-kim-ngo {
-    background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-kim-ngo {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-kim-ngo {
-    background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-kim-ngo {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-kim-ngo {
-    background-image: url(../../images/overview/trainers_gallery_kim_ngo__bjs0hjtebyfm_small_2x.jpg)
-  }
-}
-
-.trainer-card-emily-fayette {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-emily-fayette {
-    background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-emily-fayette {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-emily-fayette {
-    background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-emily-fayette {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-emily-fayette {
-    background-image: url(../../images/overview/trainers_gallery_emily_fayette__fvfn0l7w26um_small_2x.jpg)
-  }
-}
-
-.trainer-card-jonelle-lewis {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-jonelle-lewis {
-    background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-jonelle-lewis {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-jonelle-lewis {
-    background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-jonelle-lewis {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-jonelle-lewis {
-    background-image: url(../../images/overview/trainers_gallery_jonelle_lewis__f8lgwbb60hea_small_2x.jpg)
-  }
-}
-
-.trainer-card-joanna-hardy {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-joanna-hardy {
-    background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-joanna-hardy {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-joanna-hardy {
-    background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-joanna-hardy {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-joanna-hardy {
-    background-image: url(../../images/overview/trainers_gallery_joanna_hardy__emn1ndlydp8i_small_2x.jpg)
-  }
-}
-
-.trainer-card-darryl-whiting {
-  width: 393px;
-  height: 500px;
-  background-size: 393px 500px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .trainer-card-darryl-whiting {
-    background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .trainer-card-darryl-whiting {
-    width: 334px;
-    height: 425px;
-    background-size: 334px 425px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .trainer-card-darryl-whiting {
-    background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .trainer-card-darryl-whiting {
-    width: 216px;
-    height: 275px;
-    background-size: 216px 275px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .trainer-card-darryl-whiting {
-    background-image: url(../../images/overview/trainers_gallery_darryl_whiting__cod4d0o00xjm_small_2x.jpg)
-  }
-}
-
 .trainer-card-content {
   align-self: flex-end;
   display: flex;
@@ -11419,13 +10160,7 @@ html.enhanced-layout .album-gallery-item.animated-item {
   height: 182px;
   background-size: 182px 182px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .album-1 {
-    background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_large_2x.jpg)
-  }
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/33.png');
 }
 
 @media only screen and (max-width:1068px) {
@@ -11433,30 +10168,14 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 154px;
     height: 154px;
     background-size: 154px 154px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-1 {
-    background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_medium_2x.jpg)
   }
 }
 
 @media only screen and (max-width:734px) {
   .album-1 {
-    width: 249px;
+    width: 179px;
     height: 249px;
-    background-size: 249px 249px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .album-1 {
-    background-image: url(../../images/overview/trainers_album_01__dgap2reiriaa_small_2x.jpg)
+    background-size: 179px 249px;
   }
 }
 
@@ -11511,13 +10230,7 @@ html.enhanced-layout .album-gallery-item.animated-item {
   height: 263px;
   background-size: 263px 263px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .album-3 {
-    background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_large_2x.jpg)
-  }
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/35.png');
 }
 
 @media only screen and (max-width:1068px) {
@@ -11525,30 +10238,14 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 225px;
     height: 225px;
     background-size: 225px 225px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-3 {
-    background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_medium_2x.jpg)
   }
 }
 
 @media only screen and (max-width:734px) {
   .album-3 {
-    width: 304px;
+    width: 218px;
     height: 304px;
-    background-size: 304px 304px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .album-3 {
-    background-image: url(../../images/overview/trainers_album_03__i8c6l8btx6ye_small_2x.jpg)
+    background-size: 218px 304px;
   }
 }
 
@@ -11587,13 +10284,7 @@ html.enhanced-layout .album-gallery-item.animated-item {
   height: 378px;
   background-size: 378px 378px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_album_05__bs8px9g8jnte_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .album-5 {
-    background-image: url(../../images/overview/trainers_album_05__bs8px9g8jnte_large_2x.jpg)
-  }
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/34.png');
 }
 
 @media only screen and (max-width:1068px) {
@@ -11601,14 +10292,6 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 305px;
     height: 305px;
     background-size: 305px 305px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_05__bs8px9g8jnte_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-5 {
-    background-image: url(../../images/overview/trainers_album_05__bs8px9g8jnte_medium_2x.jpg)
   }
 }
 
@@ -11617,14 +10300,6 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 263px;
     height: 263px;
     background-size: 263px 263px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_large.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .album-5 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_large_2x.jpg)
   }
 }
 
@@ -11633,30 +10308,14 @@ html.enhanced-layout .album-gallery-item.animated-item {
     width: 231px;
     height: 231px;
     background-size: 231px 231px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (max-width:1068px)and (min-resolution:144dpi) {
-  .album-5 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_medium_2x.jpg)
   }
 }
 
 @media only screen and (max-width:734px)and (max-width:734px) {
   .album-5 {
-    width: 187px;
+    width: 134px;
     height: 187px;
-    background-size: 187px 187px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (max-width:734px)and (min-resolution:144dpi) {
-  .album-5 {
-    background-image: url(../../images/overview/trainers_album_02__mr6jc1p6gree_small_2x.jpg)
+    background-size: 134px 187px;
   }
 }
 
@@ -11939,7 +10598,14 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
 .section-trainers .trainers-music-screen .iphone {
   width: 338px;
   height: 674px;
-  position: absolute
+  position: absolute;
+
+
+  width: 338px;
+  height: 674px;
+  background-size: 338px 674px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg)
 }
 
 @media only screen and (max-width:734px) {
@@ -11950,41 +10616,6 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
 }
 
 .section-trainers .trainers-music-screen .iphone glass-hardware {
-  width: 338px;
-  height: 674px;
-  background-size: 338px 674px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .trainers-music-screen .iphone glass-hardware {
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large_2x.jpg)
-  }
-}
-
-@supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-  .section-trainers .trainers-music-screen .iphone glass-hardware {
-    width: 338px;
-    height: 674px;
-    background-size: 338px 674px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg);
-    -webkit-mask-size: 338px 674px;
-    mask-size: 338px 674px;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large.png);
-    mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large.png)
-  }
-
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-    .section-trainers .trainers-music-screen .iphone glass-hardware {
-      background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large_2x.jpg);
-      -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large_2x.png);
-      mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large_2x.png)
-    }
-  }
 }
 
 @media only screen and (max-width:734px) {
@@ -11992,40 +10623,6 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
     width: 280px;
     height: 560px;
     background-size: 280px 560px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .trainers-music-screen .iphone glass-hardware {
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .trainers-music-screen .iphone glass-hardware {
-      width: 280px;
-      height: 560px;
-      background-size: 280px 560px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small.jpg);
-      -webkit-mask-size: 280px 560px;
-      mask-size: 280px 560px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small.png);
-      mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small.png)
-    }
-
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-      .section-trainers .trainers-music-screen .iphone glass-hardware {
-        background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small_2x.png);
-        mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small_2x.png)
-      }
-    }
   }
 }
 
@@ -12079,25 +10676,11 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
   top: -15px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .trainers-music-screen .iphone:before {
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_large_2x.png)
-  }
-}
-
 @media only screen and (max-width:734px) {
   .section-trainers .trainers-music-screen .iphone:before {
     width: 484px;
     height: 698px;
     background-size: 484px 698px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_small.png)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .trainers-music-screen .iphone:before {
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_small_2x.png)
   }
 }
 
@@ -12194,75 +10777,11 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
   background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg)
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large_2x.jpg)
-  }
-}
-
-@supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-  .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-    width: 338px;
-    height: 674px;
-    background-size: 338px 674px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large.jpg);
-    -webkit-mask-size: 338px 674px;
-    mask-size: 338px 674px;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large.png);
-    mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large.png)
-  }
-
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-    .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-      background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_large_2x.jpg);
-      -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large_2x.png);
-      mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_large_2x.png)
-    }
-  }
-}
-
 @media only screen and (max-width:734px) {
   .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
     width: 280px;
     height: 560px;
     background-size: 280px 560px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-    background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-      width: 280px;
-      height: 560px;
-      background-size: 280px 560px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small.jpg);
-      -webkit-mask-size: 280px 560px;
-      mask-size: 280px 560px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small.png);
-      mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small.png)
-    }
-
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-      .section-trainers .trainers-artist-spotlight .iphone glass-hardware {
-        background-image: url(../../images/overview/iphone_hw__dgjymagwetkm_small_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small_2x.png);
-        mask-image: url(../../images/overview/iphone_hw_mask__e67g4fmue7ee_small_2x.png)
-      }
-    }
   }
 }
 
@@ -12289,25 +10808,11 @@ html.enhanced-layout .section-content-artist-spotlight .trainers-media-block .me
   top: -15px
 }
 
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .trainers-artist-spotlight .iphone:before {
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_large_2x.png)
-  }
-}
-
 @media only screen and (max-width:734px) {
   .section-trainers .trainers-artist-spotlight .iphone:before {
     width: 484px;
     height: 698px;
     background-size: 484px 698px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_small.png)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .trainers-artist-spotlight .iphone:before {
-    background-image: url(../../images/overview/iphone_shadow__edjqw5y0urau_small_2x.png)
   }
 }
 
@@ -12476,40 +10981,10 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
   height: 142px;
   background-size: 102px 142px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_large.jpg);
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/36.png');
   position: absolute;
   top: 20px;
   left: -137px
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .airpods-left {
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_large_2x.jpg)
-  }
-}
-
-@supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-  .section-trainers .airpods-left {
-    width: 102px;
-    height: 142px;
-    background-size: 102px 142px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_large.jpg);
-    -webkit-mask-size: 102px 142px;
-    mask-size: 102px 142px;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_large.png);
-    mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_large.png)
-  }
-
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-    .section-trainers .airpods-left {
-      background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_large_2x.jpg);
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_large_2x.png);
-      mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_large_2x.png)
-    }
-  }
 }
 
 @media only screen and (max-width:1068px) {
@@ -12517,40 +10992,6 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
     width: 103px;
     height: 142px;
     background-size: 103px 142px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-trainers .airpods-left {
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .airpods-left {
-      width: 103px;
-      height: 142px;
-      background-size: 103px 142px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_medium.jpg);
-      -webkit-mask-size: 103px 142px;
-      mask-size: 103px 142px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_medium.png);
-      mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_medium.png)
-    }
-
-    @media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-      .section-trainers .airpods-left {
-        background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_medium_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_medium_2x.png);
-        mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_medium_2x.png)
-      }
-    }
   }
 }
 
@@ -12559,40 +11000,6 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
     width: 82px;
     height: 114px;
     background-size: 82px 114px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .airpods-left {
-    background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .airpods-left {
-      width: 82px;
-      height: 114px;
-      background-size: 82px 114px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_small.jpg);
-      -webkit-mask-size: 82px 114px;
-      mask-size: 82px 114px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_small.png);
-      mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_small.png)
-    }
-
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-      .section-trainers .airpods-left {
-        background-image: url(../../images/overview/trainers_airpods_left__f3y0yngsupym_small_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_small_2x.png);
-        mask-image: url(../../images/overview/trainers_airpods_left_mask__czr9m6vs6j42_small_2x.png)
-      }
-    }
   }
 }
 
@@ -12601,40 +11008,10 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
   height: 141px;
   background-size: 101px 141px;
   background-repeat: no-repeat;
-  background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_large.jpg);
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/37.png');
   position: absolute;
   top: 308px;
   right: -137px
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-trainers .airpods-right {
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_large_2x.jpg)
-  }
-}
-
-@supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-  .section-trainers .airpods-right {
-    width: 101px;
-    height: 141px;
-    background-size: 101px 141px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_large.jpg);
-    -webkit-mask-size: 101px 141px;
-    mask-size: 101px 141px;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_large.png);
-    mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_large.png)
-  }
-
-  @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-    .section-trainers .airpods-right {
-      background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_large_2x.jpg);
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_large_2x.png);
-      mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_large_2x.png)
-    }
-  }
 }
 
 @media only screen and (max-width:1068px) {
@@ -12642,40 +11019,6 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
     width: 107px;
     height: 149px;
     background-size: 107px 149px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-trainers .airpods-right {
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .airpods-right {
-      width: 107px;
-      height: 149px;
-      background-size: 107px 149px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_medium.jpg);
-      -webkit-mask-size: 107px 149px;
-      mask-size: 107px 149px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_medium.png);
-      mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_medium.png)
-    }
-
-    @media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-      .section-trainers .airpods-right {
-        background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_medium_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_medium_2x.png);
-        mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_medium_2x.png)
-      }
-    }
   }
 }
 
@@ -12684,40 +11027,6 @@ html.enhanced-layout .section-trainers .trainers-artist-spotlight .iphone .artis
     width: 82px;
     height: 113px;
     background-size: 82px 113px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-trainers .airpods-right {
-    background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  @supports((-webkit-mask-image:url("")) or (mask-image:url(""))) {
-    .section-trainers .airpods-right {
-      width: 82px;
-      height: 113px;
-      background-size: 82px 113px;
-      background-repeat: no-repeat;
-      background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_small.jpg);
-      -webkit-mask-size: 82px 113px;
-      mask-size: 82px 113px;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-      -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_small.png);
-      mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_small.png)
-    }
-
-    @media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-      .section-trainers .airpods-right {
-        background-image: url(../../images/overview/trainers_airpods_right__d09ri187nz8m_small_2x.jpg);
-        -webkit-mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_small_2x.png);
-        mask-image: url(../../images/overview/trainers_airpods_right_mask__euj71py1y92e_small_2x.png)
-      }
-    }
   }
 }
 
@@ -19950,484 +18259,6 @@ html.enhanced-layout .metrics-sync-following-copy .copy-block.animated {
   }
 }
 
-.section-collections {
-  --card-gap: 25px;
-  overflow: hidden
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections {
-    margin-left: 0
-  }
-}
-
-.section-collections .collections-grid {
-  --card-x-start: calc(4068px + var(--card-gap)*7);
-  --card-timing-end: 35;
-  --card-scroll-trigger: 45vh;
-  margin-top: calc(var(--vertical-spacing) - 50px);
-  display: flex;
-  overflow: visible;
-  justify-content: flex-end;
-  transform: translateX(var(--card-x-start))
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid {
-    --card-x-start: calc(3260px + var(--card-gap)*7)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid {
-    --card-x-start: calc(3504px + var(--card-gap)*7 - 87.5vw)
-  }
-}
-
-.section-collections .collections-grid .grid-item {
-  border-radius: 20px;
-  margin-right: var(--card-gap);
-  flex: none
-}
-
-.section-collections .collections-grid .grid-item-1 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-1 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-1 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/collections/collections_30-day-challenge__d3nfdaxxvpoy_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-2 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-2 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-2 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/collections/collections_better-bedtime__cbtichse6ynm_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-3 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-3 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-3 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/collections/collections_master-balance-yoga__diw75k1sxi82_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-4 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-4 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-4 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/collections/collections_stronger__foobp4rn9laq_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-5 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-5 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-5 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/collections/collections_resilience__ge9p6opmz6ye_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-6 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-6 {
-    background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-6 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-6 {
-    background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-6 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-6 {
-    background-image: url(../../images/overview/workouts/collections/collections_first-5k__hwzmxgdtw2a2_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-7 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-7 {
-    background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-7 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-7 {
-    background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-7 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-7 {
-    background-image: url(../../images/overview/workouts/collections/collections_back-and-hips__db9r0b4hepw2_small_2x.jpg)
-  }
-}
-
-.section-collections .collections-grid .grid-item-8 {
-  width: 631px;
-  height: 417px;
-  background-size: 631px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_large.jpg);
-  margin: 0
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-collections .collections-grid .grid-item-8 {
-    background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .collections-grid .grid-item-8 {
-    width: 494px;
-    height: 327px;
-    background-size: 494px 327px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-8 {
-    background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .collections-grid .grid-item-8 {
-    width: 438px;
-    height: 290px;
-    background-size: 438px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-collections .collections-grid .grid-item-8 {
-    background-image: url(../../images/overview/workouts/collections/collections_posture-pilates__btk0abwjypyq_small_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .section-content-inner {
-    margin-left: 0;
-    width: 100%
-  }
-}
-
-.section-collections .section-content-inner.icon-grid-container {
-  margin-top: 35px
-}
-
-.section-collections .icon-grid-copy-block .copy-block-container {
-  padding-top: 93px;
-  max-width: 650px
-}
-
-@media only screen and (max-width:1068px) {
-  .section-collections .icon-grid-copy-block .copy-block-container {
-    padding-top: 69px;
-    max-width: 600px
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-collections .icon-grid-copy-block .copy-block-container {
-    padding-bottom: 5px
-  }
-}
-
-.section-collections .collections-controls {
-  height: 35px;
-  visibility: hidden;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 13px;
-  margin-bottom: -72px;
-  z-index: 10
-}
-
-.section-collections .collections-controls .playback-control, .section-collections .collections-controls .replay-button {
-  padding: 5px;
-  z-index: 10
-}
-
-.section-collections .collections-controls .icon-pausecircle, .section-collections .collections-controls .icon-playcircle {
-  font-size: 42px;
-  padding: 5px
-}
-
-.section-collections .collections-controls .replay-button {
-  visibility: visible;
-  transition: visibility 0s linear 0s, opacity .5s
-}
-
-.section-collections .collections-controls .replay-button.visuallyhidden {
-  opacity: 0;
-  visibility: hidden
-}
-
-html.enhanced-layout .section-collections .collections-controls, html.prefers-reduced-motion .section-collections .collections-controls {
-  display: flex;
-  visibility: visible
-}
-
-.section-collections .collections-controls .remove {
-  transition: opacity .5s;
-  opacity: 0
-}
-
 .section-programs {
   --card-gap: 25px;
   overflow: hidden
@@ -20462,243 +18293,6 @@ html.enhanced-layout .section-collections .collections-controls, html.prefers-re
   }
 }
 
-.section-programs .programs-grid .grid-item {
-  border-radius: 20px;
-  margin-right: var(--card-gap);
-  flex: none
-}
-
-.section-programs .programs-grid .grid-item-1 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid .grid-item-1 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid .grid-item-1 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-1 {
-    background-image: url(../../images/overview/workouts/programs/programs_beginners__eyw9k081250m_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid .grid-item-2 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid .grid-item-2 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid .grid-item-2 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-2 {
-    background-image: url(../../images/overview/workouts/programs/programs_older_adults__brwnmc3sq0c2_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid .grid-item-3 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid .grid-item-3 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid .grid-item-3 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-3 {
-    background-image: url(../../images/overview/workouts/programs/programs_meditations__ucm1uzzpnf66_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid .grid-item-4 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid .grid-item-4 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid .grid-item-4 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy__fd89jiszwd6y_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid .grid-item-5 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_large.jpg);
-  margin: 0
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid .grid-item-5 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid .grid-item-5 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_small_2x.jpg)
-  }
-}
-
 .section-programs .programs-grid.programs-grid-alt {
   --card-x-start: calc(988px + var(--card-gap)*5)
 }
@@ -20712,146 +18306,6 @@ html.enhanced-layout .section-collections .collections-controls, html.prefers-re
 @media only screen and (max-width:734px) {
   .section-programs .programs-grid.programs-grid-alt {
     --card-x-start: calc(1368px + var(--card-gap)*5 - 87.5vw)
-  }
-}
-
-.section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_large.jpg)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-4 {
-    background-image: url(../../images/overview/workouts/programs/programs_pregnancy_alt__gloy81mrqn2i_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_large.jpg);
-  margin-right: var(--card-gap)
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-5 {
-    background-image: url(../../images/overview/workouts/programs/programs_postpartum__dtj8mtayu8ia_small_2x.jpg)
-  }
-}
-
-.section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-  width: 328px;
-  height: 417px;
-  background-size: 328px 417px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_large.jpg);
-  margin: 0
-}
-
-@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution:144dpi), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:1.5dppx) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_large_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-    width: 258px;
-    height: 328px;
-    background-size: 258px 328px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_medium.jpg)
-  }
-}
-
-@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:1068px)and (min-resolution:1.5dppx), only screen and (max-width:1068px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_medium_2x.jpg)
-  }
-}
-
-@media only screen and (max-width:734px) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-    width: 228px;
-    height: 290px;
-    background-size: 228px 290px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_small.jpg)
-  }
-}
-
-@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5), only screen and (max-width:734px)and (min-resolution:1.5dppx), only screen and (max-width:734px)and (min-resolution:144dpi) {
-  .section-programs .programs-grid.programs-grid-alt .grid-item-6 {
-    background-image: url(../../images/overview/workouts/programs/programs_snow__e1flvcvz5a0y_small_2x.jpg)
   }
 }
 
@@ -20937,4 +18391,176 @@ body.kcal-locale .is-kcal-locale {
 
 body.kcal-locale .is-cal-locale {
   display: none
+}
+
+.nft-card-item {
+  border-radius: 12px;
+  margin-right: var(--card-gap);
+  display: flex;
+
+  width: 328px;
+  height: 458px;
+  background-size: 328px 458px;
+  background-repeat: no-repeat;
+  flex: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.nft-card-item:last-child {
+  margin-right: 0;
+}
+
+.nft-card-item:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 72%, rgba(0, 0, 0, 0.65));
+}
+
+@media only screen and (max-width:1068px) {
+  .nft-card-item {
+    width: 258px;
+    height: 360px;
+    background-size: 258px 360px;
+  }
+}
+
+@media only screen and (max-width:734px) {
+  .nft-card-item {
+    width: 228px;
+    height: 318px;
+    background-size: 228px 318px;
+  }
+}
+
+.section-programs .programs-grid .grid-item-1 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/01.png')
+}
+
+.section-programs .programs-grid .grid-item-2 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/02.png')
+}
+
+.section-programs .programs-grid .grid-item-3 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/03.png')
+}
+
+.section-programs .programs-grid .grid-item-4 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/04.png')
+}
+
+.section-programs .programs-grid .grid-item-5 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/05.png')
+}
+
+.section-programs .programs-grid .grid-item-6 {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/06.png')
+}
+
+.trainer-card-sam-sanchez {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/07.png');
+}
+
+.trainer-card-betina-gozo {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/08.png');
+}
+
+.trainer-card-tyrell-desean {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/09.png');
+}
+
+.trainer-card-kym-perfetto {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/10.png');
+}
+
+.trainer-card-lashawn-jones {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/11.png');
+}
+
+.trainer-card-jhon-gonzalez {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/12.png');
+}
+
+.trainer-card-josh-crosby {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/13.png');
+}
+
+.trainer-card-anja-garcia {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/14.png');
+}
+
+.trainer-card-bakari-williams {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/15.png');
+}
+
+.trainer-card-christian-howard {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/16.png');
+}
+
+.trainer-card-ben-allen {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/17.png');
+}
+
+.trainer-card-marimba-gold-watts {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/18.png');
+}
+
+.trainer-card-dustin-brown {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/19.png');
+}
+
+.trainer-card-cory-wharton-malcolm {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/20.png');
+}
+
+.trainer-card-molly-fox {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/21.png');
+}
+
+.trainer-card-scott-carvin {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/22.png');
+}
+
+.trainer-card-gregg-cook {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/23.png');
+}
+
+.trainer-card-jessica-skye {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/24.png');
+}
+
+.trainer-card-jamie-ray-hartshorne {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/25.png');
+}
+
+.trainer-card-sherica-holmon {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/26.png');
+}
+
+.trainer-card-kyle-ardill {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/27.png');
+}
+
+.trainer-card-kim-ngo {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/28.png');
+}
+
+.trainer-card-emily-fayette {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/29.png');
+}
+
+.trainer-card-jonelle-lewis {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/30.png');
+}
+
+.trainer-card-joanna-hardy {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/31.png');
+}
+
+.trainer-card-darryl-whiting {
+  background-image: url('/media/pokemon/Diamond-and-Pearl-Stormfront/32.png');
 }
