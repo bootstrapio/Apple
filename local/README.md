@@ -65,6 +65,13 @@ For CSS Files
 \(/(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)\)
 \/(.*?)(png|gif|jpg|svg|woff2|woff|ttf|eot)
 
+All Images besides Large
+(background-image|-webkit-mask-image|mask-image).*?.(small|medium|2x).*?.(png|gif|jpg|svg).*?.(;)
+
+Any empty css brackets
+(\.).*?.(\{\})
+(@media).*?.(\{\})
+
 Match the parent domain (if needed to remove)
 (http).*?.(www|images).*?.com
 
